@@ -1,31 +1,34 @@
-#### Currently Under Construction - Not yet a task view. 
-New contributors welcomed!
+#### Currently Under Construction
 
+*(this is yet a task view)*
 
-This repository contains the `ctv` file for the [Agriculture CRAN Task View][ctv-rr].
-The `ctv` file in this repository is manually synced with the official copy in the [CTV SVN repository][ctv-svn] on [R-Forge][].
+**New contributors welcomed!**
 
-[ctv-rr]: https://cran.r-project.org/view=agriculture # this does not exist currently
-
-[ctv-svn]: https://r-forge.r-project.org/projects/ctv/
-
-[R-Forge]: https://r-forge.r-project.org/
-
-The Task View highlights CRAN packages that provide features for the following categories:
+This is intended to be a curated collection of R packages and other R resources that serve agricultural research. The Task View highlights packages that provide features for the following categories:
 
 * General Agriculture
 * Soil Science
 * Agronomic Trials
-* Plant Breeding and Genetics
+* Breeding and Genetics
 * Entomology
+* Plant Pathology
+* Weed Science
 * Animal Science
 * Food Science
 * Rural Sociology
 * Agricultural Economics
 
-Suggestions are welcome! If you know of a package that fits into one of these categories, but is missing from the Task View, please open an [Issue][new-issue] to discuss.
+Suggestions are welcome! If you think there should be another category or if you know of a package that fits into one of these categories, but is missing from the Task View, please open an [Issue][new-issue] to discuss. Also, see the **Contributing** link below for more details. 
 
 [new-issue]: https://github.com/jpiaskowski/ctv-agriculture/issues/new?template=package_suggestion.md
+
+Eventually, this repository will contain a `ctv` file for the **Agriculture CRAN Task View**.
+The `ctv` file in this repository will manually sync with the official copy in the [CTV SVN repository][ctv-svn] on [R-Forge][].
+
+[ctv-svn]: https://r-forge.r-project.org/projects/ctv/
+
+[R-Forge]: https://r-forge.r-project.org/
+
 
 **Resources:**
 
