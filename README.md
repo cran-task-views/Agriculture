@@ -42,11 +42,12 @@ project you agree to abide by its terms.
 **Current maintainers:**
 
 * [Julia Piaskowski](https://github.com/jpiaskowski)
-* other cool people
+* other cool people 
 
 **Contributors:**
 
-* more amazing folks
+* [Adam H Sparks](https://github.com/adamhsparks)
+* [Kevin Wright](https://github.com/kwstat)
 
 
 The structure of this repository is substantially adapted from the [Reproducible Research CRAN Task View](https://github.com/jdblischak/reproducible-research-ctv). We gratefully acknowledge their work in building these resources 
