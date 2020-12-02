@@ -12,13 +12,10 @@ If you think that some package is missing from the list, please let us know.
   - *Accessing Data* : 
   Data from the United States Department of Agriculture's National Agricultural Statistical Service 'Quick Stats' web API can be accessed with [rnassqs][]. The USDA's Cropland data layer API can be accessed with [CropScapeR][]. 
   - *Data sets*: 
-  [Agridat][] consists of a very large collection of agricultural data sets and example analyses; the package contains a vignette detailing additional data sets and extensive resources to support agricultural analysis. [agritutorial][] provides a collection of agricultural data sets and analysis with particular attention to crop experiments. On GitHub, the R package [agroBioData][] also includes a collection of data sets supporting agriculture and applied biology. The soybean nested associated mapping project dataset can be accessed via [SoyNAM][].  
-  
-  Many packages also include data sets to illustrate their functionality. 
+  [Agridat][] consists of a very large collection of agricultural data sets and example analyses; the package contains a vignette detailing additional data sets and extensive resources to support agricultural analysis. [agritutorial][] provides a collection of agricultural data sets and analysis with particular attention to crop experiments. On GitHub, the R package [agroBioData][] also includes a collection of data sets supporting agriculture and applied biology. The soybean nested associated mapping project dataset can be accessed via [SoyNAM][].  Many packages also include data sets to illustrate their functionality. 
  
- - *Miscellaneous analytical applications* 
-    [nlraa][] Nonlinear Regression for Agricultural Applications. The CRAN task view on [MissingData](https://cran.r-project.org/web/views/MissingData.html) is helpful for understanding how to impute for missing data. See the [Metanalysis CRAN task view](https://cran.r-project.org/web/views/MetaAnalysis.html) for packages supporiting meta-analyses. 
-
+ - *Miscellaneous analytical applications for agriculture* 
+    [nlraa][] Nonlinear Regression for Agricultural Applications. The CRAN task view on [MissingData](https://cran.r-project.org/web/views/MissingData.html) is helpful for understanding how to impute for missing data. See the [Metanalysis CRAN task view](https://cran.r-project.org/web/views/MetaAnalysis.html) for packages supporting meta-analyses.
 
 **Soil Science**
 
@@ -30,13 +27,8 @@ If you think that some package is missing from the list, please let us know.
     
 **Agronomic Trials**
 
-  - *Experimental Design* : The package [agricolae][] provides extensive resources for the planning and analysis of planned field experiments, . The CRAN task for [ExperimentalDesign](https://cran.rstudio.com/web/views/Econometrics.html) provide additional information on experimental design for a wide variety of research problems. [desplot][desplot] is for plotting maps of agricultural trials laid out in grids. 
-  - *Analysis* : 
-  The package [gge][] is useful for producing GGE biplots. 
-  [statgenSTA][]
-  [agricolae][]
-  [statgenGxE][]
-  (usual suite of linear modelling packages)
+  - *Experimental Design* : The package [agricolae][] provides extensive resources for the planning and analysis of planned field experiments. The CRAN task for [ExperimentalDesign](https://cran.rstudio.com/web/views/Econometrics.html) provide additional information on experimental design for a wide variety of research problems. [desplot][desplot] is for plotting maps of agricultural trials laid out in grids. 
+  - *Analysis* : The package [agricolae][] contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. [statgenSTA][] has functions for single trial analysis with and without spatial components. The proprietary software [asreml]((https://www.vsni.co.uk/software/asreml)) provides an R version of their mixed model fitting functions for field trial analysis (note this is not open source and also requires an annual license). CRAN also contains an add-on package [asremlPlus][] that provides several accessory functions to [asreml](https://www.vsni.co.uk/software/asreml). The package [statgenGxE][] has several functions for handling various analytical approaches for addressing genotype-by-environment interactions. The package [gge][] is useful for producing GGE biplots. Additionally, the R suite of linear modelling packages, [nlme][], [lme4][], and [emmeans][] are useful for analysing planned field experiments. 
   
 **Plant Breeding and Genetics**
   Also check out the CRAN task view for [Genetics](https://cran.r-project.org/web/views/Genetics.html), which describes a broad array of packages supporting statistical genetics. The [Phylogenetics CRAN task view] describes R packages supporting related topics like taxonomy, community ecology (including microbiome work) 
@@ -51,7 +43,7 @@ If you think that some package is missing from the list, please let us know.
   - *General Genetic Prediction* 
     [synbreed]
     [sommer]
-    [asremlPlus] supporting the proprietary package [asreml] 
+    [asremlPlus], [asreml] 
   - *Genomic Selection* 
     [BGLR]
     [rrBLUP]
@@ -99,7 +91,8 @@ If you think that some package is missing from the list, please let us know.
 
   - [R as GIS for Economists](https://tmieno2.github.io/R-as-GIS-for-Economists/)
   - anything else not already included
-  
+  - [asreml](https://www.vsni.co.uk/software/asreml)
+  - [gapit]
   
 ### long list of packages (alphabetised)
 
@@ -108,18 +101,21 @@ If you think that some package is missing from the list, please let us know.
 [agroBioData]: https://github.com/OnofriAndreaPG/agriCensData
 [apsimx]: https://CRAN.R-project.org/package=apsimx 
 [aqp]: https://CRAN.R-project.org/package=aqp 
+[asremlPlus]: https://CRAN.R-project.org/package=asremlPlus 
 [binnednp]: https://CRAN.R-project.org/package=binnednp
 [BGLR]: https://CRAN.R-project.org/package=BGLR
 [CropScapeR]: https://CRAN.R-project.org/package=CropScapeR 
 [desplot]: https://CRAN.R-project.org/package=desplot 
 [drc]: https://CRAN.R-project.org/package=drc 
 [DSSAT]: https://CRAN.R-project.org/package=DSSAT 
+[emmeans]: https://CRAN.R-project.org/package=emmeans
 [epifitter]: https://CRAN.R-project.org/package=epifitter
 [epiphy]: https://CRAN.R-project.org/package=epiphy 
-[gapit]: 
 [gge]: https://CRAN.R-project.org/package=gge 
 [hagis]: https://CRAN.R-project.org/package=hagis
 [hnp]: https://cran.r-project.org/package=hnp 
+[lme4]: https://CRAN.R-project.org/package=lme4
+[nlme]: https://CRAN.R-project.org/package=nlme
 [nlraa]: https://cran.r-project.org/package=nlraa
 [PROSPER]: https://CRAN.R-project.org/package=PROSPER 
 [rnassqs]: https://CRAN.R-project.org/package=rnassqs 
