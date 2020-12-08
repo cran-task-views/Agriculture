@@ -24,29 +24,17 @@ If you think that some package is missing from the list, please let us know.
   - *Spatial Statistics* : 
     You can (and should) refer to the ["Spatial"](https://CRAN.R-project.org/view=Spatial) and   ["Spatio-Temporal"](https://CRAN.R-project.org/view=SpatioTemporal) CRAN task views. 
     
-    
 **Agronomic Trials**
 
   - *Experimental Design* : The package [agricolae][] provides extensive resources for the planning and analysis of planned field experiments. The CRAN task for [ExperimentalDesign](https://cran.rstudio.com/web/views/Econometrics.html) provide additional information on experimental design for a wide variety of research problems. [desplot][desplot] is for plotting maps of agricultural trials laid out in grids. 
-  - *Analysis* : The package [agricolae][] contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. [statgenSTA][] has functions for single trial analysis with and without spatial components. The proprietary software [asreml]((https://www.vsni.co.uk/software/asreml)) provides an R version of their mixed model fitting functions for field trial analysis (note this is not open source and also requires an annual license). CRAN also contains an add-on package [asremlPlus][] that provides several accessory functions to [asreml](https://www.vsni.co.uk/software/asreml). The package [statgenGxE][] has several functions for handling various analytical approaches for addressing genotype-by-environment interactions. The package [gge][] is useful for producing GGE biplots. Additionally, the R suite of linear modelling packages, [nlme][], [lme4][], and [emmeans][] are useful for analysing planned field experiments. 
+  - *Analysis* : The package [agricolae][] contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. [statgenSTA][] has functions for single trial analysis with and without spatial components. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model fitting functions for field trial analysis (note this is not open source and also requires an annual license). CRAN also contains an add-on package [asremlPlus][] that provides several accessory functions to asreml. The package [statgenGxE][] has several functions for handling various analytical approaches for addressing genotype-by-environment interactions. The package [gge][] is useful for producing GGE biplots. Additionally, the R suite of linear modelling packages, [nlme][], [lme4][], and [emmeans][] are useful for analysing planned field experiments. 
   
 **Plant Breeding and Genetics**
-  Also check out the CRAN task view for [Genetics](https://cran.r-project.org/web/views/Genetics.html), which describes a broad array of packages supporting statistical genetics. The [Phylogenetics CRAN task view] describes R packages supporting related topics like taxonomy, community ecology (including microbiome work) 
-  Send folks to Bioconductor for bioinformatics? 
+See the CRAN task view for [Genetics](https://cran.r-project.org/web/views/Genetics.html), which describes a broad array of packages supporting statistical genetics. The [Phylogenetics CRAN task view] describes R packages supporting related topics like taxonomy, community ecology (including microbiome work). In addition, the R package repository [Bionconductor](https://www.bioconductor.org/) "provides tools for the analysis and comprehension of high-throughput genomic data." 
   
-  - *QTL analysis*
-    [qtl]
-  - *GWAS*
-    [gapit]()?? 
-    [statgenGWAS]
-    (all of Zhiwu's packages)
-  - *General Genetic Prediction* 
-    [synbreed]
-    [sommer]
-    [asremlPlus], [asreml] 
-  - *Genomic Selection* 
-    [BGLR]
-    [rrBLUP]
+  - *QTL analysis and GWAS*. The long-standing package [qtl][] provides standard functionality for qtl mapping and has accessory functions for simulating crosses. Genome-wide association study analysis can be conducted with [statgenGWAS][]. GWAS models across very large number of SNPs or observations can be estimated with [rMVP][].
+ 
+  - *Genomic Selection General Genetic Prediction* Packages supporting genetic prediction from pedigree or genetic marker data include [sommer][], [rrBLUP][], [BGLR][] and the licensed software[asreml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices. [AGHmatrix][] provides extensive options for calculating pedigree and genomic (additive and dominance) relationship matrices. 
   
 **Entomology** 
 
@@ -85,7 +73,7 @@ If you think that some package is missing from the list, please let us know.
 
 **Agricultural Economics**
 
-  - The task views for [Econometrics](https://cran.rstudio.com/web/views/Econometrics.html), [Finance](), and [TimeSeries]() provide information on packages and tools relevant to agriculture economics.
+  - The task views for [Econometrics](https://cran.rstudio.com/web/views/Econometrics.html), [Empirical Finance](https://cran.r-project.org/web/views/Finance.html), and [TimeSeries](https://cran.r-project.org/web/views/TimeSeries.html) provide information on packages and tools relevant to agriculture economics.
 
 ### Related links:
 
@@ -96,6 +84,7 @@ If you think that some package is missing from the list, please let us know.
   
 ### long list of packages (alphabetised)
 
+[AGHmatrix]: https://CRAN.R-project.org/package=AGHmatrix
 [agridat]: https://CRAN.R-project.org/package=agridat 
 [agriTutorial]: https://CRAN.R-project.org/package=agriTutorial
 [agroBioData]: https://github.com/OnofriAndreaPG/agriCensData
@@ -118,9 +107,12 @@ If you think that some package is missing from the list, please let us know.
 [nlme]: https://CRAN.R-project.org/package=nlme
 [nlraa]: https://cran.r-project.org/package=nlraa
 [PROSPER]: https://CRAN.R-project.org/package=PROSPER 
+[qtl]: https://CRAN.R-project.org/package=qtl
 [rnassqs]: https://CRAN.R-project.org/package=rnassqs 
 [rrBLUP]: https://CRAN.R-project.org/package=rrBLUP
-soyNAM: https://CRAN.R-project.org/package=SoyNAM 
+[sommer]: https://CRAN.R-project.org/package=sommer
+[soyNAM]: https://CRAN.R-project.org/package=SoyNAM 
 [statgenGWAS]: https://CRAN.R-project.org/package=statgenGWAS
 [statgenGxE]: https://CRAN.R-project.org/package=statgenGxE 
 [statgenSTA]: https://CRAN.R-project.org/package=statgenSTA
+[rMVP]: https://CRAN.R-project.org/package=rMVP

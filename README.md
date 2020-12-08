@@ -18,7 +18,7 @@ This is intended to be a curated collection of R packages and other R resources 
 * Rural Sociology
 * Agricultural Economics
 
-Suggestions are welcome! If you think there should be another category or if you know of a package that fits into one of these categories, but is missing from the Task View, please open an [Issue][new-issue] to discuss. Also, see the **Contributing** link below for more details. 
+Suggestions are welcome! If you think there should be another category or if you know of a package that fits into one of these categories, but is missing from the Task View, please open an [Issue][new-issue] to discuss. Also, see the **[Contributing][.github/CONTRIBUTING.md]** instructions for more details. 
 
 [new-issue]: https://github.com/jpiaskowski/ctv-agriculture/issues/new?template=package_suggestion.md
 
