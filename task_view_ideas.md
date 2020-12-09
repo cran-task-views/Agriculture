@@ -48,6 +48,8 @@ See the CRAN task view for [Genetics](https://cran.r-project.org/web/views/Genet
   
   - [hagis][] Analysis of plant pathogen pathotype survey data. Functions provided calculate distribution of susceptibilities, distribution of complexities with statistics, pathotype frequency distribution, as well as diversity indices for pathotypes. This package is meant to be a direct replacement for Herrmann, Löwer, Schachtel's (1999) <doi:10.1046/j.1365-3059.1999.00325.x> Habgood-Gilmour Spreadsheet, 'HaGiS', previously used for pathotype analysis.
   
+  - [poppr][] An R package for genetic analysis of populations with mixed (clonal/sexual) reproduction. Provides population genetic analysis tools for hierarchical analysis of partially clonal populations built upon the architecture of the 'adegenet' package. Originally described in Kamvar, Tabima, and Grünwald (2014) <doi:10.7717/peerj.281> with version 2.0 described in Kamvar, Brooks, and Grünwald (2015) <doi:10.3389/fgene.2015.00208>.
+  
 **Weed Science**
 
   - [binnednp][] Kernel density and distribution estimation for interval-grouped data (Reyes, Francisco-Fernandez and Cao 2016, 2017) <doi:10.1080/10485252.2016.1163348>, <doi:10.1007/s11749-017-0523-9>, (Gonzalez-Andujar, Francisco-Fernandez, Cao, Reyes, Urbano, Forcella and Bastida 2016) <doi:10.1111/wre.12216> and nonparametric estimation of seedling emergence indices (Cao, Francisco-Fernandez, Anand, Bastida and Gonzalez-Andujar 2011) <doi:10.1017/S002185961100030X>.
