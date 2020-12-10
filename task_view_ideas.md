@@ -20,7 +20,7 @@ If you think that some package is missing from the list, please let us know.
 **Soil Science**
 
   - *Pedology* :
-    [aqp][] provides a lot of really useful functionality and other placeholder text.
+    [aqp](https://github.com/ncss-tech/aqp/), a toolkit for soil scientists: specialized data structures, soil profile summary, visualization, color conversion, and more. [soilDB](https://github.com/ncss-tech/soilDB/), a convenient interface most USDA-NRCS soils related databases and APIs.
   - *Spatial Statistics* : 
     You can (and should) refer to the ["Spatial"](https://CRAN.R-project.org/view=Spatial) and   ["Spatio-Temporal"](https://CRAN.R-project.org/view=SpatioTemporal) CRAN task views. 
     
