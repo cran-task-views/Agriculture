@@ -27,7 +27,7 @@ If you think that some package is missing from the list, please let us know.
 **Agronomic Trials**
 
   - *Experimental Design* : The package [agricolae][] provides extensive resources for the planning and analysis of planned field experiments. The CRAN task for [ExperimentalDesign](https://cran.rstudio.com/web/views/Econometrics.html) provide additional information on experimental design for a wide variety of research problems. [desplot][desplot] is for plotting maps of agricultural trials laid out in grids. 
-  - *Analysis* : The package [agricolae][] contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. [statgenSTA][] has functions for single trial analysis with and without spatial components. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model fitting functions for field trial analysis (note this is not open source and also requires an annual license). CRAN also contains an add-on package [asremlPlus][] that provides several accessory functions to asreml. The package [statgenGxE][] has several functions for handling various analytical approaches for addressing genotype-by-environment interactions. The package [gge][] is useful for producing GGE biplots. Additionally, the R suite of linear modelling packages, [nlme][], [lme4][], and [emmeans][] are useful for analysing planned field experiments. 
+  - *Analysis* : The package [agricolae][] contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. [statgenSTA][] has functions for single trial analysis with and without spatial components. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model fitting functions for field trial analysis (note this is not open source and also requires an annual license). CRAN also contains an add-on package [asremlPlus][] that provides several accessory functions to asreml. The package [statgenGxE][] has several functions for handling various analytical approaches for addressing genotype-by-environment interactions. [IBCF.MTME][] implements item-based collaborative filtering for multi-trait and multi-environment trials. The package [gge][] is useful for producing GGE biplots. Additionally, the R suite of linear modelling packages, [nlme][], [lme4][], and [emmeans][] are useful for analysing planned field experiments. 
   
 **Plant Breeding and Genetics**
 See the CRAN task view for [Genetics](https://cran.r-project.org/web/views/Genetics.html), which describes a broad array of packages supporting statistical genetics. The [Phylogenetics CRAN task view] describes R packages supporting related topics like taxonomy, community ecology (including microbiome work). In addition, the R package repository [Bionconductor](https://www.bioconductor.org/) "provides tools for the analysis and comprehension of high-throughput genomic data." 
@@ -105,6 +105,7 @@ See the CRAN task view for [Genetics](https://cran.r-project.org/web/views/Genet
 [gge]: https://CRAN.R-project.org/package=gge 
 [hagis]: https://CRAN.R-project.org/package=hagis
 [hnp]: https://cran.r-project.org/package=hnp 
+[IBCF.MTME]: https://CRAN.R-project.org/package=IBCF.MTME
 [lme4]: https://CRAN.R-project.org/package=lme4
 [nlme]: https://CRAN.R-project.org/package=nlme
 [nlraa]: https://cran.r-project.org/package=nlraa
@@ -113,6 +114,7 @@ See the CRAN task view for [Genetics](https://cran.r-project.org/web/views/Genet
 [rnassqs]: https://CRAN.R-project.org/package=rnassqs 
 [rrBLUP]: https://CRAN.R-project.org/package=rrBLUP
 [sommer]: https://CRAN.R-project.org/package=sommer
+[soilDB]: https://CRAN.R-project.org/package=soilDB
 [soyNAM]: https://CRAN.R-project.org/package=SoyNAM 
 [statgenGWAS]: https://CRAN.R-project.org/package=statgenGWAS
 [statgenGxE]: https://CRAN.R-project.org/package=statgenGxE 
