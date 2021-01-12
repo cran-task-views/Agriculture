@@ -110,6 +110,7 @@ See the CRAN task view for [Genetics](https://cran.r-project.org/web/views/Genet
 [nlme]: https://CRAN.R-project.org/package=nlme
 [nlraa]: https://cran.r-project.org/package=nlraa
 [PROSPER]: https://CRAN.R-project.org/package=PROSPER 
+[poppr]: https://cran.r-project.org/package=poppr
 [qtl]: https://CRAN.R-project.org/package=qtl
 [rnassqs]: https://CRAN.R-project.org/package=rnassqs 
 [rrBLUP]: https://CRAN.R-project.org/package=rrBLUP
