@@ -27,16 +27,18 @@ If you think that some package is missing from the list, please let us know.
 **Agronomic Trials**
 
   - *Experimental Design* : The package [agricolae][] provides extensive resources for the planning and analysis of planned field experiments. The CRAN task for [ExperimentalDesign](https://cran.rstudio.com/web/views/Econometrics.html) provide additional information on experimental design for a wide variety of research problems. [desplot][desplot] is for plotting maps of agricultural trials laid out in grids. 
-  - *Analysis* : The package [agricolae][] contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. [statgenSTA][] has functions for single trial analysis with and without spatial components. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model fitting functions for field trial analysis (note this is not open source and also requires an annual license). CRAN also contains an add-on package [asremlPlus][] that provides several accessory functions to asreml. The package [statgenGxE][] has several functions for handling various analytical approaches for addressing genotype-by-environment interactions. [IBCF.MTME][] implements item-based collaborative filtering for multi-trait and multi-environment trials. The package [gge][] is useful for producing GGE biplots. 
+  - *Analysis* : The package [agricolae][] contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. [statgenSTA][] has functions for single trial analysis with and without spatial components. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model fitting functions for field trial analysis (note this is not open source and also requires an annual license). CRAN also contains an add-on package [asremlPlus][] that provides several accessory functions to asreml. 
+  
+  - *Genotype-by-environment*: The package [statgenGxE][] has several functions for handling various analytical approaches for addressing genotype-by-environment interactions. [IBCF.MTME][] implements item-based collaborative filtering for multi-trait and multi-environment trials. The package [gge][] is useful for producing GGE biplots. [EnvRtype][] can be used for assembling climate data, data set preparation and environmental classification.  
   
 **Plant Breeding and Genetics**
 
 See the CRAN task view for [Genetics](https://cran.r-project.org/web/views/Genetics.html), which describes a broad array of packages supporting statistical genetics. The [Phylogenetics CRAN task view](https://cran.r-project.org/web/views/Phylogenetics.html) describes R packages supporting related topics like taxonomy, community ecology (including microbiome work). In addition, the R package repository [Bionconductor](https://www.bioconductor.org/) provides tools for the analysis and comprehension of high-throughput genomic data. 
   
-  - *Linkage Mapping & QTL analysis*  The long-standing package [qtl][] provides standard functionality for qtl mapping and has accessory functions for simulating crosses.  [lme4qtl][] is a newer package for estimating QTL effects. For polyploids, the packages [mappoly][] and [polymapR][] can be used for linkage mapping and the packages [qtlpoly][] and [polyqtlR][] can be used for qtl estimation. [MapRtools][] contains a suite of functions for building and examining linkage maps. A linkage map can be visualized with [LinkageMapView][].
+  - *Linkage Mapping & QTL analysis*  There are two notable and long-standing packages: (1) [onemap][], providing MapMaker/EXP like performance and extended functionality, and (2) [qtl][] providing standard functionality for qtl mapping and  accessory functions for simulating crosses. [ASMap][] is for fast linkage mapping with the algorithm 'MSTmap'. [MapRtools][] is another linkage mapping package. A linkage map can be visualized with [LinkageMapView][]. For polyploids, the packages [mappoly][] and [polymapR][] can be used for linkage mapping and the packages [qtlpoly][] and [polyqtlR][] can be used for qtl estimation. 
   
   -*GWAS*  Genome-wide association study analysis can be conducted with [statgenGWAS][]. GWAS models across very large number of SNPs or observations can be estimated with [rMVP][] and [megaLMM][].
-  - *Genomic Selection General Genetic Prediction* Packages supporting genetic prediction from pedigree or genetic marker data include [sommer][], [rrBLUP][], [BGLR][], [lme4gs][], and [pedigreelmm][] and the licensed software[asreml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices. [AGHmatrix][] provides extensive options for calculating pedigree and genomic (additive and dominance) relationship matrices. [breedR][] is a general purpose package for performing quantitative genetic analyses. 
+  - *Genomic Selection General Genetic Prediction* Packages supporting genetic prediction from pedigree or genetic marker data include [sommer][], [rrBLUP][], [BGLR][], [lme4gs][], [lme4qtl][] and [pedigreelmm][] and the licensed software [asreml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices. [AGHmatrix][] provides extensive options for calculating pedigree and genomic (additive and dominance) relationship matrices. [breedR][] is a general purpose package for performing quantitative genetic analyses. 
   
 **Entomology** 
 
@@ -102,6 +104,7 @@ We are unaware of packages specifically serving animal science. Many of the gene
 [drc]: https://CRAN.R-project.org/package=drc 
 [DSSAT]: https://CRAN.R-project.org/package=DSSAT 
 [emmeans]: https://CRAN.R-project.org/package=emmeans
+[EnvRtype]: https://github.com/allogamous/EnvRtype
 [epifitter]: https://CRAN.R-project.org/package=epifitter
 [epiphy]: https://CRAN.R-project.org/package=epiphy 
 [fabio]: https://github.com/fineprint-global/fabio
@@ -115,6 +118,7 @@ We are unaware of packages specifically serving animal science. Many of the gene
 [lme4]: https://CRAN.R-project.org/package=lme4
 [lme4gs]: https://github.com/perpdgo/lme4GS
 [lme4qtl]: https://github.com/variani/lme4qtl
+[mappoly]: https://CRAN.R-project.org/package=mappoly 
 [MapRtools]: https://github.com/jendelman/MapRtools
 [MCMCglmm]: https://CRAN.R-project.org/package=MCMCglmm
 [MegaLMM]: https://github.com/deruncie/MegaLMM/
