@@ -1,4 +1,5 @@
 #!/usr/bin/env Rscript
+# needs to adapted for our use cases
 
 # Maintenance script to check CTV packages, URLs, and formatting.
 
