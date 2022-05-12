@@ -11,8 +11,7 @@ If you think that some package is missing from the list, please let us know.
 
   - *Accessing Data* 
   
-  Data from the United States Department of Agriculture's National Agricultural Statistical Service 'Quick Stats' web API can be accessed with [rnassqs][] or with [tidyUSDA][], which also offers some mapping capabilities. The USDA's Cropland data layer API can be accessed with [CropScapeR][]. [cdlTools][] provides various utility functions for working with the CDL. [rusda][] provides an interface to access the USDA-ARS Systematic Mycology and Microbiology Laboratory (SMML)'s four databases: Fungus-Host Distributions, Specimens, Literature and the Nomenclature database. USDA's Agricultural Resource Management Survey (ARMS) Data API can be accessed with [rarms][].  
-  There are many options for downloading current and historic weather data. This is generally beyond the scope of this guide, but [rnoaa][] one option to get you started if you need NOAA data. [FedData][] provides access to geospatial data from The Soil Survey Geographic (SSURGO) database, the Global Historical Climatology Network (GHCN), the Daymet gridded estimates of daily weather parameters for North America, the International Tree Ring Data Bank, and the National Land Cover Database (NLCD). The USDA's Livestock Mandatory Reporting data API can be accessed with [usdampr][]. 
+  Data from the United States Department of Agriculture's National Agricultural Statistical Service 'Quick Stats' web API can be accessed with [rnassqs][] or with [tidyUSDA][], which also offers some mapping capabilities. The USDA's Cropland data layer API can be accessed with [CropScapeR][]. [cdlTools][] provides various utility functions for working with the CDL. [rusda][] provides an interface to access the USDA-ARS Systematic Mycology and Microbiology Laboratory (SMML)'s four databases: Fungus-Host Distributions, Specimens, Literature and the Nomenclature database. USDA's Agricultural Resource Management Survey (ARMS) Data API can be accessed with [rarms][]. [FedData][] provides access to geospatial data from The Soil Survey Geographic (SSURGO) database, the Global Historical Climatology Network (GHCN), the Daymet gridded estimates of daily weather parameters for North America, the International Tree Ring Data Bank, and the National Land Cover Database (NLCD). The USDA's Livestock Mandatory Reporting data API can be accessed with [usdampr][]. [FAOSTAT][] and [faobulk][] can be used to access data from the FAOSTAT Database of the Food and Agricultural Organization (FAO) of the United Nations. There are many options for downloading current and historic weather data. This is generally beyond the scope of this guide, but [rnoaa][] one option to get you started if you need NOAA data.
   
   - *Data sets* 
   
@@ -48,9 +47,10 @@ If you think that some package is missing from the list, please let us know.
   
   - *Genotype-by-environment*
   
-  The package [statgenGxE][] has several functions for handling various analytical approaches for addressing genotype-by-environment interactions. [IBCF.MTME][] implements item-based collaborative filtering for multi-trait and multi-environment trials. The package [gge][] is useful for producing GGE biplots, while [bayesammi][] can conduct Bayesian estimation of additive main effects multiplicative interaction model. [EnvRtype][] can be used for assembling climate data, data set preparation and environmental classification. 
+  [statgenGxE][] has several functions for handling various analytical approaches for addressing genotype-by-environment interactions. [IBCF.MTME][] implements item-based collaborative filtering for multi-trait and multi-environment trials. The package [gge][] is useful for producing GGE biplots, while [bayesammi][] can conduct Bayesian estimation of additive main effects multiplicative interaction model. [EnvRtype][] can be used for assembling climate data, data set preparation and environmental classification. 
   
-  - *High Throughput Phenotyping (HTP)
+  - *High Throughput Phenotyping (HTP)* 
+  
   [statgenHTP][] is for analyzing data from HTP platform experiments, with some functions specifically designed to work with the proprietary software [asreml](https://www.vsni.co.uk/software/asreml)
   
   
@@ -61,6 +61,7 @@ See the [Phylogenetics CRAN task view](https://cran.r-project.org/web/views/Phyl
   - *Linkage Mapping & QTL analysis*
   
   There are two notable and long-standing packages: (1) [onemap][], providing MapMaker/EXP like performance and extended functionality, and (2) [qtl][] providing standard functionality for qtl mapping and  accessory functions for simulating crosses. [ASMap][] is for fast linkage mapping with the algorithm 'MSTmap'. [MapRtools][] is another linkage mapping package. A existing linkage map can be visualized with [LinkageMapView][]. For polyploids, the packages [mappoly][] and [polymapR][] can be used for linkage mapping and the packages [qtlpoly][] and [polyqtlR][] can be used for qtl estimation. [diaQTL][] is for QTL and haplotype analysis of diallel populations (diploid and autotetraploid). [statgenMPP][] can conduct QTL mapping in multi-parent populations.  
+  
   - *GWAS*  
   
   Genome-wide association study analysis can be conducted with [statgenGWAS][]. GWAS models across very large number of SNPs or observations can be estimated with [rMVP][] and [megaLMM][]. Functions for autotetraploid are provided by [GWASpoly][], and these functions also work in diploid species. [StageWise][] provides functiona to conduct a 2-stage GWAS when the underlying phenotypic data are from multiple field trials. 
@@ -79,7 +80,7 @@ See the [Phylogenetics CRAN task view](https://cran.r-project.org/web/views/Phyl
   
 **Weed Science**
 
-  The package [drc][] offers versatile model fitting and after-fitting functions for dose-response curves. [PROSPER][] is a package for simulating weed population dynamics at the individual and population level under a range of conditions including herbicide resistance and herbicide pressure.  
+  The package [drc][] offers versatile model fitting and after-fitting functions for dose-response curves. [PROSPER][] is a package for simulating weed population dynamics at the individual and population level under a range of conditions including herbicide resistance and herbicide pressure. For analytical applications to wild populations, the [CRAN task view for Environmetrics](https://cran.r-project.org/web/views/Environmetrics.html) will be helpful. 
   
 **Crop Modelling**
 
@@ -95,9 +96,7 @@ See the [Phylogenetics CRAN task view](https://cran.r-project.org/web/views/Phyl
 
 **Food Science**
 
-  - For packages supporting sensory studies, ee the [Psychometrics CRAN task view](https://cran.r-project.org/web/views/Psychometrics.html).
-  - *General:* 
-  [NutrienTrackeR][] provides convenience functions for calculating nutrient content (macronutrients and micronutrients) of foods using food composition data from several reference databases, including: 'USDA' (United States), 'CIQUAL' (France), 'BEDCA' (Spain) and 'CNF' (Canada). 
+  - For packages supporting sensory studies, ee the [Psychometrics CRAN task view](https://cran.r-project.org/web/views/Psychometrics.html). [NutrienTrackeR][] provides convenience functions for calculating nutrient content (macronutrients and micronutrients) of foods using food composition data from several reference databases, including: 'USDA' (United States), 'CIQUAL' (France), 'BEDCA' (Spain) and 'CNF' (Canada). 
 
 **Rural Sociology**
 
@@ -137,6 +136,8 @@ See the [Phylogenetics CRAN task view](https://cran.r-project.org/web/views/Phyl
 [epifitter]: https://CRAN.R-project.org/package=epifitter
 [epiphy]: https://CRAN.R-project.org/package=epiphy 
 [fabio]: https://github.com/fineprint-global/fabio
+[faobulk]: https://github.com/muuankarski/faobulk  
+[FAOSTAT]: https://CRAN.R-project.org/package=FAOSTAT
 [FedData]: https://CRAN.R-project.org/package=FedData
 [fertplan]: https://github.com/mbask/fertplan
 [ggfertilizer]: https://github.com/wenlong-liu/ggfertilizer
