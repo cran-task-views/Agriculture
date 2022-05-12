@@ -88,7 +88,7 @@ See the [Phylogenetics CRAN task view](https://cran.r-project.org/web/views/Phyl
   
   [Meteor][] provides a set of functions for weather and climate data manipulation to support crop and crop disease modeling.
   
-  [phenorice][] is an R implementation of the [phenorice model](http://dx.doi.org/10.1016/j.rse.2017.03.029) for remote sensing of rice crop production. [phenoriceR][] provides helper functions for processing data from the phenorice model. [Recocrop][] estimates environmental suitability for plants using a limiting factor approach for plant growth following [Hackett 1991](doi:10.1007/BF00045728). [Rquefts][] provides an implementation of the QUEFTS (Quantitative Evaluation of the Native Fertility of Tropical Soils) model ((Janssen 1990)[https://doi.org/10.1016%2F0016-7061%2890%2990021-Z]). [Rwofost] is an implementation of the WOFOST ("World Food Studies") crop growth model((De Wit 2019)[https://doi.org/10.1016%2Fj.agsy.2018.06.018]).
+  [phenorice][] is an R implementation of the [phenorice model](http://dx.doi.org/10.1016/j.rse.2017.03.029) for remote sensing of rice crop production. [phenoriceR][] provides helper functions for processing data from the phenorice model. [Recocrop][] estimates environmental suitability for plants using a limiting factor approach for plant growth following [Hackett 1991](doi:10.1007/BF00045728). [Rquefts][] provides an implementation of the QUEFTS (Quantitative Evaluation of the Native Fertility of Tropical Soils) model ([Janssen 1990](https://doi.org/10.1016%2F0016-7061%2890%2990021-Z)). [Rwofost] is an implementation of the WOFOST ("World Food Studies") crop growth model([De Wit 2019](https://doi.org/10.1016%2Fj.agsy.2018.06.018)).
   
 **Animal Science**
 
@@ -110,8 +110,6 @@ See the [Phylogenetics CRAN task view](https://cran.r-project.org/web/views/Phyl
 
 *(anything else not already included)*
 
-  - [R as GIS for Economists](https://tmieno2.github.io/R-as-GIS-for-Economists/)
-  - [Agricultural & R repos on GitHub](https://github.com/topics/agriculture?l=r)
   
 ### long list of packages (alphabetised)
 
