@@ -44,7 +44,7 @@ If you think that some package is missing from the list, please let us know.
   
   - *General Analysis* 
   
-  The package [agricolae][] contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. [statgenSTA][] has functions for single trial analysis with and without spatial components. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model fitting functions for field trial analysis (note this is not open source and also requires an annual license). CRAN also contains an add-on package [asremlPlus][] that provides several accessory functions to asreml. 
+  The package [agricolae][] contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. [statgenSTA][] has functions for single trial analysis with and without spatial components. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model fitting functions for field trial analysis (note this is not open source and also requires an annual license). CRAN also contains an add-on package [asremlPlus][] that provides several accessory functions to asreml. [INLA][] provides tools for Bayesian inference of latent Gaussian models. It was developed specifically for agriculture and contains functions for modelling spatial variation in field experiments. 
   
   - *Genotype-by-environment*
   
@@ -145,6 +145,7 @@ See the [Phylogenetics CRAN task view](https://cran.r-project.org/web/views/Phyl
 [hagis]: https://CRAN.R-project.org/package=hagis
 [hnp]: https://cran.r-project.org/package=hnp 
 [IBCF.MTME]: https://CRAN.R-project.org/package=IBCF.MTME
+[INLA]: https://github.com/inbo/INLA
 [LinkageMapView]: https://CRAN.R-project.org/package=LinkageMapView 
 [lme4]: https://CRAN.R-project.org/package=lme4
 [lme4gs]: https://github.com/perpdgo/lme4GS
