@@ -31,83 +31,84 @@ We have already drafted an agricultural task view [here](https://github.com/Idah
 
 Here is an alphabetised list of packages: 
 
-[AGHmatrix]: https://CRAN.R-project.org/package=AGHmatrix  
-[agridat]: https://CRAN.R-project.org/package=agridat   
-[agriTutorial]: https://CRAN.R-project.org/package=agriTutorial  
-[agroBioData]: https://github.com/OnofriAndreaPG/agriCensData  
-[apsimx]: https://CRAN.R-project.org/package=apsimx 
-[aqp]: https://CRAN.R-project.org/package=aqp 
-[asremlPlus]: https://CRAN.R-project.org/package=asremlPlus  
-[bayesammi]: https://CRAN.R-project.org/package=bayesammi  
-[BGLR]: https://CRAN.R-project.org/package=BGLR   
-[breedR]: https://github.com/famuvie/breedR    
-[cdlTools]:  https://CRAN.R-project.org/package=cdlTools   
-[CropScapeR]: https://CRAN.R-project.org/package=CropScapeR    
-[desplot]: https://CRAN.R-project.org/package=desplot   
-[diaQTL]: https://github.com/jendelman/diaQTL   
-[drc]: https://CRAN.R-project.org/package=drc   
-[DSSAT]: https://CRAN.R-project.org/package=DSSAT    
-[emmeans]: https://CRAN.R-project.org/package=emmeans   
-[EnvRtype]: https://github.com/allogamous/EnvRtype    
-[epifitter]: https://CRAN.R-project.org/package=epifitter    
-[epiphy]: https://CRAN.R-project.org/package=epiphy    
-[fabio]: https://github.com/fineprint-global/fabio    
-[FedData]: https://CRAN.R-project.org/package=FedData    
-[fertplan]: https://github.com/mbask/fertplan    
-[ggfertilizer]: https://github.com/wenlong-liu/ggfertilizer    
-[gge]: https://CRAN.R-project.org/package=gge    
-[GWASpoly]: https://github.com/jendelman/GWASpoly    
-[hagis]: https://CRAN.R-project.org/package=hagis     
-[hnp]: https://cran.r-project.org/package=hnp    
-[IBCF.MTME]: https://CRAN.R-project.org/package=IBCF.MTME      
-[INLA]: https://github.com/inbo/INLA     
-[LinkageMapView]: https://CRAN.R-project.org/package=LinkageMapView     
-[lme4]: https://CRAN.R-project.org/package=lme4     
-[lme4gs]: https://github.com/perpdgo/lme4GS     
-[lme4qtl]: https://github.com/variani/lme4qtl    
-[mappoly]: https://CRAN.R-project.org/package=mappoly     
-[MapRtools]: https://github.com/jendelman/MapRtools     
-[MCMCglmm]: https://CRAN.R-project.org/package=MCMCglmm     
-[MegaLMM]: https://github.com/deruncie/MegaLMM/     
-[meteor]: https://CRAN.R-project.org/package=meteor     
-[nlme]: https://CRAN.R-project.org/package=nlme     
-[nlraa]: https://cran.r-project.org/package=nlraa     
-[pedigreemm]: https://CRAN.R-project.org/package=pedigreemm    
-[phenorice]: https://github.com/cropmodels/phenorice    
-[phenoriceR]: https://github.com/lbusett/phenoriceR    
-[polyBreedR]: https://github.com/jendelman/polyBreedR    
-[polymapR]: https://CRAN.R-project.org/package=polymapR     
-[polyqtlR]: https://CRAN.R-project.org/package=polyqtlR    
-[poppr]: https://cran.r-project.org/package=poppr   
-[PROSPER]: https://CRAN.R-project.org/package=PROSPER    
-[qgtools]: https://CRAN.R-project.org/package=qgtools   
-[qtl]: https://CRAN.R-project.org/package=qtl    
-[qtlpoly]: https://CRAN.R-project.org/package=qtlpoly     
-[rapsimng]: https://CRAN.R-project.org/package=rapsimng     
-[rarms]: https://CRAN.R-project.org/package=rarms    
-[Recocrop]: https://CRAN.R-project.org/package=Recocrop    
-[rMVP]: https://CRAN.R-project.org/package=rMVP     
-[rnassqs]: https://CRAN.R-project.org/package=rnassqs     
-[rnoaa]: https://CRAN.R-project.org/package=rnoaa    
-[Rquefts]: https://CRAN.R-project.org/package=Rquefts    
-[rrBLUP]: https://CRAN.R-project.org/package=rrBLUP    
-[rusda]:  https://CRAN.R-project.org/package=rusda    
-[Rwofost]: https://CRAN.R-project.org/package=Rwofost     
-[sharpshootR]: https://CRAN.R-project.org/package=sharpshootR    
-[simplePHENOTYPES]: https://github.com/samuelbfernandes/simplePHENOTYPES    
-[sommer]: https://CRAN.R-project.org/package=sommer    
-[soilDB]: https://CRAN.R-project.org/package=soilDB    
-[SoilTaxonomy]: https://CRAN.R-project.org/package=SoilTaxonomy    
-[SoyNAM]: https://CRAN.R-project.org/package=SoyNAM    
-[StageWise]: https://github.com/jendelman/StageWise    
-[statgenGWAS]: https://CRAN.R-project.org/package=statgenGWAS    
-[statgenGxE]: https://CRAN.R-project.org/package=statgenGxE    
-[statgenHTP]:	https://CRAN.R-project.org/package=statgenHTP   
-[statgenIBD]:	https://CRAN.R-project.org/package=statgenIBD    
-[statgenMPP]:	https://CRAN.R-project.org/package=statgenMPP   
-[statgenSTA]: https://CRAN.R-project.org/package=statgenSTA   
-[tidyUSDA]: https://CRAN.R-project.org/package=tidyUSDA   
-[usdampr]: https://CRAN.R-project.org/package=usdampr    
+[AGHmatrix](https://CRAN.R-project.org/package=AGHmatrix)  
+[agricolae](https://CRAN.R-project.org/package=agricolae)   
+[agridat](https://CRAN.R-project.org/package=agridat)   
+[agriTutorial](https://CRAN.R-project.org/package=agriTutorial)  
+[agroBioData](https://github.com/OnofriAndreaPG/agriCensData)  
+[apsimx](https://CRAN.R-project.org/package=apsimx) 
+[aqp](https://CRAN.R-project.org/package=aqp) 
+[asremlPlus](https://CRAN.R-project.org/package=asremlPlus)  
+[bayesammi](https://CRAN.R-project.org/package=bayesammi)  
+[BGLR](https://CRAN.R-project.org/package=BGLR)   
+[breedR](https://github.com/famuvie/breedR)    
+[cdlTools]( https://CRAN.R-project.org/package=cdlTools)   
+[CropScapeR](https://CRAN.R-project.org/package=CropScapeR)    
+[desplot](https://CRAN.R-project.org/package=desplot)   
+[diaQTL](https://github.com/jendelman/diaQTL)   
+[drc](https://CRAN.R-project.org/package=drc)   
+[DSSAT](https://CRAN.R-project.org/package=DSSAT)    
+[emmeans](https://CRAN.R-project.org/package=emmeans)   
+[EnvRtype](https://github.com/allogamous/EnvRtype)    
+[epifitter](https://CRAN.R-project.org/package=epifitter)    
+[epiphy](https://CRAN.R-project.org/package=epiphy)    
+[fabio](https://github.com/fineprint-global/fabio)    
+[FedData](https://CRAN.R-project.org/package=FedData)    
+[fertplan](https://github.com/mbask/fertplan)    
+[ggfertilizer](https://github.com/wenlong-liu/ggfertilizer)    
+[gge](https://CRAN.R-project.org/package=gge)    
+[GWASpoly](https://github.com/jendelman/GWASpoly)    
+[hagis](https://CRAN.R-project.org/package=hagis)     
+[hnp](https://cran.r-project.org/package=hnp)    
+[IBCF.MTME](https://CRAN.R-project.org/package=IBCF.MTME)      
+[INLA](https://github.com/inbo/INLA)     
+[LinkageMapView](https://CRAN.R-project.org/package=LinkageMapView)     
+[lme4](https://CRAN.R-project.org/package=lme4)     
+[lme4gs](https://github.com/perpdgo/lme4GS)     
+[lme4qtl](https://github.com/variani/lme4qtl)    
+[mappoly](https://CRAN.R-project.org/package=mappoly)     
+[MapRtools](https://github.com/jendelman/MapRtools)     
+[MCMCglmm](https://CRAN.R-project.org/package=MCMCglmm)     
+[MegaLMM](https://github.com/deruncie/MegaLMM/)     
+[meteor](https://CRAN.R-project.org/package=meteor)     
+[nlme](https://CRAN.R-project.org/package=nlme)     
+[nlraa](https://cran.r-project.org/package=nlraa)     
+[pedigreemm](https://CRAN.R-project.org/package=pedigreemm)    
+[phenorice](https://github.com/cropmodels/phenorice)    
+[phenoriceR](https://github.com/lbusett/phenoriceR)    
+[polyBreedR](https://github.com/jendelman/polyBreedR)    
+[polymapR](https://CRAN.R-project.org/package=polymapR)     
+[polyqtlR](https://CRAN.R-project.org/package=polyqtlR)    
+[poppr](https://cran.r-project.org/package=poppr)   
+[PROSPER](https://CRAN.R-project.org/package=PROSPER)    
+[qgtools](https://CRAN.R-project.org/package=qgtools)   
+[qtl](https://CRAN.R-project.org/package=qtl)    
+[qtlpoly](https://CRAN.R-project.org/package=qtlpoly)     
+[rapsimng](https://CRAN.R-project.org/package=rapsimng)     
+[rarms](https://CRAN.R-project.org/package=rarms)    
+[Recocrop](https://CRAN.R-project.org/package=Recocrop)    
+[rMVP](https://CRAN.R-project.org/package=rMVP)     
+[rnassqs](https://CRAN.R-project.org/package=rnassqs)     
+[rnoaa](https://CRAN.R-project.org/package=rnoaa)    
+[Rquefts](https://CRAN.R-project.org/package=Rquefts)    
+[rrBLUP](https://CRAN.R-project.org/package=rrBLUP)    
+[rusda]( https://CRAN.R-project.org/package=rusda)    
+[Rwofost](https://CRAN.R-project.org/package=Rwofost)     
+[sharpshootR](https://CRAN.R-project.org/package=sharpshootR)    
+[simplePHENOTYPES](https://github.com/samuelbfernandes/simplePHENOTYPES)    
+[sommer](https://CRAN.R-project.org/package=sommer)    
+[soilDB](https://CRAN.R-project.org/package=soilDB)    
+[SoilTaxonomy](https://CRAN.R-project.org/package=SoilTaxonomy)    
+[SoyNAM](https://CRAN.R-project.org/package=SoyNAM)    
+[StageWise](https://github.com/jendelman/StageWise)    
+[statgenGWAS](https://CRAN.R-project.org/package=statgenGWAS)    
+[statgenGxE](https://CRAN.R-project.org/package=statgenGxE)    
+[statgenHTP](https://CRAN.R-project.org/package=statgenHTP)   
+[statgenIBD](https://CRAN.R-project.org/package=statgenIBD)    
+[statgenMPP](https://CRAN.R-project.org/package=statgenMPP)   
+[statgenSTA](https://CRAN.R-project.org/package=statgenSTA)   
+[tidyUSDA](https://CRAN.R-project.org/package=tidyUSDA)   
+[usdampr](https://CRAN.R-project.org/package=usdampr)    
 
 
 #### Overlap

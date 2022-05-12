@@ -116,6 +116,7 @@ See the [Phylogenetics CRAN task view](https://cran.r-project.org/web/views/Phyl
 ### long list of packages (alphabetised)
 
 [AGHmatrix]: https://CRAN.R-project.org/package=AGHmatrix
+[agricolae]: https://CRAN.R-project.org/package=agricolae
 [agridat]: https://CRAN.R-project.org/package=agridat 
 [agriTutorial]: https://CRAN.R-project.org/package=agriTutorial
 [agroBioData]: https://github.com/OnofriAndreaPG/agriCensData
