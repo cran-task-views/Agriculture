@@ -63,7 +63,7 @@ If you think that some package is missing from the list, please let us know/
   
 #### General Genetic Prediction
   
-  Packages supporting genetic prediction from pedigree or genetic marker data include [sommer][], [rrBLUP][], [BGLR][], [lme4gs][], [lme4qtl][], [pedigreelmm][], [qgtools]() and the licensed software [asreml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices. [AGHmatrix][] provides extensive options for calculating pedigree and genomic (additive and dominance) relationship matrices and [statgenIBD][] can calculate IBD probabilities for biparental, three and four-way crosses. [breedR][] is a general purpose package for performing quantitative genetic analyses. For polyploids, [polyBreedR][] provides convenience functions to facilitate the use of genome-wide markers for breeding autotetraploid species, and its functionality also extends to diploids. 
+  Packages supporting genetic prediction from pedigree or genetic marker data include [sommer][], [rrBLUP][], [BGLR][], [lme4gs][], [lme4qtl][], [pedigreemm][], [qgtools]() and the licensed software [asreml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices. [AGHmatrix][] provides extensive options for calculating pedigree and genomic (additive and dominance) relationship matrices and [statgenIBD][] can calculate IBD probabilities for biparental, three and four-way crosses. [breedR][] is a general purpose package for performing quantitative genetic analyses. For polyploids, [polyBreedR][] provides convenience functions to facilitate the use of genome-wide markers for breeding autotetraploid species, and its functionality also extends to diploids. 
   
 ### Crop Modelling
 
@@ -125,6 +125,7 @@ If you think that some package is missing from the list, please let us know/
 [agroBioData]: https://github.com/OnofriAndreaPG/agriCensData
 [apsimx]: https://CRAN.R-project.org/package=apsimx 
 [aqp]: https://CRAN.R-project.org/package=aqp 
+[ASMap]: https://CRAN.R-project.org/package=ASMap
 [asremlPlus]: https://CRAN.R-project.org/package=asremlPlus 
 [bayesammi]: https://CRAN.R-project.org/package=bayesammi 
 [BGLR]: https://CRAN.R-project.org/package=BGLR
@@ -163,6 +164,7 @@ If you think that some package is missing from the list, please let us know/
 [nlme]: https://CRAN.R-project.org/package=nlme
 [nlraa]: https://cran.r-project.org/package=nlraa
 [NutrienTrackeR]: https://CRAN.R-project.org/package=NutrienTrackeR
+[onemap]: https://CRAN.R-project.org/package=onemap
 [pedigreemm]: https://CRAN.R-project.org/package=pedigreemm
 [phenorice]: https://github.com/cropmodels/phenorice
 [phenoriceR]: https://github.com/lbusett/phenoriceR
