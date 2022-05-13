@@ -25,7 +25,7 @@ If you think that some package is missing from the list, please let us know/
 
 ### Agricultural economics
 
-    The task views for [Econometrics](https://cran.rstudio.com/web/views/Econometrics.html), [Empirical Finance](https://cran.r-project.org/web/views/Finance.html), and [TimeSeries](https://cran.r-project.org/web/views/TimeSeries.html) provide information on packages and tools relevant to agriculture economics.
+  The task views for [Econometrics](https://cran.rstudio.com/web/views/Econometrics.html), [Empirical Finance](https://cran.r-project.org/web/views/Finance.html), and [TimeSeries](https://cran.r-project.org/web/views/TimeSeries.html) provide information on packages and tools relevant to agriculture economics.
 
 ### Agronomic trials
 
@@ -162,6 +162,7 @@ If you think that some package is missing from the list, please let us know/
 [meteor]: https://CRAN.R-project.org/package=meteor
 [nlme]: https://CRAN.R-project.org/package=nlme
 [nlraa]: https://cran.r-project.org/package=nlraa
+[NutrienTrackeR]: https://CRAN.R-project.org/package=NutrienTrackeR
 [pedigreemm]: https://CRAN.R-project.org/package=pedigreemm
 [phenorice]: https://github.com/cropmodels/phenorice
 [phenoriceR]: https://github.com/lbusett/phenoriceR
