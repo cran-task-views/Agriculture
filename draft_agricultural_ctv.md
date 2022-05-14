@@ -5,21 +5,23 @@ Agriculture encompasses a broad breadth of disciplines. Many, many package in ba
 
 Note that some of these packages are on CRAN and others are on GitHub, Bioconductor, or R-forge. 
 
-If you think that some package is missing from the list, please let us know/ 
+If you think that some package is missing from the list, please let us know. 
 
 ## Core Packages with general applications
 
-### Agricultural databases 
+### Agricultural and landuse databases 
   
-  Data from the United States Department of Agriculture's National Agricultural Statistical Service 'Quick Stats' web API can be accessed with [rnassqs][] or with [tidyUSDA][], which also offers some mapping capabilities. The USDA's Cropland data layer API can be accessed with [CropScapeR][]. [cdlTools][] provides various utility functions for working with the CDL. [rusda][] provides an interface to access the USDA-ARS Systematic Mycology and Microbiology Laboratory (SMML)'s four databases: Fungus-Host Distributions, Specimens, Literature and the Nomenclature database. USDA's Agricultural Resource Management Survey (ARMS) Data API can be accessed with [rarms][]. [FedData][] provides access to geospatial data from The Soil Survey Geographic (SSURGO) database, the Global Historical Climatology Network (GHCN), the Daymet gridded estimates of daily weather parameters for North America, the International Tree Ring Data Bank, and the National Land Cover Database (NLCD). The USDA's Livestock Mandatory Reporting data API can be accessed with [usdampr][]. [FAOSTAT][] and [faobulk][] can be used to access data from the FAOSTAT Database of the Food and Agricultural Organization (FAO) of the United Nations. There are many options for downloading current and historic weather data. This is generally beyond the scope of this guide, but [rnoaa][] one option to get you started for accessing NOAA data.
+  Data from the United States Department of Agriculture's National Agricultural Statistical Service '[Quick Stats](https://www.nass.usda.gov/Quick_Stats/)' web API can be accessed with [rnassqs][] or with [tidyUSDA][], which also offers some mapping capabilities. The USDA's [Cropland Data Layer](https://nassgeodata.gmu.edu/CropScape/) API can be accessed with [CropScapeR][] and [cdlTools][] provides various utility functions for processing CDL data. The package [rusda][] provides an interface to access the USDA-ARS Systematic Mycology and Microbiology Laboratory (SMML)'s [four databases](Literature and the Nomenclature database): Fungus-Host Distributions, Specimens, Literature and the Nomenclature database. USDA's Agricultural Resource Management Survey ([ARMS](https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Ag_Resource_Management/)) data API can be accessed with [rarms][]. The USDA's Livestock Mandatory Reporting data API can be accessed with [usdampr][]. [FAOSTAT][] and [faobulk][] can be used to access data from the [FAOSTAT Database](https://www.fao.org/faostat/en/#home) of the Food and Agricultural Organization (FAO) of the United Nations. 
+  
+  [FedData][] provides access to geospatial data from The Soil Survey Geographic ([SSURGO](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/?cid=nrcs142p2_053627)) database, the Global Historical Climatology Network ([GHCN](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily)), the Daymet gridded estimates of daily weather parameters for North America, the [International Tree Ring Data Bank](https://catalog.data.gov/dataset/international-tree-ring-data-bank-itrdb), and the [National Land Cover Database](https://www.usgs.gov/centers/eros/science/national-land-cover-database#overview). The NOAA database API can be acccessed with  [rnoaa][].
   
 ### Data sets
   
-  [Agridat][] consists of a very large collection of agricultural data sets and example analyses; the package contains a vignette detailing additional data sets and extensive resources to support agricultural analysis. [agritutorial][] provides a collection of agricultural data sets and analysis with particular attention to crop experiments. On GitHub, the R package [agroBioData][] also includes a collection of data sets supporting agriculture and applied biology. The soybean nested associated mapping project data set can be accessed via [SoyNAM][]. Many packages also include data sets to illustrate their functionality. [simplePhenotypes][] can be used for simulating pleiotropic, linked and epistatic Phenotypes. USGS county data on fertilizer sales can be accessed with [ggfertilizer][]. The FAOSTAT data set collection on the Food and Agriculture Biomass Input–Output model (FABIO) is available through [fabio][] and described more in detail in [Bruckner et al](https://pubs.acs.org/doi/10.1021/acs.est.9b03554). 
+  [Agridat][] consists of a very large collection of agricultural data sets and example analyses; the package contains a vignette detailing additional data sets and extensive resources to support agricultural analysis. [agritutorial][] provides a collection of agricultural data sets and analysis with particular attention to crop experiments. On GitHub, the repository [agroBioData][] houses a collection of data sets supporting agriculture and applied biology (note that this is a collection of CSV files, not a package). The [soybean nested associated mapping population data set](https://pubmed.ncbi.nlm.nih.gov/28724064/) can be accessed via [SoyNAM][].  [simplePhenotypes][] can be used for simulating pleiotropic, linked and epistatic Phenotypes. USGS county data on fertilizer sales can be accessed with [ggfertilizer][]. The FAOSTAT data set collection on the Food and Agriculture Biomass Input–Output model (FABIO) is available through [fabio][] and described more in detail in [Bruckner et al](https://pubs.acs.org/doi/10.1021/acs.est.9b03554). The R-forge subversion repository ['cropcc'](https://r-forge.r-project.org/scm/viewvc.php/pkg/?root=cropcc) hosts several R packages with climate change/cropping data set. Additionally, many  of the agriculture-focused packages listed in this guide also include data sets to illustrate their functionality (e.g. [BGLR][], [agricolae][], [FW][]).
  
-### Miscellaneous analytical applications for agriculture 
+### General analytical packages supporting agricultural research
   
-  [nlraa][] Nonlinear Regression for Agricultural Applications. The CRAN task view on [MissingData](https://cran.r-project.org/web/views/MissingData.html) is helpful for understanding how to impute for missing data. See the [Metanalysis CRAN task view](https://cran.r-project.org/web/views/MetaAnalysis.html) for packages supporting meta-analyses. Additionally, the R suite of linear and non-linear modelling packages, [nlme][], [lme4][], and [MCMCglmm][] are useful for analysing a wide array of studies. The accessory package [emmeans][] works with those packages (and more) to calculated the estimated marginal means for the independent variables. [fertplan][] provides fertilizer recommendations based on soil test results (note this packages is optimized for horticultural crop production in Italy). 
+  The package [nlraa][] provides nonlinear regression fucntions specifically for agricultural applications. [agriCensData] is a flexible package for working with censored data (e.g. time to flowering, instrumentation values below the detection limit, disease scoring). The R suite of linear and non-linear modelling packages, [nlme][], [lme4][], and [MCMCglmm][] are useful for analysing a wide array of studies. The accessory package [emmeans][] works with those packages (and more) to calculated the estimated marginal means for the independent variables. The CRAN task view on [MissingData](https://cran.r-project.org/web/views/MissingData.html) is helpful for understanding how to impute for missing data. See the [Metanalysis CRAN task view](https://cran.r-project.org/web/views/MetaAnalysis.html) for packages supporting meta-analyses.   
 
 ## Discipline-specific packages
 
@@ -39,11 +41,11 @@ If you think that some package is missing from the list, please let us know/
   
 #### Genotype-by-environment interactions
   
-  [statgenGxE][] has several functions for handling various analytical approaches for addressing genotype-by-environment interactions. [IBCF.MTME][] implements item-based collaborative filtering for multi-trait and multi-environment trials. The package [gge][] is useful for producing GGE biplots, while [bayesammi][] can conduct Bayesian estimation of additive main effects multiplicative interaction model. [EnvRtype][] can be used for assembling climate data, data set preparation and environmental classification. 
+  [statgenGxE][] has several functions for handling various analytical approaches for addressing genotype-by-environment interactions. [IBCF.MTME][] implements item-based collaborative filtering for multi-trait and multi-environment trials. The package [gge][] is useful for producing GGE biplots, while [bayesammi][] can conduct Bayesian estimation of additive main effects multiplicative interaction model. [EnvRtype][] can be used for assembling climate data, data set preparation and environmental classification. [FW][] implements Finlay-Wilkinson regression using a Gibbs sampler. 
   
 #### High throughput phenotyping (HTP)
   
-  [statgenHTP][] is for analyzing data from HTP platform experiments, with some functions specifically designed to work with the proprietary software [asreml](https://www.vsni.co.uk/software/asreml)
+  [statgenHTP][] is for analyzing data from HTP platform experiments, with some functions specifically designed to work with the proprietary software [asreml](https://www.vsni.co.uk/software/asreml).
   
 ### Animal science
 
@@ -51,7 +53,7 @@ If you think that some package is missing from the list, please let us know/
     
 ### Breeding and genetics
 
-  See the [Phylogenetics CRAN task view](https://cran.r-project.org/web/views/Phylogenetics.html) describes R packages supporting related topics like taxonomy, community ecology (including microbiome work). In addition, the R package repository [Bionconductor](https://www.bioconductor.org/) provides tools for the analysis and comprehension of high-throughput genomic data. 
+  See the [Phylogenetics CRAN task view](https://cran.r-project.org/web/views/Phylogenetics.html) describing R packages for taxonomy, community ecology (including microbiome work) and of course, phylogenetics. In addition, the R package repository [Bionconductor](https://www.bioconductor.org/) provides bioinformatics tools for the processing of high-throughput genomic data. [lmDiallel] provides service functions for analysing data sets obtained from diallel experiments, as described in [Onofri 2020](https://doi.org/10.1007%2Fs00122-020-03716-8). [plant breeding][] (available on R-forge: `install.packages("plantbreeding", repos="http://R-Forge.R-project.org")`) provides many convenience functions for working with populations and designs common in plant breeding including dialleles, line testers, augmented trials, the Carolina design, and more. [st4gi][] provides several general functions for genetic improvement of crops. 
   
 #### Linkage mapping & QTL analysis
   
@@ -59,11 +61,11 @@ If you think that some package is missing from the list, please let us know/
   
 #### GWAS
   
-  Genome-wide association study analysis can be conducted with [statgenGWAS][]. GWAS models across very large number of SNPs or observations can be estimated with [rMVP][] and [megaLMM][]. Functions for autotetraploid are provided by [GWASpoly][], and these functions also work in diploid species. [StageWise][] provides functiona to conduct a 2-stage GWAS when the underlying phenotypic data are from multiple field trials. 
+  Genome-wide association study analysis can be conducted with [statgenGWAS][]. GWAS models across very large number of SNPs or observations can be estimated with [rMVP][] and [megaLMM][]. Functions for autotetraploids are provided by [GWASpoly][], and these functions also work in diploid species. [StageWise][] provides functions to conduct a 2-stage GWAS when the underlying phenotypic data are from multiple field trials. 
   
 #### General Genetic Prediction
   
-  Packages supporting genetic prediction from pedigree or genetic marker data include [sommer][], [rrBLUP][], [BGLR][], [lme4gs][], [lme4qtl][], [pedigreemm][], [qgtools]() and the licensed software [asreml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices. [AGHmatrix][] provides extensive options for calculating pedigree and genomic (additive and dominance) relationship matrices and [statgenIBD][] can calculate IBD probabilities for biparental, three and four-way crosses. [breedR][] is a general purpose package for performing quantitative genetic analyses. For polyploids, [polyBreedR][] provides convenience functions to facilitate the use of genome-wide markers for breeding autotetraploid species, and its functionality also extends to diploids. 
+  Packages supporting genetic prediction from pedigree or genetic marker data include [sommer][], [rrBLUP][], [BGLR][], [lme4gs][], [lme4qtl][], [pedigreelmm][], [qgtools]() and the licensed software [asreml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices. [AGHmatrix][] provides extensive options for calculating pedigree and genomic (additive and dominance) relationship matrices and [statgenIBD][] can calculate IBD probabilities for biparental, three and four-way crosses. [breedR][] is a general purpose package for performing quantitative genetic analyses. For polyploids, [polyBreedR][] provides convenience functions to facilitate the use of genome-wide markers for breeding autotetraploid species, and its functionality also extends to diploids. 
   
 ### Crop Modelling
 
@@ -76,11 +78,11 @@ If you think that some package is missing from the list, please let us know/
 
 ### Entomology
 
-  [hnp][] Generates half-normal plots with simulation envelopes using different diagnostics from a range of different fitted models. A few example datasets are included.
+  [hnp][] Generates half-normal plots with simulation envelopes using different diagnostics from a range of different fitted models. A few example datasets are included. The package [agriCensData][] provides functions for dealing with censored data. In addition, the [survival CRAN Task View](https://cran.microsoft.com/snapshot/2022-03-27/web/views/Survival.html) list CRAN resources for working with censored data. 
     
 ### Food science
 
-  For packages supporting sensory studies, ee the [Psychometrics CRAN task view](https://cran.r-project.org/web/views/Psychometrics.html). [NutrienTrackeR][] provides convenience functions for calculating nutrient content (macronutrients and micronutrients) of foods using food composition data from several reference databases, including: 'USDA' (United States), 'CIQUAL' (France), 'BEDCA' (Spain) and 'CNF' (Canada). 
+  For packages supporting sensory studies, see the [Psychometrics CRAN task view](https://cran.r-project.org/web/views/Psychometrics.html). [NutrienTrackeR][] provides convenience functions for calculating nutrient content (macronutrients and micronutrients) of foods using food composition data from several reference databases, including: 'USDA' (United States), 'CIQUAL' (France), 'BEDCA' (Spain) and 'CNF' (Canada). 
 
 ### Plant pathology
 
@@ -88,21 +90,11 @@ If you think that some package is missing from the list, please let us know/
   
 ### Rural Sociology
 
-  See the CRAN task view for [Psychometrics](https://cran.r-project.org/web/views/Psychometrics.html) and [SocialScience](https://cran.r-project.org/web/views/SocialSciences.html)
+  See the CRAN task view for [Psychometrics](https://cran.r-project.org/web/views/Psychometrics.html) and [SocialScience](https://cran.r-project.org/web/views/SocialSciences.html). Both the ['Survival' CRAN task view](https://cran.microsoft.com/snapshot/2022-03-27/web/views/Survival.html) and the [agriCensData][] package provide tools for working with interval and censored data. 
 
 ### Soil Science
-
-#### General 
   
-  [sharpshootR][] is a compendium of utility functions supporting soils survey including data management, summary, visualizations and conversions.
-    
-#### Pedology
-  
-  [aqp](https://github.com/ncss-tech/aqp/), a toolkit for soil scientists: specialized data structures, soil profile summary, visualization, color conversion, and more. [soilDB](https://github.com/ncss-tech/soilDB/), a convenient interface most USDA-NRCS soils related databases and APIs. [SoilTaxonomy][] provides functions for parsing soil taxonomic terms. 
-    
-#### Spatial Statistics
-  
-  The ["Spatial"](https://CRAN.R-project.org/view=Spatial) and ["Spatio-Temporal"](https://CRAN.R-project.org/view=SpatioTemporal) CRAN task views provide extensive resources in this topic. 
+  [sharpshootR][] contains a compendium of utility functions supporting soils survey work including data management, summary, visualizations and conversions.For soil pedology, [aqp](https://github.com/ncss-tech/aqp/) provides a general toolkit for soil scientists: specialized data structures, soil profile summary, visualization, color conversion, and more. Most USDA-NRCS soils related databases and APIs can be accessed with [soilDB](https://github.com/ncss-tech/soilDB/). [SoilTaxonomy][] provides functions for parsing soil taxonomic terms. The ["Spatial"](https://CRAN.R-project.org/view=Spatial) and ["Spatio-Temporal"](https://CRAN.R-project.org/view=SpatioTemporal) CRAN task views provide extensive resources in spatial statistics. [fertplan][] provides fertilizer recommendations based on soil test results (note this packages is optimized for horticultural crop production in Italy).
 
 ### Weed Science
 
@@ -119,6 +111,7 @@ If you think that some package is missing from the list, please let us know/
 -----------------------------------------------------------------
 
 [AGHmatrix]: https://CRAN.R-project.org/package=AGHmatrix
+[agriCensData]: https://github.com/OnofriAndreaPG/agriCensData
 [agricolae]: https://CRAN.R-project.org/package=agricolae
 [agridat]: https://CRAN.R-project.org/package=agridat 
 [agriTutorial]: https://CRAN.R-project.org/package=agriTutorial
@@ -145,6 +138,7 @@ If you think that some package is missing from the list, please let us know/
 [FAOSTAT]: https://CRAN.R-project.org/package=FAOSTAT
 [FedData]: https://CRAN.R-project.org/package=FedData
 [fertplan]: https://github.com/mbask/fertplan
+[FW]: https://github.com/lian0090/FW/
 [ggfertilizer]: https://github.com/wenlong-liu/ggfertilizer
 [gge]: https://CRAN.R-project.org/package=gge 
 [GWASpoly]: https://github.com/jendelman/GWASpoly
@@ -153,6 +147,7 @@ If you think that some package is missing from the list, please let us know/
 [IBCF.MTME]: https://CRAN.R-project.org/package=IBCF.MTME
 [INLA]: https://github.com/inbo/INLA
 [LinkageMapView]: https://CRAN.R-project.org/package=LinkageMapView 
+[lmDiallel]:  https://CRAN.R-project.org/package=lmDiallel 
 [lme4]: https://CRAN.R-project.org/package=lme4
 [lme4gs]: https://github.com/perpdgo/lme4GS
 [lme4qtl]: https://github.com/variani/lme4qtl
@@ -168,6 +163,7 @@ If you think that some package is missing from the list, please let us know/
 [pedigreemm]: https://CRAN.R-project.org/package=pedigreemm
 [phenorice]: https://github.com/cropmodels/phenorice
 [phenoriceR]: https://github.com/lbusett/phenoriceR
+[plantbreeding]: https://r-forge.r-project.org/projects/plantbreeding/
 [polyBreedR]: https://github.com/jendelman/polyBreedR
 [polymapR]: https://CRAN.R-project.org/package=polymapR
 [polyqtlR]: https://CRAN.R-project.org/package=polyqtlR 
@@ -192,6 +188,7 @@ If you think that some package is missing from the list, please let us know/
 [soilDB]: https://CRAN.R-project.org/package=soilDB
 [SoilTaxonomy]: https://CRAN.R-project.org/package=SoilTaxonomy
 [SoyNAM]: https://CRAN.R-project.org/package=SoyNAM 
+[st4gi]: https://github.com/reyzaguirre/st4gi
 [StageWise]: https://github.com/jendelman/StageWise
 [statgenGWAS]: https://CRAN.R-project.org/package=statgenGWAS
 [statgenGxE]: https://CRAN.R-project.org/package=statgenGxE 
