@@ -21,7 +21,7 @@ If you think that some package is missing from the list, please let us know.
  
 ### General analytical packages supporting agricultural research
   
-  The package [nlraa][] provides nonlinear regression fucntions specifically for agricultural applications. [agriCensData] is a flexible package for working with censored data (e.g. time to flowering, instrumentation values below the detection limit, disease scoring). The R suite of linear and non-linear modelling packages, [nlme][], [lme4][], and [MCMCglmm][] are useful for analysing a wide array of studies. The accessory package [emmeans][] works with those packages (and more) to calculated the estimated marginal means for the independent variables. The CRAN task view on [MissingData](https://cran.r-project.org/web/views/MissingData.html) is helpful for understanding how to impute for missing data. See the [Metanalysis CRAN task view](https://cran.r-project.org/web/views/MetaAnalysis.html) for packages supporting meta-analyses.   
+  The package [nlraa][] provides nonlinear regression functions specifically for agricultural applications. [agriCensData][] is a flexible package for working with censored data (e.g. time to flowering, instrumentation values below the detection limit, disease scoring). 
 
 ## Discipline-specific packages
 
@@ -131,7 +131,6 @@ If you think that some package is missing from the list, please let us know.
 [diaQTL]: https://github.com/jendelman/diaQTL
 [drc]: https://CRAN.R-project.org/package=drc 
 [DSSAT]: https://CRAN.R-project.org/package=DSSAT 
-[emmeans]: https://CRAN.R-project.org/package=emmeans
 [EnvRtype]: https://github.com/allogamous/EnvRtype
 [epifitter]: https://CRAN.R-project.org/package=epifitter
 [epiphy]: https://CRAN.R-project.org/package=epiphy 
@@ -150,7 +149,6 @@ If you think that some package is missing from the list, please let us know.
 [INLA]: https://github.com/inbo/INLA
 [LinkageMapView]: https://CRAN.R-project.org/package=LinkageMapView 
 [lmDiallel]:  https://CRAN.R-project.org/package=lmDiallel 
-[lme4]: https://CRAN.R-project.org/package=lme4
 [lme4gs]: https://github.com/perpdgo/lme4GS
 [lme4qtl]: https://github.com/variani/lme4qtl
 [mappoly]: https://CRAN.R-project.org/package=mappoly 
@@ -158,7 +156,6 @@ If you think that some package is missing from the list, please let us know.
 [MCMCglmm]: https://CRAN.R-project.org/package=MCMCglmm
 [MegaLMM]: https://github.com/deruncie/MegaLMM/
 [meteor]: https://CRAN.R-project.org/package=meteor
-[nlme]: https://CRAN.R-project.org/package=nlme
 [nlraa]: https://cran.r-project.org/package=nlraa
 [NutrienTrackeR]: https://CRAN.R-project.org/package=NutrienTrackeR
 [onemap]: https://CRAN.R-project.org/package=onemap
