@@ -5,16 +5,20 @@
 **New contributors welcomed!**
 
 This is intended to be a curated collection of R packages and other R resources that serve agricultural research. The Task View highlights packages that provide features for the following categories:
-* General Agriculture
-* Soil Science
-* Agronomic Trials
-* Breeding and Genetics
-* Entomology
-* Plant Pathology
-* Weed Science
+
+* Agricultural Economiics
+* Agronomic Trials (design and analysis)
 * Animal Science
+* Breeding and Quantitative Genetics
+* Crop Modelling/Crop Growth Models
+* Entomology
 * Food Science
+* General Agriculture (agriculture-specific analysis, ag data sets and interfaces to ag databases)
+* Plant Pathology
 * Rural Sociology
+* Soil Science
+* Weed Science
+
 
 Suggestions are welcome! If you think there should be another category or if you know of a package that fits into one of these categories, but is missing from the Task View, please open an [Issue][new-issue] to discuss. Also, see the **[contributing](.github/CONTRIBUTING.md)** instructions for more details. 
 
@@ -39,14 +43,18 @@ project you agree to abide by its terms.
 
 **Current maintainers:**
 
-* [Julia Piaskowski](https://github.com/jpiaskowski)
+* [Julia Piaskowski](@jpiaskowski)
+* [Adam H Sparks](@adamhsparks)
+* [Janet Williams](@janetw)
+
 
 **Contributors:**
 
-* [Adam H Sparks](https://github.com/adamhsparks)
-* [Kevin Wright](https://github.com/kwstat)
-* [Dylan Beaudette](https://github.com/dylanbeaudette)
+* [Kevin Wright](@kwstat)
+* [Dylan Beaudette](@dylanbeaudette)
 
 
-The structure of this repository is substantially adapted from the [Reproducible Research CRAN Task View](https://github.com/jdblischak/reproducible-research-ctv). We gratefully acknowledge their work in building these resources 
+---------------------------------
+
+The structure of this repository is substantially adapted from the [Reproducible Research CRAN Task View](https://github.com/jdblischak/reproducible-research-ctv). We gratefully acknowledge their work in building these resources.  
 
