@@ -13,7 +13,7 @@ If you think that some package is missing from the list, please let us know.
   
   Data from the United States Department of Agriculture's National Agricultural Statistical Service '[Quick Stats](https://www.nass.usda.gov/Quick_Stats/)' web API can be accessed with [rnassqs][] or with [tidyUSDA][], which also offers some mapping capabilities. The USDA's [Cropland Data Layer](https://nassgeodata.gmu.edu/CropScape/) API can be accessed with [CropScapeR][] and [cdlTools][] provides various utility functions for processing CDL data. The package [rusda][] provides an interface to access the USDA-ARS Systematic Mycology and Microbiology Laboratory (SMML)'s [four databases](Literature and the Nomenclature database): Fungus-Host Distributions, Specimens, Literature and the Nomenclature database. USDA's Agricultural Resource Management Survey ([ARMS](https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Ag_Resource_Management/)) data API can be accessed with [rarms][]. The USDA's Livestock Mandatory Reporting data API can be accessed with [usdampr][]. [FAOSTAT][] and [faobulk][] can be used to access data from the [FAOSTAT Database](https://www.fao.org/faostat/en/#home) of the Food and Agricultural Organization (FAO) of the United Nations. 
   
-  [FedData][] provides access to geospatial data from The Soil Survey Geographic ([SSURGO](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/?cid=nrcs142p2_053627)) database, the Global Historical Climatology Network ([GHCN](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily)), the Daymet gridded estimates of daily weather parameters for North America, the [International Tree Ring Data Bank](https://catalog.data.gov/dataset/international-tree-ring-data-bank-itrdb), and the [National Land Cover Database](https://www.usgs.gov/centers/eros/science/national-land-cover-database#overview). SSURGO data can also be accessed and processed with [XPolaris][].
+  [FedData][] provides access to geospatial data from The Soil Survey Geographic ([SSURGO](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/?cid=nrcs142p2_053627)) database, the Global Historical Climatology Network ([GHCN](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily)), the Daymet gridded estimates of daily weather parameters for North America, the [International Tree Ring Data Bank](https://catalog.data.gov/dataset/international-tree-ring-data-bank-itrdb), and the [National Land Cover Database](https://www.usgs.gov/centers/eros/science/national-land-cover-database#overview). SSURGO data can also be accessed and processed with [XPolaris][]. Most USDA-NRCS soils related databases and APIs can be accessed with [soilDB][]. [SISINTAR][] provides access to SiSINTA (Sistema de información de Suelos del INTA), a soil profile database for Argentina, and functions for processing the data.
   
 ### Agricultural data sets
   
@@ -43,7 +43,6 @@ If you think that some package is missing from the list, please let us know.
   
   The package [agricolae][] contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. [statgenSTA][] has functions for single trial analysis with and without spatial components. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model fitting functions for field trial analysis (note this is not open source and also requires an annual license). CRAN also contains an add-on package [asremlPlus][] that provides several accessory functions to asreml. [INLA][] provides tools for Bayesian inference of latent Gaussian models. It contains functions for modelling spatial variation, such as field experiments or farm locations. [SpATS][] can be used to adjust for field spatial variation using [p-splines](http://dx.doi.org/10.1002/bimj.202100212). A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with the [mvngGrAd][]. 
   
-
   
 ### Animal science
 
@@ -51,7 +50,7 @@ If you think that some package is missing from the list, please let us know.
     
 ### Breeding & quantitative genetics
 
-  See the [Phylogenetics CRAN task view](https://cran.r-project.org/web/views/Phylogenetics.html) describing R packages for taxonomy, community ecology (including microbiome work) and of course, phylogenetics. In addition, the R package repository [Bionconductor](https://www.bioconductor.org/) provides bioinformatics tools for the processing of high-throughput genomic data. [lmDiallel] provides service functions for analysing data sets obtained from diallel experiments, as described in [Onofri 2020](https://doi.org/10.1007%2Fs00122-020-03716-8). [plant breeding][] (available on R-forge: `install.packages("plantbreeding", repos="http://R-Forge.R-project.org")`) provides many convenience functions for working with populations and designs common in plant breeding including dialleles, line testers, augmented trials, the Carolina design, and more. [st4gi][] provides several general functions for genetic improvement of crops. Also, please see the subsection on "genotype-by-environment interactions" for packages integrating environmental and genomic data in an analytical framework. [AlphaSimR][] is an implementation of the [AlphaSim algorithm](doi:10.3835/plantgenome2016.02.0013) in R, providing functions for stochastic modelling of processes common to breeding programs such as selection and crossing. 
+  See the [Phylogenetics CRAN task view](https://cran.r-project.org/web/views/Phylogenetics.html) describing R packages for taxonomy, community ecology (including microbiome work) and of course, phylogenetics. In addition, the R package repository [Bionconductor](https://www.bioconductor.org/) provides bioinformatics tools for the processing of high-throughput genomic data. [lmDiallel] provides service functions for analysing data sets obtained from diallel experiments, as described in [Onofri 2020](https://doi.org/10.1007%2Fs00122-020-03716-8). [plant breeding][] (available on R-forge: `install.packages("plantbreeding", repos="http://R-Forge.R-project.org")`) provides many convenience functions for working with populations and designs common in plant breeding including dialleles, line testers, augmented trials, the Carolina design, and more. [st4gi][] provides several general functions for genetic improvement of crops. Also, please see the subsection on "genotype-by-environment interactions" for packages integrating environmental and genomic data in an analytical framework. [AlphaSimR][] is an implementation of the [AlphaSim algorithm](doi:10.3835/plantgenome2016.02.0013) in R, providing functions for stochastic modelling of processes common to breeding programs such as selection and crossing. [MoBPS][] has a suite of functions for simulating genetic gain and economic costs in a plant breeding program. 
   
 #### Linkage mapping & QTL analysis
   
@@ -97,7 +96,8 @@ of variables with embedded screening [SVEN](https://arxiv.org/abs/2006.07561)
 
 ### Soil science
   
-  [sharpshootR][] contains a compendium of utility functions supporting soils survey work including data management, summary, visualizations and conversions.For soil pedology, [aqp](https://github.com/ncss-tech/aqp/) provides a general toolkit for soil scientists: specialized data structures, soil profile summary, visualization, color conversion, and more. Most USDA-NRCS soils related databases and APIs can be accessed with [soilDB](https://github.com/ncss-tech/soilDB/). [SoilTaxonomy][] provides functions for parsing soil taxonomic terms. The ["Spatial"](https://CRAN.R-project.org/view=Spatial) and ["Spatio-Temporal"](https://CRAN.R-project.org/view=SpatioTemporal) CRAN task views provide extensive resources in spatial statistics. [fertplan][] provides fertilizer recommendations based on soil test results (note this packages is optimized for horticultural crop production in Italy). [soiltestcorr][] has functions for conducting correlation analysis between soil test values and crop yield data. 
+  [sharpshootR][] contains a compendium of utility functions supporting soils survey work including data management, summary, visualizations and conversions.For soil pedology, [aqp](https://github.com/ncss-tech/aqp/) provides a general toolkit for soil scientists: specialized data structures, soil profile summary, visualization, color conversion, and more. [SoilTaxonomy][] provides functions for parsing soil taxonomic terms. The ["Spatial"](https://CRAN.R-project.org/view=Spatial) and ["Spatio-Temporal"](https://CRAN.R-project.org/view=SpatioTemporal) CRAN task views provide extensive resources in spatial statistics. [fertplan][] provides fertilizer recommendations based on soil test results (note this packages is optimized for horticultural crop production in Italy). [soiltestcorr][] has functions for conducting correlation analysis between soil test values and crop yield data. 
+
 
 ### Weed science
 
@@ -162,6 +162,7 @@ of variables with embedded screening [SVEN](https://arxiv.org/abs/2006.07561)
 [MegaLMM]: https://github.com/deruncie/MegaLMM/
 [meteor]: https://CRAN.R-project.org/package=meteor
 [metrica]: https://CRAN.R-project.org/package=metrica
+[MoBPS]: https://github.com/tpook92/mobps  
 [mvngGrAd]: https://cran.r-project.org/package=mvngGrAd
 [nlraa]: https://cran.r-project.org/package=nlraa
 [NutrienTrackeR]: https://CRAN.R-project.org/package=NutrienTrackeR
@@ -189,6 +190,7 @@ of variables with embedded screening [SVEN](https://arxiv.org/abs/2006.07561)
 [Rwofost]: https://CRAN.R-project.org/package=Rwofost
 [sharpshootR]: https://CRAN.R-project.org/package=sharpshootR
 [simplePHENOTYPES]: https://github.com/samuelbfernandes/simplePHENOTYPES
+[SISINTAR]: https://github.com/INTA-Suelos/SISINTAR  
 [sommer]: https://CRAN.R-project.org/package=sommer
 [soilDB]: https://CRAN.R-project.org/package=soilDB
 [SoilTaxonomy]: https://CRAN.R-project.org/package=SoilTaxonomy
