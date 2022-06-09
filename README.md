@@ -6,19 +6,28 @@
 
 This is intended to be a curated collection of R packages and other R resources that serve agricultural research. The Task View highlights packages that provide features for the following categories:
 
-* Agricultural Economiics
-* Agronomic Trials (design and analysis)
-* Animal Science
-* Breeding and Quantitative Genetics
-* Crop Modelling/Crop Growth Models
-* Entomology
-* Food Science
-* General Agriculture (agriculture-specific analysis, ag data sets and interfaces to ag databases)
-* Plant Pathology
-* Rural Sociology
-* Soil Science
-* Weed Science
-
+* General Packages   
+  * Agricultural & landuse databases   
+  * Agricultural data sets  
+  * General analytical packages  
+* Discipline-Specific Packages  
+  * Agronomic trials  
+      * Experimental design   
+      * High throughput phenotyping (HTP)   
+      * Trial analysis
+  * Animal science  
+  * Breeding & quantitative genetics  
+    * Linkage mapping & QTL analysis   
+    * GWAS  
+    * Genomic prediction   
+  * Crop growth models & crop modelling  
+  * Entomology  
+  * Food science  
+  * Genotype-by-environment interactions  
+  * Plant pathology  
+  * Rural sociology  
+  * Soil science  
+  * Weed science  
 
 Suggestions are welcome! If you think there should be another category or if you know of a package that fits into one of these categories, but is missing from the Task View, please open an [Issue][new-issue] to discuss. Also, see the **[contributing](.github/CONTRIBUTING.md)** instructions for more details. 
 
@@ -37,8 +46,8 @@ The `ctv` file in this repository will manually sync with the official copy in t
 * **Code of Conduct:** Please note that this project is released with a
 [Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md). By participating in this
 project you agree to abide by its terms.
-* **Contributing:** We welcome suggestions for packages to add. See the
-[Contributing instructions](.github/CONTRIBUTING.md) for details.
+* **Contributing:** We welcome suggestions for packages to add (including those not on CRAN). If you think that some package is missing from the list, please let us know. See the [general contributing instructions](https://github.com/cran-task-views/ctv/blob/main/Contributing.md) and
+[specific contributing instructions](.github/CONTRIBUTING.md). 
 * **License:** CC-BY 4.0. See file [LICENSE](.github/LICENSE) for details.
 
 **Current maintainers:**
@@ -46,12 +55,6 @@ project you agree to abide by its terms.
 * [Julia Piaskowski](@jpiaskowski)
 * [Adam H Sparks](@adamhsparks)
 * [Janet Williams](@janetw)
-
-
-**Contributors:**
-
-* [Kevin Wright](@kwstat)
-* [Dylan Beaudette](@dylanbeaudette)
 
 
 ---------------------------------

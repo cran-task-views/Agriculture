@@ -7,7 +7,7 @@ Note that some of these packages are on CRAN and others are on GitHub, Bioconduc
 
 If you think that some package is missing from the list, please let us know. 
 
-## Core Packages with general applications
+## Packages with general applications
 
 ### Agricultural & landuse databases 
   
@@ -34,15 +34,16 @@ If you think that some package is missing from the list, please let us know.
 #### Experimental design 
   
   The package [agricolae][] provides extensive resources for the planning and analysis of planned field experiments. The CRAN task for [ExperimentalDesign](https://cran.rstudio.com/web/views/Econometrics.html) provide additional information on experimental design for a wide variety of research problems. [desplot][] is for plotting maps of agricultural trials laid out in grids. 
-  
-#### General analysis
-  
-  The package [agricolae][] contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. [statgenSTA][] has functions for single trial analysis with and without spatial components. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model fitting functions for field trial analysis (note this is not open source and also requires an annual license). CRAN also contains an add-on package [asremlPlus][] that provides several accessory functions to asreml. [INLA][] provides tools for Bayesian inference of latent Gaussian models. It contains functions for modelling spatial variation, such as field experiments or farm locations. [SpATS][] can be used to adjust for field spatial variation using [p-splines](http://dx.doi.org/10.1002/bimj.202100212). A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with the [mvngGrAd][]. 
-  
-  
+
 #### High throughput phenotyping (HTP)
   
   [statgenHTP][] is for analyzing data from HTP platform experiments, with some functions specifically designed to work with the proprietary software [asreml](https://www.vsni.co.uk/software/asreml).
+  
+#### Trial analysis
+  
+  The package [agricolae][] contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. [statgenSTA][] has functions for single trial analysis with and without spatial components. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model fitting functions for field trial analysis (note this is not open source and also requires an annual license). CRAN also contains an add-on package [asremlPlus][] that provides several accessory functions to asreml. [INLA][] provides tools for Bayesian inference of latent Gaussian models. It contains functions for modelling spatial variation, such as field experiments or farm locations. [SpATS][] can be used to adjust for field spatial variation using [p-splines](http://dx.doi.org/10.1002/bimj.202100212). A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with the [mvngGrAd][]. 
+  
+
   
 ### Animal science
 

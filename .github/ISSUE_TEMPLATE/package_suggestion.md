@@ -12,14 +12,30 @@ about: Suggest a package to be included in the Task View
 
 https://cran.r-project.org/package=
 
-3. Which category do you think is the best fit for the package:
+3. Which category do you think is the best fit for the package:   
 
-General Agriculture,
-Soil Science,
-Agronomic Trials,
-Plant Breeding and Genetics,
-Entomology,
-Animal Science,
-Food Science,
-Rural Sociology,
-Agricultural Economics
+*(Delete those categories which do not apply)*
+
+* General Packages   
+  * Agricultural & landuse databases   
+  * Agricultural data sets  
+  * General analytical packages  
+* Discipline-Specific Packages  
+  * Agronomic trials  
+      * Experimental design   
+      * High throughput phenotyping (HTP)   
+      * Trial analysis
+  * Animal science  
+  * Breeding & quantitative genetics  
+    * Linkage mapping & QTL analysis   
+    * GWAS  
+    * Genomic prediction   
+  * Crop growth models & crop modelling  
+  * Entomology  
+  * Food science  
+  * Genotype-by-environment interactions  
+  * Plant pathology  
+  * Rural sociology  
+  * Soil science  
+  * Weed science  
+  

@@ -5,25 +5,28 @@ Agriculture science encompasses a broad breadth of disciplines. Many many packag
 
 Our core areas encompass packages for:
 
-  * Accessing Federal agricultural databases and data sets relevant to agricultural scientists   
-  * Soil science   
-  * Tools for agronomic field trials   
-    * experimental design   
-    * Genotype-by-environment interactions   
-    * general analysis of planned field experiments (not ecological studies)   
-  * breeding and genetics   
-    * linkage and QTL mapping   
-    * GWAS (genome-wide association studies)   
-    * genetic prediction  
-  * Entomology    
-  * Plant Pathology   
-  * Weed Science (for weed science-related topics not captured by environmetrics)   
-  * Crop Modelling   
-  * Animal Science   
-  * Food Science   
-  * Rural Sociology   
-  * Agricultural Economics   
-
+* General Packages   
+  * Agricultural & landuse databases   
+  * Agricultural data sets  
+  * General analytical packages  
+* Discipline-Specific Packages  
+  * Agronomic trials  
+      * Experimental design   
+      * High throughput phenotyping (HTP)   
+      * Trial analysis
+  * Animal science  
+  * Breeding & quantitative genetics  
+    * Linkage mapping & QTL analysis   
+    * GWAS  
+    * Genomic prediction   
+  * Crop growth models & crop modelling  
+  * Entomology  
+  * Food science  
+  * Genotype-by-environment interactions  
+  * Plant pathology  
+  * Rural sociology  
+  * Soil science  
+  * Weed science  
 
 #### Packages
 

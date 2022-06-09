@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for your interest in contributing to the [CRAN Task View on Agriculture][ctv-ag]!
+Thanks for your interest in contributing to the [CRAN Task View on Agriculture][ctv-ag]! 
 
 [ctv-ag]: https://cran.r-project.org/view=agriculture
 
