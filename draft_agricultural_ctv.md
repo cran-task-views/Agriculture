@@ -147,7 +147,7 @@ of variables with embedded screening [SVEN](https://arxiv.org/abs/2006.07561)
 [ggfertilizer]: https://github.com/wenlong-liu/ggfertilizer
 [gge]: https://CRAN.R-project.org/package=gge 
 [GWASpoly]: https://github.com/jendelman/GWASpoly
-[gosset]: https://github.com/AgrDataSci/gosset
+[gosset]: https://CRAN.R-project.org/package=gosset
 [hagis]: https://CRAN.R-project.org/package=hagis
 [hnp]: https://cran.r-project.org/package=hnp 
 [IBCF.MTME]: https://CRAN.R-project.org/package=IBCF.MTME
