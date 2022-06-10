@@ -9,9 +9,9 @@ If you think that some package is missing from the list, please let us know.
 
 ## Packages with general applications
 
-### Agricultural & landuse databases 
+### Agricultural & land use databases 
   
-  Data from the United States Department of Agriculture's National Agricultural Statistical Service '[Quick Stats](https://www.nass.usda.gov/Quick_Stats/)' web API can be accessed with [rnassqs][] or with [tidyUSDA][], which also offers some mapping capabilities. The USDA's [Cropland Data Layer](https://nassgeodata.gmu.edu/CropScape/) API can be accessed with [CropScapeR][] and [cdlTools][] provides various utility functions for processing CDL data. The package [rusda][] provides an interface to access the USDA-ARS Systematic Mycology and Microbiology Laboratory (SMML)'s [four databases](Literature and the Nomenclature database): Fungus-Host Distributions, Specimens, Literature and the Nomenclature database. USDA's Agricultural Resource Management Survey ([ARMS](https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Ag_Resource_Management/)) data API can be accessed with [rarms][]. The USDA's Livestock Mandatory Reporting data API can be accessed with [usdampr][]. [FAOSTAT][] and [faobulk][] can be used to access data from the [FAOSTAT Database](https://www.fao.org/faostat/en/#home) of the Food and Agricultural Organization (FAO) of the United Nations. 
+  Data from the United States Department of Agriculture's National Agricultural Statistical Service '[Quick Stats](https://www.nass.usda.gov/Quick_Stats/)' web API can be accessed with [rnassqs][] or with [tidyUSDA][], which also offers some mapping capabilities. The USDA's [Cropland Data Layer](https://nassgeodata.gmu.edu/CropScape/) API can be accessed with [CropScapeR][] and [cdlTools][] provides various utility functions for processing CDL data. The package [rusda][] provides an interface to access the USDA-ARS Systematic Mycology and Microbiology Laboratory (SMML)'s [four databases](https://nt.ars-grin.gov/fungaldatabases/index.cfm): Fungus-Host Distributions, Specimens, Literature and the Nomenclature database. USDA's Agricultural Resource Management Survey ([ARMS](https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Ag_Resource_Management/)) data API can be accessed with [rarms][]. The USDA's Livestock Mandatory Reporting data API can be accessed with [usdampr][]. [FAOSTAT][] and [faobulk][] can be used to access data from the [FAOSTAT Database](https://www.fao.org/faostat/en/#home) of the Food and Agricultural Organization (FAO) of the United Nations. 
   
   [FedData][] provides access to geospatial data from The Soil Survey Geographic ([SSURGO](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/?cid=nrcs142p2_053627)) database, the Global Historical Climatology Network ([GHCN](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily)), the Daymet gridded estimates of daily weather parameters for North America, the [International Tree Ring Data Bank](https://catalog.data.gov/dataset/international-tree-ring-data-bank-itrdb), and the [National Land Cover Database](https://www.usgs.gov/centers/eros/science/national-land-cover-database#overview). SSURGO data can also be accessed and processed with [XPolaris][]. Most USDA-NRCS soils related databases and APIs can be accessed with [soilDB][]. [SISINTAR][] provides access to SiSINTA (Sistema de información de Suelos del INTA), a soil profile database for Argentina, and functions for processing the data.
   
@@ -29,6 +29,10 @@ If you think that some package is missing from the list, please let us know.
 
   The task views for [Econometrics](https://cran.rstudio.com/web/views/Econometrics.html), [Empirical Finance](https://cran.r-project.org/web/views/Finance.html), and [TimeSeries](https://cran.r-project.org/web/views/TimeSeries.html) provide information on packages and tools relevant to agriculture economics.
 
+### Agrometerology
+
+  [Meteor][] provides a set of functions for weather and climate data manipulation to support crop and crop disease modeling. The [agromet][] package includes a series of functions to calculate climatic and hydrological indices and statistics from tidy data.  United States weather data from NOAA can be accessed with [rnoaa][]. Historic U.S. climate data from the [PRISM Climate Group](https://www.prism.oregonstate.edu/) can be accessed with [prism][]. Data from the [Copernicus](https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agrometeorological-indicators?tab=overview) data set of agrometerological indicators can be downloaded and extracted using [ag5Tools][]. 
+  
 ### Agronomic trials
 
 #### Experimental design 
@@ -41,7 +45,7 @@ If you think that some package is missing from the list, please let us know.
   
 #### Trial analysis
   
-  The package [agricolae][] contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. [statgenSTA][] has functions for single trial analysis with and without spatial components. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model fitting functions for field trial analysis (note this is not open source and also requires an annual license). CRAN also contains an add-on package [asremlPlus][] that provides several accessory functions to asreml. [INLA][] provides tools for Bayesian inference of latent Gaussian models. It contains functions for modelling spatial variation, such as field experiments or farm locations. [SpATS][] can be used to adjust for field spatial variation using [p-splines](http://dx.doi.org/10.1002/bimj.202100212). A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with the [mvngGrAd][]. [ClimMobTools][] is the API Client for the '[ClimMob](https://climmob.net/)' platform in R. ClimMob is an open source software for decentralized large-N trials with the 'tricot' approach developed by [van Etten et al. (2019)](https://doi.org/10.1017/S0014479716000739) 'tricot' turns the research paradigm on its head; instead of a few researchers designing complicated trials to compare several technologies in search of the best solutions, it enables many participants to carry out reasonably simple experiments that taken together can offer even more information. The [gosset][] package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation.
+  The package [agricolae][] contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. [statgenSTA][] has functions for single trial analysis with and without spatial components. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model fitting functions for field trial analysis (note this is not open source and also requires an annual license). CRAN also contains an add-on package [asremlPlus][] that provides several accessory functions to asreml. [INLA][] provides tools for Bayesian inference of latent Gaussian models. It contains functions for modelling spatial variation, such as field experiments or farm locations. [SpATS][] can be used to adjust for field spatial variation using [p-splines](http://dx.doi.org/10.1002/bimj.202100212). A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with the [mvngGrAd][]. [ClimMobTools][] is the API Client for the [ClimMob](https://climmob.net/) citizen science platform in R. The [gosset][] package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation.
   
 ### Animal science
 
@@ -91,11 +95,11 @@ of variables with embedded screening [SVEN](https://arxiv.org/abs/2006.07561)
   
 ### Rural sociology
 
-  See the CRAN task view for [Psychometrics](https://cran.r-project.org/web/views/Psychometrics.html) and [SocialScience](https://cran.r-project.org/web/views/SocialSciences.html). Both the ['Survival' CRAN task view](https://cran.microsoft.com/snapshot/2022-03-27/web/views/Survival.html) and the [agriCensData][] package provide tools for working with interval and censored data. 
+  See the CRAN task view for [Psychometrics](https://cran.r-project.org/web/views/Psychometrics.html) and [SocialScience](https://cran.r-project.org/web/views/SocialSciences.html). Both the [Survival CRAN task view](https://cran.microsoft.com/snapshot/2022-03-27/web/views/Survival.html) and the [agriCensData][] package provide tools for working with interval and censored data. 
 
 ### Soil science
   
-  [sharpshootR][] contains a compendium of utility functions supporting soils survey work including data management, summary, visualizations and conversions.For soil pedology, [aqp](https://github.com/ncss-tech/aqp/) provides a general toolkit for soil scientists: specialized data structures, soil profile summary, visualization, color conversion, and more. [SoilTaxonomy][] provides functions for parsing soil taxonomic terms. The ["Spatial"](https://CRAN.R-project.org/view=Spatial) and ["Spatio-Temporal"](https://CRAN.R-project.org/view=SpatioTemporal) CRAN task views provide extensive resources in spatial statistics. [fertplan][] provides fertilizer recommendations based on soil test results (note this packages is optimized for horticultural crop production in Italy). [soiltestcorr][] has functions for conducting correlation analysis between soil test values and crop yield data. 
+  [sharpshootR][] contains a compendium of utility functions supporting soils survey work including data management, summary, visualizations and conversions.For soil pedology, [aqp](https://github.com/ncss-tech/aqp/) provides a general toolkit for soil scientists: specialized data structures, soil profile summary, visualization, color conversion, and more. [SoilTaxonomy][] provides functions for parsing soil taxonomic terms. The [Spatial](https://CRAN.R-project.org/view=Spatial) and [Spatio-Temporal](https://CRAN.R-project.org/view=SpatioTemporal) CRAN task views provide extensive resources in spatial statistics. [fertplan][] provides fertilizer recommendations based on soil test results (note this packages is optimized for horticultural crop production in Italy). [soiltestcorr][] has functions for conducting correlation analysis between soil test values and crop yield data. 
 
 
 ### Weed science
@@ -109,12 +113,14 @@ of variables with embedded screening [SVEN](https://arxiv.org/abs/2006.07561)
 
 -----------------------------------------------------------------
 
+[ag5Tools]: https://cran.r-project.org/package=ag5Tools
 [AGHmatrix]: https://CRAN.R-project.org/package=AGHmatrix
 [agriCensData]: https://github.com/OnofriAndreaPG/agriCensData
 [agricolae]: https://CRAN.R-project.org/package=agricolae
 [agridat]: https://CRAN.R-project.org/package=agridat 
 [agriTutorial]: https://CRAN.R-project.org/package=agriTutorial
 [agroBioData]: https://github.com/OnofriAndreaPG/agriCensData
+[agromet]: https://github.com/AgRoMeteorologiaINTA/agromet 
 [AgroReg]: https://cran.r-project.org/package=AgroReg
 [AlphaSimR]: https://cran.r-project.org/package=AlphaSimR
 [ALUES]: https://cran.r-project.org/package=ALUES
@@ -146,8 +152,8 @@ of variables with embedded screening [SVEN](https://arxiv.org/abs/2006.07561)
 [FW]: https://github.com/lian0090/FW/
 [ggfertilizer]: https://github.com/wenlong-liu/ggfertilizer
 [gge]: https://CRAN.R-project.org/package=gge 
-[GWASpoly]: https://github.com/jendelman/GWASpoly
 [gosset]: https://CRAN.R-project.org/package=gosset
+[GWASpoly]: https://github.com/jendelman/GWASpoly
 [hagis]: https://CRAN.R-project.org/package=hagis
 [hnp]: https://cran.r-project.org/package=hnp 
 [IBCF.MTME]: https://CRAN.R-project.org/package=IBCF.MTME
@@ -176,6 +182,7 @@ of variables with embedded screening [SVEN](https://arxiv.org/abs/2006.07561)
 [polymapR]: https://CRAN.R-project.org/package=polymapR
 [polyqtlR]: https://CRAN.R-project.org/package=polyqtlR 
 [poppr]: https://cran.r-project.org/package=poppr
+[prism]: https://CRAN.R-project.org/package=prism  
 [PROSPER]: https://CRAN.R-project.org/package=PROSPER 
 [qgtools]: https://CRAN.R-project.org/package=qgtools
 [qtl]: https://CRAN.R-project.org/package=qtl
@@ -185,6 +192,7 @@ of variables with embedded screening [SVEN](https://arxiv.org/abs/2006.07561)
 [Recocrop]: https://CRAN.R-project.org/package=Recocrop 
 [rMVP]: https://CRAN.R-project.org/package=rMVP
 [rnassqs]: https://CRAN.R-project.org/package=rnassqs 
+[rnoaa]: https://CRAN.R-project.org/package=rnoaa  
 [Rquefts]: https://CRAN.R-project.org/package=Rquefts
 [rrBLUP]: https://CRAN.R-project.org/package=rrBLUP
 [rusda]:  https://CRAN.R-project.org/package=rusda
