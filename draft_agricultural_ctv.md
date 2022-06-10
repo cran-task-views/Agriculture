@@ -21,7 +21,7 @@ If you think that some package is missing from the list, please let us know.
  
 ### General analytical packages supporting agricultural research
   
-  The packages [nlraa][] and [AgroReg][] provides general linear and nonlinear regression functions specifically for agricultural applications. [agriCensData][] is a flexible package for working with censored data (e.g. time to flowering, instrumentation values below the detection limit, disease scoring). [ALUES][] implements methodology developed by the FAO and the International Rice Research Institute for evaluating land suitability for different crop production. 
+  The packages [nlraa][] and [AgroReg][] provides general linear and nonlinear regression functions specifically for agricultural applications. [agriCensData][] is a flexible package for working with censored data (e.g. time to flowering, instrumentation values below the detection limit, disease scoring). [ALUES][] implements methodology developed by the FAO and the International Rice Research Institute for evaluating land suitability for different crop production.
 
 ## Discipline-specific packages
 
@@ -41,8 +41,7 @@ If you think that some package is missing from the list, please let us know.
   
 #### Trial analysis
   
-  The package [agricolae][] contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. [statgenSTA][] has functions for single trial analysis with and without spatial components. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model fitting functions for field trial analysis (note this is not open source and also requires an annual license). CRAN also contains an add-on package [asremlPlus][] that provides several accessory functions to asreml. [INLA][] provides tools for Bayesian inference of latent Gaussian models. It contains functions for modelling spatial variation, such as field experiments or farm locations. [SpATS][] can be used to adjust for field spatial variation using [p-splines](http://dx.doi.org/10.1002/bimj.202100212). A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with the [mvngGrAd][]. [ClimMobTools][] is the API Client for the '[ClimMob](https://climmob.net/)' platform in R. ClimMob is an open source software for decentralized large-N trials with the 'tricot' approach developed by [van Etten et al. (2019)](https://doi.org/10.1017/S0014479716000739) 'tricot' turns the research paradigm on its head; instead of a few researchers designing complicated trials to compare several technologies in search of the best solutions, it enables many participants to carry out reasonably simple experiments that taken together can offer even more information.
-  
+  The package [agricolae][] contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. [statgenSTA][] has functions for single trial analysis with and without spatial components. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model fitting functions for field trial analysis (note this is not open source and also requires an annual license). CRAN also contains an add-on package [asremlPlus][] that provides several accessory functions to asreml. [INLA][] provides tools for Bayesian inference of latent Gaussian models. It contains functions for modelling spatial variation, such as field experiments or farm locations. [SpATS][] can be used to adjust for field spatial variation using [p-splines](http://dx.doi.org/10.1002/bimj.202100212). A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with the [mvngGrAd][]. [ClimMobTools][] is the API Client for the '[ClimMob](https://climmob.net/)' platform in R. ClimMob is an open source software for decentralized large-N trials with the 'tricot' approach developed by [van Etten et al. (2019)](https://doi.org/10.1017/S0014479716000739) 'tricot' turns the research paradigm on its head; instead of a few researchers designing complicated trials to compare several technologies in search of the best solutions, it enables many participants to carry out reasonably simple experiments that taken together can offer even more information. The [gosset][] package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation.
   
 ### Animal science
 
@@ -148,6 +147,7 @@ of variables with embedded screening [SVEN](https://arxiv.org/abs/2006.07561)
 [ggfertilizer]: https://github.com/wenlong-liu/ggfertilizer
 [gge]: https://CRAN.R-project.org/package=gge 
 [GWASpoly]: https://github.com/jendelman/GWASpoly
+[gosset]: https://CRAN.R-project.org/package=gosset
 [hagis]: https://CRAN.R-project.org/package=hagis
 [hnp]: https://cran.r-project.org/package=hnp 
 [IBCF.MTME]: https://CRAN.R-project.org/package=IBCF.MTME
