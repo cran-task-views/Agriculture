@@ -139,7 +139,7 @@ of variables with embedded screening [SVEN](https://arxiv.org/abs/2006.07561). i
 [agricolae]: https://CRAN.R-project.org/package=agricolae
 [agricolaeplotr]: https://CRAN.R-project.org/package=agricolaeplotr   
 [agridat]: https://CRAN.R-project.org/package=agridat 
-[AGPRIS]: https: /CRAN.R-project.org/package=AGPRIS
+[AGPRIS]: https://CRAN.R-project.org/package=AGPRIS  
 [agriTutorial]: https://CRAN.R-project.org/package=agriTutorial  
 [agroBioData]: https://github.com/OnofriAndreaPG/agriCensData
 [agroclim]: https://CRAN.R-project.org/package=agroclim  
