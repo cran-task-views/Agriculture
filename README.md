@@ -1,6 +1,6 @@
 #### Currently Under Construction
 
-*(this is yet a task view)*
+*(this is not yet a task view)*
 
 **New contributors welcomed!**
 
@@ -34,7 +34,7 @@ Suggestions are welcome! If you think there should be another category or if you
 [new-issue]: https://github.com/jpiaskowski/ctv-agriculture/issues/new?template=package_suggestion.md
 
 We hope that this repository will eventually contain a `ctv` file for the **Agriculture CRAN Task View**.
-The `ctv` file in this repository will manually sync with the official copy in the [CTV SVN repository][ctv-svn] on [R-Forge][]. At this time, the `ctv` file for **Reproducible Research** is in this repository as a template to follow. Since CRAN is not currently accepting any new task views, preparing a proper `ctv` file is not a priority. 
+The `ctv` file in this repository will manually sync with the official copy in the [CTV SVN repository][ctv-svn] on [R-Forge][]. 
 
 [ctv-svn]: https://r-forge.r-project.org/projects/ctv/
 
