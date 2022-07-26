@@ -54,7 +54,7 @@ The [Hydrology CRAN Task View](https://cran.r-project.org/web/views/Hydrology.ht
   
 #### Trial analysis
   
-  The package [agricolae][] contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. [statgenSTA][] has functions for single trial analysis with and without spatial components. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model fitting functions for field trial analysis (note this is not open source and also requires an annual license). CRAN also contains an add-on package [asremlPlus][] that provides several accessory functions to asreml. [INLA][] provides tools for Bayesian inference of latent Gaussian models. It contains functions for modelling spatial variation, such as field experiments or farm locations. The [gosset][] package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation. [AgroR][] has general functions and a [shiny app][https://agrorproject.shinyapps.io/agror_shiny/] for analysis of common designs in agriculture: CRD, RCBD and Latin square. 
+  The package [agricolae][] contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. Trials utilizing an incomplete block design can be analylsed used [ispd][]. [statgenSTA][] has functions for single trial analysis with and without spatial components. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model fitting functions for field trial analysis (note this is not open source and also requires an annual license). CRAN also contains an add-on package [asremlPlus][] that provides several accessory functions to asreml. [INLA][] provides tools for Bayesian inference of latent Gaussian models. It contains functions for modelling spatial variation, such as field experiments or farm locations. The [gosset][] package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation. [AgroR][] has general functions and a [shiny app][https://agrorproject.shinyapps.io/agror_shiny/] for analysis of common designs in agriculture: CRD, RCBD and Latin square. 
   
   [SpATS][] can be used to adjust for field spatial variation using [p-splines](http://dx.doi.org/10.1002/bimj.202100212). A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with the [mvngGrAd][]. [ClimMobTools][] is the API Client for the [ClimMob](https://climmob.net/) citizen science platform in R. Build for agronomists, [biotools][] can conduct a wide array of multivariate analysis including discriminant analysis, a Mantel test, cluster analysis. It can also estimate the optimal plot size and optimal sampling size to minimize error. 
   
@@ -64,7 +64,7 @@ The [Hydrology CRAN Task View](https://cran.r-project.org/web/views/Hydrology.ht
     
 ### Breeding & quantitative genetics
 
-  See the [Phylogenetics CRAN task view](https://cran.r-project.org/web/views/Phylogenetics.html) describing R packages for taxonomy, community ecology (including microbiome work) and of course, phylogenetics. In addition, the R package repository [Bionconductor](https://www.bioconductor.org/) provides bioinformatics tools for the processing of high-throughput genomic data. [lmDiallel] provides service functions for analysing data sets obtained from diallel experiments, as described in [Onofri 2020](https://doi.org/10.1007%2Fs00122-020-03716-8). [plant breeding][] (available on R-forge: `install.packages("plantbreeding", repos="http://R-Forge.R-project.org")`) provides many convenience functions for working with populations and designs common in plant breeding including dialleles, line testers, augmented trials, the Carolina design, and more. [st4gi][] provides several general functions for genetic improvement of crops. Also, please see the subsection on "genotype-by-environment interactions" for packages integrating environmental and genomic data in an analytical framework. [AlphaSimR][] is an implementation of the [AlphaSim algorithm](doi:10.3835/plantgenome2016.02.0013) in R, providing functions for stochastic modelling of processes common to breeding programs such as selection and crossing. [MoBPS][] has a suite of functions for simulating genetic gain and economic costs in a plant breeding program. 
+  See the [Phylogenetics CRAN task view](https://cran.r-project.org/web/views/Phylogenetics.html) describing R packages for taxonomy, community ecology (including microbiome work) and of course, phylogenetics. In addition, the R package repository [Bionconductor](https://www.bioconductor.org/) provides bioinformatics tools for the processing of high-throughput genomic data. [lmDiallel] provides service functions for analysing data sets obtained from diallel experiments, as described in [Onofri 2020](https://doi.org/10.1007%2Fs00122-020-03716-8). [plant breeding][] (available on R-forge: `install.packages("plantbreeding", repos="http://R-Forge.R-project.org")`) provides many convenience functions for working with populations and designs common in plant breeding including dialleles, line testers, augmented trials, the Carolina design, and more. [st4gi][] provides several general functions for genetic improvement of crops. Also, please see the subsection on "genotype-by-environment interactions" for packages integrating environmental and genomic data in an analytical framework. [AlphaSimR][] is an implementation of the [AlphaSim algorithm](doi:10.3835/plantgenome2016.02.0013) in R, providing functions for stochastic modelling of processes common to breeding programs such as selection and crossing. [MoBPS][] has a suite of functions for simulating genetic gain and economic costs in a plant breeding program. [isqg][] provides functions for high performance quantitative genetic simulations using a [bitset-based algorithm](https://doi.org/10.1534%2Fg3.119.400373). 
   
 #### Linkage mapping & QTL analysis
   
@@ -83,7 +83,7 @@ of variables with embedded screening [SVEN](https://arxiv.org/abs/2006.07561). i
   
 ### Crop growth models & crop modelling
 
-  The [apsimx][] package has functions to read, inspect, edit and run files for APSIM "Next Generation" (json) and APSIM "Classic" (xml). Files with an `.apsim` extension correspond to APSIM Classic, the files with an `.apsimx` extension correspond to APSIM Next Generation. [rapsimng][] works with Next Generation APSIM files. [DSSAT][] provides a comprehensive R interface to the Decision Support System for Agrotechnology Transfer Cropping Systems Model (DSSAT-CSM) documented by [Jones (2003)](https://doi.org/10.1016/S1161-0301(02)00107-7). This package provides cross-platform functions to read and write input files, run DSSAT-CSM, and read output files.
+  The [apsimx][] package has functions to read, inspect, edit and run files for APSIM "Next Generation" (json) and APSIM "Classic" (xml). Files with an `.apsim` extension correspond to APSIM Classic, the files with an `.apsimx` extension correspond to APSIM Next Generation. [rapsimng][] works with Next Generation APSIM files. [DSSAT][] provides a comprehensive R interface to the Decision Support System for Agrotechnology Transfer Cropping Systems Model (DSSAT-CSM) documented by [Jones (2003)](https://doi.org/10.1016/S1161-0301(02)00107-7). This package provides cross-platform functions to read and write input files, run DSSAT-CSM, and read output files. The modelling framework [Simplace]( www.simplace.net) (Scientific Impact assessment and Modelling PLatform for Advanced Crop and Ecosystem management) can be accessed using the R package [simplace][]. 
   
   [Meteor][] provides a set of functions for weather and climate data manipulation to support crop and crop disease modeling. [cropDemand][] can be used to estimate crop water demand in Brazilian production regions using the [TerraClimate][] data set. [Evapotranspiration][] can estimate potential and actual evapotranspiration using 21 different models. [metrica][] has many convenience functions for comparing model predictions with ground truth data. [ZeBook][] provides data sets and examples to accompany the book [Working with Dynamic Crop Models](https://www.elsevier.com/books/working-with-dynamic-crop-models/wallach/978-0-12-811756-9). 
   
@@ -100,7 +100,7 @@ of variables with embedded screening [SVEN](https://arxiv.org/abs/2006.07561). i
 
 ### Genotype-by-environment interactions
   
-  [statgenGxE][] has several functions for handling various analytical approaches for addressing genotype-by-environment interactions. [IBCF.MTME][] implements item-based collaborative filtering for multi-trait and multi-environment trials. The package [gge][] is useful for producing GGE biplots, while [bayesammi][] can conduct Bayesian estimation of additive main effects multiplicative interaction model. [EnvRtype][] can be used for assembling climate data, data set preparation and environmental classification. [FW][] implements Finlay-Wilkinson regression using a Gibbs sampler. A wide vareity of stability analysis statistics can be calculated via [agrostab][] including coefficient of homeostaticity, specific adaptive ability, weighted homeostaticity index, [superiority measure](https://doi.org/10.4141%2Fcjps88-018), [regression on environmental index](https://doi.org/10.2135%2Fcropsci1966.0011183X000600010011x), [Tai's stability parameters](https://doi.org/10.2135%2Fcropsci1971.0011183X001100020006x), [stability variance](https://doi.org/10.1038%2Fhdy.1972.87), ecovalence and other stability parameters. 
+  [statgenGxE][] has several functions for handling various analytical approaches for addressing genotype-by-environment interactions. [IBCF.MTME][] implements item-based collaborative filtering for multi-trait and multi-environment trials. The package [gge][] is useful for producing GGE biplots, while [bayesammi][] can conduct Bayesian estimation of additive main effects multiplicative interaction model. [EnvRtype][] can be used for assembling climate data, data set preparation and environmental classification. [FW][] implements Finlay-Wilkinson regression using a Gibbs sampler; [spFW][] also conducts spatial Finlay-Wilkinson analysis for multi-environmental trials using a Bayesian hierarchical model. A wide vareity of stability analysis statistics can be calculated via [agrostab][] including coefficient of homeostaticity, specific adaptive ability, weighted homeostaticity index, [superiority measure](https://doi.org/10.4141%2Fcjps88-018), [regression on environmental index](https://doi.org/10.2135%2Fcropsci1966.0011183X000600010011x), [Tai's stability parameters](https://doi.org/10.2135%2Fcropsci1971.0011183X001100020006x), [stability variance](https://doi.org/10.1038%2Fhdy.1972.87), ecovalence and other stability parameters. 
   
 
 ### Plant pathology
@@ -116,19 +116,28 @@ of variables with embedded screening [SVEN](https://arxiv.org/abs/2006.07561). i
   
   [sharpshootR][] contains a compendium of utility functions supporting soils survey work including data management, summary, visualizations and conversions.For soil pedology, [aqp](https://github.com/ncss-tech/aqp/) provides a general toolkit for soil scientists: specialized data structures, soil profile summary, visualizatio, color conversion, and more. [SoilTaxonomy][] provides functions for parsing soil taxonomic terms. The ["Spatial](https://CRAN.R-project.org/view=Spatial) and [Spatio-Temporal](https://CRAN.R-project.org/view=SpatioTemporal) CRAN task views provide extensive resources in spatial statistics. [pedometrics][] has many utility functions for common analyses of soil data. 
   
-  The [suitability](https://www.fao.org/land-water/databases-and-software/crop-information/en/) of specific soils for crop production can be analyzed using [soilassessment], including soil fertility classes, soil erosion models and soil salinity classification. Suitability requirements are for crops grouped into cereal crops, nuts, legumes, fruits, vegetables, industrial crops, and root crops. [soiltestcorr][] has functions for conducting correlation analysis between soil test values and crop yield data. [fertplan][] provides fertilizer recommendations based on soil test results (note this packages is optimized for horticultural crop production in Italy).
+  [Soil water retention curves](http://en.wikipedia.org/wiki/Water_retention_curv) can be calculated by the [soilwater][] packages using the Van Genuchten method for soil water retention and Mualem method for hydraulic conductivity. [SoilR][] models soil organic matter decomposition in terrestrial ecosystems with linear and nonlinear models. Soil texture triangles can be graphed using [soiltexture][]; this package can also classify and transform soil texture data.[soiltestcorr][] has functions for conducting correlation analysis between soil test values and crop yield data. [SoilTesting][] provides functions for calculating soil mineral concentrations from analytical lab results. [fertplan][] provides fertilizer recommendations based on soil test results (note this packages is optimized for horticultural crop production in Italy).  
   
- Agriculture image features from spectral data can extracted with[ agrifeature][]. It has functions to calculate gray level oo-occurrence matrix (GLCM), RGB-based begetative index (RGB VI) and normalized difference vegetation index (NDVI). Experimental units (e.g. plots) can be obtained from spectral images using [rPAex][]. 
+ Agriculture image features from spectral data can extracted with[ agrifeature][]. It has functions to calculate gray level oo-occurrence matrix (GLCM), RGB-based begetative index (RGB VI) and normalized difference vegetation index (NDVI). Experimental units (e.g. plots) can be obtained from spectral images using [rPAex][]. [mapsRinteractive][] provides functions for working with soil point data in raster format. The [suitability](https://www.fao.org/land-water/databases-and-software/crop-information/en/) of specific soils for crop production can be analyzed using [soilassessment][], including soil fertility classes, soil erosion models and soil salinity classification. Suitability requirements are for crops grouped into cereal crops, nuts, legumes, fruits, vegetables, industrial crops, and root crops. 
 
 
 ### Weed science
 
-  The package [drc][] offers versatile model fitting and after-fitting functions for dose-response curves. [PROSPER][] is a package for simulating weed population dynamics at the individual and population level under a range of conditions including herbicide resistance and herbicide pressure. For ecological studies and analytical applications, the [CRAN task view for Environmetrics](https://cran.r-project.org/web/views/Environmetrics.html) provides a list of existing R resources in this topic. 
+  The package [drc][] offers versatile model fitting and after-fitting functions for dose-response curves. [LW1949][] implements the Litchefield and Wilcoxon dose-response analysis [1949](http://jpet.aspetjournals.org/content/96/2/99.abstract) using automation. [PROSPER][] is a package for simulating weed population dynamics at the individual and population level under a range of conditions including herbicide resistance and herbicide pressure. For ecological studies and analytical applications, the [CRAN task view for Environmetrics](https://cran.r-project.org/web/views/Environmetrics.html) provides a list of existing R resources in this topic. 
     
 
 ## Additional links
 
-*None at this time*
+### Relevant R-Forge Projects (not otherwise listed in this resource)
+
+* [Global Soil Information Facilities](https://r-forge.r-project.org/projects/gsif): an initiative of the [World Soil Information Institute and Africa Soil Information Service](africasoils.net) (ISRIC) team.  
+* [Soil Spectroscopy and Chemometrics](https://r-forge.r-project.org/projects/soilspec/): methods for soil spectroscopy and chemometrics involving spectral data conversion, calibration and prediction methods.  
+* [Digital Soil Informatic Tools](https://r-forge.r-project.org/projects/ithir/): quantitative and numerical analysis of soils and phenomena and other information related to soils, with a focus on pedometrics.  
+* [Reclim](https://r-forge.r-project.org/projects/reclim/): a collection of weather reduction functions of kinetics for the introductory carbon balance model (ICBM), a compartmental soil organic carbon model.    
+* [inspectr](https://r-forge.r-project.org/projects/inspectr/): handling and analysis of Vis-NIR spectra, with a focus on soil science applications.  
+* [Crop & Disease Modelling](https://r-forge.r-project.org/projects/cropsim/):  dynamic & mechanistic simulation of crop growth and development, and of plant diseases. 
+* [biocro](https://r-forge.r-project.org/projects/biocro/): functions and data for plant and crop modeling. Simulates C4 photosynthesis, biomass production and estimates parameters for plant phyisiological models using optimization techinques and Markov chains.
+* [Crop Climate Change Course](https://r-forge.r-project.org/projects/cropcc/): materials for the course "Analyzing the impact of climate change on crops and varieties"
 
 -----------------------------------------------------------------
 
@@ -193,14 +202,18 @@ of variables with embedded screening [SVEN](https://arxiv.org/abs/2006.07561). i
 [hagis]: https://CRAN.R-project.org/package=hagis
 [hnp]: https://cran.r-project.org/package=hnp 
 [IBCF.MTME]: https://CRAN.R-project.org/package=IBCF.MTME
-[INLA]: https://github.com/inbo/INLA
+[INLA]: https://github.com/inbo/INLA  
+[ispd]:  https://CRAN.R-project.org/package=ispd  
+[isqg]: https://CRAN.R-project.org/package=isqg   
 [KenSyn]: https://CRAN.R-project.org/package=KenSyn  
 [landsepi]: https://cran.r-project.org/package=landsepi   
 [LinkageMapView]: https://CRAN.R-project.org/package=LinkageMapView 
 [lmDiallel]:  https://CRAN.R-project.org/package=lmDiallel 
 [lme4gs]: https://github.com/perpdgo/lme4GS
 [lme4qtl]: https://github.com/variani/lme4qtl
-[mappoly]: https://CRAN.R-project.org/package=mappoly 
+[LW1949]: https://CRAN.R-project.org/package=LW1949   
+[mappoly]: https://CRAN.R-project.org/package=mappoly   
+[mapsRinteractive]: https://CRAN.R-project.org/package=mapsRinteractive   
 [MapRtools]: https://github.com/jendelman/MapRtools
 [MCMCglmm]: https://CRAN.R-project.org/package=MCMCglmm
 [MegaLMM]: https://github.com/deruncie/MegaLMM/
@@ -240,14 +253,19 @@ of variables with embedded screening [SVEN](https://arxiv.org/abs/2006.07561). i
 [rusda]:  https://CRAN.R-project.org/package=rusda
 [Rwofost]: https://CRAN.R-project.org/package=Rwofost
 [sharpshootR]: https://CRAN.R-project.org/package=sharpshootR
+[simplace]: https://github.com/gk-crop/simplace_rpkg  
 [simplePHENOTYPES]: https://github.com/samuelbfernandes/simplePHENOTYPES
 [SISINTAR]: https://github.com/INTA-Suelos/SISINTAR  
 [sommer]: https://CRAN.R-project.org/package=sommer  
 [soilassessment]: https://CRAN.R-project.org/package=soilassessment   
 [soilDB]: https://CRAN.R-project.org/package=soilDB  
+[SoilR]: https://CRAN.R-project.org/package=SoilR 
 [SoilTaxonomy]: https://CRAN.R-project.org/package=SoilTaxonomy
 [soiltestcorr]: https://CRAN.R-project.org/package=soiltestcorr
+[SoilTesting]: https://CRAN.R-project.org/package=SoilTesting  
+[soilwater]: https://CRAN.R-project.org/package=soilwater   
 [SoyNAM]: https://CRAN.R-project.org/package=SoyNAM
+[spFW]: https://CRAN.R-project.org/package=spFW 
 [SpATS]: https://CRAN.R-project.org/package=SpATS 
 [st4gi]: https://github.com/reyzaguirre/st4gi
 [StageWise]: https://github.com/jendelman/StageWise
