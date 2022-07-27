@@ -15,7 +15,7 @@ If you think that some package is missing from the list, please let us know.
   
   [FedData][] provides access to geospatial data from the United States Soil Survey Geographic ([SSURGO](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/?cid=nrcs142p2_053627)) database, the Global Historical Climatology Network ([GHCN](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily)), the Daymet gridded estimates of daily weather parameters for North America, the [International Tree Ring Data Bank](https://catalog.data.gov/dataset/international-tree-ring-data-bank-itrdb), and the [National Land Cover Database](https://www.usgs.gov/centers/eros/science/national-land-cover-database#overview). SSURGO data can also be accessed and processed with [XPolaris][]. Most USDA-NRCS soils related databases and APIs can be accessed with [soilDB][]. [SISINTAR][] provides access to SiSINTA (Sistema de información de Suelos del INTA), a soil profile database for Argentina, and functions for processing the data. SILO weather data from the [Queensland DES longpaddock website](https://www.longpaddock.qld.gov.au) can be accessed with [cropgrowdays][]. [febr][] has utilities to access and process data from the [Brazilian Soil Data Repository](https://www.pedometria.org/febr).
   
-[PGRdup][] provides functions to aid the identification of probable/possible duplicates in Plant Genetic Resources (PGR) collections. 
+[PGRdup][] provides functions to aid the identification of probable/possible duplicates in Plant Genetic Resources (PGR) collections. [rfieldclimate][] provides functionality and parsers to interact with the [FieldClimate API](https://api.fieldclimate.com/v2/docs/).
   
 ### Agricultural data sets
   
@@ -40,7 +40,7 @@ If you think that some package is missing from the list, please let us know.
 
 ### Agrometeorology
 
-The [Hydrology CRAN Task View](https://cran.r-project.org/web/views/Hydrology.html) has many resources for accessing and processing weather and climate data. [Meteor][] provides a set of functions for weather and climate data manipulation to support crop and crop disease modeling. Data from the [Copernicus](https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agrometeorological-indicators?tab=overview) data set of agrometeorological indicators can be downloaded and extracted using [ag5Tools][]. The [frost][] package contains a compilation of empirical methods used by farmers and agronomic engineers to predict the minimum temperature to detect a frost event. [agroclim][] contains functions to compute agroclimatic indices useful to zoning areas based on climatic variables and to evaluate the importance of temperature and precipitation for individual crops or in general for agricultural lands. [cropgrowdays][] can be used for calculating growing degree days, cumulative rainfall, number of stress day, mean radiation, evaporatranspiration and other variables. It also can be used to access SILO weather data from the [Queensland DES longpaddock website](https://www.longpaddock.qld.gov.au). Climate crop zones in Brazail can be accessed and calculated with [cropZoning][] using data sets from [TerraClimate][] that are calibrated to weather stations run by the National Meteorological Institute of Brazil. The package [acdcR][] (Agro-Climatic Data by County) provides functions to calculate widely-used county-level variables in agricultural production or agro-climatic and weather analyses. [LWFBrook90R][] provides an implementation of the soil vegetation atmosphere transport (SVAT) model LWF-BROOK90 to calculate daily evaporation (transpiration, interception, and soil evaporation) and soil water fluxes, along with soil water contents and soil water tension of a soil profile covered with vegetation.  
+The [Hydrology CRAN Task View](https://cran.r-project.org/web/views/Hydrology.html) has many resources for accessing and processing weather and climate data. [Meteor][] provides a set of functions for weather and climate data manipulation to support crop and crop disease modeling. Data from the [Copernicus](https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agrometeorological-indicators?tab=overview) data set of agrometeorological indicators can be downloaded and extracted using [ag5Tools][]. The [frost][] package contains a compilation of empirical methods used by farmers and agronomic engineers to predict the minimum temperature to detect a frost event. [agroclim][] contains functions to compute agroclimatic indices useful to zoning areas based on climatic variables and to evaluate the importance of temperature and precipitation for individual crops or in general for agricultural lands. [cropgrowdays][] can be used for calculating growing degree days, cumulative rainfall, number of stress day, mean radiation, evaporatranspiration and other variables. It also can be used to access SILO weather data from the [Queensland DES longpaddock website](https://www.longpaddock.qld.gov.au). Climate crop zones in Brazail can be accessed and calculated with [cropZoning][] using data sets from [TerraClimate][] that are calibrated to weather stations run by the National Meteorological Institute of Brazil. The package [acdcR][] (Agro-Climatic Data by County) provides functions to calculate widely-used county-level variables in agricultural production or agro-climatic and weather analyses. [LWFBrook90R][] provides an implementation of the soil vegetation atmosphere transport (SVAT) model LWF-BROOK90 to calculate daily evaporation (transpiration, interception, and soil evaporation) and soil water fluxes, along with soil water contents and soil water tension of a soil profile covered with vegetation. Leaf area index and soil moisture from microwave backscattering data based on the [WCM model](doi:10.1016/0034-4257(93)90053-Z) can be calculated with the [WCM][] package.  
 
 [TerraClimate]: http://www.climatologylab.org/terraclimate.html  
   
@@ -68,7 +68,7 @@ The [Hydrology CRAN Task View](https://cran.r-project.org/web/views/Hydrology.ht
     
 ### Breeding & quantitative genetics
 
-  See the [Phylogenetics CRAN task view](https://cran.r-project.org/web/views/Phylogenetics.html) describing R packages for taxonomy, community ecology (including microbiome work) and of course, phylogenetics. In addition, the R package repository [Bionconductor](https://www.bioconductor.org/) provides bioinformatics tools for the processing of high-throughput genomic data. [lmDiallel] provides service functions for analysing data sets obtained from diallel experiments, as described in [Onofri 2020](https://doi.org/10.1007%2Fs00122-020-03716-8). [plant breeding][] (available on R-forge: `install.packages("plantbreeding", repos="http://R-Forge.R-project.org")`) provides many convenience functions for working with populations and designs common in plant breeding including dialleles, line testers, augmented trials, the Carolina design, and more. [st4gi][] provides several general functions for genetic improvement of crops. Also, please see the subsection on "genotype-by-environment interactions" for packages integrating environmental and genomic data in an analytical framework. [gpbStat][] provides functions for common plant breeding analyses including line-by-tester analysis ([Arunachalam 1974](http://repository.ias.ac.in/89299)) and diallel analysis ([Griffing 1956](https://www.publish.csiro.au/bi/pdf/BI9560463)). [heritability][] implements marker-based estimation of heritability when observations on genetically identical replicates are available. [selection.index][] calculates a selection index using the Smith ([1973](https://doi.org/10.1111%2Fj.1469-1809.1936.tb02143.x)) method. 
+  See the R package repository [Bionconductor](https://www.bioconductor.org/) for bioinformatics tools to support the processing of high-throughput genomic data. [lmDiallel][] provides service functions for analysing data sets obtained from diallel experiments, as described in [Onofri 2020](https://doi.org/10.1007%2Fs00122-020-03716-8). [plant breeding][] (available on R-forge: `install.packages("plantbreeding", repos="http://R-Forge.R-project.org")`) provides many convenience functions for working with populations and designs common in plant breeding including dialleles, line testers, augmented trials, the Carolina design, and more. [st4gi][] and [variability][] provides several common utility functions for genetic improvement of crops. Also, please see the subsection on "genotype-by-environment interactions" for packages integrating environmental and genomic data in an analytical framework. [gpbStat][] provides functions for common plant breeding analyses including line-by-tester analysis ([Arunachalam 1974](http://repository.ias.ac.in/89299)) and diallel analysis ([Griffing 1956](https://www.publish.csiro.au/bi/pdf/BI9560463)). [heritability][] implements marker-based estimation of heritability when observations on genetically identical replicates are available. [selection.index][] calculates a selection index using the Smith ([1973](https://doi.org/10.1111%2Fj.1469-1809.1936.tb02143.x)) method. 
   
   [AlphaSimR][] is an implementation of the [AlphaSim algorithm](doi:10.3835/plantgenome2016.02.0013) in R, providing functions for stochastic modelling of processes common to breeding programs such as selection and crossing. [MoBPS][] has a suite of functions for simulating genetic gain and economic costs in a plant breeding program. [isqg][] provides functions for high performance quantitative genetic simulations using a [bitset-based algorithm](https://doi.org/10.1534%2Fg3.119.400373). 
   
@@ -82,9 +82,10 @@ The [Hydrology CRAN Task View](https://cran.r-project.org/web/views/Hydrology.ht
   
 #### Genomic prediction
   
-  Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include [sommer][], [rrBLUP][], [BGLR][], [lme4gs][], [lme4qtl][], [pedigreemm][], [qgtools][], [cpgen][], [QTLrel][], and the licensed software [asreml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices. [breedR][] is a general purpose package for performing quantitative genetic analyses. Genome feature mixed linear models using frequentist and Bayesian approaches can be implemented with [qgg][]. [pedmod][] provides linear modelling functions integrating kinship for categorical outcomes. [BWGS][], "Breed Wheat Genomic Selection", provides a pipeline of functions for conducting genomic selection in hexaploid wheat.  
+  Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include [sommer][], [rrBLUP][], [BGLR][], [lme4gs][], [lme4qtl][], [pedigreemm][], [qgtools][], [cpgen][], [QTLrel][], and the licensed software [asreml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices. [breedR][] is a general purpose package for performing quantitative genetic analyses. Genome feature mixed linear models using frequentist and Bayesian approaches can be implemented with [qgg][]. [pedmod][] provides linear modelling functions integrating kinship for categorical outcomes. 
   
-  [BGGE][] conducts genomic prediction for continuous variables, focused on genotype-by-environment genomic selection models following the methods of [Jarquín 2014](https://doi.org/10.1007%2Fs00122-013-2243-1). [BMTME][] builds genomic selection prediction models that an be expanded to multiple traits and environments using Bayesian models developed by Montesinos-Lopéx ([2016](https://doi.org/10.1534%2Fg3.116.032359), [2018a](https://doi.org/10.1534%2Fg3.118.200728), [2018b](https://doi.org/10.2134%2Fagronj2018.06.0362))
+  [STGS][] implements several genomic selection models for single tratis. [GSelection][] implements genomic selection integrating additive and non-additive models. [GSMX][], multivariate genomic selection, estimates trait heritability and handles overfitting through cross validation. [TSDFG][] can estimate the optimal training population size and composition for genomic selection. [BGGE][] conducts genomic prediction for continuous variables, focused on genotype-by-environment genomic selection models following the methods of [Jarquín 2014](https://doi.org/10.1007%2Fs00122-013-2243-1). [BMTME][] builds genomic selection prediction models that an be expanded to multiple traits and environments using Bayesian models developed by Montesinos-Lopéx ([2016](https://doi.org/10.1534%2Fg3.116.032359), [2018a](https://doi.org/10.1534%2Fg3.118.200728), [2018b](https://doi.org/10.2134%2Fagronj2018.06.0362)). [BWGS][], "Breed Wheat Genomic Selection", provides a pipeline of functions for conducting genomic selection in hexaploid wheat.
+
   
   [AGHmatrix][] provides extensive options for calculating pedigree and genomic (additive and dominance) relationships. The [pedigree][] packages provides functionality for ordering pedigrees, calculating and inverting the A matrix and other related tasks. 
   
@@ -123,9 +124,9 @@ The [Hydrology CRAN Task View](https://cran.r-project.org/web/views/Hydrology.ht
   
   [sharpshootR][] contains a compendium of utility functions supporting soils survey work including data management, summary, visualizations and conversions.For soil pedology, [aqp](https://github.com/ncss-tech/aqp/) provides a general toolkit for soil scientists: specialized data structures, soil profile summary, visualizatio, color conversion, and more. [SoilTaxonomy][] provides functions for parsing soil taxonomic terms. The ["Spatial](https://CRAN.R-project.org/view=Spatial) and [Spatio-Temporal](https://CRAN.R-project.org/view=SpatioTemporal) CRAN task views provide extensive resources in spatial statistics. [pedometrics][] has many utility functions for common analyses of soil data. 
   
-  [Soil water retention curves](http://en.wikipedia.org/wiki/Water_retention_curv) can be calculated by the [soilwater][] packages using the Van Genuchten method for soil water retention and Mualem method for hydraulic conductivity. [SoilR][] models soil organic matter decomposition in terrestrial ecosystems with linear and nonlinear models. Soil texture triangles can be graphed using [soiltexture][]; this package can also classify and transform soil texture data. [sorcering][] can be used to model soil organic carbon and soil organic nitrogen and to calculate N mineralisation rates. [QI][] can be used to calculate potassium intensity and exchangeability. [soiltestcorr][] has functions for conducting correlation analysis between soil test values and crop yield data. [SoilTesting][] provides functions for calculating soil mineral concentrations from analytical lab results. [fertplan][] provides fertilizer recommendations based on soil test results (note this packages is optimized for horticultural crop production in Italy). [DMMF][] implements the daily based Morgan-Morgan-Finney (DMMF) soil erosion model ([Choi et al., 2017](https://doi.org/10.3390%2Fw9040278)) for estimating surface runoff and sediment budgets from a field or a catchment on a daily basis. 
+  [Soil water retention curves](http://en.wikipedia.org/wiki/Water_retention_curv) can be calculated by the [soilwater][] packages using the Van Genuchten method for soil water retention and Mualem method for hydraulic conductivity. [SoilR][] models soil organic matter decomposition in terrestrial ecosystems with linear and nonlinear models. Soil texture triangles can be graphed using [soiltexture][]; this package can also classify and transform soil texture data. [sorcering][] can be used to model soil organic carbon and soil organic nitrogen and to calculate N mineralisation rates. [QI][] can be used to calculate potassium intensity and exchangeability. [soiltestcorr][] has functions for conducting correlation analysis between soil test values and crop yield data. [SoilTesting][] provides functions for calculating soil mineral concentrations from analytical lab results. [fertplan][] provides fertilizer recommendations based on soil test results (note this packages is optimized for horticultural crop production in Italy). [DMMF][] implements the daily based Morgan-Morgan-Finney (DMMF) soil erosion model ([Choi et al., 2017](https://doi.org/10.3390%2Fw9040278)) for estimating surface runoff and sediment budgets from a field or a catchment on a daily basis. Estimation and prediction of parameters of soil hydraulic property models can be accomplished with [spsh][]. 
   
- Agriculture image features from spectral data can extracted with[ agrifeature][]. It has functions to calculate gray level oo-occurrence matrix (GLCM), RGB-based begetative index (RGB VI) and normalized difference vegetation index (NDVI). Experimental units (e.g. plots) can be obtained from spectral images using [rPAex][]. [mapsRinteractive][] provides functions for working with soil point data in raster format. The [suitability](https://www.fao.org/land-water/databases-and-software/crop-information/en/) of specific soils for crop production can be analyzed using [soilassessment][], including soil fertility classes, soil erosion models and soil salinity classification. Suitability requirements are for crops grouped into cereal crops, nuts, legumes, fruits, vegetables, industrial crops, and root crops. [mpsline2][] implements a mass-preserving spline to soil attributes to make continuous down-profile estimates of attributes measured over discrete, often discontinuous depth intervals. 
+ Agriculture image features from spectral data can extracted with [agrifeature][]. It has functions to calculate gray level oo-occurrence matrix (GLCM), RGB-based begetative index (RGB VI) and normalized difference vegetation index (NDVI). Experimental units (e.g. plots) can be obtained from spectral images using [rPAex][]. [mapsRinteractive][] provides functions for working with soil point data in raster format. The [suitability](https://www.fao.org/land-water/databases-and-software/crop-information/en/) of specific soils for crop production can be analyzed using [soilassessment][], including soil fertility classes, soil erosion models and soil salinity classification. Suitability requirements are for crops grouped into cereal crops, nuts, legumes, fruits, vegetables, industrial crops, and root crops. [mpsline2][] implements a mass-preserving spline to soil attributes to make continuous down-profile estimates of attributes measured over discrete, often discontinuous depth intervals. 
 
 ### Weed science
 
@@ -151,12 +152,13 @@ The [Hydrology CRAN Task View](https://cran.r-project.org/web/views/Hydrology.ht
 
 [acdcR]: https://CRAN.R-project.org/package=acdcR  
 [ag5Tools]: https://cran.r-project.org/package=ag5Tools
-[AGHmatrix]: https://CRAN.R-project.org/package=AGHmatrix
+[AGHmatrix]: https://CRAN.R-project.org/package=AGHmatrix  
+[AGPRIS]: https://CRAN.R-project.org/package=AGPRIS  
 [agriCensData]: https://github.com/OnofriAndreaPG/agriCensData
 [agricolae]: https://CRAN.R-project.org/package=agricolae
 [agricolaeplotr]: https://CRAN.R-project.org/package=agricolaeplotr   
 [agridat]: https://CRAN.R-project.org/package=agridat 
-[AGPRIS]: https://CRAN.R-project.org/package=AGPRIS  
+[agrifeature]: https://CRAN.R-project.org/package=agrifeature
 [agriTutorial]: https://CRAN.R-project.org/package=agriTutorial  
 [agroBioData]: https://github.com/OnofriAndreaPG/agriCensData
 [agroclim]: https://CRAN.R-project.org/package=agroclim  
@@ -207,18 +209,21 @@ The [Hydrology CRAN Task View](https://cran.r-project.org/web/views/Hydrology.ht
 [fertplan]: https://github.com/mbask/fertplan
 [frost]: https://github.com/anadiedrichs/frost  
 [FW]: https://github.com/lian0090/FW/  
-[FWRGB]: https://CRAN.R-project.org/package=FWRGB   
+[FWRGB]: https://CRAN.R-project.org/package=FWRGB 
+[gge]: https://CRAN.R-project.org/package=gge   
 [ggfertilizer]: https://github.com/wenlong-liu/ggfertilizer
-[gge]: https://CRAN.R-project.org/package=gge 
 [gosset]: https://CRAN.R-project.org/package=gosset  
 [gpbStat]: https://CRAN.R-project.org/package=gpbStat   
 [grapesAgri1]: https://cran.r-project.org/package=grapesAgri1  
+[GSMX]: https://CRAN.R-project.org/package=GSMX  
+[GSelection]:  https://CRAN.R-project.org/package=GSelection 
 [GWASpoly]: https://github.com/jendelman/GWASpoly
 [hagis]: https://CRAN.R-project.org/package=hagis  
 [heritability]: https://CRAN.R-project.org/package=heritability  
 [hnp]: https://cran.r-project.org/package=hnp 
 [IBCF.MTME]: https://CRAN.R-project.org/package=IBCF.MTME
 [INLA]: https://github.com/inbo/INLA  
+[inti]: https://CRAN.R-project.org/package=inti 
 [ispd]:  https://CRAN.R-project.org/package=ispd  
 [isqg]: https://CRAN.R-project.org/package=isqg   
 [KenSyn]: https://CRAN.R-project.org/package=KenSyn  
@@ -232,7 +237,6 @@ The [Hydrology CRAN Task View](https://cran.r-project.org/web/views/Hydrology.ht
 [mappoly]: https://CRAN.R-project.org/package=mappoly   
 [mapsRinteractive]: https://CRAN.R-project.org/package=mapsRinteractive   
 [MapRtools]: https://github.com/jendelman/MapRtools
-[MCMCglmm]: https://CRAN.R-project.org/package=MCMCglmm
 [MegaLMM]: https://github.com/deruncie/MegaLMM/
 [meteor]: https://CRAN.R-project.org/package=meteor
 [metrica]: https://CRAN.R-project.org/package=metrica
@@ -265,7 +269,8 @@ The [Hydrology CRAN Task View](https://cran.r-project.org/web/views/Hydrology.ht
 [rapsimng]: https://CRAN.R-project.org/package=rapsimng
 [rarms]: https://CRAN.R-project.org/package=rarms 
 [Recocrop]: https://CRAN.R-project.org/package=Recocrop 
-[resevol]: https://CRAN.R-project.org/package=resevol  
+[resevol]: https://CRAN.R-project.org/package=resevol 
+[rfieldclimate]: https://CRAN.R-project.org/package=rfieldclimate  
 [rMVP]: https://CRAN.R-project.org/package=rMVP
 [rnassqs]: https://CRAN.R-project.org/package=rnassqs 
 [rPAex]: https://CRAN.R-project.org/package=rPAex  
@@ -279,19 +284,20 @@ The [Hydrology CRAN Task View](https://cran.r-project.org/web/views/Hydrology.ht
 [simplePHENOTYPES]: https://github.com/samuelbfernandes/simplePHENOTYPES
 [SISINTAR]: https://github.com/INTA-Suelos/SISINTAR  
 [smapr]: https://CRAN.R-project.org/package=smapr  
-[sommer]: https://CRAN.R-project.org/package=sommer  
 [soilassessment]: https://CRAN.R-project.org/package=soilassessment   
 [soilDB]: https://CRAN.R-project.org/package=soilDB  
 [SoilR]: https://CRAN.R-project.org/package=SoilR 
 [SoilTaxonomy]: https://CRAN.R-project.org/package=SoilTaxonomy
 [soiltestcorr]: https://CRAN.R-project.org/package=soiltestcorr
 [SoilTesting]: https://CRAN.R-project.org/package=SoilTesting  
+[soiltexture]: https://cran.r-project.org/package=soiltexture  
 [soilwater]: https://CRAN.R-project.org/package=soilwater   
+[sommer]: https://CRAN.R-project.org/package=sommer 
 [sorcering]: https://CRAN.R-project.org/package=sorcering  
 [SoyNAM]: https://CRAN.R-project.org/package=SoyNAM
-[spFW]: https://CRAN.R-project.org/package=spFW 
 [SpATS]: https://CRAN.R-project.org/package=SpATS 
-[st4gi]: https://github.com/reyzaguirre/st4gi
+[spFW]: https://CRAN.R-project.org/package=spFW 
+[spsh]: https://CRAN.R-project.org/package=spsh   
 [StageWise]: https://github.com/jendelman/StageWise
 [statgenGWAS]: https://CRAN.R-project.org/package=statgenGWAS
 [statgenGxE]: https://CRAN.R-project.org/package=statgenGxE 
@@ -299,10 +305,15 @@ The [Hydrology CRAN Task View](https://cran.r-project.org/web/views/Hydrology.ht
 [statgenIBD]:	https://CRAN.R-project.org/package=statgenIBD
 [statgenMPP]:	https://CRAN.R-project.org/package=statgenMPP
 [statgenSTA]: https://CRAN.R-project.org/package=statgenSTA
-[stlELM]: https://CRAN.R-project.org/package=stlELM   
+[STGS]: https://CRAN.R-project.org/package=STGS  
+[stlELM]: https://CRAN.R-project.org/package=stlELM 
+[st4gi]: https://github.com/reyzaguirre/st4gi  
 [tidyUSDA]: https://CRAN.R-project.org/package=tidyUSDA
-[usdampr]: https://CRAN.R-project.org/package=usdampr
+[TSDFGS]: https://CRAN.R-project.org/package=TSDFGS  
+[usdampr]: https://CRAN.R-project.org/package=usdampr  
+[variability]: https://CRAN.R-project.org/package=variability
 [vmdTDNN]: https://github.com/cran/vmdTDNN   
+[WCM]: https://CRAN.R-project.org/package=WCM  
 [Xpolaris]: https://github.com/lhmrosso/XPolaris
 [ZeBook]: https://CRAN.R-project.org/package=ZeBook  
 
