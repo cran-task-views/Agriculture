@@ -17,6 +17,7 @@ https://cran.r-project.org/package=
 *(Delete those categories which do not apply)*
 
 * General Packages   
+  * Agrometeorology
   * Agricultural & landuse databases   
   * Agricultural data sets  
   * General analytical packages  

@@ -21,13 +21,9 @@ When you're done making your edits, add a message at the bottom to describe the 
 
 Please, write up your section(s), but refrain from editing other sections at this time (just to make merging easier at this time).
 
-Eventually, the source file to edit will be `agriculture.ctv`, but we are not there, yet. 
+## Step 2: Submit your Pull Request
 
-## Step 2: Add your name to 'contributors' list 
-
-In the "README.md" file. Please included your github main page web address if you want your github profile to be hyperlinked. 
-
-## Step 3: Submit your Pull Request
+*(You will be automatically added as contributor to this repo)*
 
 [Click here to create a new Pull Request][new-pr].
 In the body of the Pull Request, please reference the Issue in which we discussed your proposed change (not applicable for typo fixes).

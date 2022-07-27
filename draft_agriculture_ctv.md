@@ -5,7 +5,7 @@ Agriculture encompasses a broad breadth of disciplines. Many, many package in ba
 
 Note that some of these packages are on CRAN and others are on GitHub, Bioconductor, or R-forge. 
 
-If you think that some package is missing from the list, please let us know. 
+If you think that a package is missing from this list, please let us know. 
 
 ## Packages with general applications
 
