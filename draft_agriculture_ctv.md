@@ -314,6 +314,6 @@ The [Hydrology CRAN Task View](https://cran.r-project.org/web/views/Hydrology.ht
 [variability]: https://CRAN.R-project.org/package=variability
 [vmdTDNN]: https://github.com/cran/vmdTDNN   
 [WCM]: https://CRAN.R-project.org/package=WCM  
-[Xpolaris]: https://github.com/lhmrosso/XPolaris
+[Xpolaris]: https://github.com/XPolaris
 [ZeBook]: https://CRAN.R-project.org/package=ZeBook  
 
