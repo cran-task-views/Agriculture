@@ -59,7 +59,6 @@ Many of the agriculture-focused packages listed in this guide also include data 
 ### General analytical packages supporting agricultural research
 
 -   The packages `r pkg("nlraa", priority = "core")` and `r pkg("AgroReg")` provides linear and nonlinear regression functions specifically for agricultural applications. The package`r pkg("biotools")` can conduct a wide array of multivariate analysis for agronomists including genetic covariance, optimal plot size, tests for spatial dependence, and tests for seed lot heterogeneity. 
-
 -   `r pkg("agriCensData", priority = "core")` is a flexible package for working with censored data (e.g. time to flowering, instrumentation values below the detection limit, disease scoring). 
 
 -   `r pkg("grapesAgri1")` houses a collection of shiny apps, [GRAPES](https://www.kaugrapes.com/) (General R-shiny based Analysis Platform Empowered by Statistics), that works as a graphical user interface for individuals to upload data files and analyse. Linear models and ANOVA for CRD and 2-way RCBD model, correlation analysis, exploratory data analysis and other common hypothesis tests are supported. 
@@ -170,7 +169,7 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 
 -   **General genomic selection packages**: `r github("famuvie/breedR")` is a general purpose package for performing quantitative genetic analyses. Genome feature mixed linear models using frequentist and Bayesian approaches can be implemented with `r pkg("qgg")`. `r pkg("STGS")` implements several genomic selection models for single traits. `r pkg("BWGS")`, "Breed Wheat Genomic Selection", provides a pipeline of functions for conducting genomic selection in hexaploid wheat. 
 
--   **GBLUP**: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include `r pkg("sommer", priority = "core")`, `r pkg("rrBLUP")`, `r pkg("BGLR")`, `r github("perpdgo/lme4gs")`, `r github("variani/lme4qtl")`, `r pkg("pedigreemm")`, `r pkg("qgtools")`, `r github("cheuerde/cpgen")`, `r pkg("QTLrel")`, and the licensed software [asreml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices. 
+-   **GBLUP**: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include `r pkg("sommer", priority = "core")`, `r pkg("rrBLUP")`, `r pkg("BGLR")`, [`lme4gs`](https://github.com/perpdgo/lme4GS/) (this package has special installation instructions), `r github("variani/lme4qtl")`, `r pkg("pedigreemm")`, `r pkg("qgtools")`, `r github("cheuerde/cpgen")`, `r pkg("QTLrel")`, and the licensed software [asreml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices. 
 
 -   `r pkg("pedmod")` provides linear modelling functions integrating kinship for categorical traits. 
 
@@ -190,7 +189,7 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 
 -   `r pkg("DSSAT")` provides a comprehensive R interface to the Decision Support System for Agrotechnology Transfer Cropping Systems Model (DSSAT-CSM) documented by [Jones (2003)](https://doi.org/10.1016/S1161-0301(02)00107-7). This package provides cross-platform functions to read and write input files, run DSSAT-CSM, and read output files. 
 
--   The modelling framework [Simplace]( www.simplace.net) (Scientific Impact assessment and Modelling Platform for Advanced Crop and Ecosystem management) can be accessed using the R package `r github("gk-crop/simplace")`. 
+-   The modelling framework [Simplace]( www.simplace.net) (Scientific Impact assessment and Modelling Platform for Advanced Crop and Ecosystem management) can be accessed using the R package `r github("gk-crop/simplace_rpkg")`. 
   
 -   `r pkg("Meteor")` provides a set of functions for weather and climate data manipulation to support crop and crop disease modelling. 
 
