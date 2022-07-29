@@ -5,8 +5,9 @@
 * The Github repository [agroBioData](https://github.com/OnofriAndreaPG/agroBioData) houses a collection of data sets supporting agriculture and applied biology (note that this is a collection of CSV files and a `.rda` file, not a package)
 
 
-
 ### Relevant R-Forge Projects (do we really need this??)
+
+-   The R-forge subversion repository ['cropcc'](https://r-forge.r-project.org/scm/viewvc.php/pkg/?root=cropcc) hosts several R packages with climate change/cropping data set.  
 
 * [Global Soil Information Facilities](https://r-forge.r-project.org/projects/gsif): an initiative of the [World Soil Information Institute and Africa Soil Information Service](africasoils.net) (ISRIC) team.  
 * [Soil Spectroscopy and Chemometrics](https://r-forge.r-project.org/projects/soilspec/): methods for soil spectroscopy and chemometrics involving spectral data conversion, calibration and prediction methods.  
