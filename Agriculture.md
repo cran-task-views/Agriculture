@@ -177,7 +177,7 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 
 -   `r pkg("GSMX")`, multivariate genomic selection, estimates trait heritability and handles overfitting through cross validation. 
 
--   `r pkg("TSDFG")` can estimate the optimal training population size and composition for genomic selection. 
+-   `r pkg("TSDFGS")` can estimate the optimal training population size and composition for genomic selection. 
 
 -   **Multiple environments and traits**: `r pkg("BGGE")` conducts genomic prediction for continuous variables, focused on genotype-by-environment genomic selection models following the methods of [Jarquín 2014](https://doi.org/10.1007%2Fs00122-013-2243-1). `r pkg("BMTME")` builds genomic selection prediction models that an be expanded to multiple traits and environments using Bayesian models developed by Montesinos-Lopéx ([2016](https://doi.org/10.1534%2Fg3.116.032359), [2018a](https://doi.org/10.1534%2Fg3.118.200728), [2018b](https://doi.org/10.2134%2Fagronj2018.06.0362)). 
 
@@ -251,7 +251,7 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 
 ### Soil science and precision agriculture
 
--   **Spatial**:  The ["Spatial](https://CRAN.R-project.org/view=Spatial) and [Spatio-Temporal](https://CRAN.R-project.org/view=SpatioTemporal) CRAN task views provide extensive resources in spatial statistics. `r pkg("mpsline2")` implements a mass-preserving spline to soil attributes to make continuous down-profile estimates of attributes measured over discrete, often discontinuous depth intervals.
+-   **Spatial**:  The ["Spatial](https://CRAN.R-project.org/view=Spatial) and [Spatio-Temporal](https://CRAN.R-project.org/view=SpatioTemporal) CRAN task views provide extensive resources in spatial statistics. `r pkg("mpspline2")` implements a mass-preserving spline to soil attributes to make continuous down-profile estimates of attributes measured over discrete, often discontinuous depth intervals.
   
 -   The `r pkg("sharpshootR")` contains a compendium of utility functions supporting soils survey work including data management, summary, visualisations and conversions.
 
