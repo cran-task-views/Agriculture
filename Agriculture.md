@@ -3,7 +3,7 @@ name: Agriculture
 topic: Agricultural Science
 maintainer: Julia Piaskowski, Adam Sparks, Janet Williams
 email: julia.piask@gmail.com
-version: 2022-08-01
+version: 2022-08-08
 source: https://github.com/cran-task-views/Agriculture
 ---
 
@@ -173,9 +173,11 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 
 -   **GBLUP**: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include `r pkg("sommer", priority = "core")`, `r pkg("rrBLUP")`, `r pkg("BGLR")`, [`lme4gs`](https://github.com/perpdgo/lme4GS/) (this package has special installation instructions), `r github("variani/lme4qtl")`, `r pkg("pedigreemm")`, `r pkg("qgtools")`, `r github("cheuerde/cpgen")`, `r pkg("QTLrel")`, and the licensed software [asreml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices. 
 
+-   `r pkg("GSelection")` implements genomic selection integrating additive and non-additive models. 
+
 -   `r pkg("pedmod")` provides linear modelling functions integrating kinship for categorical traits. 
 
--   `r pkg("GSelection")` implements genomic selection integrating additive and non-additive models. 
+-   `r pkg("coxme")` can ait Cox proportional hazards models containing both fixed and random effects with a kinship matrix. 
 
 -   `r pkg("GSMX")`, multivariate genomic selection, estimates trait heritability and handles overfitting through cross validation. 
 
@@ -183,7 +185,7 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 
 -   **Multiple environments and traits**: `r pkg("BGGE")` conducts genomic prediction for continuous variables, focused on genotype-by-environment genomic selection models following the methods of [Jarquín 2014](https://doi.org/10.1007%2Fs00122-013-2243-1). The package `r pkg("BMTME")` builds genomic selection prediction models that an be expanded to multiple traits and environments using Bayesian models developed by Montesinos-Lopéx ([2016](https://doi.org/10.1534%2Fg3.116.032359), [2018a](https://doi.org/10.1534%2Fg3.118.200728), [2018b](https://doi.org/10.2134%2Fagronj2018.06.0362)). 
 
--   **Kinship and relatedness**:  `r pkg("AGHmatrix", priority = "core")` provides extensive options for calculating pedigree and genomic relationships (additive and dominance). The `r pkg("pedigree")` packages provides functionality for ordering pedigrees, calculating and inverting the pedigree relationship matrix and other related tasks. `r pkg("statgenIBD")` can calculate IBD probabilities for biparental, three-way and four-way crosses. 
+-   **Kinship and relatedness**:  `r pkg("AGHmatrix", priority = "core")` provides extensive options for calculating pedigree and genomic relationships (additive and dominance). The `r pkg("pedigree")` packages provides functionality for ordering pedigrees, calculating and inverting the pedigree relationship matrix and other related tasks. `r pkg("statgenIBD")` can calculate IBD probabilities for biparental, three-way and four-way crosses. `r pkg("kinship2")` provides functions for manipulating and visualising pedigree-based kinship data. 
   
 ### Crop growth models & crop modelling
 
