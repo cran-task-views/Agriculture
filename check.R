@@ -7,9 +7,13 @@ library(ctv)
 library(RCurl)
 library(XML)
 
-ctvFile <- "agriculture.ctv"
+ctvFile <- "Agriculture.md"
 stopifnot(file.exists(ctvFile))
-htmlFile <- "agriculture.html"
+
+message("Building HTML and opening for viewing")
+ctv::ctv2html("Agriculture.md")
+htmlFile <- "Agriculture.html"
+browseURL(htmlFile)
 
 message("Checking packages...")
 packages <- check_ctv_packages(ctvFile)
@@ -39,6 +43,3 @@ if (version != today)
     immediate. = TRUE
   )
 
-message("Building HTML and opening for viewing")
-ctv2html(ctvFile, file = htmlFile)
-browseURL(htmlFile)
