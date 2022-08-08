@@ -212,7 +212,6 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 ### Entomology
 
 -   The `r view("Survival")` task view lists resources for working with censored data. The package `r github("OnofriAndreaPG/agriCensData")` provides functions for dealing with censored data in common agricultural contexts. 
-
 -   `r pkg("hnp")` Generates half-normal plots with simulation envelopes using different diagnostics from a range of different fitted models.   
     
 ### Food science
@@ -287,5 +286,14 @@ For ecological studies and analytical applications, the `r view("Environmetrics"
 
 ### Links
 
-*None at this time.*
+-   General web-based tutorials: [R for Agricultural Statistics](https://rstats4ag.org/), [AgStats.io](agstats.io), [Data Science for Agriculture in R](https://schmidtpaul.github.io/DSFAIR/)
+-   Website: [Mixed Models in Agriculture](https://schmidtpaul.github.io/MMFAIR/)
+-   Additional data sets: the Github repository [agroBioData](https://github.com/OnofriAndreaPG/agroBioData) houses a collection of data sets supporting agriculture and applied biology (note that this is a collection of CSV files and a `.rda` file, not a package)
+-   Book: **[Applied Statistics in Agricultural, Biological, and Environmental Sciences](Applied Statistics in Agricultural, Biological, and Environmental Sciences)** (2017) edited by B Glaz and KM Yeater.
+-   Books published by [ASA/CSSA/SSSA](https://acsess.onlinelibrary.wiley.com/hub/books)
+-   Books published by the [ASHS](https://ashs.org/store/ListProducts.aspx?catid=3379250)
+-   Books published by the [WSSA](https://wssa.net/publications/)
+-   Books published by the [APS](https://my.apsnet.org/APSStore/)
+-   Publications by the [ESA](https://online.entsoc.org/esassa/ecssashop.shopping_page)
+-   Teaching curriculum: **[Crop Climate Change Course](https://r-forge.r-project.org/projects/cropcc/)**: materials for the course *Analyzing the Impact of Climate Change on Crops and Varieties*
 
