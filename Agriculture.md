@@ -177,7 +177,7 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 
 -   `r pkg("pedmod")` provides linear modelling functions integrating kinship for categorical traits. 
 
--   `r pkg("coxme")` can ait Cox proportional hazards models containing both fixed and random effects with a kinship matrix. 
+-   `r pkg("coxme")` can fit Cox proportional hazards models containing both fixed and random effects with a kinship matrix. 
 
 -   `r pkg("GSMX")`, multivariate genomic selection, estimates trait heritability and handles overfitting through cross validation. 
 
