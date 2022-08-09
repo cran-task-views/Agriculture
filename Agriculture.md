@@ -38,7 +38,7 @@ If you think that a package is missing from this list, please let us know by [fi
   
 ### Agricultural data sets
 
-Many of the agriculture-focused packages listed in this guide also include data sets to illustrate their functionality (e.g. `r pkg("agricolae")`, `r pkg("AgroTech")`, `r pkg("BGLR")`).  
+Many of the agriculture-focused packages listed in this guide also include data sets to illustrate their functionality (e.g. `r pkg("agricolae", priority = "core")`, `r pkg("AgroTech")`, `r pkg("BGLR")`).  
 
 -   `r pkg("Agridat", priority = "core")` consists of a very large collection of agricultural data sets and example analyses; the package contains a vignette detailing additional data sets and extensive resources to support agricultural analysis. 
 
@@ -97,7 +97,7 @@ The `r view("Hydrology")` has many resources for accessing and processing weathe
   
 The task view for `r view("ExperimentalDesign")` provide additional information on experimental design for a wide variety of research problems.
 
--   `r pkg("agricolae", priority = "core")` provides extensive resources for the planning and analysis of planned field experiments. Designs constructed by `r pkg("agricolae")` can be visualised with `r pkg("agricolaeplotr")`. Agricultural field trials layout can be also be visualised with `r pkg("desplot")`. 
+-   `r pkg("agricolae", priority = "core")` provides extensive resources for the planning and analysis of planned field experiments. Designs constructed by `r pkg("agricolae", priority = "core")` can be visualised with `r pkg("agricolaeplotr")`. Agricultural field trials layout can be also be visualised with `r pkg("desplot")`. 
 
 -   The package [DiGGer](http://www.nswdpibiom.org/austatgen/software/) was developed for rectangular field trials; its purpose is to help users determine the optimal experimental design based on the treatment structure and number of replicates.  
 
@@ -115,7 +115,7 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
   
 #### Trial analysis
   
--   **General analysis**: The package `r pkg("agricolae")` contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations.  The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model software for field trial analysis (note this is not open source and requires an annual license). CRAN also contains an add-on package `r pkg("asremlPlus")` that provides several accessory functions to asreml. `r github("inbo/INLA")` provides tools for Bayesian inference of latent Gaussian models, and it contains functions for modelling spatial variation, such as field experiments or farm locations. The `r pkg("gosset")` package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation. `r pkg("AgroR")` has general functions and a [shiny app](https://agrorproject.shinyapps.io/agror_shiny/) for analysis of common designs in agriculture: CRD, RCBD and Latin square. 
+-   **General analysis**: The package `r pkg("agricolae", priority = "core")` contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations.  The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model software for field trial analysis (note this is not open source and requires an annual license). CRAN also contains an add-on package `r pkg("asremlPlus")` that provides several accessory functions to asreml. `r github("inbo/INLA")` provides tools for Bayesian inference of latent Gaussian models, and it contains functions for modelling spatial variation, such as field experiments or farm locations. The `r pkg("gosset")` package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation. `r pkg("AgroR")` has general functions and a [shiny app](https://agrorproject.shinyapps.io/agror_shiny/) for analysis of common designs in agriculture: CRD, RCBD and Latin square. 
   
 -   **Spatial analysis**: the `r pkg("statgenSTA")` has functions for single trial analysis with and without spatial components. `r pkg("SpATS")` can be used to adjust for field spatial variation using [p-splines](http://dx.doi.org/10.1002/bimj.202100212). A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with `r pkg("mvngGrAd")`. 
 
