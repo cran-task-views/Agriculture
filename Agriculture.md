@@ -147,9 +147,9 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 
 -   There are several packages focused on [linkage disequilibrium on Bioconductor](https://bioconductor.org/packages/release/BiocViews.html#___LinkageDisequilibrium). 
   
--   There are two notable and long-standing packages for quantitative trait loci (QTL) analysis: (1) `r pkg("onemap")`, providing [MapMaker/EXP](https://gaow.github.io/genetic-analysis-software/m/mapmakerexp/)-like performance and extended functionality; and (2) `r pkg("qtl", priority = "core")` providing standard QTL mapping functionality and accessory functions for simulating crosses. `r pkg("ASMap")` can conduct fast linkage mapping with the algorithm 'MSTmap'. `r github("jendelman/MapRtools")` is multi-purpose linkage mapping package for teaching and research. 
+-   There are two notable and long-standing packages for quantitative trait loci (QTL) analysis: (1) `r pkg("onemap")`, providing [MapMaker/EXP](https://gaow.github.io/genetic-analysis-software/m/mapmakerexp/)-like performance and extended functionality; and (2) `r pkg("qtl", priority = "core")` providing standard QTL mapping functionality and accessory functions for simulating crosses. `r github("bschiffthaler/BatchMap")` is a fork of `r pkg("onemap")` for fast computation of high density linkage maps. `r pkg("ASMap")` can conduct fast linkage mapping with the algorithm 'MSTmap'. `r github("jendelman/MapRtools")` is multi-purpose linkage mapping package for teaching and research. 
 
--   For polyploids, the packages `r pkg("mappoly")` and `r pkg("polymapR")` can be used for linkage mapping and the packages `r pkg("qtlpoly")` and `r pkg("polyqtlR")` can be used for qtl estimation. `r github("jendelman/diaQTL")` is for QTL and haplotype analysis of diallel populations (diploid and autotetraploid). 
+-   For polyploids, the packages `r pkg("mappoly")` and `r pkg("polymapR")` can be used for linkage mapping and the packages `r pkg("qtlpoly")` and `r pkg("polyqtlR")` can be used for QTL estimation. `r github("jendelman/diaQTL")` is for QTL and haplotype analysis of diallel populations (diploid and autotetraploid). 
 
 -   `r pkg("statgenMPP")` can conduct QTL mapping in multi-parent populations.  
 
@@ -183,7 +183,7 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 
 -   `r pkg("TSDFGS")` can estimate the optimal training population size and composition for genomic selection. 
 
--   **Multiple environments and traits**: `r pkg("BGGE")` conducts genomic prediction for continuous variables, focused on genotype-by-environment genomic selection models following the methods of [Jarquín 2014](https://doi.org/10.1007%2Fs00122-013-2243-1). The package `r pkg("BMTME")` builds genomic selection prediction models that an be expanded to multiple traits and environments using Bayesian models developed by Montesinos-Lopéx ([2016](https://doi.org/10.1534%2Fg3.116.032359), [2018a](https://doi.org/10.1534%2Fg3.118.200728), [2018b](https://doi.org/10.2134%2Fagronj2018.06.0362)). 
+-   **Multiple environments and traits**: `r pkg("BGGE")` conducts genomic prediction for continuous variables, focused on genotype-by-environment genomic selection models following the methods of [Jarquín 2014](https://doi.org/10.1007%2Fs00122-013-2243-1). The package `r pkg("BMTME")` builds genomic selection prediction models that an be expanded to multiple traits and environments using Bayesian models developed by Montesinos-Lopéz ([2016](https://doi.org/10.1534%2Fg3.116.032359), [2018a](https://doi.org/10.1534%2Fg3.118.200728), [2018b](https://doi.org/10.2134%2Fagronj2018.06.0362)). 
 
 -   **Kinship and relatedness**:  `r pkg("AGHmatrix", priority = "core")` provides extensive options for calculating pedigree and genomic relationships (additive and dominance). The `r pkg("pedigree")` packages provides functionality for ordering pedigrees, calculating and inverting the pedigree relationship matrix and other related tasks. `r pkg("statgenIBD")` can calculate IBD probabilities for biparental, three-way and four-way crosses. `r pkg("kinship2")` provides functions for manipulating and visualising pedigree-based kinship data. 
   
@@ -207,7 +207,7 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 
 -   `r pkg("Rquefts")` provides an implementation of the QUEFTS (Quantitative Evaluation of the Native Fertility of Tropical Soils) model ([Janssen 1990](https://doi.org/10.1016%2F0016-7061%2890%2990021-Z)). 
 
--   `r pkg("Rwofost")` is an implementation of the WOFOST ("World Food Studies") crop growth model ([De Wit 2019](https://doi.org/10.1016%2Fj.agsy.2018.06.018)).
+-   `r pkg("Rwofost")` is an implementation of the WOFOST (World Food Studies) crop growth model ([De Wit 2019](https://doi.org/10.1016%2Fj.agsy.2018.06.018)).
 
 ### Entomology
 

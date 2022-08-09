@@ -11,7 +11,7 @@ ctvFile <- "Agriculture.md"
 stopifnot(file.exists(ctvFile))
 
 message("Building HTML and opening for viewing")
-ctv::ctv2html("Agriculture.md")
+ctv::ctv2html(ctvFile)
 htmlFile <- "Agriculture.html"
 browseURL(htmlFile)
 
