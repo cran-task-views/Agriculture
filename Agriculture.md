@@ -3,7 +3,7 @@ name: Agriculture
 topic: Agricultural Science
 maintainer: Julia Piaskowski, Adam Sparks, Janet Williams
 email: julia.piask@gmail.com
-version: 2022-08-08
+version: 2022-08-09
 source: https://github.com/cran-task-views/Agriculture
 ---
 
@@ -63,11 +63,11 @@ Many of the agriculture-focused packages listed in this guide also include data 
 
 -   `r pkg("grapesAgri1")` houses a collection of shiny apps, [GRAPES](https://www.kaugrapes.com/) (General R-shiny based Analysis Platform Empowered by Statistics), that works as a graphical user interface for individuals to upload data files and analyse. Linear models, ANOVA for CRD and 2-way RCBD designs, correlation analysis, exploratory data analysis and other common hypothesis tests are supported. 
 
--   `r pkg("ALUES")` implements methodology developed by the FAO and the International Rice Research Institute for evaluating land suitability for different crop production. f
+-   `r pkg("ALUES")` implements methodology developed by the FAO and the International Rice Research Institute for evaluating land suitability for different crop production.
 
 - `r pkg("AGPRIS")` (AGricultural PRoductivity in Space) provides functions for different spatial analyses in implemented in `r github("inbo/INLA")` and other spatial approaches. The package `r pkg("KenSyn")` has example data sets and analytical code supporting the book [**De L'analyse des Réseaux Expérimentaux à la Méta-analyse**](https://www.quae.com/produit/1514/9782759228164/de-l-analyse-des-reseaux-experimentaux-a-la-meta-analyse) (French) or [**From Experimental Network to Meta-analysis**](https://link.springer.com/book/10.1007/978-94-024-1696-1) (English).
   
--   `r pkg("Agrotech")` provides functionality for making chemical application calculations and example data sets. 
+-   `r pkg("Agrotech")` provides functions for making chemical application calculations and example data sets. 
 
 ## Discipline-specific packages
 
@@ -125,13 +125,15 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
   
 ### Animal science
 
--   The `r view("Tracking")` has many resources for working with tracked animal data and studying animal movement. 
+-   The `r view("Tracking")` task view has many resources for working with tracked animal data and studying animal movement. 
 
--   The package `r pkg("usdampr")` provides access to the USDA's Livestock Mandatory Reporting API. Many of the genetic packages described in this task view can also be applied to animals. 
+-   The package `r pkg("usdampr")` provides access to the USDA's Livestock Mandatory Reporting API. 
+
+-   Many of the genetic packages described in this task view can also be applied to animals. 
     
 ### Breeding & quantitative genetics
 
-See the R package repository [Bionconductor](https://www.bioconductor.org/) for bioinformatics tools to support the processing of high-throughput genomic data. 
+See the R package repository [Bionconductor](https://www.bioconductor.org/) for bioinformatic tools to support the processing of high-throughput genomic data. 
 
 -   **General plant breeding functionality**:  `r github("reyzaguirre/st4gi")` and `r pkg("variability")` provides several common utility functions for genetic improvement of crops. Also, please see the subsection on "genotype-by-environment interactions" in this task view for packages integrating environmental and genomic data in an analytical framework. `r pkg("gpbStat")` provides functions for common plant breeding analyses including line-by-tester analysis ([Arunachalam 1974](http://repository.ias.ac.in/89299)) and diallel analysis ([Griffing 1956](https://www.publish.csiro.au/bi/pdf/BI9560463)). `r rforge("plantbreeding")` provides many convenience functions for working with populations and designs common in plant breeding including dialleles, line testers, augmented trials, the Carolina design, and more. 
 
@@ -280,7 +282,7 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 
 For ecological studies and analytical applications, the `r view("Environmetrics")` task view provides a list of existing R resources in this topic. 
 
--   **Dose Response**:  the package `r pkg("drc", priority = "core")` offers versatile model fitting and after-fitting functions for dose-response curves. `r pkg("LW1949")` implements the Litchefield and Wilcoxon ([1949](http://jpet.aspetjournals.org/content/96/2/99.abstract))dose-response model. 
+-   **Dose Response**:  the package `r pkg("drc", priority = "core")` offers versatile model fitting and after-fitting functions for dose-response curves. `r pkg("LW1949")` implements the Litchefield and Wilcoxon ([1949](http://jpet.aspetjournals.org/content/96/2/99.abstract)) dose-response model. 
 
 -   `r pkg("PROSPER")` is a package for simulating weed population dynamics at the individual and population level under a range of conditions including herbicide resistance and herbicide pressure. 
 
