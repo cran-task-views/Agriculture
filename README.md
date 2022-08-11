@@ -44,7 +44,7 @@ Suggestions are welcome! If you think there should be another category or if you
 * **Code of Conduct:** Please note that this project is released with a
 [Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md). By participating in this
 project you agree to abide by its terms.
-* **Contributing:** We welcome suggestions for packages to add (including those not on CRAN). If you think that some package is missing from the list, please let us know. See the [general contributing instructions](https://github.com/cran-task-views/ctv/blob/main/Contributing.md) and
+* **Contributing:** We welcome suggestions for packages to add (including those not on CRAN). If you think a package is missing from the list, please let us know. See the [general contributing instructions](https://github.com/cran-task-views/ctv/blob/main/Contributing.md) and
 [specific contributing instructions](.github/CONTRIBUTING.md). 
 * **License:** CC-BY 4.0. See file [LICENSE](.github/LICENSE) for details.
 
