@@ -8,7 +8,7 @@ source: https://github.com/cran-task-views/Agriculture
 ---
 
 
-Agriculture encompasses a broad breadth of disciplines. Many package in base R and contributed packages are useful to agricultural researchers. For that reason, this is not an exhaustive list of all packages useful to agricultural research. This CRAN task view is intended to cover major packages that in most cases, have been developed to support agricultural research and analytical needs. 
+Agriculture encompasses a broad breadth of disciplines. Many packages in base R and contributed packages are useful to agricultural researchers. For that reason, this is not an exhaustive list of all packages useful to agricultural research. This CRAN task view is intended to cover major packages that in most cases, have been developed to support agricultural research and analytical needs. 
 
 Note that some of these packages are on CRAN and others are on GitHub, Bioconductor, or R-forge. 
 
@@ -30,7 +30,7 @@ If you think that a package is missing from this list, please let us know by [fi
 
 -   SILO weather data from the [Queensland DES Longpaddock](https://www.longpaddock.qld.gov.au) website can be accessed with `r pkg("cropgrowdays")`. 
 
-- `r pkg("febr")` has utilities to access and process data from the [Brazilian Soil Data Repository](https://www.pedometria.org/febr).
+-   `r pkg("febr")` has utilities to access and process data from the [Brazilian Soil Data Repository](https://www.pedometria.org/febr).
   
 -   `r pkg("PGRdup")` provides functions to aid the identification of probable/possible duplicates in plant genetic resources collections. 
 
@@ -185,7 +185,7 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 
 -   `r pkg("TSDFGS")` can estimate the optimal training population size and composition for genomic selection. 
 
--   **Multiple environments and traits**: `r pkg("BGGE")` conducts genomic prediction for continuous variables, focused on genotype-by-environment genomic selection models following the methods of [Jarquín 2014](https://doi.org/10.1007%2Fs00122-013-2243-1). The package `r pkg("BMTME")` builds genomic selection prediction models that an be expanded to multiple traits and environments using Bayesian models developed by Montesinos-Lopéz ([2016](https://doi.org/10.1534%2Fg3.116.032359), [2018a](https://doi.org/10.1534%2Fg3.118.200728), [2018b](https://doi.org/10.2134%2Fagronj2018.06.0362)). 
+-   **Multiple environments and traits**: `r pkg("BGGE")` conducts genomic prediction for continuous variables, focused on genotype-by-environment genomic selection models following the methods of [Jarquín 2014](https://doi.org/10.1007%2Fs00122-013-2243-1). The package `r pkg("BMTME")` builds genomic selection prediction models that can be expanded to multiple traits and environments using Bayesian models developed by Montesinos-Lopéz ([2016](https://doi.org/10.1534%2Fg3.116.032359), [2018a](https://doi.org/10.1534%2Fg3.118.200728), [2018b](https://doi.org/10.2134%2Fagronj2018.06.0362)). 
 
 -   **Kinship and relatedness**:  `r pkg("AGHmatrix", priority = "core")` provides extensive options for calculating pedigree and genomic relationships (additive and dominance). The `r pkg("pedigree")` packages provides functionality for ordering pedigrees, calculating and inverting the pedigree relationship matrix and other related tasks. `r pkg("statgenIBD")` can calculate IBD probabilities for biparental, three-way and four-way crosses. `r pkg("kinship2")` provides functions for manipulating and visualising pedigree-based kinship data. 
   
@@ -203,13 +203,13 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 
 -   `r pkg("metrica")` has many convenience functions for comparing model predictions with ground truth data. 
 
--   `r github("cropmodels/phenorice")` is an R implementation of the [phenorice model](http://dx.doi.org/10.1016/j.rse.2017.03.029) for remote sensing of rice crop production. `r github("lbusett/phenoriceR")` provides helper functions for processing data from the phenorice model. 
+-   `r github("cropmodels/phenorice")` is an R implementation of the [PhenoRice model](http://dx.doi.org/10.1016/j.rse.2017.03.029) for remote sensing of rice crop production. `r github("lbusett/phenoriceR")` provides helper functions for processing data from the phenorice model. 
 
 -   `r pkg("Recocrop")` estimates environmental suitability for plants using a limiting factor approach for plant growth following [Hackett (1991)](doi:10.1007/BF00045728). 
 
 -   `r pkg("Rquefts")` provides an implementation of the QUEFTS (Quantitative Evaluation of the Native Fertility of Tropical Soils) model ([Janssen 1990](https://doi.org/10.1016%2F0016-7061%2890%2990021-Z)). 
 
--   `r pkg("Rwofost")` is an implementation of the WOFOST (World Food Studies) crop growth model ([De Wit 2019](https://doi.org/10.1016%2Fj.agsy.2018.06.018)).
+-   `r pkg("Rwofost")` is an implementation of the WOFOST (World Food Studies) crop growth model ([de Wit 2019](https://doi.org/10.1016%2Fj.agsy.2018.06.018)).
 
 ### Entomology
 
@@ -246,7 +246,7 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 
 -   `r pkg("epifitter")` provides functions for analysis and visualization of plant disease progress curve data. 
 
--   **Plant Pathogen Genetics**: `r pkg("hagis")` has functions for analysis of plant pathogen pathotype survey data. Functions provided calculate distribution of susceptibilities, distribution of complexities with statistics, pathotype frequency distribution, as well as diversity indices for pathotypes.Evolution of resistance genes under pesticide pressure can be simulated under different numbers of pests, modes of pest reproduction, resistance loci, number of pesticides and other facets with `r pkg("resevol")`. Populations with mixed clonal/sexual reproductive strategies can be analyzed with `r pkg("poppr")`, which has population genetic analysis tools for hierarchical analysis of partially clonal populations.
+-   **Plant Pathogen Genetics**: `r pkg("hagis")` has functions for analysis of plant pathogen pathotype survey data. Functions provided calculate distribution of susceptibilities, distribution of complexities with statistics, pathotype frequency distribution, as well as diversity indices for pathotypes. Evolution of resistance genes under pesticide pressure can be simulated under different numbers of pests, modes of pest reproduction, resistance loci, number of pesticides and other facets with `r pkg("resevol")`. Populations with mixed clonal/sexual reproductive strategies can be analyzed with `r pkg("poppr")`, which has population genetic analysis tools for hierarchical analysis of partially clonal populations.
   
 ### Rural sociology
 
@@ -270,9 +270,9 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 
 -   `r pkg("QI")` can be used to calculate potassium intensity and exchangeability.
 
--   `r pkg("DMMF")` implements the daily based Morgan-Morgan-Finney (DMMF) soil erosion model ([Choi, 2017](https://doi.org/10.3390%2Fw9040278)) for estimating surface runoff and sediment budgets from a field or a catchment on a daily basis. 
+-   `r pkg("DMMF")` implements the daily based Morgan-Morgan-Finney (DMMF) soil erosion model ([Choi 2017](https://doi.org/10.3390%2Fw9040278)) for estimating surface runoff and sediment budgets from a field or a catchment on a daily basis. 
 
--   **Soil Fertility Testing**:  `r pkg("soiltestcorr")` has functions for conducting correlation analysis between soil test values and crop yield data. `r pkg("SoilTesting")` provides functions for calculating soil mineral concentrations from analytical lab results. `r github("mbask/fertplan")` provides fertilizer recommendations based on soil test results (note this packages is optimized for horticultural crop production in Italy). 
+-   **Soil Fertility Testing**:  `r pkg("soiltestcorr")` has functions for conducting correlation analysis between soil test values and crop yield data. `r pkg("SoilTesting")` provides functions for calculating soil mineral concentrations from analytical lab results. `r github("mbask/fertplan")` provides fertilizer recommendations based on soil test results (note this package is optimized for horticultural crop production in Italy). 
 
 -   **Remote Sensing**: Agriculture image features from spectral data can extracted with `r pkg("agrifeature")`. It has functions to calculate gray level co-occurrence matrix (GLCM), RGB-based vegetative index (RGB VI) and normalized difference vegetation index (NDVI). Experimental units (e.g. plots) can be obtained from spectral images using `r pkg("rPAex")`. The `r pkg("mapsRinteractive")` package provides functions for working with soil point data in raster format. 
  
