@@ -188,7 +188,7 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 
 -   There are many [GWAS packages on Bioconductor](https://bioconductor.org/packages/release/BiocViews.html#___GenomeWideAssociation).
 
--   GWAS can be conducted using a [stepwise mixed linear model](https://www.nature.com/articles/ng.2314) for multilocus data with `r pkg("mlmm.gwas")` or `r github("Gregor-Mendel-Institute/MultLocMixMod")` (use `library(mlmm)` to load the package in R). The package `r pkg("statgenGWAS")` can fit GWAS models using the [EMMAX algorithm](https://www.nature.com/articles/ng.548). 
+-   GWAS can be conducted using a [stepwise mixed linear model](https://www.nature.com/articles/ng.2314) for multilocus data with `r pkg("mlmm.gwas")` or `r github("Gregor-Mendel-Institute/MultLocMixMod")` (use `library(mlmm)` to load the package in R). The package `r pkg("statgenGWAS")` can fit GWAS models using the [EMMAX algorithm](https://www.nature.com/articles/ng.548). `r github("jiabowang/GAPIT3")` is [wrapper](https://doi.org/10.1016/j.gpb.2021.08.005) for several GWAS algorithms including the original [GAPIT](https://doi.org/10.1093/bioinformatics/bts444), [FarmCPU](https://doi.org/10.1002/pld3.53) and [BLINK](https://doi.org/10.1093/gigascience/giy154). 
 
 -   GWAS models for a very large number of SNPs and/or observations can be estimated with `r pkg("rMVP")` and `r github("deruncie/megaLMM")`. Functions for conducting GWAS in autotetraploids are provided by `r github("jendelman/GWASpoly")`, and these functions also work in diploid species. Variable selection for ultra-large dimensional GWAS data sets can be done with `r pkg("bravo")`, which implements the Bayesian algorithm [SVEN](https://arxiv.org/abs/2006.07561), selection of variables with embedded screening.
 
@@ -318,7 +318,7 @@ For ecological studies and analytical applications, the `r view("Environmetrics"
 ###  Links
 
 -   General web-based tutorials: [R for Agricultural Statistics](https://rstats4ag.org/), [AgStats.io](https://agstats.io), [Data Science for Agriculture in R](https://schmidtpaul.github.io/DSFAIR/)
--   Website: [Mixed Models in Agriculture](https://schmidtpaul.github.io/MMFAIR/)
+-   Website: [Mixed Models in Agriculture](https://schmidtpaul.github.io/MMFAIR/) 
 -   Additional data sets: the Github repository [agroBioData](https://github.com/OnofriAndreaPG/agroBioData) houses a collection of data sets supporting agriculture and applied biology (note that this is a collection of CSV files and a `.rda` file, not a package)
 -   Book: *[Applied Statistics in Agricultural, Biological, and Environmental Sciences](Applied Statistics in Agricultural, Biological, and Environmental Sciences](https://acsess.onlinelibrary.wiley.com/doi/book/10.2134/appliedstatistics)* (2017) edited by B Glaz and KM Yeater.
 -   Books published by [ASA/CSSA/SSSA](https://acsess.onlinelibrary.wiley.com/hub/books)
