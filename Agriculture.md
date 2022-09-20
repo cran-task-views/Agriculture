@@ -12,7 +12,7 @@ Agriculture encompasses a broad breadth of disciplines. Many packages in base R 
 
 Note that some of these packages are on CRAN and others are on GitHub, Bioconductor, or R-forge. 
 
-If you think that a package is missing from this list, please let us know by [filing an issue](https://github.com/jpiaskowski/ctv-agriculture/issues/new?template=package_suggestion.md) in the [GitHub repository](https://github.com/IdahoAgStats/ctv-agriculture) (preferred) or by contacting the package maintainers. 
+If you think that a package is missing from this list, please let us know by [filing an issue](https://github.com/cran-task-views/Agriculture/issues) in the [GitHub repository](https://github.com/cran-task-views/Agriculture) (preferred) or by contacting the package maintainers. 
 
 ## Table of Contents
 
