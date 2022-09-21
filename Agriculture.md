@@ -3,18 +3,17 @@ name: Agriculture
 topic: Agricultural Science
 maintainer: Julia Piaskowski, Adam Sparks, Janet Williams
 email: julia.piask@gmail.com
-version: 2022-08-15
-source: https://github.com/cran-task-views/Agriculture
+version: 2022-09-21
+source: https://github.com/cran-task-views/Agriculture/
 ---
-
 
 Agriculture encompasses a broad breadth of disciplines. Many packages in base R and contributed packages are useful to agricultural researchers. For that reason, this is not an exhaustive list of all packages useful to agricultural research. This CRAN task view is intended to cover major packages that in most cases, have been developed to support agricultural research and analytical needs. 
 
-Note that some of these packages are on CRAN and others are on GitHub, Bioconductor, or R-forge. 
+Note that some of these packages are on CRAN and others are on GitHub, Bioconductor, or R-Forge. 
 
-If you think that a package is missing from this list, please let us know by [filing an issue](https://github.com/cran-task-views/Agriculture/issues) in the [GitHub repository](https://github.com/cran-task-views/Agriculture) (preferred) or by contacting the package maintainers. 
+If you think that a package is missing from this list, please let us know through issues or pull requests in the [GitHub repository](https://github.com/cran-task-views/Agriculture), or via e-mail.
 
-## Table of Contents
+## Table of contents
 
 - [Packages with general applications](#general)
   - [Agricultural & land use databases](#databases)
@@ -313,10 +312,7 @@ For ecological studies and analytical applications, the `r view("Environmetrics"
 
 -   `r pkg("PROSPER")` is a package for simulating weed population dynamics at the individual and population level under a range of conditions including herbicide resistance and herbicide pressure. 
 
------------------------------
-
 ###  Links
-
 -   General web-based tutorials: [R for Agricultural Statistics](https://rstats4ag.org/), [AgStats.io](https://agstats.io), [Data Science for Agriculture in R](https://schmidtpaul.github.io/DSFAIR/)
 -   Website: [Mixed Models in Agriculture](https://schmidtpaul.github.io/MMFAIR/) 
 -   Additional data sets: the Github repository [agroBioData](https://github.com/OnofriAndreaPG/agroBioData) houses a collection of data sets supporting agriculture and applied biology (note that this is a collection of CSV files and a `.rda` file, not a package)
@@ -327,4 +323,3 @@ For ecological studies and analytical applications, the `r view("Environmetrics"
 -   Books published by the [APS](https://my.apsnet.org/APSStore/)
 -   Publications by the [ESA](https://online.entsoc.org/esassa/ecssashop.shopping_page)
 -   Teaching curriculum: *[Crop Climate Change Course](https://r-forge.r-project.org/projects/cropcc/)*: materials for the course *Analyzing the Impact of Climate Change on Crops and Varieties*
-
