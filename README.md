@@ -1,40 +1,12 @@
+## CRAN Task View: Agricultural Science
 
-**New contributors welcomed!**
+**URL:** <https://CRAN.R-project.org/view=Agriculture>
 
-This is intended to be a curated collection of R packages and other R resources that serve agricultural research. The Task View highlights packages that provide features for the following categories:
+**Source file:** [Agriculture.md](Agriculture.md)
 
-* General Packages   
-  * Agricultural & landuse databases   
-  * Agricultural data sets  
-  * General analytical packages  
-* Discipline-Specific Packages  
-  * Agrometeorology  
-  * Agronomic trials  
-      * Experimental design   
-      * High throughput phenotyping (HTP)   
-      * Trial analysis
-  * Animal science  
-  * Breeding & quantitative genetics  
-    * Linkage mapping & QTL analysis   
-    * GWAS  
-    * Genomic prediction   
-  * Crop growth models & crop modelling  
-  * Entomology  
-  * Food science  
-  * Genotype-by-environment interactions  
-  * Plant pathology  
-  * Rural sociology  
-  * Soil science  
-  * Weed science  
-
-Suggestions are welcome! If you think there should be another category or if you know of a package that fits into one of these categories, but is missing from the Task View, please open an Issue to discuss. Also, see the contributing instructions for more details. 
-
-
-
-**Current maintainers:**
-
-* [Julia Piaskowski](@jpiaskowski)
-* [Adam H Sparks](@adamhsparks)
-* [Janet Williams](@janetw)
-
-
+**Contributions:** Suggestions and improvements for this task view are very
+welcome and can be made through issues or pull requests here on GitHub or
+via e-mail to the maintainer address. For further details see the
+[Contributing](https://github.com/cran-task-views/ctv/blob/main/Contributing.md)
+guide. All contributions must adhere to the
+[code of conduct](https://github.com/cran-task-views/ctv/blob/main/CodeOfConduct.md).
