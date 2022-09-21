@@ -3,17 +3,17 @@
 
 # Maintenance script to check CTV packages, URLs, and formatting.
 
-library(ctv)
-library(httr)
-library(xml2)
-library(magrittr)
+library("ctv")
+library("httr")
+library("xml2")
+library("magrittr")
 
 ctvFile <- "Agriculture.md"
 stopifnot(file.exists(ctvFile))
 
 message("Building HTML and opening for viewing")
 ctv::ctv2html(ctvFile)
-htmlFile <- "Agriculture.html"
+htmlFile <- gsub(".md", ".html", ctvFile, fixed = TRUE)
 browseURL(htmlFile)
 
 
