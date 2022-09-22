@@ -103,7 +103,7 @@ The task views for `r view("Econometrics")`, (Empirical) `r view("Finance")`, an
 
 -   *Agricultural price forecasting*: `r github("cran/vmdTDNN")` forecasts univariate time series data using variational mode decomposition based time delay neural network models as described by [Dragomiretskiy 2014](https://doi.org/10.1109/TSP.2013.2288675). `r pkg("stlELM")` also conducts univariate time series forecasting univariate time series, using seasonal-trend decomposition procedures based on loess (STL) combined with the extreme learning machine developed by [Xiong 2018](https://doi.org/10.1016%2Fj.neucom.2017.11.053). The package `r pkg("eemdTDNN")` also conduct univariate forecasting, utilizing different decomposition based time delay neural network models based on [Yu 2008](https://doi.org/10.1016%2Fj.eneco.2008.05.003). 
 
-### [Agrometeorology]{#agrometeorology}
+### [Agrometeorology]{#agrometeo}
 
 The `r view("Hydrology")` has many resources for accessing and processing weather and climate data. 
 
@@ -237,7 +237,7 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 
 -   `r pkg("Rwofost")` is an implementation of the WOFOST (World Food Studies) crop growth model ([de Wit 2019](https://doi.org/10.1016%2Fj.agsy.2018.06.018)).
 
-### [Entomology]{#entomology}
+### [Entomology]{#entomol}
 
 -   The `r view("Survival")` task view lists resources for working with censored data. The package `r github("OnofriAndreaPG/agriCensData")` provides functions for dealing with censored data in common agricultural contexts. 
 -   `r pkg("hnp")` Generates half-normal plots with simulation envelopes using different diagnostics from a range of different fitted models.   
