@@ -61,6 +61,10 @@ If you think that a package is missing from this list, please let us know throug
 -   `r pkg("PGRdup")` provides functions to aid the identification of probable/possible duplicates in plant genetic resources collections. 
 
 -   `r pkg("rfieldclimate")` provides functionality and parsers to interact with the [FieldClimate API](https://api.fieldclimate.com/v2/docs/).
+
+-   `r pkg("pestr")` offers tools to extract pest data from [EPPO Data Services](https://data.eppo.int/) and [EPPO Global Database](https://gd.eppo.int/) using [EPPO database API](https://data.eppo.int) and put them into tables with human-readable formats.
+
+- `r pkg("PesticideLoadIndicator")` computes the Danish Pesticide Load Indicator as described in Kudsk ([2018](doi:10.1016/j.landusepol.2017.11.010)) and Moehring ([2019](doi:10.1016/j.scitotenv.2018.07.287))  for pesticide use data. 
   
 ### [Agricultural data sets]{#datasets}
 
@@ -159,7 +163,7 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
     
 ### [Breeding & quantitative genetics]{#breeding}
 
-See the R package repository [Bionconductor](https://www.bioconductor.org/) for bioinformatic tools to support the processing of high-throughput genomic data. 
+See the R package repository [Bioconductor](https://www.bioconductor.org/) for bioinformatic tools to support the processing of high-throughput genomic data. 
 
 -   *General plant breeding*:  `r github("reyzaguirre/st4gi")` and `r pkg("variability")` provides several common utility functions for genetic improvement of crops. Also, please see the subsection on "genotype-by-environment interactions" in this task view for packages integrating environmental and genomic data in an analytical framework. `r pkg("gpbStat")` provides functions for common plant breeding analyses including line-by-tester analysis ([Arunachalam 1974](http://repository.ias.ac.in/89299/) and diallel analysis ([Griffing 1956](https://www.publish.csiro.au/bi/pdf/BI9560463)). `r rforge("plantbreeding")` provides many convenience functions for working with populations and designs common in plant breeding including dialleles, line testers, augmented trials, the Carolina design, and more. 
 
@@ -175,7 +179,7 @@ See the R package repository [Bionconductor](https://www.bioconductor.org/) for 
 
 -   There are several packages focused on [linkage disequilibrium on Bioconductor](https://bioconductor.org/packages/release/BiocViews.html#___LinkageDisequilibrium). 
   
--   There are two notable and long-standing packages for quantitative trait loci (QTL) analysis: (1) `r pkg("onemap")`, providing [MapMaker/EXP](https://gaow.github.io/genetic-analysis-software/m/mapmakerexp/)-like performance and additional tools; and (2) `r pkg("qtl", priority = "core")` providing standard QTL mapping functionality and accessory functions for simulating crosses. `r github("bschiffthaler/BatchMap")` is a fork of `r pkg("onemap")` for fast computation of high density linkage maps. `r pkg("ASMap")` can conduct fast linkage mapping with the algorithm 'MSTmap'. `r github("jendelman/MapRtools")` is multi-purpose linkage mapping package for teaching and research. 
+-   There are two notable and long-standing packages for quantitative trait loci (QTL) analysis: (1) `r pkg("onemap")`, providing [MapMaker/EXP](https://gaow.github.io/genetic-analysis-software/m/mapmakerexp/)-like performance and additional tools; and (2) `r pkg("qtl", priority = "core")` providing standard QTL mapping functionality and accessory functions for simulating crosses. `r github("bschiffthaler/BatchMap")` is a fork of `r pkg("onemap")` for fast computation of high density linkage maps. `r pkg("ASMap")` can conduct fast linkage mapping with the algorithm 'MSTmap'. `r pkg("pergola")` implements the [PERGOLA algorithm](https://doi.org/10.1186/s12859-016-1416-8) for ordering markers in a linkage group. `r github("jendelman/MapRtools")` is multi-purpose linkage mapping package for teaching and research. 
 
 -   For polyploids, the packages `r pkg("mappoly")` and `r pkg("polymapR")` can be used for linkage mapping and the packages `r pkg("qtlpoly")` and `r pkg("polyqtlR")` can be used for QTL estimation. `r github("jendelman/diaQTL")` is for QTL and haplotype analysis of diallel populations (diploid and autotetraploid). 
 
