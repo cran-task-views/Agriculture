@@ -318,6 +318,7 @@ For ecological studies and analytical applications, the `r view("Environmetrics"
 
 ###  Links
 -   General web-based tutorials: [R for Agricultural Statistics](https://rstats4ag.org/), [AgStats.io](https://agstats.io), [Data Science for Agriculture in R](https://schmidtpaul.github.io/DSFAIR/)
+-   [(Plant Disease) Ecology and Epidemiology in R](https://www.apsnet.org/edcenter/disimpactmngmnt/topc/EcologyAndEpidemiologyInR/Pages/default.aspx)
 -   Website: [Mixed Models in Agriculture](https://schmidtpaul.github.io/MMFAIR/) 
 -   Additional data sets: the Github repository [agroBioData](https://github.com/OnofriAndreaPG/agroBioData) houses a collection of data sets supporting agriculture and applied biology (note that this is a collection of CSV files and a `.rda` file, not a package)
 -   Book: *[Applied Statistics in Agricultural, Biological, and Environmental Sciences](Applied Statistics in Agricultural, Biological, and Environmental Sciences](https://acsess.onlinelibrary.wiley.com/doi/book/10.2134/appliedstatistics)* (2017) edited by B Glaz and KM Yeater.
