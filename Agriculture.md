@@ -133,15 +133,15 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 -   `r pkg("inti", priority = "core")` provides functionality for experimental design and manipulation and it is focused on [FieldBook](https://excellenceinbreeding.org/toolbox/tools/field-book) compatibility. 
 
+-   `r pkg("FielDHub")` is a shiny app for generating traditional, un-replicated, augmented and partially-replicated designs applied to agriculture, plant breeding, forestry, animal and biological sciences.
+
 #### [High throughput phenotyping (HTP)]{#htp}
   
 -   `r pkg("statgenHTP")` is for analyzing data from HTP platform experiments, with some functions specifically designed to work with the proprietary software [R-asreml](https://www.vsni.co.uk/software/asreml). 
 
--   `r pkg("CropDetectR")` can be used to identify crop rows from image data. 
+-   `r github("OpenDroneMap/FIELDimageR")` is general-purpose pacakge for processing and analyzing image data from drones. 
 
--   `r pkg("FWRGB")` can process plant images for downstream machine learning models to predict fresh biomass. 
-
--   `r pkg("pliman")` provides tools for image manipulation to quantify plant leaf area, disease severity, number of disease lesions, and obtain statistics of image objects such as grains, pods, pollen, leaves, and more. 
+-   `r github("poppinace/tasselnetv2plus")` provides a fast implementation for high-throughput plant counting from high-resolution RGB imagery. `r pkg("CropDetectR")` can be used to identify crop rows from image data. `r pkg("FWRGB")` can process plant images for downstream machine learning models to predict fresh biomass. `r pkg("pliman")` provides tools for image manipulation to quantify plant leaf area, disease severity, number of disease lesions, and obtain statistics of image objects such as grains, pods, pollen, leaves, and more. 
   
 #### [Trial analysis]{#TrialAnalysis}
   
@@ -233,13 +233,13 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 -   `r pkg("metrica")` has many convenience functions for comparing model predictions with ground truth data. 
 
--   `r github("cropmodels/phenorice")` is an R implementation of the [PhenoRice model](https://dx.doi.org/10.1016/j.rse.2017.03.029) for remote sensing of rice crop production. `r github("lbusett/phenoriceR")` provides helper functions for processing data from the phenorice model. 
+-   *Crop Growth Models*: `r github("cropmodels/phenorice")` is an R implementation of the [PhenoRice model](https://dx.doi.org/10.1016/j.rse.2017.03.029) for remote sensing of rice crop production. `r github("lbusett/phenoriceR")` provides helper functions for processing data from the phenorice model. `r pkg("Rwofost")` is an implementation of the WOFOST (World Food Studies) crop growth model ([de Wit 2019](https://doi.org/10.1016%2Fj.agsy.2018.06.018)). `r pkg("Rquefts")` provides an implementation of the QUEFTS (Quantitative Evaluation of the Native Fertility of Tropical Soils) model ([Janssen 1990](https://doi.org/10.1016%2F0016-7061%2890%2990021-Z)). 
 
 -   `r pkg("Recocrop")` estimates environmental suitability for plants using a limiting factor approach for plant growth following [Hackett (1991)](https://doi.org/10.1007%2FBF00045728). 
 
--   `r pkg("Rquefts")` provides an implementation of the QUEFTS (Quantitative Evaluation of the Native Fertility of Tropical Soils) model ([Janssen 1990](https://doi.org/10.1016%2F0016-7061%2890%2990021-Z)). 
+-   *Ecophysiology*: `r pkg("photosynthesis")` has an extensive number of tools for plant ecophysiology modelling and analysis. `r pkg("tealeaves")` implements models for understanding leaf temperature using energy balance. `r pkg("plantecophys")` supports the coupled leaf gas exchange model, A-Ci curve simulation and fitting, Ball-Berry stomatal conductance models, leaf energy balance using Penman-Monteith, Cowan-Farquhar optimization, and humidity unit conversions. `r github("jstinzi/plantecowrap") extends `r pkg("plantecophys")` by adding capabilities for temperature responses of mesophyll conductance, apparent Michaelis-Menten constant for rubisco carboxylation in air,and photorespiratory $CO^2$ compensation point for fitting A-Ci or A-Cc curves for C3 plants. 
 
--   `r pkg("Rwofost")` is an implementation of the WOFOST (World Food Studies) crop growth model ([de Wit 2019](https://doi.org/10.1016%2Fj.agsy.2018.06.018)).
+-   `r cran("bigleaf")` calculates (e.g. aerodynamic conductance, surface temperature) and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements. 
 
 ### [Entomology]{#entomol}
 
@@ -256,7 +256,7 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
   
 -   `r pkg("statgenGxE")` implements several analytical approaches for addressing genotype-by-environment interactions. 
 
--   The package `r pkg("gge")` can generate GGE biplots, while `r pkg("bayesammi")` can conduct Bayesian estimation of additive main effects multiplicative interaction (AMMI) model. 
+-   The package `r pkg("gge")` can generate GGE biplots, while `r pkg("bayesammi")` can conduct Bayesian estimation of additive main effects multiplicative interaction (AMMI) model. `r pkg("metan")` performs stability analysis of multi-environment trial data using a wide range of parametric and non-parametric methods. 
 
 -   `r github("allogamous/EnvRtype")` can be used for assembling climate data, data set preparation and environmental classification or envirotyping.  
 
