@@ -3,7 +3,7 @@ name: Agriculture
 topic: Agricultural Science
 maintainer: Julia Piaskowski, Adam Sparks, Janet Williams
 email: julia.piask@gmail.com
-version: 2022-09-21
+version: 2022-09-29
 source: https://github.com/cran-task-views/Agriculture/
 ---
 
@@ -237,9 +237,9 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 -   `r pkg("Recocrop")` estimates environmental suitability for plants using a limiting factor approach for plant growth following [Hackett (1991)](https://doi.org/10.1007%2FBF00045728). 
 
--   *Ecophysiology*: `r pkg("photosynthesis")` has an extensive number of tools for plant ecophysiology modelling and analysis. `r pkg("tealeaves")` implements models for understanding leaf temperature using energy balance. `r pkg("plantecophys")` supports the coupled leaf gas exchange model, A-Ci curve simulation and fitting, Ball-Berry stomatal conductance models, leaf energy balance using Penman-Monteith, Cowan-Farquhar optimization, and humidity unit conversions. `r github("jstinzi/plantecowrap") extends `r pkg("plantecophys")` by adding capabilities for temperature responses of mesophyll conductance, apparent Michaelis-Menten constant for rubisco carboxylation in air,and photorespiratory $CO^2$ compensation point for fitting A-Ci or A-Cc curves for C3 plants. 
+-   *Ecophysiology*: `r pkg("photosynthesis")` has an extensive number of tools for plant ecophysiology modelling and analysis. `r pkg("tealeaves")` implements models for understanding leaf temperature using energy balance. `r pkg("plantecophys")` supports the coupled leaf gas exchange model, A-Ci curve simulation and fitting, Ball-Berry stomatal conductance models, leaf energy balance using Penman-Monteith, Cowan-Farquhar optimization, and humidity unit conversions. `r github("jstinzi/plantecowrap")` extends `r pkg("plantecophys")` by adding capabilities for temperature responses of mesophyll conductance, apparent Michaelis-Menten constant for rubisco carboxylation in air,and photorespiratory $CO_2$ compensation point for fitting A-Ci or A-Cc curves for C3 plants. 
 
--   `r cran("bigleaf")` calculates (e.g. aerodynamic conductance, surface temperature) and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements. 
+-   `r pkg("bigleaf")` calculates (e.g. aerodynamic conductance, surface temperature) and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements. 
 
 ### [Entomology]{#entomol}
 
