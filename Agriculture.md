@@ -11,7 +11,7 @@ Agriculture encompasses a broad breadth of disciplines. Many packages in base R 
 
 Note that some of these packages are on CRAN and others are on GitHub, Bioconductor, or R-Forge. 
 
-If you think that a package is missing from this list, please let us know through issues or pull requests in the [GitHub repository](https://github.com/cran-task-views/Agriculture), or via e-mail.
+If you think that a package is missing from this list, please let us know through issues or pull requests in the [GitHub repository](https://github.com/cran-task-views/Agriculture).
 
 ## Table of contents
 
@@ -321,7 +321,7 @@ For ecological studies and analytical applications, the `r view("Environmetrics"
 -   Instructional materials for classroom or self-instruction: [(Plant Disease) Ecology and Epidemiology in R](https://www.apsnet.org/edcenter/disimpactmngmnt/topc/EcologyAndEpidemiologyInR/Pages/default.aspx)
 -   Website: [Mixed Models in Agriculture](https://schmidtpaul.github.io/MMFAIR/) 
 -   Additional data sets: the Github repository [agroBioData](https://github.com/OnofriAndreaPG/agroBioData) houses a collection of data sets supporting agriculture and applied biology (note that this is a collection of CSV files and a `.rda` file, not a package)
--   Book: *[Applied Statistics in Agricultural, Biological, and Environmental Sciences](Applied Statistics in Agricultural, Biological, and Environmental Sciences](https://acsess.onlinelibrary.wiley.com/doi/book/10.2134/appliedstatistics)* (2017) edited by B Glaz and KM Yeater.
+-   Book: *[Applied Statistics in Agricultural, Biological, and Environmental Sciences](https://acsess.onlinelibrary.wiley.com/doi/book/10.2134/appliedstatistics)* (2017) edited by B Glaz and KM Yeater
 -   Books published by [ASA/CSSA/SSSA](https://acsess.onlinelibrary.wiley.com/hub/books)
 -   Books published by the [ASHS](https://ashs.org/store/ListProducts.aspx?catid=337925&ftr=)
 -   Books published by the [WSSA](https://wssa.net/publications/)
