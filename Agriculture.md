@@ -159,7 +159,7 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 -   The package `r pkg("usdampr")` provides access to the USDA's Livestock Mandatory Reporting API. 
 
--   Many of the genetic packages described in the [breeding section](#breeding) of this task view can also be applied to animals. 
+-   Many of the genetic packages described in the [breeding section](#breeding) of this task view can also be applied to animals. `r github("uansheng/visPedigree")` can be used to visualise complex animal pedigrees. 
     
 ### [Breeding & quantitative genetics]{#breeding}
 
