@@ -3,7 +3,7 @@ name: Agriculture
 topic: Agricultural Science
 maintainer: Julia Piaskowski, Adam Sparks, Janet Williams
 email: julia.piask@gmail.com
-version: 2022-09-29
+version: 2022-10-31
 source: https://github.com/cran-task-views/Agriculture/
 ---
 
@@ -49,7 +49,7 @@ If you think that a package is missing from this list, please let us know throug
 
 -   Most USDA-NRCS soils related databases and APIs can be accessed with `r pkg("soilDB")`.
 
--   `r pkg("FedData", priority = "core")` provides access to geospatial data from the United States Soil Survey Geographic ([SSURGO](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/?cid=nrcs142p2_053627)) database, the Global Historical Climatology Network ([GHCN](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily)), the [Daymet](https://daymet.ornl.gov/) gridded estimates of daily weather parameters for North America, the [International Tree Ring Data Bank](https://catalog.data.gov/dataset/international-tree-ring-data-bank-itrdb), and the [National Land Cover Database](https://www.usgs.gov/centers/eros/science/national-land-cover-database#overview). SSURGO data can also be accessed and processed with `r github("lhmrosso/XPolaris")`.
+-   `r pkg("FedData", priority = "core")` provides access to geospatial data from the United States Soil Survey Geographic ([SSURGO](https://data.nal.usda.gov/dataset/soil-survey-geographic-database-ssurgo)) database, the Global Historical Climatology Network ([GHCN](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily)), the [Daymet](https://daymet.ornl.gov/) gridded estimates of daily weather parameters for North America, the [International Tree Ring Data Bank](https://www.ncei.noaa.gov/products/paleoclimatology/tree-ring), and the [National Land Cover Database](https://www.usgs.gov/centers/eros/science/national-land-cover-database#overview). SSURGO data can also be accessed and processed with `r github("lhmrosso/XPolaris")`.
 
 -   NASA soil moisture active-passive (SMAP) data can be accessed and processed with `r pkg("smapr")`.
 
@@ -65,7 +65,7 @@ If you think that a package is missing from this list, please let us know throug
 
 -   `r pkg("pestr")` offers tools to extract pest data from [EPPO Data Services](https://data.eppo.int/) and [EPPO Global Database](https://gd.eppo.int/) using [EPPO database API](https://data.eppo.int) and put them into tables with human-readable formats.
 
--   `r pkg("PesticideLoadIndicator")` computes the Danish Pesticide Load Indicator as described in Kudsk ([2018](doi:10.1016/j.landusepol.2017.11.010)) and Moehring ([2019](doi:10.1016/j.scitotenv.2018.07.287)) for pesticide use data.
+-   `r pkg("PesticideLoadIndicator")` computes the Danish Pesticide Load Indicator as described in Kudsk ([2018](https://doi.org/10.1016%2Fj.landusepol.2017.11.010)) and Moehring ([2019](https://doi.org/10.1016%2Fj.scitotenv.2018.07.287)) for pesticide use data.
 
 ### [Agricultural data sets]{#datasets}
 
@@ -117,7 +117,7 @@ The `r view("Hydrology")` has many resources for accessing and processing weathe
 
 -   *Data preparation*: `r pkg("meteor", priority = "core")` provides a set of functions for weather and climate data manipulation to support crop and crop disease modeling. `r pkg("cropgrowdays")` and `r pkg("climatrends")` can be used for calculating growing degree days, cumulative rainfall, number of stress day, mean radiation, crop sensitive indices, evapotranspiration and other variables. `r pkg("agroclim")` and `r pkg ("weaana")` have many utility functions to compute agroclimatic indices useful to zoning areas based on climatic variables and to evaluate the importance of temperature and precipitation for individual crops or in general for agricultural lands.
 
--   `r pkg("FAO56")` and `r pkg("MeTo")` provide functions for calculating agrometeorological indicators following "Crop evapotranspiration - Guidelines for computing crop water requirements - FAO Irrigation and drainage paper 56" ([1998](https://www.fao.org/3/X0490E/x0490e00.htm)). 
+-   `r pkg("FAO56")` and `r pkg("MeTo")` provide functions for calculating agrometeorological indicators following the FAO Monograph 56, *Crop evapotranspiration: Guidelines for computing crop water requirements* ([1998](https://www.fao.org/3/X0490E/x0490e00.htm)).
 
 -   The `r github("anadiedrichs/frost")` package contains a compilation of empirical methods used by farmers and agronomic engineers to predict the minimum temperature to detect a frost event.
 
@@ -133,9 +133,9 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 -   `r pkg("agricolae", priority = "core")` provides extensive resources for the planning and analysis of planned field experiments. Designs constructed by `r pkg("agricolae", priority = "core")` can be visualised with `r pkg("agricolaeplotr")`. Agricultural field trials layout can be also be visualised with `r pkg("desplot")`.
 
--   `r pkg("PBIBD")` can construct partially balanced incomplete block designs and the Youden-m squaren (row-column) design and can calculate design efficiency. 
+-   `r pkg("PBIBD")` can construct partially balanced incomplete block designs and the Youden-m square (row-column) design and can calculate design efficiency.
 
--   `r pkg("biometryassist")` can be used for experimental design and analysis; it also includes several function to interface with [asreml](https://vsni.co.uk/software/asreml-r) objects. 
+-   `r pkg("biometryassist")` can be used for experimental design and analysis; it also includes several function to interface with [asreml](https://vsni.co.uk/software/asreml-r) objects.
 
 -   The package [DiGGer](https://www.nswdpibiom.org/austatgen/software/) was developed for rectangular field trials; its purpose is to help users determine the optimal experimental design based on the treatment structure and number of replicates.
 
@@ -147,13 +147,13 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 -   `r pkg("statgenHTP")` is for analyzing data from HTP platform experiments, with some functions specifically designed to work with the proprietary software [R-asreml](https://www.vsni.co.uk/software/asreml).
 
--   `r github("OpenDroneMap/FIELDimageR")` is general-purpose pacakge for processing and analyzing image data from drones.
+-   `r github("OpenDroneMap/FIELDimageR")` is general-purpose package for processing and analyzing image data from drones.
 
 -   `r github("poppinace/tasselnetv2plus")` provides a fast implementation for high-throughput plant counting from high-resolution RGB imagery. `r pkg("CropDetectR")` can be used to identify crop rows from image data. `r pkg("FWRGB")` can process plant images for downstream machine learning models to predict fresh biomass. `r pkg("pliman")` provides tools for image manipulation to quantify plant leaf area, disease severity, number of disease lesions, and obtain statistics of image objects such as grains, pods, pollen, leaves, and more.
 
 #### [Trial analysis]{#TrialAnalysis}
 
--   *General analysis*: The package `r pkg("agricolae", priority = "core")` contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model software for field trial analysis (note this is not open source and requires an annual license). CRAN also contains an add-on package `r pkg("asremlPlus")` that provides several accessory functions to asreml. `r github("inbo/INLA")` provides tools for Bayesian inference of latent Gaussian models, and it contains functions for modelling spatial variation, such as field experiments or farm locations. The `r pkg("gosset")` package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation. `r pkg("AgroR")` has general functions and a [shiny app](https://agrorproject.shinyapps.io/agror_shiny/) for analysis of common designs in agriculture: CRD, RCBD and Latin square.
+-   *General analysis*: The package `r pkg("agricolae", priority = "core")` contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model software for field trial analysis (note this is not open source and requires an annual license). CRAN also contains an add-on package `r pkg("asremlPlus")` that provides several accessory functions to asreml. `[INLA](https://www.r-inla.org/)` provides tools for Bayesian inference of latent Gaussian models, and it contains functions for modelling spatial variation, such as field experiments or farm locations. The `r pkg("gosset")` package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation. `r pkg("AgroR")` has general functions and a [shiny app](https://agrorproject.shinyapps.io/agror_shiny/) for analysis of common designs in agriculture: CRD, RCBD and Latin square.
 
 -   *Spatial analysis*: the `r pkg("statgenSTA")` has functions for single trial analysis with and without spatial components. `r pkg("SpATS")` can be used to adjust for field spatial variation using [p-splines](https://dx.doi.org/10.1002/bimj.202100212). A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with `r pkg("mvngGrAd")`.
 
@@ -187,7 +187,7 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 -   There are several packages focused on [linkage disequilibrium on Bioconductor](https://bioconductor.org/packages/release/BiocViews.html#___LinkageDisequilibrium).
 
--   There are two notable and long-standing packages for quantitative trait loci (QTL) analysis: (1) `r pkg("onemap")`, providing [MapMaker/EXP](https://gaow.github.io/genetic-analysis-software/m/mapmakerexp/)-like performance and additional tools; and (2) `r pkg("qtl", priority = "core")` providing standard QTL mapping functionality and accessory functions for simulating crosses. `r github("bschiffthaler/BatchMap")` is a fork of `r pkg("onemap")` for fast computation of high density linkage maps. `r pkg("ASMap")` can conduct fast linkage mapping with the algorithm 'MSTmap'. `r pkg("pergola")` implements the [PERGOLA algorithm](https://doi.org/10.1186/s12859-016-1416-8) for ordering markers in a linkage group. `r github("jendelman/MapRtools")` is multi-purpose linkage mapping package for teaching and research.
+-   There are two notable and long-standing packages for quantitative trait loci (QTL) analysis: (1) `r pkg("onemap")`, providing [MapMaker/EXP](https://gaow.github.io/genetic-analysis-software/m/mapmakerexp/)-like performance and additional tools; and (2) `r pkg("qtl", priority = "core")` providing standard QTL mapping functionality and accessory functions for simulating crosses. `r github("bschiffthaler/BatchMap")` is a fork of `r pkg("onemap")` for fast computation of high density linkage maps. `r pkg("ASMap")` can conduct fast linkage mapping with the algorithm 'MSTmap'. `r pkg("pergola")` implements the [PERGOLA algorithm](https://doi.org/10.1186/s12859-016-1416-8) for ordering markers in a linkage group. `r github("jendelman/MapRtools")` is multipurpose linkage mapping package for teaching and research.
 
 -   For polyploids, the packages `r pkg("mappoly")` and `r pkg("polymapR")` can be used for linkage mapping and the packages `r pkg("qtlpoly")` and `r pkg("polyqtlR")` can be used for QTL estimation. `r github("jendelman/diaQTL")` is for QTL and haplotype analysis of diallel populations (diploid and autotetraploid).
 
@@ -197,7 +197,7 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 #### [GWAS (Genome Wide Association Studies)]{#gwas}
 
--   There are many [GWAS packages on Bioconductor](https://bioconductor.org/packages/release/BiocViews.html#___GenomeWideAssociation).
+-   There are many [GWAS packages on Bioconductor](https://bioconductor.org/packages/release/BiocViews.html#___GenomeWideAssociation) and a large number of other GWAS packages in CRAN not listed here. The packages listed here have specific applications in breeding populations common in agriculture.
 
 -   GWAS can be conducted using a [stepwise mixed linear model](https://www.nature.com/articles/ng.2314) for multilocus data with `r pkg("mlmm.gwas")` or `r github("Gregor-Mendel-Institute/MultLocMixMod")` (use `library(mlmm)` to load the package in R). The package `r pkg("statgenGWAS")` can fit GWAS models using the [EMMAX algorithm](https://www.nature.com/articles/ng.548). `r github("jiabowang/GAPIT3")` is [wrapper](https://doi.org/10.1016/j.gpb.2021.08.005) for several GWAS algorithms including the original [GAPIT](https://doi.org/10.1093/bioinformatics/bts444), [FarmCPU](https://doi.org/10.1002/pld3.53) and [BLINK](https://doi.org/10.1093/gigascience/giy154).
 
@@ -233,11 +233,11 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 -   The `r pkg("apsimx", priority = "core")` package has functions to read, inspect, edit and run files for APSIM "Next Generation" (`.json`, `.apsimx`) and APSIM "Classic" (`.xml`, `.apsim`) files. `r pkg("rapsimng")` works with next generation APSIM files.
 
--   `r pkg("DSSAT", priority = "core")` provides a comprehensive R interface to the Decision Support System for Agrotechnology Transfer Cropping Systems Model (DSSAT-CSM) documented by [Jones (2003)](https://doi.org/10.1016/S1161-0301(02)00107-7). This package provides cross-platform functions to read and write input files, run DSSAT-CSM, and read output files. `r pkg("Dasst")` also interfaces with DSSAT files. 
+-   `r pkg("DSSAT", priority = "core")` provides a comprehensive R interface to the Decision Support System for Agrotechnology Transfer Cropping Systems Model (DSSAT-CSM) documented by [Jones (2003)](https://doi.org/10.1016/S1161-0301(02)00107-7). This package provides cross-platform functions to read and write input files, run DSSAT-CSM, and read output files. `r pkg("Dasst")` also interfaces with DSSAT files.
 
 -   The modelling framework [Simplace](https://www.simplace.net) (Scientific Impact assessment and Modelling Platform for Advanced Crop and Ecosystem management) can be accessed using `r github("gk-crop/simplace_rpkg")`.
 
--   `r pkg("fruclimadapt")` calculates several phenological variables important to grape vines and fruit trees in order to evaluate climate adaptation and to estimate the incidence of weather-related disorders in these species.  
+-   `r pkg("fruclimadapt")` calculates several phenological variables important to grape vines and fruit trees in order to evaluate climate adaptation and to estimate the incidence of weather-related disorders in these species.
 
 -   *Crop Water Usage*: `r pkg("cropDemand")` can be used to estimate crop water demand in Brazilian production regions using the [TerraClimate](https://www.climatologylab.org/terraclimate.html) data set. `r pkg("Evapotranspiration")` can estimate potential and actual evapotranspiration using 21 different models.
 
@@ -312,7 +312,7 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 -   `r pkg("DMMF")` implements the daily based Morgan-Morgan-Finney (DMMF) soil erosion model ([Choi 2017](https://doi.org/10.3390%2Fw9040278)) for estimating surface runoff and sediment budgets from a field or a catchment on a daily basis.
 
--   `r pkg("ODIC")` calculate the[ Open Bodem Index](https://www.openbodemindex.nl/), a method to evaluate the quality of soils of agricultural fields in The Netherlands and the sustainability of the current agricultural practices.
+-   `r pkg("ODIC")` calculate the [Open Bodem Index](https://www.openbodemindex.nl/), a method to evaluate the quality of soils of agricultural fields in The Netherlands and the sustainability of the current agricultural practices.
 
 -   *Soil Fertility Testing*: `r pkg("soiltestcorr")` has functions for conducting correlation analysis between soil test values and crop yield data. `r pkg("SoilTesting")` provides functions for calculating soil mineral concentrations from analytical lab results. `r github("mbask/fertplan")` provides fertilizer recommendations based on soil test results (note this package is optimized for horticultural crop production in Italy).
 
@@ -322,11 +322,11 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 -   `r pkg("spectralR")` can be used to access and process Sentinel 2 Level 2A satellite mission optical bands pixel data, obtained from the [Google Earth Engine](https://earthengine.google.com/). `r pkg("RGISTools")` and `r pkg("satellite")` can be used process remote sensing data.
 
--   Agriculture image features from spectral data can extracted with `r pkg("agrifeature")`. It has functions to calculate gray level co-occurrence matrix (GLCM), RGB-based vegetative index (RGB VI) and normalized difference vegetation index (NDVI). 
+-   Agriculture image features from spectral data can extracted with `r pkg("agrifeature")`. It has functions to calculate gray level co-occurrence matrix (GLCM), RGB-based vegetative index (RGB VI) and normalized difference vegetation index (NDVI).
 
 -   Experimental units (e.g. plots) can be obtained from spectral images using `r pkg("rPAex")`. `r pkg("lue")` implements the light Use efficiency Model to estimate biomass and yield. Leaf area index and soil moisture from microwave backscattering data based on the [WCM model](https://doi.org/10.1016%2F0034-4257%2893%2990053-Z) can be calculated with the `r pkg("WCM")` package.
 
--   The `r pkg("mapsRinteractive")` package provides functions for working with soil point data in raster format.   
+-   The `r pkg("mapsRinteractive")` package provides functions for working with soil point data in raster format.
 
 ### [Weed science]{#WeedScience}
 
