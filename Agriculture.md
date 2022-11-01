@@ -4,6 +4,7 @@ topic: Agricultural Science
 maintainer: Julia Piaskowski, Adam Sparks, Janet Williams
 email: julia.piask@gmail.com
 version: 2022-10-31
+Source: https://github.com/cran-task-views/Agriculture
 ---
 
 Agriculture encompasses a broad breadth of disciplines. Many packages in base R and contributed packages are useful to agricultural researchers. For that reason, this is not an exhaustive list of all packages useful to agricultural research. This CRAN task view is intended to cover major packages that in most cases, have been developed to support agricultural research and analytical needs.
