@@ -38,6 +38,7 @@ If you think that a package is missing from this list, please let us know throug
     -   [Plant pathology](#PlantPath)
     -   [Rural sociology](#RuralSoc)
     -   [Soil science and precision agriculture](#SoilScience)
+        -   [Remote sensing](#remotesensing)
     -   [Weed science](#WeedScience)
 
 ## [Packages with general applications]{#general}
@@ -315,9 +316,17 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 -   *Soil Fertility Testing*: `r pkg("soiltestcorr")` has functions for conducting correlation analysis between soil test values and crop yield data. `r pkg("SoilTesting")` provides functions for calculating soil mineral concentrations from analytical lab results. `r github("mbask/fertplan")` provides fertilizer recommendations based on soil test results (note this package is optimized for horticultural crop production in Italy).
 
--   *Remote Sensing*: Agriculture image features from spectral data can extracted with `r pkg("agrifeature")`. It has functions to calculate gray level co-occurrence matrix (GLCM), RGB-based vegetative index (RGB VI) and normalized difference vegetation index (NDVI). Experimental units (e.g. plots) can be obtained from spectral images using `r pkg("rPAex")`. The `r pkg("mapsRinteractive")` package provides functions for working with soil point data in raster format. `r pkg("spectralR")` can be used to access and process Sentinel 2 Level 2A satellite mission optical bands pixel data, obtained from the [Google Earth Engine](https://earthengine.google.com/). `r pkg("RGISTools")` and `r pkg("satellite")` can be used process remote sensing data. `r pkg("lue")` implements the light Use efficiency Model to estimate biomass and yield.  Leaf area index and soil moisture from microwave backscattering data based on the [WCM model](https://doi.org/10.1016%2F0034-4257%2893%2990053-Z) can be calculated with the `r pkg("WCM")` package.
-
 -   The [suitability](https://www.fao.org/land-water/databases-and-software/crop-information/en/) of specific soils for crop production can be analyzed using `r pkg("soilassessment")`, including soil fertility classes, soil erosion models and soil salinity classification. Suitability requirements are for crops grouped into cereal crops, nuts, legumes, fruits, vegetables, industrial crops, and root crops.
+
+#### [Remote sensing]{#remotesensing}
+
+-   `r pkg("spectralR")` can be used to access and process Sentinel 2 Level 2A satellite mission optical bands pixel data, obtained from the [Google Earth Engine](https://earthengine.google.com/). `r pkg("RGISTools")` and `r pkg("satellite")` can be used process remote sensing data.
+
+-   Agriculture image features from spectral data can extracted with `r pkg("agrifeature")`. It has functions to calculate gray level co-occurrence matrix (GLCM), RGB-based vegetative index (RGB VI) and normalized difference vegetation index (NDVI). 
+
+-   Experimental units (e.g. plots) can be obtained from spectral images using `r pkg("rPAex")`. `r pkg("lue")` implements the light Use efficiency Model to estimate biomass and yield. Leaf area index and soil moisture from microwave backscattering data based on the [WCM model](https://doi.org/10.1016%2F0034-4257%2893%2990053-Z) can be calculated with the `r pkg("WCM")` package.
+
+-   The `r pkg("mapsRinteractive")` package provides functions for working with soil point data in raster format.   
 
 ### [Weed science]{#WeedScience}
 
