@@ -4,14 +4,13 @@ topic: Agricultural Science
 maintainer: Julia Piaskowski, Adam Sparks, Janet Williams
 email: julia.piask@gmail.com
 version: 2022-10-31
-source: https://github.com/cran-task-views/Agriculture/
 ---
 
 Agriculture encompasses a broad breadth of disciplines. Many packages in base R and contributed packages are useful to agricultural researchers. For that reason, this is not an exhaustive list of all packages useful to agricultural research. This CRAN task view is intended to cover major packages that in most cases, have been developed to support agricultural research and analytical needs.
 
 Note that some of these packages are on CRAN and others are on GitHub, Bioconductor, or R-Forge.
 
-If you think that a package is missing from this list, please let us know through issues or pull requests in the [GitHub repository](https://github.com/cran-task-views/Agriculture), or via e-mail.
+If you think that a package is missing from this list, please let us know through issues or pull requests in the [GitHub repository](https://github.com/cran-task-views/Agriculture).
 
 ## Table of contents
 
@@ -91,7 +90,11 @@ Many of the agriculture-focused packages listed in this guide also include data 
 
 -   The packages `r pkg("nlraa", priority = "core")` and `r pkg("AgroReg")` provides linear and nonlinear regression functions specifically for agricultural applications. `r pkg("biotools")` can conduct a wide array of multivariate analysis for agronomists including genetic covariance, optimal plot size, tests for spatial dependence, and tests for seed lot heterogeneity.
 
--   `r github("OnofriAndreaPG/agriCensData")` is a flexible package for working with censored data (e.g. time to flowering, instrumentation values below the detection limit, disease scoring).
+- The `r view("MixedModels")` task view provides a comprehensive list of packages relevant to fitting general and generalized linear mixed models. 
+
+-   The packages `r pkg("nlraa", priority = "core")` and `r pkg("AgroReg")` provides linear and nonlinear regression functions specifically for agricultural applications.  `r pkg("biotools")` can conduct a wide array of multivariate analysis for agronomists including genetic covariance, optimal plot size, tests for spatial dependence, and tests for seed lot heterogeneity. 
+
+-   `r github("OnofriAndreaPG/agriCensData")` is a flexible package for working with censored data (e.g. time to flowering, instrumentation values below the detection limit, disease scoring). 
 
 -   `r pkg("grapesAgri1")` houses a collection of shiny apps, [GRAPES](https://www.kaugrapes.com/) (General R-shiny based Analysis Platform Empowered by Statistics), that works as a graphical user interface for individuals to upload data files and analyse. Linear models, ANOVA for CRD and 2-way RCBD designs, correlation analysis, exploratory data analysis and other common hypothesis tests are supported.
 
@@ -212,6 +215,9 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 -   *General genomic selection packages*: `r github("famuvie/breedR")` is a general purpose package for performing quantitative genetic analyses. Genome feature mixed linear models using frequentist and Bayesian approaches can be implemented with `r pkg("qgg")`. The package `r pkg("STGS")` implements several genomic selection models for single traits. `r pkg("BWGS")`, "Breed Wheat Genomic Selection", provides a pipeline of functions for conducting genomic selection in hexaploid wheat.
 
 -   *GBLUP*: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include `r pkg("sommer", priority = "core")`, `r pkg("rrBLUP")`, `r pkg("BGLR")`, `r github("perpdgo/lme4GS")` (this package has special installation instructions), `r github("variani/lme4qtl")`, `r pkg("pedigreemm")`, `r pkg("qgtools")`, `r github("cheuerde/cpgen")`, `r pkg("QTLRel")`, and the licensed software [asreml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices.
+
+-   *GBLUP*: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include are listed in the `r view("MixedModels")` task view. Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices. 
+
 
 -   `r pkg("GSelection")` implements genomic selection integrating additive and non-additive models.
 
@@ -342,7 +348,7 @@ For ecological studies and analytical applications, the `r view("Environmetrics"
 -   Instructional materials for classroom or self-instruction: [(Plant Disease) Ecology and Epidemiology in R](https://www.apsnet.org/edcenter/disimpactmngmnt/topc/EcologyAndEpidemiologyInR/Pages/default.aspx)
 -   Website: [Mixed Models in Agriculture](https://schmidtpaul.github.io/MMFAIR/)
 -   Additional data sets: the Github repository [agroBioData](https://github.com/OnofriAndreaPG/agroBioData) houses a collection of data sets supporting agriculture and applied biology (note that this is a collection of CSV files and a `.rda` file, not a package)
--   Book: *[Applied Statistics in Agricultural, Biological, and Environmental Sciences](Applied Statistics in Agricultural, Biological, and Environmental Sciences](<https://acsess.onlinelibrary.wiley.com/doi/book/10.2134/appliedstatistics>)* (2017) edited by B Glaz and KM Yeater.
+-   Book: *[Applied Statistics in Agricultural, Biological, and Environmental Sciences](https://acsess.onlinelibrary.wiley.com/doi/book/10.2134/appliedstatistics)* (2017) edited by B Glaz and KM Yeater
 -   Books published by [ASA/CSSA/SSSA](https://acsess.onlinelibrary.wiley.com/hub/books)
 -   Books published by the [ASHS](https://ashs.org/store/ListProducts.aspx?catid=337925&ftr=)
 -   Books published by the [WSSA](https://wssa.net/publications/)
