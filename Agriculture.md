@@ -88,9 +88,7 @@ Many of the agriculture-focused packages listed in this guide also include data 
 
 ### [General analytical packages supporting agricultural research]{#analysis}
 
--   The packages `r pkg("nlraa", priority = "core")` and `r pkg("AgroReg")` provides linear and nonlinear regression functions specifically for agricultural applications. `r pkg("biotools")` can conduct a wide array of multivariate analysis for agronomists including genetic covariance, optimal plot size, tests for spatial dependence, and tests for seed lot heterogeneity.
-
-- The `r view("MixedModels")` task view provides a comprehensive list of packages relevant to fitting general and generalized linear mixed models. 
+The `r view("MixedModels")` task view provides a comprehensive list of packages relevant to fitting general and generalized linear mixed models. 
 
 -   The packages `r pkg("nlraa", priority = "core")` and `r pkg("AgroReg")` provides linear and nonlinear regression functions specifically for agricultural applications.  `r pkg("biotools")` can conduct a wide array of multivariate analysis for agronomists including genetic covariance, optimal plot size, tests for spatial dependence, and tests for seed lot heterogeneity. 
 
@@ -166,7 +164,7 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 ### [Animal science]{#AnimalScience}
 
--   The `r view("Tracking")` task view has many resources for working with tracked animal data and studying animal movement.
+The `r view("Tracking")` task view has many resources for working with tracked animal data and studying animal movement.
 
 -   The package `r pkg("usdampr")` provides access to the USDA's Livestock Mandatory Reporting API.
 
@@ -188,7 +186,7 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 #### [Linkage mapping & QTL analysis]{#qtl}
 
--   There are several packages focused on [linkage disequilibrium on Bioconductor](https://bioconductor.org/packages/release/BiocViews.html#___LinkageDisequilibrium).
+There are several packages focused on [linkage disequilibrium on Bioconductor](https://bioconductor.org/packages/release/BiocViews.html#___LinkageDisequilibrium).
 
 -   There are two notable and long-standing packages for quantitative trait loci (QTL) analysis: (1) `r pkg("onemap")`, providing [MapMaker/EXP](https://gaow.github.io/genetic-analysis-software/m/mapmakerexp/)-like performance and additional tools; and (2) `r pkg("qtl", priority = "core")` providing standard QTL mapping functionality and accessory functions for simulating crosses. `r github("bschiffthaler/BatchMap")` is a fork of `r pkg("onemap")` for fast computation of high density linkage maps. `r pkg("ASMap")` can conduct fast linkage mapping with the algorithm 'MSTmap'. `r pkg("pergola")` implements the [PERGOLA algorithm](https://doi.org/10.1186/s12859-016-1416-8) for ordering markers in a linkage group. `r github("jendelman/MapRtools")` is multipurpose linkage mapping package for teaching and research.
 
@@ -200,7 +198,7 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 #### [GWAS (Genome Wide Association Studies)]{#gwas}
 
--   There are many [GWAS packages on Bioconductor](https://bioconductor.org/packages/release/BiocViews.html#___GenomeWideAssociation) and a large number of other GWAS packages in CRAN not listed here. The packages listed here have specific applications in breeding populations common in agriculture.
+There are many [GWAS packages on Bioconductor](https://bioconductor.org/packages/release/BiocViews.html#___GenomeWideAssociation) and a large number of other GWAS packages in CRAN not listed here. The packages listed here have specific applications in breeding populations common in agriculture.
 
 -   GWAS can be conducted using a [stepwise mixed linear model](https://www.nature.com/articles/ng.2314) for multilocus data with `r pkg("mlmm.gwas")` or `r github("Gregor-Mendel-Institute/MultLocMixMod")` (use `library(mlmm)` to load the package in R). The package `r pkg("statgenGWAS")` can fit GWAS models using the [EMMAX algorithm](https://www.nature.com/articles/ng.548). `r github("jiabowang/GAPIT3")` is [wrapper](https://doi.org/10.1016/j.gpb.2021.08.005) for several GWAS algorithms including the original [GAPIT](https://doi.org/10.1093/bioinformatics/bts444), [FarmCPU](https://doi.org/10.1002/pld3.53) and [BLINK](https://doi.org/10.1093/gigascience/giy154).
 
@@ -217,7 +215,6 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 -   *GBLUP*: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include `r pkg("sommer", priority = "core")`, `r pkg("rrBLUP")`, `r pkg("BGLR")`, `r github("perpdgo/lme4GS")` (this package has special installation instructions), `r github("variani/lme4qtl")`, `r pkg("pedigreemm")`, `r pkg("qgtools")`, `r github("cheuerde/cpgen")`, `r pkg("QTLRel")`, and the licensed software [asreml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices.
 
 -   *GBLUP*: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include are listed in the `r view("MixedModels")` task view. Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices. 
-
 
 -   `r pkg("GSelection")` implements genomic selection integrating additive and non-additive models.
 
@@ -264,7 +261,7 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 ### [Food science]{#FoodScience}
 
--   For packages supporting sensory studies, see the `r view("Psychometrics")` task view.
+For packages supporting sensory studies, see the `r view("Psychometrics")` task view.
 
 -   `r pkg("NutrienTrackeR")` provides convenience functions for calculating nutrient content (macronutrients and micronutrients) of foods using food composition data from several reference databases, including: 'USDA' (United States), 'CIQUAL' (France), 'BEDCA' (Spain) and 'CNF' (Canada).
 
@@ -284,7 +281,7 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 ### [Plant pathology]{#PlantPath}
 
--   The `r view("Epidemiology")` task view lists relevant package for modelling plant diseases.
+The `r view("Epidemiology")` task view lists relevant package for modelling plant diseases.
 
 -   *Epidemiology Simulation*: Stochastic disease modelling of plant pathogens incorporating spatial and genetic information can be done with `r pkg("landsepi")`. The package `r pkg("ascotraceR")` can simulate an Ascochyta blight infection in a chickpea field following the model developed by [Diggle (2022)](https://doi.org/10.1094%2FPHYTO.2002.92.10.1110)).
 
@@ -296,7 +293,7 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 ### [Rural sociology]{#RuralSoc}
 
--   See the task view for `r view("Psychometrics")` for general sociology packages.
+See the task view for `r view("Psychometrics")` for general sociology packages.
 
 -   Both the `r view("Survival")` task view and the `r github("OnofriAndreaPG/agriCensData")` package provide tools for working with interval and censored data.
 
