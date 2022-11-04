@@ -353,3 +353,4 @@ For ecological studies and analytical applications, the `r view("Environmetrics"
 -   Books published by the [APS](https://my.apsnet.org/APSStore/)
 -   Publications by the [ESA](https://online.entsoc.org/esassa/ecssashop.shopping_page)
 -   Teaching curriculum: [*Crop Climate Change Course*](https://r-forge.r-project.org/projects/cropcc/): materials for the course *Analyzing the Impact of Climate Change on Crops and Varieties*
+-   Web book: [Plant Disease Epidemiology in R (R4PDE)](https://r4pde.netlify.app)
