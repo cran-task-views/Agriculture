@@ -276,7 +276,7 @@ For packages supporting sensory studies, see the `r view("Psychometrics")` task 
 
 -   `r github("lian0090/FW")` implements Finlay-Wilkinson regression using a Gibbs sampler; `r pkg("spFW")` also conducts spatial Finlay-Wilkinson analysis for multi-environmental trials using a Bayesian hierarchical model.
 
--   A wide variety of stability analysis statistics can be calculated via `r pkg("agrostab")` including coefficient of homeostaticity, specific adaptive ability, weighted homeostaticity index, [superiority measure](https://doi.org/10.4141%2Fcjps88-018), [regression on environmental index](https://doi.org/10.2135%2Fcropsci1966.0011183X000600010011x), [Tai's stability parameters](https://doi.org/10.2135%2Fcropsci1971.0011183X001100020006x), [stability variance](https://doi.org/10.1038%2Fhdy.1972.87), ecovalence and other stability parameters. `r pkg("toolStability")` and `r pkg("sStability")` also calculate stability analyses.
+-   A wide variety of stability analysis statistics can be calculated via `r pkg("agrostab")` including coefficient of homeostaticity, specific adaptive ability, weighted homeostaticity index, [superiority measure](https://doi.org/10.4141%2Fcjps88-018), [regression on environmental index](https://doi.org/10.2135%2Fcropsci1966.0011183X000600010011x), [Tai's stability parameters](https://doi.org/10.2135%2Fcropsci1971.0011183X001100020006x), [stability variance](https://doi.org/10.1038%2Fhdy.1972.87), ecovalence and other stability parameters. `r pkg("toolStability")` and `r pkg("stability")` also calculate stability analyses.
 
 -   `r pkg("IBCF.MTME")` implements item-based collaborative filtering for continuous data in multi-trait and multi-environment trials following the methods described by [Montesinos-López (2018)](https://acsess.onlinelibrary.wiley.com/doi/10.3835/plantgenome2018.02.0013)
 
@@ -316,7 +316,7 @@ See the task view for `r view("Psychometrics")` for general sociology packages.
 
 -   `r pkg("DMMF")` implements the daily based Morgan-Morgan-Finney (DMMF) soil erosion model ([Choi 2017](https://doi.org/10.3390%2Fw9040278)) for estimating surface runoff and sediment budgets from a field or a catchment on a daily basis.
 
--   `r pkg("ODIC")` calculate the [Open Bodem Index](https://www.openbodemindex.nl/), a method to evaluate the quality of soils of agricultural fields in The Netherlands and the sustainability of the current agricultural practices.
+-   `r pkg("OBIC")` calculate the [Open Bodem Index](https://www.openbodemindex.nl/), a method to evaluate the quality of soils of agricultural fields in The Netherlands and the sustainability of the current agricultural practices.
 
 -   *Soil Fertility Testing*: `r pkg("soiltestcorr")` has functions for conducting correlation analysis between soil test values and crop yield data. `r pkg("SoilTesting")` provides functions for calculating soil mineral concentrations from analytical lab results. `r github("mbask/fertplan")` provides fertilizer recommendations based on soil test results (note this package is optimized for horticultural crop production in Italy).
 
