@@ -8,7 +8,7 @@ library("httr")
 library("xml2")
 library("magrittr")
 
-unlink("Agriculture.hmtl")
+unlink("Agriculture.html")
 
 ctvFile <- "Agriculture.md"
 stopifnot(file.exists(ctvFile))
