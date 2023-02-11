@@ -278,13 +278,13 @@ For packages supporting sensory studies, see the `r view("Psychometrics")` task 
 
 -   A wide variety of stability analysis statistics can be calculated via `r pkg("agrostab")` including coefficient of homeostaticity, specific adaptive ability, weighted homeostaticity index, [superiority measure](https://doi.org/10.4141%2Fcjps88-018), [regression on environmental index](https://doi.org/10.2135%2Fcropsci1966.0011183X000600010011x), [Tai's stability parameters](https://doi.org/10.2135%2Fcropsci1971.0011183X001100020006x), [stability variance](https://doi.org/10.1038%2Fhdy.1972.87), ecovalence and other stability parameters. `r pkg("toolStability")` and `r pkg("stability")` also calculate stability analyses.
 
--   `r pkg("IBCF.MTME")` implements item-based collaborative filtering for continuous data in multi-trait and multi-environment trials following the methods described by [Montesinos-López (2018)](https://acsess.onlinelibrary.wiley.com/doi/10.3835/plantgenome2018.02.0013)
+-   `r pkg("IBCF.MTME")` implements item-based collaborative filtering for continuous data in multi-trait and multi-environment trials following the methods described by Montesinos-López ([2018](https://acsess.onlinelibrary.wiley.com/doi/10.3835/plantgenome2018.02.0013)).
 
 ### [Plant pathology]{#PlantPath}
 
 The `r view("Epidemiology")` task view lists relevant package for modelling plant diseases.
 
--   *Epidemiology Simulation*: Stochastic disease modelling of plant pathogens incorporating spatial and genetic information can be done with `r pkg("landsepi")`. The package `r pkg("ascotraceR")` can simulate an Ascochyta blight infection in a chickpea field following the model developed by [Diggle (2022)](https://doi.org/10.1094%2FPHYTO.2002.92.10.1110)).
+-   *Epidemiology Simulation*: Stochastic disease modelling of plant pathogens incorporating spatial and genetic information can be done with `r pkg("landsepi")`. The package `r pkg("ascotraceR")` can simulate an Ascochyta blight infection in a chickpea field following the model developed by Diggle ([2022](https://doi.org/10.1094%2FPHYTO.2002.92.10.1110)).
 
 -   `r github("chgigot/epiphy")` is a toolbox for analyzing plant disease epidemics. It provides a common framework for plant disease intensity data recorded over time and/or space.
 
