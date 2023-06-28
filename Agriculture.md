@@ -186,7 +186,7 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 -   `r pkg("selection.index")` calculates a selection index using the method described by Smith ([1936](https://onlinelibrary.wiley.com/doi/10.1111/j.1469-1809.1936.tb02143.x)).
 
--   *Breeding simulations* `r pkg("AlphaSimR")` is an implementation of the [AlphaSim algorithm](https://doi.org/10.3835%2Fplantgenome2016.02.0013) in R, providing functions for stochastic modelling of processes common to breeding programs such as selection and crossing. `r github("tpook92/MoBPS")` has a suite of functions for simulating genetic gain and economic costs in a plant breeding program. `r pkg("isqg")` provides functions for high performance quantitative genetic simulations using a [bitset-based algorithm](https://doi.org/10.1534%2Fg3.119.400373).
+-   *Breeding simulations* `r pkg("AlphaSimR")` is an implementation of the [AlphaSim algorithm](https://doi.org/10.3835%2Fplantgenome2016.02.0013) in R, providing functions for stochastic modelling of processes common to breeding programs such as selection and crossing. `r github("tpook92/MoBPS")` has a suite of functions for simulating genetic gain and economic costs in a plant breeding program. 
 
 #### [Linkage mapping & QTL analysis]{#qtl}
 
