@@ -327,7 +327,7 @@ See the task view for `r view("Psychometrics")` for general sociology packages.
 
 #### [Remote sensing]{#remotesensing}
 
--   `r pkg("spectralR")` can be used to access and process Sentinel 2 Level 2A satellite mission optical bands pixel data, obtained from the [Google Earth Engine](https://earthengine.google.com/). `r pkg("RGISTools")` and `r pkg("satellite")` can be used process remote sensing data.
+-   `r pkg("spectralR")` can be used to access and process Sentinel 2 Level 2A satellite mission optical bands pixel data, obtained from the [Google Earth Engine](https://earthengine.google.com/). `r github("ropensci/rsat")` and `r pkg("satellite")` can be used to process remote sensing data.
 
 -   Agriculture image features from spectral data can extracted with `r pkg("agrifeature")`. It has functions to calculate gray level co-occurrence matrix (GLCM), RGB-based vegetative index (RGB VI) and normalized difference vegetation index (NDVI).
 
