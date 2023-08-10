@@ -67,6 +67,8 @@ If you think that a package is missing from this list, please let us know throug
 
 -   `r pkg("PesticideLoadIndicator")` computes the Danish Pesticide Load Indicator as described in Kudsk ([2018](https://doi.org/10.1016%2Fj.landusepol.2017.11.010)) and Moehring ([2019](https://doi.org/10.1016%2Fj.scitotenv.2018.07.287)) for pesticide use data.
 
+-   `r pkg("QBMS")` provides functions to Query the Breeding Management System(s) like [BMS](https://bmspro.io/), [BreedBase](https://breedbase.org), and [GIGWA](https://southgreen.fr/content/gigwa) (using [BrAPI](https://brapi.org/) calls) and help breeders to retrieve phenotypic and genotypic data directly into their analyzing pipelines as an essential step in breeding digitalization. 
+
 ### [Agricultural data sets]{#datasets}
 
 Many of the agriculture-focused packages listed in this guide also include data sets to illustrate their functionality (e.g. `r pkg("agricolae", priority = "core")`, `r pkg("AgroTech")`, `r pkg("BGLR")`).
