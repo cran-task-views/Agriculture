@@ -342,7 +342,9 @@ See the task view for `r view("Psychometrics")` for general sociology packages.
 
 For ecological studies and analytical applications, the `r view("Environmetrics")` task view provides a list of existing R resources in this topic.
 
--   *Dose Response*: the package `r pkg("drc", priority = "core")` offers versatile model fitting and after-fitting functions for dose-response curves. `r pkg("LW1949")` implements the Litchefield and Wilcoxon ([1949](https://jpet.aspetjournals.org/content/96/2/99.abstract)) dose-response model.
+-   *Dose Response*: the package `r pkg("drc", priority = "core")` offers versatile model fitting and after-fitting functions for dose-response curves. `r pkg("LW1949")` implements the Litchefield and Wilcoxon ([1949](https://jpet.aspetjournals.org/content/96/2/99.abstract)) dose-response model. 
+
+- `r pkg("drcte")` provides a framework for non-parametric and parametric time-to-event models in agriculture, especially analysis of germination and emergence data.
 
 -   `r pkg("PROSPER")` is a package for simulating weed population dynamics at the individual and population level under a range of conditions including herbicide resistance and herbicide pressure.
 
