@@ -124,8 +124,7 @@ The `r view("Hydrology")` has many resources for accessing and processing weathe
 
 -   `r pkg("FAO56")` and `r pkg("MeTo")` provide functions for calculating agrometeorological indicators following the FAO Monograph 56, *Crop evapotranspiration: Guidelines for computing crop water requirements* ([1998](https://www.fao.org/3/X0490E/x0490e00.htm)).
 
--  `r pkg("agriwater")` provides spatial modeling of energy balance and actual evapotranspiration using satellite images and meteorological data. Options of satellite are: Landsat-8 (with and without thermal bands), Sentinel-2 and MODIS. Respectively spatial resolutions are 30, 100, 10 and 250 meters. User can use data from a single meteorological station or a grid of meteorological stations (using any spatial 
-interpolation method) as described in *agriwater: An R package for spatial modelling of energy balance and actual evapotranspiration using satellite images and agrometeorological data* Silva, Teixeira, and Manzione ([2019](https://doi.org/10.1016/j.envsoft.2019.104497)).
+-  `r pkg("agriwater")` provides spatial modeling of energy balance and actual evapotranspiration using satellite images and meteorological data. `r pkg("AquaBEHER")` computes and integrates daily reference evapotranspiration into a water balance model to estimate the calendar of wet-season (onset, cessation and duration) based on `agroclimatic` approach. 
 
 -   The `r github("anadiedrichs/frost")` package contains a compilation of empirical methods used by farmers and agronomic engineers to predict the minimum temperature to detect a frost event.
 
