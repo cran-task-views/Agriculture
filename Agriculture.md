@@ -157,7 +157,7 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 -   `r github("OpenDroneMap/FIELDimageR")` is general-purpose package for processing and analyzing image data from drones.
 
--   `r github("poppinace/tasselnetv2plus")` provides a fast implementation for high-throughput plant counting from high-resolution RGB imagery. `r pkg("CropDetectR")` can be used to identify crop rows from image data. `r pkg("FWRGB")` can process plant images for downstream machine learning models to predict fresh biomass. `r pkg("pliman")` provides tools for image manipulation to quantify plant leaf area, disease severity, number of disease lesions, and obtain statistics of image objects such as grains, pods, pollen, leaves, and more.
+-   `r github("poppinace/tasselnetv2plus")` provides a fast implementation for high-throughput plant counting from high-resolution RGB imagery.`r pkg("FWRGB")` can process plant images for downstream machine learning models to predict fresh biomass. `r pkg("pliman")` provides tools for image manipulation to quantify plant leaf area, disease severity, number of disease lesions, and obtain statistics of image objects such as grains, pods, pollen, leaves, and more.
 
 #### [Trial analysis]{#TrialAnalysis}
 
