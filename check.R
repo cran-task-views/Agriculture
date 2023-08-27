@@ -34,7 +34,7 @@ date_node <- xml_find_all(xml, "//meta[@name='DC.issued']")
 sprintf("Today is %s", Sys.Date())
 sprintf("This was last updated %s", xml_attr(date_node, "content"))
 if (Sys.Date() != xml_attr(date_node, "content")) {
-  warning("Don't forget to update the version", call. = FALSE, immediate. = TRUE)
+  warning("Don't forget to update the version to today's date", call. = FALSE, immediate. = TRUE)
 }
 
 
