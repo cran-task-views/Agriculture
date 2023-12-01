@@ -96,7 +96,7 @@ The `r view("MixedModels")` task view provides a comprehensive list of packages 
 
 -   `r github("OnofriAndreaPG/agriCensData")` is a flexible package for working with censored data (e.g. time to flowering, instrumentation values below the detection limit, disease scoring). 
 
--   `r pkg("grapesAgri1")` houses a collection of Shiny apps, [GRAPES](https://www.kaugrapes.com/) (General R-shiny based Analysis Platform Empowered by Statistics), that works as a graphical user interface for individuals to upload data files and analyse. Linear models, ANOVA for CRD and 2-way RCBD designs, correlation analysis, exploratory data analysis and other common hypothesis tests are supported.
+-   `r pkg("grapesAgri1")` houses a collection of Shiny apps, [GRAPES](https://www.kaugrapes.com/) (General R-shiny based Analysis Platform Empowered by Statistics), that works as a graphical user interface for individuals to upload data files and analyse. Linear models, ANOVA for CRD and 2-way RCBD designs, correlation analysis, exploratory data analysis and other common hypothesis tests are supported. `r github("apariciojohan/MrBeanApp")` is a Shiny app for analyzing plant breeding experiments with mixed linear models including integrating spatial covariates. 
 
 -   `r pkg("ALUES")` implements methodology developed by the FAO and the International Rice Research Institute for evaluating land suitability for different crop production.
 
