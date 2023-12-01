@@ -96,7 +96,7 @@ The `r view("MixedModels")` task view provides a comprehensive list of packages 
 
 -   `r github("OnofriAndreaPG/agriCensData")` is a flexible package for working with censored data (e.g. time to flowering, instrumentation values below the detection limit, disease scoring). 
 
--   `r pkg("grapesAgri1")` houses a collection of Shiny apps, [GRAPES](https://www.kaugrapes.com/) (General R-shiny based Analysis Platform Empowered by Statistics), that works as a graphical user interface for individuals to upload data files and analyse. Linear models, ANOVA for CRD and 2-way RCBD designs, correlation analysis, exploratory data analysis and other common hypothesis tests are supported. `r github("apariciojohan/MrBeanApp")` is a Shiny app for analyzing plant breeding experiments with mixed linear models including integrating spatial covariates. 
+-   `r pkg("grapesAgri1")` houses a collection of Shiny apps, [GRAPES](https://www.kaugrapes.com/) (General R-shiny based Analysis Platform Empowered by Statistics), that works as a graphical user interface for individuals to upload data files and analyse. Linear models, ANOVA for CRD and 2-way RCBD designs, correlation analysis, exploratory data analysis and other common hypothesis tests are supported. 
 
 -   `r pkg("ALUES")` implements methodology developed by the FAO and the International Rice Research Institute for evaluating land suitability for different crop production.
 
@@ -350,6 +350,7 @@ For ecological studies and analytical applications, the `r view("Environmetrics"
 -   General web-based tutorials: [R for Agricultural Statistics](https://rstats4ag.org/), [AgStats.io](https://agstats.io), [Data Science for Agriculture in R](https://schmidtpaul.github.io/DSFAIR/)
 -   Instructional materials for classroom or self-instruction: [(Plant Disease) Ecology and Epidemiology in R](https://www.apsnet.org/edcenter/disimpactmngmnt/topc/EcologyAndEpidemiologyInR/Pages/default.aspx)
 -   Website: [Mixed Models in Agriculture](https://schmidtpaul.github.io/MMFAIR/)
+-  [MrBeanApp](https://apariciojohan.github.io/MrBeanApp/) is a Shiny app utilizing ASReml to analyze plant breeding experiments with mixed linear models including integrating spatial covariates. 
 -   Additional data sets: the Github repository [agroBioData](https://github.com/OnofriAndreaPG/agroBioData) houses a collection of data sets supporting agriculture and applied biology (note that this is a collection of CSV files and a `.rda` file, not a package)
 -   [Additional web resources](http://ncss-tech.github.io/AQP/) for accessing and analyzing the National Cooperative Soil Survey
 -   Book: *[Applied Statistics in Agricultural, Biological, and Environmental Sciences](https://acsess.onlinelibrary.wiley.com/doi/book/10.2134/appliedstatistics)* (2017) edited by B Glaz and KM Yeater
