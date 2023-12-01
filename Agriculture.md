@@ -351,6 +351,7 @@ For ecological studies and analytical applications, the `r view("Environmetrics"
 -   Instructional materials for classroom or self-instruction: [(Plant Disease) Ecology and Epidemiology in R](https://www.apsnet.org/edcenter/disimpactmngmnt/topc/EcologyAndEpidemiologyInR/Pages/default.aspx)
 -   Website: [Mixed Models in Agriculture](https://schmidtpaul.github.io/MMFAIR/)
 -   Additional data sets: the Github repository [agroBioData](https://github.com/OnofriAndreaPG/agroBioData) houses a collection of data sets supporting agriculture and applied biology (note that this is a collection of CSV files and a `.rda` file, not a package)
+-   [Additional web resources](http://ncss-tech.github.io/AQP/) for accessing and analyzing the National Cooperative Soil Survey
 -   Book: *[Applied Statistics in Agricultural, Biological, and Environmental Sciences](https://acsess.onlinelibrary.wiley.com/doi/book/10.2134/appliedstatistics)* (2017) edited by B Glaz and KM Yeater
 -   Book: *[Experimental methods in agriculture](https://www.statforbiology.com/_statbook/)* (2022) by Andrea Onofri and Dario Sacco (In English and Italian)
 -   Books published by [ASA/CSSA/SSSA](https://acsess.onlinelibrary.wiley.com/hub/books)
