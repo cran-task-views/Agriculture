@@ -57,8 +57,6 @@ If you think that a package is missing from this list, please let us know throug
 
 -   SILO weather data from the [Queensland DES Longpaddock](https://www.longpaddock.qld.gov.au) website can be accessed with `r pkg("cropgrowdays")`.
 
--   `r pkg("febr")` has utilities to access and process data from the [Brazilian Soil Data Repository](https://www.pedometria.org/febr).
-
 -   `r pkg("PGRdup")` provides functions to aid the identification of probable/possible duplicates in plant genetic resources collections.
 
 -   `r pkg("rfieldclimate")` provides functionality and parsers to interact with the [FieldClimate API](https://api.fieldclimate.com/v2/docs/).
