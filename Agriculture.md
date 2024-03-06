@@ -1,9 +1,9 @@
 ---
 name: Agriculture
 topic: Agricultural Science
-maintainer: Julia Piaskowski, Adam Sparks, Janet Williams
+maintainer: Julia Piaskowski, Adam Sparks, Adrian Correndo
 email: julia.piask@gmail.com
-version: 2023-12-01
+version: 2024-03-06
 source: https://github.com/cran-task-views/Agriculture/
 ---
 
