@@ -357,6 +357,7 @@ For ecological studies and analytical applications, the `r view("Environmetrics"
 -   [Additional web resources](http://ncss-tech.github.io/AQP/) for accessing and analyzing the National Cooperative Soil Survey
 -   Book: *[Applied Statistics in Agricultural, Biological, and Environmental Sciences](https://acsess.onlinelibrary.wiley.com/doi/book/10.2134/appliedstatistics)* (2017) edited by B Glaz and KM Yeater
 -   Book: *[Experimental methods in agriculture](https://www.statforbiology.com/_statbook/)* (2022) by Andrea Onofri and Dario Sacco (In English and Italian)
+-   Website: [Soil Spectroscopy Manual](https://soilspectroscopy.github.io/ossl-manual/index.html)
 -   Books published by [ASA/CSSA/SSSA](https://acsess.onlinelibrary.wiley.com/hub/books)
 -   Books published by the [ASHS](https://ashs.org/store/ListProducts.aspx?catid=337925&ftr=)
 -   Books published by the [WSSA](https://wssa.net/publications/)
