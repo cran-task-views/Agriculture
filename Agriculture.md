@@ -285,6 +285,8 @@ For packages supporting sensory studies, see the `r view("Psychometrics")` task 
 
 -   `r pkg("IBCF.MTME")` implements item-based collaborative filtering for continuous data in multi-trait and multi-environment trials following the methods described by Montesinos-López ([2018](https://acsess.onlinelibrary.wiley.com/doi/10.3835/plantgenome2018.02.0013)).
 
+-   `r github("cjubin/learnMET")` integrates weather retrieval functions with machine learning methods to understand genotype-by-environments interactions. 
+
 ### [Plant pathology]{#PlantPath}
 
 The `r view("Epidemiology")` task view lists relevant package for modelling plant diseases.
