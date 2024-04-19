@@ -3,7 +3,7 @@ name: Agriculture
 topic: Agricultural Science
 maintainer: Julia Piaskowski, Adam Sparks, Adrian Correndo
 email: julia.piask@gmail.com
-version: 2024-03-06
+version: 2024-04-19
 source: https://github.com/cran-task-views/Agriculture/
 ---
 
@@ -80,7 +80,7 @@ Many of the agriculture-focused packages listed in this guide also include data 
 
 -   The FAOSTAT data set collection for the Food and Agriculture Biomass Input--Output model ([FABIO](https://pubs.acs.org/doi/10.1021/acs.est.9b03554)) is available through `r github("fineprint-global/fabio")`.
 
--   `r github("samuelbfernandes/simplePhenotypes")` can be used for simulating pleiotropic, linked and epistatic phenotypes.
+-   `r pkg("simplePhenotypes")` can be used for simulating pleiotropic, linked and epistatic phenotypes.
 
 -   USGS county data on fertilizer sales can be accessed with `r github("wenlong-liu/ggfertilizer")`.
 
@@ -112,7 +112,7 @@ The `r view("MixedModels")` task view provides a comprehensive list of packages 
 
 The task views for `r view("Econometrics")`, (Empirical) `r view("Finance")`, and `r view("TimeSeries")` provide information on packages and tools relevant to agriculture economics.
 
--   *Agricultural price forecasting*: `r github("cran/vmdTDNN")` forecasts univariate time series data using variational mode decomposition based time delay neural network models as described by [Dragomiretskiy 2014](https://doi.org/10.1109/TSP.2013.2288675). `r pkg("stlELM")` also conducts univariate time series forecasting univariate time series, using seasonal-trend decomposition procedures based on loess (STL) combined with the extreme learning machine developed by [Xiong 2018](https://doi.org/10.1016%2Fj.neucom.2017.11.053). The package `r pkg("eemdTDNN")` also conduct univariate forecasting, utilizing different decomposition based time delay neural network models based on [Yu 2008](https://doi.org/10.1016%2Fj.eneco.2008.05.003).
+-   *Agricultural price forecasting*: `r pkg("vmdTDNN")` forecasts univariate time series data using variational mode decomposition based time delay neural network models as described by [Dragomiretskiy 2014](https://doi.org/10.1109/TSP.2013.2288675). `r pkg("stlELM")` also conducts univariate time series forecasting univariate time series, using seasonal-trend decomposition procedures based on loess (STL) combined with the extreme learning machine developed by [Xiong 2018](https://doi.org/10.1016%2Fj.neucom.2017.11.053). The package `r pkg("eemdTDNN")` also conduct univariate forecasting, utilizing different decomposition based time delay neural network models based on [Yu 2008](https://doi.org/10.1016%2Fj.eneco.2008.05.003).
 
 ### [Agrometeorology]{#agrometeo}
 
@@ -160,7 +160,7 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 #### [Trial analysis]{#TrialAnalysis}
 
--   *General analysis*: The package `r pkg("agricolae", priority = "core")` contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. The proprietary software [Asreml-R](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model software for field trial analysis (note this is not open source and requires an annual license). CRAN also contains an add-on package `r pkg("asremlPlus")` that provides several accessory functions to asreml. `r pkg("agroutilities")` contains utility functions for analyzing single and multi-location trials, and it also has functions for interfacing with AsReml-R. `[INLA](https://www.r-inla.org/)` provides tools for Bayesian inference of latent Gaussian models, and it contains functions for modelling spatial variation, such as field experiments or farm locations. The `r pkg("gosset")` package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation. `r pkg("AgroR")` has general functions and a [Shiny app](https://agrorproject.shinyapps.io/agror_shiny/) for analysis of common designs in agriculture: CRD, RCBD and Latin square.
+-   *General analysis*: The package `r pkg("agricolae", priority = "core")` contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. The proprietary software [Asreml-R](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model software for field trial analysis (note this is not open source and requires an annual license). CRAN also contains an add-on package `r pkg("asremlPlus")` that provides several accessory functions to asreml. `r pkg("agriutilities")` contains utility functions for analyzing single and multi-location trials, and it also has functions for interfacing with AsReml-R. `[INLA](https://www.r-inla.org/)` provides tools for Bayesian inference of latent Gaussian models, and it contains functions for modelling spatial variation, such as field experiments or farm locations. The `r pkg("gosset")` package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation. `r pkg("AgroR")` has general functions and a [Shiny app](https://agrorproject.shinyapps.io/agror_shiny/) for analysis of common designs in agriculture: CRD, RCBD and Latin square.
 
 -   *Spatial analysis*: the `r pkg("statgenSTA")` has functions for single trial analysis with and without spatial components. `r pkg("SpATS")` can be used to adjust for field spatial variation using [p-splines](https://dx.doi.org/10.1002/bimj.202100212). A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with `r pkg("mvngGrAd")`.
 
@@ -174,7 +174,7 @@ The `r view("Tracking")` task view has many resources for working with tracked a
 
 -   The package `r pkg("usdampr")` provides access to the USDA's Livestock Mandatory Reporting API.
 
--   Many of the genetic packages described in the [breeding section](#breeding) of this task view can also be applied to animals. `r github("uansheng/visPedigree")` can be used to visualise complex animal pedigrees.
+-   Many of the genetic packages described in the [breeding section](#breeding) of this task view can also be applied to animals. `r github("luansheng/visPedigree")` can be used to visualise complex animal pedigrees.
 
 ### [Breeding & quantitative genetics]{#breeding}
 
@@ -256,7 +256,7 @@ There are many [GWAS packages on Bioconductor](https://bioconductor.org/packages
 
 -   `r pkg("Recocrop")` estimates environmental suitability for plants using a limiting factor approach for plant growth following [Hackett (1991)](https://doi.org/10.1007%2FBF00045728).
 
--   *Ecophysiology*: `r pkg("photosynthesis")` has an extensive number of tools for plant ecophysiology modelling and analysis. `r pkg("tealeaves")` implements models for understanding leaf temperature using energy balance. `r pkg("plantecophys")` supports the coupled leaf gas exchange model, A-Ci curve simulation and fitting, Ball-Berry stomatal conductance models, leaf energy balance using Penman-Monteith, Cowan-Farquhar optimization, and humidity unit conversions. `r github("jstinzi/plantecowrap")` extends `r pkg("plantecophys")` by adding capabilities for temperature responses of mesophyll conductance, apparent Michaelis-Menten constant for rubisco carboxylation in air,and photorespiratory $CO_2$ compensation point for fitting A-Ci or A-Cc curves for C3 plants.
+-   *Ecophysiology*: `r pkg("photosynthesis")` has an extensive number of tools for plant ecophysiology modelling and analysis. `r pkg("tealeaves")` implements models for understanding leaf temperature using energy balance. `r pkg("plantecophys")` supports the coupled leaf gas exchange model, A-Ci curve simulation and fitting, Ball-Berry stomatal conductance models, leaf energy balance using Penman-Monteith, Cowan-Farquhar optimization, and humidity unit conversions. `r pkg("plantecowrap")` extends `r pkg("plantecophys")` by adding capabilities for temperature responses of mesophyll conductance, apparent Michaelis-Menten constant for rubisco carboxylation in air,and photorespiratory $CO_2$ compensation point for fitting A-Ci or A-Cc curves for C3 plants.
 
 -   `r pkg("bigleaf")` calculates (e.g. aerodynamic conductance, surface temperature) and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements.
 
@@ -293,7 +293,7 @@ The `r view("Epidemiology")` task view lists relevant package for modelling plan
 
 -   *Epidemiology Simulation*: Stochastic disease modelling of plant pathogens incorporating spatial and genetic information can be done with `r pkg("landsepi")`. The package `r pkg("ascotraceR")` can simulate an Ascochyta blight infection in a chickpea field following the model developed by Diggle ([2022](https://doi.org/10.1094%2FPHYTO.2002.92.10.1110)).
 
--   `r github("chgigot/epiphy")` is a toolbox for analyzing plant disease epidemics. It provides a common framework for plant disease intensity data recorded over time and/or space.
+-   `r pkg("epiphy")` is a toolbox for analyzing plant disease epidemics. It provides a common framework for plant disease intensity data recorded over time and/or space.
 
 -   `r pkg("epifitter")` provides functions for analysis and visualization of plant disease progress curve data.
 
