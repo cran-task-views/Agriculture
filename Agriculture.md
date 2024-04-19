@@ -142,7 +142,7 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 -   `r pkg("PBIBD")` can construct partially balanced incomplete block designs and the Youden-m square (row-column) design and can calculate design efficiency.
 
--   `r pkg("biometryassist")` can be used for experimental design and analysis; it also includes several function to interface with [asreml](https://vsni.co.uk/software/asreml-r) objects.
+-   `r pkg("biometryassist")` can be used for experimental design and analysis; it also includes several function to interface with [ASReml-R](https://vsni.co.uk/software/asreml-r) objects. 
 
 -   The package [DiGGer](https://www.nswdpibiom.org/austatgen/software/) was developed for rectangular field trials; its purpose is to help users determine the optimal experimental design based on the treatment structure and number of replicates.
 
@@ -152,7 +152,7 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 #### [High throughput phenotyping (HTP)]{#htp}
 
--   `r pkg("statgenHTP")` is for analyzing data from HTP platform experiments, with some functions specifically designed to work with the proprietary software [R-asreml](https://www.vsni.co.uk/software/asreml).
+-   `r pkg("statgenHTP")` is for analyzing data from HTP platform experiments, with some functions specifically designed to work with the proprietary software [ASReml-R](https://www.vsni.co.uk/software/asreml).
 
 -   `r github("OpenDroneMap/FIELDimageR")` is general-purpose package for processing and analyzing image data from drones.
 
@@ -160,7 +160,7 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 #### [Trial analysis]{#TrialAnalysis}
 
--   *General analysis*: The package `r pkg("agricolae", priority = "core")` contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. The proprietary software [asreml](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model software for field trial analysis (note this is not open source and requires an annual license). CRAN also contains an add-on package `r pkg("asremlPlus")` that provides several accessory functions to asreml. `[INLA](https://www.r-inla.org/)` provides tools for Bayesian inference of latent Gaussian models, and it contains functions for modelling spatial variation, such as field experiments or farm locations. The `r pkg("gosset")` package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation. `r pkg("AgroR")` has general functions and a [Shiny app](https://agrorproject.shinyapps.io/agror_shiny/) for analysis of common designs in agriculture: CRD, RCBD and Latin square.
+-   *General analysis*: The package `r pkg("agricolae", priority = "core")` contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. The proprietary software [Asreml-R](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model software for field trial analysis (note this is not open source and requires an annual license). CRAN also contains an add-on package `r pkg("asremlPlus")` that provides several accessory functions to asreml. `r pkg("agroutilities")` contains utility functions for analyzing single and multi-location trials, and it also has functions for interfacing with AsReml-R. `[INLA](https://www.r-inla.org/)` provides tools for Bayesian inference of latent Gaussian models, and it contains functions for modelling spatial variation, such as field experiments or farm locations. The `r pkg("gosset")` package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation. `r pkg("AgroR")` has general functions and a [Shiny app](https://agrorproject.shinyapps.io/agror_shiny/) for analysis of common designs in agriculture: CRD, RCBD and Latin square.
 
 -   *Spatial analysis*: the `r pkg("statgenSTA")` has functions for single trial analysis with and without spatial components. `r pkg("SpATS")` can be used to adjust for field spatial variation using [p-splines](https://dx.doi.org/10.1002/bimj.202100212). A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with `r pkg("mvngGrAd")`.
 
@@ -218,7 +218,7 @@ There are many [GWAS packages on Bioconductor](https://bioconductor.org/packages
 
 -   *General genomic selection packages*: `r github("famuvie/breedR")` is a general purpose package for performing quantitative genetic analyses. Genome feature mixed linear models using frequentist and Bayesian approaches can be implemented with `r pkg("qgg")`. The package `r pkg("STGS")` implements several genomic selection models for single traits. `r pkg("BWGS")`, "Breed Wheat Genomic Selection", provides a pipeline of functions for conducting genomic selection in hexaploid wheat.
 
--   *GBLUP*: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include `r pkg("sommer", priority = "core")`, `r pkg("rrBLUP")`, `r pkg("BGLR")`, `r github("perpdgo/lme4GS")` (this package has special installation instructions), `r github("variani/lme4qtl")`, `r pkg("pedigreemm")`, `r pkg("qgtools")`, `r github("cheuerde/cpgen")`, `r pkg("QTLRel")`, and the licensed software [asreml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices.
+-   *GBLUP*: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include `r pkg("sommer", priority = "core")`, `r pkg("rrBLUP")`, `r pkg("BGLR")`, `r github("perpdgo/lme4GS")` (this package has special installation instructions), `r github("variani/lme4qtl")`, `r pkg("pedigreemm")`, `r pkg("qgtools")`, `r github("cheuerde/cpgen")`, `r pkg("QTLRel")`, and the licensed software [ASReml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices.
 
 -   *GBLUP*: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include are listed in the `r view("MixedModels")` task view. Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices. 
 
