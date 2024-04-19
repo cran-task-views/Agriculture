@@ -86,6 +86,8 @@ Many of the agriculture-focused packages listed in this guide also include data 
 
 -   Annual agriculture production data from the Peruvian Integrated System of Agricultural Statistics (SIEA) covering 2004 to 2014 can be accessed with `r pkg("cropdatape")`.
 
+-  `r pkg("geodata")` contain agriculturally-relevant spatial data sets from a wide variety of data sources spanning both terrestrial and marine data. 
+
 -   `r pkg("ZeBook")` provides data sets and examples accompanying the book [Working with Dynamic Crop Models](https://www.elsevier.com/books/working-with-dynamic-crop-models/wallach/978-0-12-811756-9).
 
 ### [General analytical packages supporting agricultural research]{#analysis}
