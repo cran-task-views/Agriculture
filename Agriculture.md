@@ -80,7 +80,7 @@ Many of the agriculture-focused packages listed in this guide also include data 
 
 -   The FAOSTAT data set collection for the Food and Agriculture Biomass Input--Output model ([FABIO](https://pubs.acs.org/doi/10.1021/acs.est.9b03554)) is available through `r github("fineprint-global/fabio")`.
 
--   `r pkg("simplePhenotypes")` can be used for simulating pleiotropic, linked and epistatic phenotypes.
+-   `r pkg("simplePHENOTYPES")` can be used for simulating pleiotropic, linked and epistatic phenotypes.
 
 -   USGS county data on fertilizer sales can be accessed with `r github("wenlong-liu/ggfertilizer")`.
 
