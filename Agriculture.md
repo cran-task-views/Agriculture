@@ -345,6 +345,8 @@ For ecological studies and analytical applications, the `r view("Environmetrics"
 
 -   `r pkg("PROSPER")` is a package for simulating weed population dynamics at the individual and population level under a range of conditions including herbicide resistance and herbicide pressure.
 
+-   `r pkg("plantTracker")` extracts growth, survival, and local neighborhood density information from repeated, fine-scale maps of organism occurrence. 
+
 ### Links
 
 -   General web-based tutorials: [R for Agricultural Statistics](https://rstats4ag.org/), [AgStats.io](https://agstats.io), [Data Science for Agriculture in R](https://schmidtpaul.github.io/DSFAIR/)
