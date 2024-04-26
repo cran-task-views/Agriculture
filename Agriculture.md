@@ -202,13 +202,15 @@ There are several packages focused on [linkage disequilibrium on Bioconductor](h
 
 There are many [GWAS packages on Bioconductor](https://bioconductor.org/packages/release/BiocViews.html#___GenomeWideAssociation) and a large number of other GWAS packages in CRAN not listed here. The packages listed here have specific applications in breeding populations common in agriculture.
 
--   GWAS can be conducted using a [stepwise mixed linear model](https://www.nature.com/articles/ng.2314) for multilocus data with `r pkg("mlmm.gwas")`. The package `r pkg("statgenGWAS")` can fit GWAS models using the [EMMAX algorithm](https://www.nature.com/articles/ng.548). `r github("jiabowang/GAPIT3")` is [wrapper](https://doi.org/10.1016/j.gpb.2021.08.005) for several GWAS algorithms including the original [GAPIT](https://doi.org/10.1093/bioinformatics/bts444), [FarmCPU](https://doi.org/10.1002/pld3.53) and [BLINK](https://doi.org/10.1093/gigascience/giy154).
+-   GWAS can be conducted using a [stepwise mixed linear model](https://www.nature.com/articles/ng.2314) for multilocus data with `r pkg("mlmm.gwas")`. The package `r pkg("statgenGWAS")` can fit GWAS models using the [EMMAX algorithm](https://www.nature.com/articles/ng.548). `r github("jiabowang/GAPIT3")` is [wrapper](https://doi.org/10.1016/j.gpb.2021.08.005) for several GWAS algorithms including the original [GAPIT](https://doi.org/10.1093/bioinformatics/bts444), [FarmCPU](https://doi.org/10.1002/pld3.53) and [BLINK](https://doi.org/10.1093/gigascience/giy154). 
 
--   GWAS models for a very large number of SNPs and/or observations can be estimated with `r pkg("rMVP")`. `r github("deruncie/GridLMM")` provides functions to conduct GWAS in models that require two or more random effects (e.g. additive and dominance kinship matrices, or kinship and spatial covariance matrices). Functions for conducting GWAS in autotetraploids are provided by `r github("jendelman/GWASpoly")`, and these functions also work in diploid species. Variable selection for ultra-large dimensional GWAS data sets can be done with `r pkg("bravo")`, which implements the Bayesian algorithm [SVEN](https://arxiv.org/abs/2006.07561), selection of variables with embedded screening.
+-   GWAS models for a very large number of SNPs and/or observations can be estimated with `r pkg("rMVP")`. `r github("deruncie/GridLMM")` provides functions to conduct GWAS in models that require two or more random effects (e.g. additive and dominance kinship matrices, or kinship and spatial covariance matrices). Functions for conducting GWAS in autotetraploids are provided by `r github("jendelman/GWASpoly")`, and these functions also work in diploid species. Variable selection for ultra-large dimensional GWAS data sets can be done with `r pkg("bravo")`, which implements the Bayesian algorithm [SVEN](https://arxiv.org/abs/2006.07561), selection of variables with embedded screening. 
 
 -   `r github("jendelman/StageWise")` provides functions to conduct a 2-stage GWAS when the phenotypic data are from multiple field trials.
 
 -   For polyploids, `r github("jendelman/polyBreedR")` provides convenience functions to facilitate the use of genome-wide markers for breeding autotetraploid species, and its functionality also extends to diploids.
+
+-   `r pkg("pleiotest")` conducts multi-trait GWAS and tests for pleiotropic effects. 
 
 #### [Genomic prediction]{#GenomicPrediction}
 
