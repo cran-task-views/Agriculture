@@ -35,7 +35,7 @@ sprintf("Today is %s", Sys.Date())
 sprintf("This was last updated %s", xml_attr(date_node, "content"))
 if (Sys.Date() != xml_attr(date_node, "content")) {
   warning("Don't forget to update the version to today's date", call. = FALSE, immediate. = TRUE)
-}
+} else {cat("Date looks correct!")}
 
 # not working 2023-04
 # message("Checking URLs...")
