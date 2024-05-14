@@ -1,9 +1,9 @@
 ---
 name: Agriculture
 topic: Agricultural Science
-maintainer: Julia Piaskowski, Adam Sparks, Adrian Correndo
-email: julia.piask@gmail.com
-version: 2024-04-26
+maintainer: Adrian Correndo, Julia Piaskowski, Adam Sparks
+email: acorrend@uoguelph.ca
+version: 2024-05-14
 source: https://github.com/cran-task-views/Agriculture/
 ---
 
@@ -50,8 +50,6 @@ If you think that a package is missing from this list, please let us know throug
 -   Most USDA-NRCS soils related databases and APIs can be accessed with `r pkg("soilDB")`.
 
 -   `r pkg("FedData", priority = "core")` provides access to geospatial data from the United States Soil Survey Geographic ([SSURGO](https://data.nal.usda.gov/dataset/soil-survey-geographic-database-ssurgo)) database, the Global Historical Climatology Network ([GHCN](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily)), the [Daymet](https://daymet.ornl.gov/) gridded estimates of daily weather parameters for North America, the [International Tree Ring Data Bank](https://www.ncei.noaa.gov/products/paleoclimatology/tree-ring), and the [National Land Cover Database](https://www.usgs.gov/centers/eros/science/national-land-cover-database#overview).
-
--   NASA soil moisture active-passive (SMAP) data can be accessed and processed with `r pkg("smapr")`.
 
 -   `r github("INTA-Suelos/SISINTAR")` provides access to [SiSINTA](http://sisinta.inta.gob.ar/) (Sistema de información de Suelos del INTA), a soil profile database for Argentina, and functions for processing the data.
 
