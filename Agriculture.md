@@ -182,7 +182,7 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 -   `r pkg("selection.index")` calculates a selection index using the method described by Smith ([1936](https://onlinelibrary.wiley.com/doi/10.1111/j.1469-1809.1936.tb02143.x)).
 
--   *Breeding simulations* `r pkg("AlphaSimR")` provides functions for stochastic modelling of processes common to breeding programs such as selection and crossing, in plant or animals [Gaynor et al. 2020](https://doi.org/10.1093/g3journal/jkaa017). `r pkg("SIMplyBee")` is an extension of AlphaSimR for honeybees [Obsteter et al. 2023](https://doi.org/10.1186/s12711-023-00798-y). `r pkg("MoBPS")` also provides functions for stochastic modelling of breeding programs [Pook et al. 2020](https://doi.org/10.1534/g3.120.401193).
+-   *Breeding simulations* `r pkg("AlphaSimR")` provides functions for stochastic modelling of processes common to breeding programs such as selection and crossing, in plant or animals [Gaynor et al. 2020](https://doi.org/10.1093/g3journal/jkaa017). `r pkg("SIMplyBee")` is an extension of AlphaSimR for honeybees [Obsteter et al. 2023](https://doi.org/10.1186/s12711-023-00798-y). `r pkg("MoBPS")` also provides functions for stochastic modelling of breeding programs [Pook et al. 2020](https://doi.org/10.1534/g3.120.401193). Using wrapper functions for the AlphaSimR, the `r pkg("FieldSimR")` simulates plot data in multi-environment field trials with one or more traits and allows to capture spatial error trends.
 
 #### [Linkage mapping & QTL analysis]{#qtl}
 
