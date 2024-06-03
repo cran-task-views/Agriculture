@@ -144,6 +144,8 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 -   `r pkg("FielDHub")` is a Shiny app for generating traditional, un-replicated, augmented and partially-replicated designs applied to agriculture, plant breeding, forestry, animal and biological sciences.
 
+-   `r pkg("qrlabelr")`  is an R package that provides customizable functions and a [shiny-app](https://awkena.shinyapps.io/easyplotlabelr/) for generating print-ready machine and human-readable labels affixed with QR codes.
+
 #### [High throughput phenotyping (HTP)]{#htp}
 
 -   `r pkg("statgenHTP")` is for analyzing data from HTP platform experiments, with some functions specifically designed to work with the proprietary software [ASReml-R](https://www.vsni.co.uk/software/asreml).
