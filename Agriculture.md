@@ -3,7 +3,7 @@ name: Agriculture
 topic: Agricultural Science
 maintainer: Adrian Correndo, Julia Piaskowski, Adam Sparks
 email: acorrend@uoguelph.ca
-version: 2024-05-14
+version: 2024-06-03
 source: https://github.com/cran-task-views/Agriculture/
 ---
 
