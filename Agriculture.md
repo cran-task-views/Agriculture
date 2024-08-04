@@ -3,7 +3,7 @@ name: Agriculture
 topic: Agricultural Science
 maintainer: Adrian Correndo, Julia Piaskowski, Adam Sparks
 email: acorrend@uoguelph.ca
-version: 2024-06-03
+version: 2024-08-04
 source: https://github.com/cran-task-views/Agriculture/
 ---
 
@@ -112,7 +112,7 @@ The task views for `r view("Econometrics")`, (Empirical) `r view("Finance")`, an
 
 ### [Agrometeorology]{#agrometeo}
 
-The `r view("Hydrology")` has many resources for accessing and processing weather and climate data.
+The task view for `r view("Hydrology")` has many resources for accessing and processing weather and climate data.
 
 -   *Data sources*: Data from the [Copernicus](https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agrometeorological-indicators?tab=overview) data set of agrometeorological indicators can be downloaded and extracted using `r pkg("ag5Tools")`. Climate crop zones in Brazil can be accessed and calculated with `r pkg("cropZoning")` using data sets from [TerraClimate](https://www.climatologylab.org/terraclimate.html) that are calibrated to weather stations run by the National Meteorological Institute of Brazil. `r pkg("acdcR")` (AgroClimatic Data by County) provides functions to calculate United States county-level variables in agricultural production or agroclimatic and weather analyses.
 
@@ -133,6 +133,8 @@ The `r view("Hydrology")` has many resources for accessing and processing weathe
 The task view for `r view("ExperimentalDesign")` provide additional information on experimental design for a wide variety of research problems.
 
 -   `r pkg("agricolae", priority = "core")` provides extensive resources for the planning and analysis of planned field experiments. Designs constructed by `r pkg("agricolae", priority = "core")` can be visualised with `r pkg("agricolaeplotr")`. Agricultural field trials layout can be also be visualised with `r pkg("desplot")`.
+
+- `r pkg("blocksdesign")` provides functions for creating (and optimize) various experimental designs applied to agriculture, particularly for linear treatment models with crossed or nested block factors.
 
 -   `r pkg("PBIBD")` can construct partially balanced incomplete block designs and the Youden-m square (row-column) design and can calculate design efficiency.
 
@@ -190,7 +192,7 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 There are several packages focused on [linkage disequilibrium on Bioconductor](https://bioconductor.org/packages/release/BiocViews.html#___LinkageDisequilibrium).
 
--   There are two notable and long-standing packages for quantitative trait loci (QTL) analysis: (1) `r pkg("onemap")`, providing [MapMaker/EXP](https://gaow.github.io/genetic-analysis-software/m/mapmakerexp/)-like performance and additional tools; and (2) `r pkg("qtl", priority = "core")` providing standard QTL mapping functionality and accessory functions for simulating crosses. `r pkg("ASMap")` can conduct fast linkage mapping with the algorithm 'MSTmap'. `r pkg("pergola")` implements the [PERGOLA algorithm](https://doi.org/10.1186/s12859-016-1416-8) for ordering markers in a linkage group. `r github("jendelman/MapRtools")` is multipurpose linkage mapping package for teaching and research.
+-   There are two notable and long-standing packages for quantitative trait loci (QTL) analysis: (1) `r pkg("onemap")`, providing [MapMaker/EXP](https://gaow.github.io/genetic-analysis-software/m/mapmakerexp/)-like performance and additional tools; and (2) `r pkg("qtl", priority = "core")` providing standard QTL mapping functionality and accessory functions for simulating crosses. `r pkg("ASMap")` can conduct fast linkage mapping with the algorithm 'MSTmap'. `r github("jendelman/MapRtools")` is multipurpose linkage mapping package for teaching and research.
 
 -   For polyploids, the packages `r pkg("mappoly")` and `r pkg("polymapR")` can be used for linkage mapping and the packages `r pkg("qtlpoly")` and `r pkg("polyqtlR")` can be used for QTL estimation. `r github("jendelman/diaQTL")` is for QTL and haplotype analysis of diallel populations (diploid and autotetraploid).
 
@@ -216,7 +218,7 @@ There are many [GWAS packages on Bioconductor](https://bioconductor.org/packages
 
 -   *General genomic selection packages*: `r github("famuvie/breedR")` is a general purpose package for performing quantitative genetic analyses. Genome feature mixed linear models using frequentist and Bayesian approaches can be implemented with `r pkg("qgg")`. The package `r pkg("STGS")` implements several genomic selection models for single traits. `r pkg("BWGS")`, "Breed Wheat Genomic Selection", provides a pipeline of functions for conducting genomic selection in hexaploid wheat.
 
--   *GBLUP*: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include `r pkg("sommer", priority = "core")`, `r pkg("rrBLUP")`, `r pkg("BGLR")`, `r github("variani/lme4qtl")`, `r pkg("pedigreemm")`, `r pkg("qgtools")`, `r github("cheuerde/cpgen")`, `r pkg("QTLRel")`, and the licensed software [ASReml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices.
+-   *GBLUP*: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include `r pkg("sommer", priority = "core")`, `r pkg("rrBLUP")`, `r pkg("BGLR")`, `r github("variani/lme4qtl")`, `r pkg("pedigreemm")`, `r github("cheuerde/cpgen")`, `r pkg("QTLRel")`, and the licensed software [ASReml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices.
 
 -   *GBLUP*: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include are listed in the `r view("MixedModels")` task view. Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices. 
 
