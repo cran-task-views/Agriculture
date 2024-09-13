@@ -1,9 +1,9 @@
 ---
 name: Agriculture
 topic: Agricultural Science
-maintainer: Adrian Correndo, Julia Piaskowski, Adam Sparks
-email: acorrend@uoguelph.ca
-version: 2024-08-04
+maintainer: Julia Piaskowski, Adam Sparks, Adrian Correndo 
+email: julia.piask@gmail.com
+version: 2024-09-12
 source: https://github.com/cran-task-views/Agriculture/
 ---
 
