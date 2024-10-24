@@ -224,8 +224,6 @@ There are many [GWAS packages on Bioconductor](https://bioconductor.org/packages
 
 -   `r pkg("GSelection")` implements genomic selection integrating additive and non-additive models.
 
--   `r pkg("pedmod")` provides linear modelling functions integrating kinship for categorical traits.
-
 -   `r pkg("coxme")` can fit Cox proportional hazards models containing both fixed and random effects with a kinship matrix.
 
 -   `r pkg("GSMX")`, multivariate genomic selection, estimates trait heritability and handles overfitting through cross validation.
