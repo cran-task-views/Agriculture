@@ -65,6 +65,7 @@ If you think that a package is missing from this list, please let us know throug
 
 -   `r pkg("QBMS")` provides functions to query [BrAPI](https://brapi.org/)-compliant databases with additional functionality for the [GIGWA](https://southgreen.fr/content/gigwa) platform.
  
+-   `r pkg("genesysr")` provides access data on plant genetic resources from genebanks around the world published on [Genesys](https://www.genesys-pgr.org).  
 
 ### [Agricultural data sets]{#datasets}
 
