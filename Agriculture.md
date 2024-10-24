@@ -315,7 +315,7 @@ See the task view for `r view("Psychometrics")` for general sociology packages.
 
 -   `r pkg("SoilR")` models soil organic matter decomposition in terrestrial ecosystems with linear and nonlinear models. The `r pkg("sorcering")` can be used to model soil organic carbon and soil organic nitrogen and to calculate N mineralisation rates.
 
--   Soil texture triangles can be graphed using `r pkg("soiltexture")`; this package can also classify and transform soil texture data.
+-   Soil texture triangles can be graphed using `r pkg("soiltexture")` and `r github("Saryace/ggsoiltexture")`; `r pkg("soiltexture")` can also classify and transform soil texture data. 
 
 -   `r pkg("QI")` can be used to calculate potassium intensity and exchangeability.
 
