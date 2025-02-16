@@ -7,7 +7,10 @@ version: 2024-10-24
 source: https://github.com/cran-task-views/Agriculture/
 ---
 
-Agriculture encompasses a broad breadth of disciplines. Many packages in base R and contributed packages are useful to agricultural researchers. For that reason, this is not an exhaustive list of all packages useful to agricultural research. This CRAN task view is intended to cover major packages that in most cases, have been developed to support agricultural research and analytical needs.
+Agriculture encompasses a broad breadth of disciplines.
+Many packages in base R and contributed packages are useful to agricultural researchers.
+For that reason, this is not an exhaustive list of all packages useful to agricultural research.
+This CRAN task view is intended to cover major packages that in most cases, have been developed to support agricultural research and analytical needs.
 
 Note that some of these packages are on CRAN and others are on GitHub, Bioconductor, or R-Forge.
 
@@ -46,22 +49,6 @@ If you think that a package is missing from this list, please let us know throug
 ### [Agricultural & land use databases]{#databases}
 
 - _USDA databases_: Data from the United States Department of Agriculture's National Agricultural Statistical Service '[Quick Stats](https://www.nass.usda.gov/Quick_Stats/)' web API can be accessed with `r pkg("rnassqs")` or with `r pkg("tidyUSDA", priority = "core")`, which also offers some mapping capabilities. The USDA's [Cropland Data Layer](https://nassgeodata.gmu.edu/CropScape/) API can be accessed with `r pkg("CropScapeR")` and `r pkg("cdlTools", priority = "core")`, the latter providing utility functions for processing CDL data. `r pkg("rusda")` provides an interface to access the USDA-ARS Systematic Mycology and Microbiology Laboratory (SMML)'s [four databases](https://nt.ars-grin.gov/fungaldatabases/index.cfm): Fungus-Host Distributions, Specimens, Literature and the Nomenclature database. The USDA's Agricultural Resource Management Survey ([ARMS](https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Ag_Resource_Management/)) data API can be accessed with `r pkg("rarms")`. The USDA's Livestock Mandatory Reporting data API can be accessed with `r pkg("usdampr")`. The package `r pkg("FAOSTAT")` can be used to access data from the [FAOSTAT Database](https://www.fao.org/faostat/en/#home) from the United Nations Food and Agricultural Organization (FAO).
-
-- Most USDA-NRCS soils related databases and APIs can be accessed with `r pkg("soilDB")`.
-
-- `r pkg("FedData", priority = "core")` provides access to geospatial data from the United States Soil Survey Geographic ([SSURGO](https://data.nal.usda.gov/dataset/soil-survey-geographic-database-ssurgo)) database, the Global Historical Climatology Network ([GHCN](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily)), the [Daymet](https://daymet.ornl.gov/) gridded estimates of daily weather parameters for North America, the [International Tree Ring Data Bank](https://www.ncei.noaa.gov/products/paleoclimatology/tree-ring), and the [National Land Cover Database](https://www.usgs.gov/centers/eros/science/national-land-cover-database#overview).
-
-- `r github("INTA-Suelos/SISINTAR")` provides access to [SiSINTA](http://sisinta.inta.gob.ar/) (Sistema de información de Suelos del INTA), a soil profile database for Argentina, and functions for processing the data.
-
-- SILO weather data from the [Queensland DES Longpaddock](https://www.longpaddock.qld.gov.au) website can be accessed with `r pkg("cropgrowdays")`.
-
-- `r pkg("PGRdup")` provides functions to aid the identification of probable/possible duplicates in plant genetic resources collections.
-
-- `r pkg("rfieldclimate")` provides functionality and parsers to interact with the [FieldClimate API](https://api.fieldclimate.com/v2/docs/).
-
-- `r pkg("pestr")` offers tools to extract pest data from [EPPO Data Services](https://data.eppo.int/) and [EPPO Global Database](https://gd.eppo.int/) using [EPPO database API](https://data.eppo.int) and put them into tables with human-readable formats.
-
-- `r pkg("PesticideLoadIndicator")` computes the Danish Pesticide Load Indicator as described in Kudsk ([2018](https://doi.org/10.1016%2Fj.landusepol.2017.11.010)) and Moehring ([2019](https://doi.org/10.1016%2Fj.scitotenv.2018.07.287)) for pesticide use data.
 
 - `r pkg("QBMS")` provides functions to query [BrAPI](https://brapi.org/)-compliant databases with additional functionality for the [GIGWA](https://southgreen.fr/content/gigwa) platform.
 
@@ -135,7 +122,7 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 - `r pkg("agricolae", priority = "core")` provides extensive resources for the planning and analysis of planned field experiments. Designs constructed by `r pkg("agricolae", priority = "core")` can be visualised with `r pkg("agricolaeplotr")`. Agricultural field trials layout can be also be visualised with `r pkg("desplot")`.
 
-- `r pkg("blocksdesign")` provides functions for creating (and optimize) various experimental designs applied to agriculture, particularly for linear treatment models with crossed or nested block factors.
+-   `r pkg("blocksdesign")` provides functions for creating (and optimize) various experimental designs applied to agriculture, particularly for linear treatment models with crossed or nested block factors.
 
 - `r pkg("PBIBD")` can construct partially balanced incomplete block designs and the Youden-m square (row-column) design and can calculate design efficiency.
 
@@ -203,7 +190,8 @@ There are several packages focused on [linkage disequilibrium on Bioconductor](h
 
 #### [GWAS (Genome Wide Association Studies)]{#gwas}
 
-There are many [GWAS packages on Bioconductor](https://bioconductor.org/packages/release/BiocViews.html#___GenomeWideAssociation) and a large number of other GWAS packages in CRAN not listed here. The packages listed here have specific applications in breeding populations common in agriculture.
+There are many [GWAS packages on Bioconductor](https://bioconductor.org/packages/release/BiocViews.html#___GenomeWideAssociation) and a large number of other GWAS packages in CRAN not listed here.
+The packages listed here have specific applications in breeding populations common in agriculture.
 
 - GWAS can be conducted using a [stepwise mixed linear model](https://www.nature.com/articles/ng.2314) for multilocus data with `r pkg("mlmm.gwas")`. The package `r pkg("statgenGWAS")` can fit GWAS models using the [EMMAX algorithm](https://www.nature.com/articles/ng.548). `r github("jiabowang/GAPIT3")` is [wrapper](https://doi.org/10.1016/j.gpb.2021.08.005) for several GWAS algorithms including the original [GAPIT](https://doi.org/10.1093/bioinformatics/bts444), [FarmCPU](https://doi.org/10.1002/pld3.53) and [BLINK](https://doi.org/10.1093/gigascience/giy154).
 
@@ -344,7 +332,7 @@ For ecological studies and analytical applications, the `r view("Environmetrics"
 
 - _Dose Response_: the package `r pkg("drc", priority = "core")` offers versatile model fitting and after-fitting functions for dose-response curves. `r pkg("LW1949")` implements the Litchefield and Wilcoxon ([1949](https://jpet.aspetjournals.org/content/96/2/99.abstract)) dose-response model.
 
-- `r pkg("drcte")` provides a framework for non-parametric and parametric time-to-event models in agriculture, especially analysis of germination and emergence data.
+-   `r pkg("drcte")` provides a framework for non-parametric and parametric time-to-event models in agriculture, especially analysis of germination and emergence data.
 
 - `r pkg("PROSPER")` is a package for simulating weed population dynamics at the individual and population level under a range of conditions including herbicide resistance and herbicide pressure.
 
