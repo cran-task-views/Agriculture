@@ -115,7 +115,7 @@ The task view for `r view("Hydrology")` has many resources for accessing and pro
     `r pkg("acdcR")` (AgroClimatic Data by County) provides functions to calculate United States county-level variables in agricultural production or agroclimatic and weather analyses.
 
 -   *Data preparation*: `r pkg("meteor", priority = "core")` provides a set of functions for weather and climate data manipulation to support crop and crop disease modeling.
-    `r pkg("cropgrowdays")`, `r pkg("climatrends")` and `r pkg("degday") can be used for calculating growing degree days, cumulative rainfall, number of stress day, mean radiation, crop sensitive indices, evapotranspiration and other variables.`r pkg ("weaana")\` has utility functions to compute agroclimatic indices useful to zoning areas based on climatic variables and to evaluate the importance of temperature and precipitation for individual crops or in general for agricultural lands.
+    `r pkg("cropgrowdays")`, `r pkg("climatrends")` and `r pkg("degday")` can be used for calculating growing degree days, cumulative rainfall, number of stress day, mean radiation, crop sensitive indices, evapotranspiration and other variables. `r pkg ("weaana")` has utility functions to compute agroclimatic indices useful to zoning areas based on climatic variables and to evaluate the importance of temperature and precipitation for individual crops or in general for agricultural lands.
 
 -   `r pkg("FAO56")` and `r pkg("MeTo")` provide functions for calculating agrometeorological indicators following the FAO Monograph 56, *Crop evapotranspiration: Guidelines for computing crop water requirements* ([1998](https://www.fao.org/3/X0490E/x0490e00.htm)).
 
