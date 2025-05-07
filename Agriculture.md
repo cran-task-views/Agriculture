@@ -30,6 +30,7 @@ If you think that a package is missing from this list, please let us know throug
     - [High throughput phenotyping (HTP)](#htp)
     - [Trial analysis](#TrialAnalysis)
   - [Animal science](#AnimalScience)
+  - [Biosecurity](#Biosecurity)
   - [Breeding & quantitative genetics](#breeding)
     - [Linkage mapping & QTL analysis](#qtl)
     - [GWAS (Genome Wide Association Studies)](#gwas)
@@ -184,6 +185,14 @@ The `r view("Tracking")` task view has many resources for working with tracked a
 
 - Many of the genetic packages described in the [breeding section](#breeding) of this task view can also be applied to animals.
   `r github("luansheng/visPedigree")` can be used to visualise complex animal pedigrees.
+
+### Biosecurity{#Biosecurity}
+
+There are a few packages that are either specifically tailored for biosecurity or may commonly be used in agricultural biosecurity assessments.
+
+- `r pkg("qPRAentry")` supports risk assessors in performing the entry step of the quantitative Pest Risk Assessment.
+
+- `r pkg("dismo")` provides methods for species distribution modeling, that is, predicting the environmental similarity of any site to that of the locations of known occurrences of a species.
 
 ### [Breeding & quantitative genetics]{#breeding}
 
