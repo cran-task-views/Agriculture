@@ -423,7 +423,7 @@ For ecological studies and analytical applications, the `r view("Environmetrics"
 - General web-based tutorials: [R for Agricultural Statistics](https://rstats4ag.org/), [AgStats.io](https://agstats.io), [Data Science for Agriculture in R](https://schmidtpaul.github.io/DSFAIR/)
 - Instructional materials for classroom or self-instruction: [(Plant Disease) Ecology and Epidemiology in R](https://www.apsnet.org/edcenter/disimpactmngmnt/topc/EcologyAndEpidemiologyInR/Pages/default.aspx)
 - Website: [Mixed Models in Agriculture](https://schmidtpaul.github.io/MMFAIR/)
-- [INLA](https://www.r-inla.org/) is an R package that conducts "approximate Bayesian inference for latent gaussian models." The most current version of the R package and extensive documentation can be found on their website.
+- [INLA](https://www.r-inla.org/) is an R package that conducts "approximate Bayesian inference for latent Gaussian models" The most current version of the R package and extensive documentation can be found on their website.
 - [MrBeanApp](https://apariciojohan.github.io/MrBeanApp/) is a Shiny app utilizing ASReml to analyze plant breeding experiments with mixed linear models including integrating spatial covariates.
 - Additional data sets: the Github repository [agroBioData](https://github.com/OnofriAndreaPG/agroBioData) houses a collection of data sets supporting agriculture and applied biology (note that this is a collection of CSV files and a `.rda` file, not a package)
 - [Additional web resources](http://ncss-tech.github.io/AQP/) for accessing and analyzing the National Cooperative Soil Survey
