@@ -287,8 +287,8 @@ The packages listed here have specific applications in breeding populations comm
   This package provides cross-platform functions to read and write input files, run DSSAT-CSM, and read output files.
   `r pkg("Dasst")` also interfaces with DSSAT files.
 
-- The modelling framework Simplace (Scientific Impact assessment and Modelling Platform for Advanced Crop and Ecosystem management) can be accessed using r pkg("simplace").
-  Additionally, r github("gk-crop/simplaceUtil") provides additional utility functions that make the setup and handling of simulations more convenient.
+- The modelling framework Simplace (Scientific Impact assessment and Modelling Platform for Advanced Crop and Ecosystem management) can be accessed using `r pkg("simplace")`.
+  Additionally, `r github("gk-crop/simplaceUtil")` provides additional utility functions that make the setup and handling of simulations more convenient.
 
 - `r pkg("fruclimadapt")` calculates several phenological variables important to grape vines and fruit trees in order to evaluate climate adaptation and to estimate the incidence of weather-related disorders in these species.
 
