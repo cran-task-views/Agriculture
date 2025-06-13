@@ -30,6 +30,7 @@ If you think that a package is missing from this list, please let us know throug
     - [High throughput phenotyping (HTP)](#htp)
     - [Trial analysis](#TrialAnalysis)
   - [Animal science](#AnimalScience)
+  - [Biosecurity](#Biosecurity)
   - [Breeding & quantitative genetics](#breeding)
     - [Linkage mapping & QTL analysis](#qtl)
     - [GWAS (Genome Wide Association Studies)](#gwas)
@@ -185,6 +186,14 @@ The `r view("Tracking")` task view has many resources for working with tracked a
 - Many of the genetic packages described in the [breeding section](#breeding) of this task view can also be applied to animals.
   `r github("luansheng/visPedigree")` can be used to visualise complex animal pedigrees.
 
+### Biosecurity{#Biosecurity}
+
+There are a few packages that are either specifically tailored for biosecurity or may commonly be used in agricultural biosecurity assessments.
+
+- `r pkg("qPRAentry")` supports risk assessors in performing the entry step of the quantitative Pest Risk Assessment.
+
+- `r pkg("dismo")` provides methods for species distribution modeling, that is, predicting the environmental similarity of any site to that of the locations of known occurrences of a species.
+
 ### [Breeding & quantitative genetics]{#breeding}
 
 See the R package repository [Bioconductor](https://www.bioconductor.org/) for bioinformatic tools to support the processing of high-throughput genomic data.
@@ -278,8 +287,8 @@ The packages listed here have specific applications in breeding populations comm
   This package provides cross-platform functions to read and write input files, run DSSAT-CSM, and read output files.
   `r pkg("Dasst")` also interfaces with DSSAT files.
 
-- The modelling framework Simplace (Scientific Impact assessment and Modelling Platform for Advanced Crop and Ecosystem management) can be accessed using r pkg("simplace").
-  Additionally, r github("gk-crop/simplaceUtil") provides additional utility functions that make the setup and handling of simulations more convenient.
+- The modelling framework Simplace (Scientific Impact assessment and Modelling Platform for Advanced Crop and Ecosystem management) can be accessed using `r pkg("simplace")`.
+  Additionally, `r github("gk-crop/simplaceUtil")` provides additional utility functions that make the setup and handling of simulations more convenient.
 
 - `r pkg("fruclimadapt")` calculates several phenological variables important to grape vines and fruit trees in order to evaluate climate adaptation and to estimate the incidence of weather-related disorders in these species.
 
@@ -414,7 +423,7 @@ For ecological studies and analytical applications, the `r view("Environmetrics"
 - General web-based tutorials: [R for Agricultural Statistics](https://rstats4ag.org/), [AgStats.io](https://agstats.io), [Data Science for Agriculture in R](https://schmidtpaul.github.io/DSFAIR/)
 - Instructional materials for classroom or self-instruction: [(Plant Disease) Ecology and Epidemiology in R](https://www.apsnet.org/edcenter/disimpactmngmnt/topc/EcologyAndEpidemiologyInR/Pages/default.aspx)
 - Website: [Mixed Models in Agriculture](https://schmidtpaul.github.io/MMFAIR/)
-- [INLA](https://www.r-inla.org/) is an R package that conducts "approximate Bayesian inference for latent gaussian models." The most current version of the R package and extensive documentation can be found on their website.
+- [INLA](https://www.r-inla.org/) is an R package that conducts "approximate Bayesian inference for latent Gaussian models" The most current version of the R package and extensive documentation can be found on their website.
 - [MrBeanApp](https://apariciojohan.github.io/MrBeanApp/) is a Shiny app utilizing ASReml to analyze plant breeding experiments with mixed linear models including integrating spatial covariates.
 - Additional data sets: the Github repository [agroBioData](https://github.com/OnofriAndreaPG/agroBioData) houses a collection of data sets supporting agriculture and applied biology (note that this is a collection of CSV files and a `.rda` file, not a package)
 - [Additional web resources](http://ncss-tech.github.io/AQP/) for accessing and analyzing the National Cooperative Soil Survey
