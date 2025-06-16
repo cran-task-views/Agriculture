@@ -1,9 +1,9 @@
 ---
 name: Agriculture
 topic: Agricultural Science
-maintainer: Julia Piaskowski, Adam Sparks, Adrian Correndo
-email: julia.piask@gmail.com
-version: 2024-10-24
+maintainer: Adrian Correndo, Julia Piaskowski, Adam Sparks
+email: acorrend@uoguelph.ca
+version: 2025-06-16
 source: https://github.com/cran-task-views/Agriculture/
 ---
 
@@ -308,6 +308,8 @@ The packages listed here have specific applications in breeding populations comm
 
 - `r pkg("bigleaf")` calculates (e.g. aerodynamic conductance, surface temperature) and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements.
 
+- `r pkg("STCCGEV")` serves to model and forecast crop yields using a spatial temporal conditional copula approach, including weather covariates and Bayesian Structural Time Series models to analyze crop yield dependencies across multiple regions.
+
 ### [Entomology]{#entomol}
 
 - The `r view("Survival")` task view lists resources for working with censored data.
@@ -354,6 +356,8 @@ The `r view("Epidemiology")` task view lists relevant package for modelling plan
   Evolution of resistance genes under pesticide pressure can be simulated under different numbers of pests, modes of pest reproduction, resistance loci, number of pesticides and other facets with `r pkg("resevol")`.
   Populations with mixed clonal/sexual reproductive strategies can be analyzed with `r pkg("poppr")`, which has population genetic analysis tools for hierarchical analysis of partially clonal populations.
 
+- `r pkg("qPRAentry")` supports the entry step of quantitative Pest Risk Assessment by modeling pest introductions via imported commodities. It includes tools and Shiny apps for pathway analysis based on EFSA methodology.
+
 ### [Rural sociology]{#RuralSoc}
 
 See the task view for `r view("Psychometrics")` for general sociology packages.
@@ -390,6 +394,8 @@ See the task view for `r view("Psychometrics")` for general sociology packages.
 
 - The [suitability](https://www.fao.org/land-water/databases-and-software/crop-information/en/) of specific soils for crop production can be analyzed using `r pkg("soilassessment")`, including soil fertility classes, soil erosion models and soil salinity classification.
   Suitability requirements are for crops grouped into cereal crops, nuts, legumes, fruits, vegetables, industrial crops, and root crops.
+
+- `r pkg("pacu")` (Precision Agriculture Computational Utilities) streamlines common precision-ag workflows: it fetches and processes Sentinel-2 imagery or on-demand vegetation-index statistics, pulls and visualizes historical weather data, and cleans, smooths, and spatially evaluates combine yield-monitor datasets.
 
 #### [Remote sensing]{#remotesensing}
 
