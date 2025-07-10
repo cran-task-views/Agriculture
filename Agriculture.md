@@ -3,7 +3,7 @@ name: Agriculture
 topic: Agricultural Science
 maintainer: Adrian Correndo, Julia Piaskowski, Adam Sparks
 email: acorrend@uoguelph.ca
-version: 2025-06-16
+version: 2025-07-10
 source: https://github.com/cran-task-views/Agriculture/
 ---
 
@@ -358,6 +358,8 @@ The `r view("Epidemiology")` task view lists relevant package for modelling plan
 
 - `r pkg("qPRAentry")` supports the entry step of quantitative Pest Risk Assessment by modeling pest introductions via imported commodities. It includes tools and Shiny apps for pathway analysis based on EFSA methodology.
 
+- `r pkg("r4pde")` includes functions for quantifying disease, assessing spatial patterns, and modeling plant disease epidemics based on weather predictors. These tools are intended for teaching and research in plant disease epidemiology. It also contains datasets from the book "R for Plant Disease Epidemiology" (R4PDE).
+
 ### [Rural sociology]{#RuralSoc}
 
 See the task view for `r view("Psychometrics")` for general sociology packages.
@@ -376,7 +378,6 @@ See the task view for `r view("Psychometrics")` for general sociology packages.
   `r pkg("pedometrics")` has many utility functions for common analyses of soil data.
 
 - _Soil water_: Soil water retention curves can be calculated by the `r pkg("soilwater")` packages using the [Van Genuchten (1980)](https://doi.org/10.2136/sssaj1980.03615995004400050002x) method for soil water retention and [Mualem (1976)](https://doi.org/10.1029/WR012i003p00513) method for hydraulic conductivity.
-  Estimation and prediction of parameters of soil hydraulic property models can be accomplished with `r pkg("spsh")`.
 
 - `r pkg("SoilR")` models soil organic matter decomposition in terrestrial ecosystems with linear and nonlinear models.
   The `r pkg("sorcering")` can be used to model soil organic carbon and soil organic nitrogen and to calculate N mineralisation rates.
@@ -416,8 +417,7 @@ See the task view for `r view("Psychometrics")` for general sociology packages.
 For ecological studies and analytical applications, the `r view("Environmetrics")` task view provides a list of existing R resources in this topic.
 
 - _Dose Response_: the package `r pkg("drc", priority = "core")` offers versatile model fitting and after-fitting functions for dose-response curves.
-  `r pkg("LW1949")` implements the Litchefield and Wilcoxon ([1949](https://jpet.aspetjournals.org/content/96/2/99.abstract)) dose-response model.
-
+  
 - `r pkg("drcte")` provides a framework for non-parametric and parametric time-to-event models in agriculture, especially analysis of germination and emergence data.
 
 - `r pkg("PROSPER")` is a package for simulating weed population dynamics at the individual and population level under a range of conditions including herbicide resistance and herbicide pressure.
