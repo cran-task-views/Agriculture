@@ -3,7 +3,7 @@ name: Agriculture
 topic: Agricultural Science
 maintainer: Julia Piaskowski, Adam Sparks, Adrian Correndo 
 email: julia.piask@gmail.com
-version: 2025-9-3
+version: 2025-09-03
 source: https://github.com/cran-task-views/Agriculture/
 ---
 
@@ -51,7 +51,7 @@ If you think that a package is missing from this list, please let us know throug
 
 -   `r pkg("FedData", priority = "core")` provides access to geospatial data from the United States Soil Survey Geographic ([SSURGO](https://data.nal.usda.gov/dataset/soil-survey-geographic-database-ssurgo)) database, the Global Historical Climatology Network ([GHCN](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily)), the [Daymet](https://daymet.ornl.gov/) gridded estimates of daily weather parameters for North America, the [International Tree Ring Data Bank](https://www.ncei.noaa.gov/products/paleoclimatology/tree-ring), and the [National Land Cover Database](https://www.usgs.gov/centers/eros/science/national-land-cover-database#overview).
 
--   `r github("INTA-Suelos/SISINTAR")` provides access to [SiSINTA](http://sisinta.inta.gob.ar/) (Sistema de información de Suelos del INTA), a soil profile database for Argentina, and functions for processing the data.
+-   `ofemeantest("INTA-Suelos/SISINTAR")` provides access to [SiSINTA](http://sisinta.inta.gob.ar/) (Sistema de información de Suelos del INTA), a soil profile database for Argentina, and functions for processing the data.
 
 -   SILO weather data from the [Queensland DES Longpaddock](https://www.longpaddock.qld.gov.au) website can be accessed with `r pkg("cropgrowdays")`.
 
@@ -149,7 +149,7 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 -   `r pkg("qrlabelr")` is an R package that provides customizable functions and a [shiny-app](https://awkena.shinyapps.io/easyplotlabelr/) for generating print-ready machine and human-readable labels affixed with QR codes.
 
--   `github ("PPaccioretti/ofemeantest")` permutation-based statistical method for spatial data in unreplicated on-farm experiments. 
+-   `r github("PPaccioretti/ofemeantest")` permutation-based statistical method for spatial data in unreplicated on-farm experiments. 
 
 #### [High throughput phenotyping (HTP)]{#htp}
 
@@ -298,7 +298,7 @@ The `r view("Epidemiology")` task view lists relevant package for modelling plan
 
 -   `r pkg("epifitter")` provides functions for analysis and visualization of plant disease progress curve data.
 
--   `r pkg("nematode")` for quantifying common nematode-based ecological indicators, including metabolic footprints, energy flow metrics, and community structure analysis.
+-   `r pkg("Nematode")` for quantifying common nematode-based ecological indicators, including metabolic footprints, energy flow metrics, and community structure analysis.
 
 -   *Plant Pathogen Genetics*: `r pkg("hagis")` has functions for analysis of plant pathogen pathotype survey data. Functions provided calculate distribution of susceptibilities, distribution of complexities with statistics, pathotype frequency distribution, as well as diversity indices for pathotypes. Evolution of resistance genes under pesticide pressure can be simulated under different numbers of pests, modes of pest reproduction, resistance loci, number of pesticides and other facets with `r pkg("resevol")`. Populations with mixed clonal/sexual reproductive strategies can be analyzed with `r pkg("poppr")`, which has population genetic analysis tools for hierarchical analysis of partially clonal populations.
 
@@ -316,8 +316,7 @@ See the task view for `r view("Psychometrics")` for general sociology packages.
 
 -   For soil pedology, `r pkg("aqp", priority = "core")` provides a general toolkit for soil scientists: specialized data structures, soil profile summary, visualisation, color conversion, and more. `r pkg("SoilTaxonomy")` provides functions for parsing soil taxonomic terms. `r pkg("pedometrics")` has many utility functions for common analyses of soil data.
 
--   *Soil water*: Soil water retention curves can be calculated by the `r pkg("soilwater")` packages using the [Van Genuchten (1980)](https://doi.org/10.2136/sssaj1980.03615995004400050002x) method for soil water retention and [Mualem (1976)](https://doi.org/10.1029/WR012i003p00513) method for hydraulic conductivity. Estimation and prediction of parameters of soil hydraulic property models can be accomplished with `r pkg("spsh")`.
-
+-   *Soil water*: Soil water retention curves can be calculated by the `r pkg("soilwater")` packages using the [Van Genuchten (1980)](https://doi.org/10.2136/sssaj1980.03615995004400050002x) method for soil water retention and [Mualem (1976)](https://doi.org/10.1029/WR012i003p00513) method for hydraulic conductivity. 
 -   `r pkg("SoilR")` models soil organic matter decomposition in terrestrial ecosystems with linear and nonlinear models. The `r pkg("sorcering")` can be used to model soil organic carbon and soil organic nitrogen and to calculate N mineralisation rates.
 
 -   Soil texture triangles can be graphed using `r pkg("soiltexture")` and `r github("Saryace/ggsoiltexture")`; `r pkg("soiltexture")` can also classify and transform soil texture data. 
