@@ -3,7 +3,7 @@ name: Agriculture
 topic: Agricultural Science
 maintainer: Julia Piaskowski, Adam Sparks, Adrian Correndo 
 email: julia.piask@gmail.com
-version: 2024-10-24
+version: 2025-9-3
 source: https://github.com/cran-task-views/Agriculture/
 ---
 
@@ -295,6 +295,8 @@ The `r view("Epidemiology")` task view lists relevant package for modelling plan
 -   `r pkg("epiphy")` is a toolbox for analyzing plant disease epidemics. It provides a common framework for plant disease intensity data recorded over time and/or space.
 
 -   `r pkg("epifitter")` provides functions for analysis and visualization of plant disease progress curve data.
+
+-   `r pkg("nematode")` for quantifying common nematode-based ecological indicators, including metabolic footprints, energy flow metrics, and community structure analysis.
 
 -   *Plant Pathogen Genetics*: `r pkg("hagis")` has functions for analysis of plant pathogen pathotype survey data. Functions provided calculate distribution of susceptibilities, distribution of complexities with statistics, pathotype frequency distribution, as well as diversity indices for pathotypes. Evolution of resistance genes under pesticide pressure can be simulated under different numbers of pests, modes of pest reproduction, resistance loci, number of pesticides and other facets with `r pkg("resevol")`. Populations with mixed clonal/sexual reproductive strategies can be analyzed with `r pkg("poppr")`, which has population genetic analysis tools for hierarchical analysis of partially clonal populations.
 
