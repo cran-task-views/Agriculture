@@ -268,15 +268,11 @@ The packages listed here have specific applications in breeding populations comm
 
 #### [Genomic prediction]{#GenomicPrediction}
 
-- *General genomic selection packages*: `r github("famuvie/breedR")` is a general purpose package for performing quantitative genetic analyses.
-  Genome feature mixed linear models using frequentist and Bayesian approaches can be implemented with `r pkg("qgg")`.
+- *General genomic selection packages*: `r github("famuvie/breedR")` is a general purpose package for performing quantitative genetic analyses. Genome feature mixed linear models using frequentist and Bayesian approaches can be implemented with `r pkg("qgg")`.
+  
   `r pkg("BWGS")`, "Breed Wheat Genomic Selection", provides a pipeline of functions for conducting genomic selection in hexaploid wheat.
 
-- *GBLUP*: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include `r pkg("sommer", priority = "core")`, `r pkg("rrBLUP")`, `r pkg("BGLR")`, `r github("variani/lme4qtl")`, `r pkg("pedigreemm")`, `r github("cheuerde/cpgen")`, `r pkg("QTLRel")`, and the licensed software [ASReml](https://www.vsni.co.uk/software/asreml).
-  Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices.
-
-- *GBLUP*: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include are listed in the `r view("MixedModels")` task view.
-  Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices.
+- *GBLUP*: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include `r pkg("sommer", priority = "core")`, `r pkg("rrBLUP")`, `r pkg("BGLR")`, `r github("variani/lme4qtl")`, `r pkg("pedigreemm")`, `r github("cheuerde/cpgen")`, `r pkg("QTLRel")`, and the licensed software [ASReml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices.
 
 - `r pkg("GSelection")` implements genomic selection integrating additive and non-additive models.
 
