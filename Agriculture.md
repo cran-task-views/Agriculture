@@ -1,7 +1,7 @@
 ---
 name: Agriculture
 topic: Agricultural Science
-maintainer: Julia Piaskowski, Adam Sparks, Adrian Correndo 
+maintainer: Julia Piaskowski, Adam Sparks, Adrian Correndo
 email: julia.piask@gmail.com
 version: 2025-09-03
 ---
@@ -56,24 +56,23 @@ If you think that a package is missing from this list, please let us know throug
 
 - `r pkg("QBMS")` provides functions to query [BrAPI](https://brapi.org/)-compliant databases with additional functionality for the [GIGWA](https://southgreen.fr/content/gigwa) platform.
 
--   `r pkg("FedData", priority = "core")` provides access to geospatial data from the United States Soil Survey Geographic ([SSURGO](https://data.nal.usda.gov/dataset/soil-survey-geographic-database-ssurgo)) database, the Global Historical Climatology Network ([GHCN](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily)), the [Daymet](https://daymet.ornl.gov/) gridded estimates of daily weather parameters for North America, the [International Tree Ring Data Bank](https://www.ncei.noaa.gov/products/paleoclimatology/tree-ring), and the [National Land Cover Database](https://www.usgs.gov/centers/eros/science/national-land-cover-database#overview).
+- `r pkg("FedData", priority = "core")` provides access to geospatial data from the United States Soil Survey Geographic ([SSURGO](https://data.nal.usda.gov/dataset/soil-survey-geographic-database-ssurgo)) database, the Global Historical Climatology Network ([GHCN](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily)), the [Daymet](https://daymet.ornl.gov/) gridded estimates of daily weather parameters for North America, the [International Tree Ring Data Bank](https://www.ncei.noaa.gov/products/paleoclimatology/tree-ring), and the [National Land Cover Database](https://www.usgs.gov/centers/eros/science/national-land-cover-database#overview).
 
--   `r github("INTA-Suelos/SISINTAR")` provides access to [SiSINTA](http://sisinta.inta.gob.ar/) (Sistema de información de Suelos del INTA), a soil profile database for Argentina, and functions for processing the data.
+- `r github("INTA-Suelos/SISINTAR")` provides access to [SiSINTA](http://sisinta.inta.gob.ar/) (Sistema de información de Suelos del INTA), a soil profile database for Argentina, and functions for processing the data.
 
--   SILO weather data from the [Queensland DES Longpaddock](https://www.longpaddock.qld.gov.au) website can be accessed with `r pkg("cropgrowdays")`.
+- SILO weather data from the [Queensland DES Longpaddock](https://www.longpaddock.qld.gov.au) website can be accessed with `r pkg("cropgrowdays")`.
 
--   `r pkg("PGRdup")` provides functions to aid the identification of probable/possible duplicates in plant genetic resources collections.
+- `r pkg("PGRdup")` provides functions to aid the identification of probable/possible duplicates in plant genetic resources collections.
 
--   `r pkg("rfieldclimate")` provides functionality and parsers to interact with the [FieldClimate API](https://api.fieldclimate.com/v2/docs/).
+- `r pkg("rfieldclimate")` provides functionality and parsers to interact with the [FieldClimate API](https://api.fieldclimate.com/v2/docs/).
 
--   `r pkg("pestr")` offers tools to extract pest data from [EPPO Data Services](https://data.eppo.int/) and [EPPO Global Database](https://gd.eppo.int/) using [EPPO database API](https://data.eppo.int) and put them into tables with human-readable formats.
+- `r pkg("pestr")` offers tools to extract pest data from [EPPO Data Services](https://data.eppo.int/) and [EPPO Global Database](https://gd.eppo.int/) using [EPPO database API](https://data.eppo.int) and put them into tables with human-readable formats.
 
--   `r pkg("PesticideLoadIndicator")` computes the Danish Pesticide Load Indicator as described in Kudsk ([2018](https://doi.org/10.1016%2Fj.landusepol.2017.11.010)) and Moehring ([2019](https://doi.org/10.1016%2Fj.scitotenv.2018.07.287)) for pesticide use data.
+- `r pkg("PesticideLoadIndicator")` computes the Danish Pesticide Load Indicator as described in Kudsk ([2018](https://doi.org/10.1016%2Fj.landusepol.2017.11.010)) and Moehring ([2019](https://doi.org/10.1016%2Fj.scitotenv.2018.07.287)) for pesticide use data.
 
--   `r pkg("QBMS")` provides functions to query [BrAPI](https://brapi.org/)-compliant databases with additional functionality for the [GIGWA](https://southgreen.fr/content/gigwa) platform.
- 
--   `r pkg("genesysr")` provides access data on plant genetic resources from genebanks around the world published on [Genesys](https://www.genesys-pgr.org).  
+- `r pkg("QBMS")` provides functions to query [BrAPI](https://brapi.org/)-compliant databases with additional functionality for the [GIGWA](https://southgreen.fr/content/gigwa) platform.
 
+- `r pkg("genesysr")` provides access data on plant genetic resources from genebanks around the world published on [Genesys](https://www.genesys-pgr.org).
 
 ### [Agricultural data sets]{#datasets}
 
@@ -164,9 +163,9 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 - `r pkg("FielDHub")` is a Shiny app for generating traditional, un-replicated, augmented and partially-replicated designs applied to agriculture, plant breeding, forestry, animal and biological sciences.
 
--   `r pkg("qrlabelr")` is an R package that provides customizable functions and a [shiny-app](https://awkena.shinyapps.io/easyplotlabelr/) for generating print-ready machine and human-readable labels affixed with QR codes.
+- `r pkg("qrlabelr")` is an R package that provides customizable functions and a [shiny-app](https://awkena.shinyapps.io/easyplotlabelr/) for generating print-ready machine and human-readable labels affixed with QR codes.
 
--   `r github("PPaccioretti/ofemeantest")` permutation-based statistical method for spatial data in unreplicated on-farm experiments. 
+- `r github("PPaccioretti/ofemeantest")` permutation-based statistical method for spatial data in unreplicated on-farm experiments.
 
 #### [High throughput phenotyping (HTP)]{#htp}
 
@@ -179,7 +178,7 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 #### [Trial analysis]{#TrialAnalysis}
 
-- *General analysis*: The package `r pkg("agricolae", priority = "core")` contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations.
+- _General analysis_: The package `r pkg("agricolae", priority = "core")` contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations.
   The proprietary software [Asreml-R](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model software for field trial analysis (note this is not open source and requires an annual license).
   CRAN also contains an add-on package `r pkg("asremlPlus")` that provides several accessory functions to asreml.
   `r pkg("agriutilities")` contains utility functions for analyzing single and multi-location trials, and it also has functions for interfacing with AsReml-R.
@@ -187,7 +186,7 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
   The `r pkg("gosset")` package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation.
   `r pkg("AgroR")` has general functions and a [Shiny app](https://agrorproject.shinyapps.io/agror_shiny/) for analysis of common designs in agriculture: CRD, RCBD and Latin square.
 
-- *Spatial analysis*: the `r pkg("statgenSTA")` has functions for single trial analysis with and without spatial components.
+- _Spatial analysis_: the `r pkg("statgenSTA")` has functions for single trial analysis with and without spatial components.
   `r pkg("SpATS")` can be used to adjust for field spatial variation using [p-splines](https://dx.doi.org/10.1002/bimj.202100212).
   A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with `r pkg("mvngGrAd")`.
 
@@ -216,7 +215,7 @@ There are a few packages that are either specifically tailored for biosecurity o
 
 See the R package repository [Bioconductor](https://www.bioconductor.org/) for bioinformatic tools to support the processing of high-throughput genomic data.
 
-- *General plant breeding*: `r github("reyzaguirre/st4gi")` and `r pkg("variability")` provides several common utility functions for genetic improvement of crops.
+- _General plant breeding_: `r github("reyzaguirre/st4gi")` and `r pkg("variability")` provides several common utility functions for genetic improvement of crops.
   Also, please see the subsection on "genotype-by-environment interactions" in this task view for packages integrating environmental and genomic data in an analytical framework.
   `r pkg("gpbStat")` provides functions for common plant breeding analyses including line-by-tester analysis ([Arunachalam 1974](http://repository.ias.ac.in/89299/) and diallel analysis ([Griffing 1956](https://www.publish.csiro.au/bi/pdf/BI9560463)).
 
@@ -226,7 +225,7 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 - `r pkg("selection.index")` calculates a selection index using the method described by Smith ([1936](https://onlinelibrary.wiley.com/doi/10.1111/j.1469-1809.1936.tb02143.x)).
 
-- *Breeding simulations*: `r pkg("AlphaSimR")` provides functions for stochastic modelling of processes common to breeding programs such as selection and crossing, in plant or animals [Gaynor et al. 2020](https://doi.org/10.1093/g3journal/jkaa017).
+- _Breeding simulations_: `r pkg("AlphaSimR")` provides functions for stochastic modelling of processes common to breeding programs such as selection and crossing, in plant or animals [Gaynor et al. 2020](https://doi.org/10.1093/g3journal/jkaa017).
   `r pkg("SIMplyBee")` is an extension of AlphaSimR for honeybees [Obsteter et al. 2023](https://doi.org/10.1186/s12711-023-00798-y).
   `r pkg("MoBPS")` also provides functions for stochastic modelling of breeding programs [Pook et al. 2020](https://doi.org/10.1534/g3.120.401193).
   Using wrapper functions for the AlphaSimR, the `r pkg("FieldSimR")` simulates plot data in multi-environment field trials with one or more traits and allows to capture spatial error trends.
@@ -268,11 +267,11 @@ The packages listed here have specific applications in breeding populations comm
 
 #### [Genomic prediction]{#GenomicPrediction}
 
-- *General genomic selection packages*: `r github("famuvie/breedR")` is a general purpose package for performing quantitative genetic analyses. Genome feature mixed linear models using frequentist and Bayesian approaches can be implemented with `r pkg("qgg")`.
-  
+- _General genomic selection packages_: `r github("famuvie/breedR")` is a general purpose package for performing quantitative genetic analyses. Genome feature mixed linear models using frequentist and Bayesian approaches can be implemented with `r pkg("qgg")`.
+
   `r pkg("BWGS")`, "Breed Wheat Genomic Selection", provides a pipeline of functions for conducting genomic selection in hexaploid wheat.
 
-- *GBLUP*: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include `r pkg("sommer", priority = "core")`, `r pkg("rrBLUP")`, `r pkg("BGLR")`, `r github("variani/lme4qtl")`, `r pkg("pedigreemm")`, `r github("cheuerde/cpgen")`, `r pkg("QTLRel")`, and the licensed software [ASReml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices.
+- _GBLUP_: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include `r pkg("sommer", priority = "core")`, `r pkg("rrBLUP")`, `r pkg("BGLR")`, `r github("variani/lme4qtl")`, `r pkg("pedigreemm")`, `r github("cheuerde/cpgen")`, `r pkg("QTLRel")`, and the licensed software [ASReml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices.
 
 - `r pkg("GSelection")` implements genomic selection integrating additive and non-additive models.
 
@@ -284,10 +283,10 @@ The packages listed here have specific applications in breeding populations comm
 
 - `r pkg("PopVar")` has function for estimating population genetic variance from a biparental cross.
 
-- *Multiple environments and traits*: `r pkg("BGGE")` conducts genomic prediction for continuous variables, focused on genotype-by-environment genomic selection models following the methods of [Jarquín 2014](https://doi.org/10.1007%2Fs00122-013-2243-1).
+- _Multiple environments and traits_: `r pkg("BGGE")` conducts genomic prediction for continuous variables, focused on genotype-by-environment genomic selection models following the methods of [Jarquín 2014](https://doi.org/10.1007%2Fs00122-013-2243-1).
   `r github("deruncie/megaLMM")` implements multivariate genomic prediction with very large numbers of traits (up to several thousand) using Bayesian genomic prediction models.
 
-- *Kinship and relatedness*: `r pkg("AGHmatrix", priority = "core")` provides extensive options for calculating pedigree and genomic relationships (additive and dominance).
+- _Kinship and relatedness_: `r pkg("AGHmatrix", priority = "core")` provides extensive options for calculating pedigree and genomic relationships (additive and dominance).
   The `r pkg("pedigree")` packages provides functionality for ordering pedigrees, calculating and inverting the pedigree relationship matrix and other related tasks.
   `r pkg("statgenIBD")` can calculate IBD probabilities for biparental, three-way and four-way crosses.
   `r pkg("kinship2")` provides functions for manipulating and visualising pedigree-based kinship data.
@@ -311,12 +310,12 @@ The packages listed here have specific applications in breeding populations comm
 
 - `r pkg("metrica")` has many convenience functions for comparing model predictions with ground truth data.
 
-- *Crop Growth Models_: `r pkg("Rwofost")` is an implementation of the WOFOST (World Food Studies) crop growth model ([de Wit 2019](https://doi.org/10.1016%2Fj.agsy.2018.06.018)).
+- _Crop Growth Models_: `r pkg("Rwofost")` is an implementation of the WOFOST (World Food Studies) crop growth model ([de Wit 2019](https://doi.org/10.1016%2Fj.agsy.2018.06.018)).
   `r pkg("Rquefts")` provides an implementation of the QUEFTS (Quantitative Evaluation of the Native Fertility of Tropical Soils) model ([Janssen 1990](https://doi.org/10.1016%2F0016-7061%2890%2990021-Z)).
 
 - `r pkg("Recocrop")` estimates environmental suitability for plants using a limiting factor approach for plant growth following [Hackett (1991)](https://doi.org/10.1007%2FBF00045728).
 
-- *Ecophysiology*: `r pkg("photosynthesis")` has an extensive number of tools for plant ecophysiology modelling and analysis.
+- _Ecophysiology_: `r pkg("photosynthesis")` has an extensive number of tools for plant ecophysiology modelling and analysis.
   `r pkg("tealeaves")` implements models for understanding leaf temperature using energy balance.
   `r pkg("plantecophys")` supports the coupled leaf gas exchange model, A-Ci curve simulation and fitting, Ball-Berry stomatal conductance models, leaf energy balance using Penman-Monteith, Cowan-Farquhar optimization, and humidity unit conversions.
 
@@ -357,48 +356,48 @@ For packages supporting sensory studies, see the `r view("Psychometrics")` task 
 
 The `r view("Epidemiology")` task view lists relevant package for modelling plant diseases.
 
--   *Epidemiology Simulation*: Stochastic disease modelling of plant pathogens incorporating spatial and genetic information can be done with `r pkg("landsepi")`.  The package `r pkg("ascotraceR")` can simulate an Ascochyta blight infection in a chickpea field following the model developed by Diggle ([2022](https://doi.org/10.1094%2FPHYTO.2002.92.10.1110)).
+- _Epidemiology Simulation_: Stochastic disease modelling of plant pathogens incorporating spatial and genetic information can be done with `r pkg("landsepi")`. The package `r pkg("ascotraceR")` can simulate an Ascochyta blight infection in a chickpea field following the model developed by Diggle ([2022](https://doi.org/10.1094%2FPHYTO.2002.92.10.1110)).
 
--   `r pkg("epiphy")` is a toolbox for analyzing plant disease epidemics. It provides a common framework for plant disease intensity data recorded over time and/or space.
+- `r pkg("epiphy")` is a toolbox for analyzing plant disease epidemics. It provides a common framework for plant disease intensity data recorded over time and/or space.
 
--   `r pkg("epifitter")` provides functions for analysis and visualization of plant disease progress curve data.
+- `r pkg("epifitter")` provides functions for analysis and visualization of plant disease progress curve data.
 
--   `r pkg("Nematode")` for quantifying common nematode-based ecological indicators, including metabolic footprints, energy flow metrics, and community structure analysis.
+- `r pkg("Nematode")` for quantifying common nematode-based ecological indicators, including metabolic footprints, energy flow metrics, and community structure analysis.
 
--   `r pkg("qPRAentry")` supports the entry step of quantitative Pest Risk Assessment by modeling pest introductions via imported commodities. It includes tools and Shiny apps for pathway analysis based on EFSA methodology.
+- `r pkg("qPRAentry")` supports the entry step of quantitative Pest Risk Assessment by modeling pest introductions via imported commodities. It includes tools and Shiny apps for pathway analysis based on EFSA methodology.
 
--   `r pkg("r4pde")` includes functions for quantifying disease, assessing spatial patterns, and modeling plant disease epidemics based on weather predictors. These tools are intended for teaching and research in plant disease epidemiology. It also contains datasets from the book "R for Plant Disease Epidemiology" (R4PDE).
+- `r pkg("r4pde")` includes functions for quantifying disease, assessing spatial patterns, and modeling plant disease epidemics based on weather predictors. These tools are intended for teaching and research in plant disease epidemiology. It also contains datasets from the book "R for Plant Disease Epidemiology" (R4PDE).
 
--   *Plant Pathogen Genetics*: `r pkg("hagis")` has functions for analysis of plant pathogen pathotype survey data. Functions provided calculate distribution of susceptibilities, distribution of complexities with statistics, pathotype frequency distribution, as well as diversity indices for pathotypes. Evolution of resistance genes under pesticide pressure can be simulated under different numbers of pests, modes of pest reproduction, resistance loci, number of pesticides and other facets with `r pkg("resevol")`. Populations with mixed clonal/sexual reproductive strategies can be analyzed with `r pkg("poppr")`, which has population genetic analysis tools for hierarchical analysis of partially clonal populations.
+- _Plant Pathogen Genetics_: `r pkg("hagis")` has functions for analysis of plant pathogen pathotype survey data. Functions provided calculate distribution of susceptibilities, distribution of complexities with statistics, pathotype frequency distribution, as well as diversity indices for pathotypes. Evolution of resistance genes under pesticide pressure can be simulated under different numbers of pests, modes of pest reproduction, resistance loci, number of pesticides and other facets with `r pkg("resevol")`. Populations with mixed clonal/sexual reproductive strategies can be analyzed with `r pkg("poppr")`, which has population genetic analysis tools for hierarchical analysis of partially clonal populations.
 
 ### [Rural sociology]{#RuralSoc}
 
 See the task view for `r view("Psychometrics")` for general sociology packages.
 
--   Both the `r view("Survival")` task view and the `r github("OnofriAndreaPG/agriCensData")` package provide tools for working with interval and censored data.
+- Both the `r view("Survival")` task view and the `r github("OnofriAndreaPG/agriCensData")` package provide tools for working with interval and censored data.
 
 ### [Soil science and precision agriculture]{#SoilScience}
 
--   *Spatial*: The `r view("Spatial")` and `r view("SpatioTemporal")` CRAN task views provide extensive resources in spatial statistics. `r pkg("mpspline2")` implements a mass-preserving spline to soil attributes to make continuous down-profile estimates of attributes measured over discrete, often discontinuous depth intervals.
+- _Spatial_: The `r view("Spatial")` and `r view("SpatioTemporal")` CRAN task views provide extensive resources in spatial statistics. `r pkg("mpspline2")` implements a mass-preserving spline to soil attributes to make continuous down-profile estimates of attributes measured over discrete, often discontinuous depth intervals.
 
--   The `r pkg("sharpshootR")` contains a compendium of utility functions supporting soils survey work including data management, summary, visualisations and conversions.
+- The `r pkg("sharpshootR")` contains a compendium of utility functions supporting soils survey work including data management, summary, visualisations and conversions.
 
--   For soil pedology, `r pkg("aqp", priority = "core")` provides a general toolkit for soil scientists: specialized data structures, soil profile summary, visualisation, color conversion, and more.
+- For soil pedology, `r pkg("aqp", priority = "core")` provides a general toolkit for soil scientists: specialized data structures, soil profile summary, visualisation, color conversion, and more.
   `r pkg("SoilTaxonomy")` provides functions for parsing soil taxonomic terms.
   `r pkg("pedometrics")` has many utility functions for common analyses of soil data.
-  
--   *Soil water*: Soil water retention curves can be calculated by the `r pkg("soilwater")` packages using the [Van Genuchten (1980)](https://doi.org/10.2136/sssaj1980.03615995004400050002x) method for soil water retention and [Mualem (1976)](https://doi.org/10.1029/WR012i003p00513) method for hydraulic conductivity. 
--   `r pkg("SoilR")` models soil organic matter decomposition in terrestrial ecosystems with linear and nonlinear models. The `r pkg("sorcering")` can be used to model soil organic carbon and soil organic nitrogen and to calculate N mineralisation rates.
 
--   Soil texture triangles can be graphed using `r pkg("soiltexture")` and `r github("Saryace/ggsoiltexture")`; `r pkg("soiltexture")` can also classify and transform soil texture data.
+- _Soil water_: Soil water retention curves can be calculated by the `r pkg("soilwater")` packages using the [Van Genuchten (1980)](https://doi.org/10.2136/sssaj1980.03615995004400050002x) method for soil water retention and [Mualem (1976)](https://doi.org/10.1029/WR012i003p00513) method for hydraulic conductivity.
+- `r pkg("SoilR")` models soil organic matter decomposition in terrestrial ecosystems with linear and nonlinear models. The `r pkg("sorcering")` can be used to model soil organic carbon and soil organic nitrogen and to calculate N mineralisation rates.
 
--   `r pkg("QI")` can be used to calculate potassium intensity and exchangeability.
+- Soil texture triangles can be graphed using `r pkg("soiltexture")` and `r github("Saryace/ggsoiltexture")`; `r pkg("soiltexture")` can also classify and transform soil texture data.
 
--   `r pkg("DMMF")` implements the daily based Morgan-Morgan-Finney (DMMF) soil erosion model ([Choi 2017](https://doi.org/10.3390%2Fw9040278)) for estimating surface runoff and sediment budgets from a field or a catchment on a daily basis.
+- `r pkg("QI")` can be used to calculate potassium intensity and exchangeability.
 
--   `r pkg("OBIC")` calculate the [Open Bodem Index](https://www.openbodemindex.nl/), a method to evaluate the quality of soils of agricultural fields in The Netherlands and the sustainability of the current agricultural practices.
+- `r pkg("DMMF")` implements the daily based Morgan-Morgan-Finney (DMMF) soil erosion model ([Choi 2017](https://doi.org/10.3390%2Fw9040278)) for estimating surface runoff and sediment budgets from a field or a catchment on a daily basis.
 
--   *Soil Fertility Testing*: `r pkg("soiltestcorr")` has functions for conducting correlation analysis between soil test values and crop yield data. `r pkg("SoilTesting")` provides functions for calculating soil mineral concentrations from analytical lab results.
+- `r pkg("OBIC")` calculate the [Open Bodem Index](https://www.openbodemindex.nl/), a method to evaluate the quality of soils of agricultural fields in The Netherlands and the sustainability of the current agricultural practices.
+
+- _Soil Fertility Testing_: `r pkg("soiltestcorr")` has functions for conducting correlation analysis between soil test values and crop yield data. `r pkg("SoilTesting")` provides functions for calculating soil mineral concentrations from analytical lab results.
 
 - The [suitability](https://www.fao.org/land-water/databases-and-software/crop-information/en/) of specific soils for crop production can be analyzed using `r pkg("soilassessment")`, including soil fertility classes, soil erosion models and soil salinity classification.
   Suitability requirements are for crops grouped into cereal crops, nuts, legumes, fruits, vegetables, industrial crops, and root crops.
@@ -421,7 +420,7 @@ See the task view for `r view("Psychometrics")` for general sociology packages.
 
 For ecological studies and analytical applications, the `r view("Environmetrics")` task view provides a list of existing R resources in this topic.
 
--   *Dose Response*: the package `r pkg("drc", priority = "core")` offers versatile model fitting and after-fitting functions for dose-response curves.  
+- _Dose Response_: the package `r pkg("drc", priority = "core")` offers versatile model fitting and after-fitting functions for dose-response curves.
 
 - `r pkg("drcte")` provides a framework for non-parametric and parametric time-to-event models in agriculture, especially analysis of germination and emergence data.
 
