@@ -200,8 +200,9 @@ The `r view("Tracking")` task view has many resources for working with tracked a
 
 - The package `r pkg("usdampr")` provides access to the USDA's Livestock Mandatory Reporting API.
 
-- Many of the genetic packages described in the [breeding section](#breeding) of this task view can also be applied to animals.
-  `r github("luansheng/visPedigree")` can be used to visualise complex animal pedigrees.
+- Many of the genetic packages described in the [breeding section](#breeding) of this task view can also be applied to animals. `r github("luansheng/visPedigree")` can be used to visualise complex animal pedigrees.
+
+- `r github("juanmarcosmoreno-arch/cowfootR")` provides functions to estimate the carbon footprint of dairy farms. 
 
 ### Biosecurity{#Biosecurity}
 
