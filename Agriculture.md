@@ -291,20 +291,17 @@ The packages listed here have specific applications in breeding populations comm
 
 ### [Crop growth models & crop modelling]{#CropModel}
 
-- The `r pkg("apsimx", priority = "core")` package has functions to read, inspect, edit and run files for APSIM "Next Generation" (`.json`, `.apsimx`) and APSIM "Classic" (`.xml`, `.apsim`) files.
-  `r pkg("rapsimng")` works with next generation APSIM files.
+- The `r pkg("apsimx", priority = "core")` package has functions to read, inspect, edit and run files for APSIM "Next Generation" (`.json`, `.apsimx`) and APSIM "Classic" (`.xml`, `.apsim`) files. `r pkg("rapsimng")` works with next generation APSIM files.
 
-- `r pkg("DSSAT", priority = "core")` provides a comprehensive R interface to the Decision Support System for Agrotechnology Transfer Cropping Systems Model (DSSAT-CSM) documented by [Jones (2003)](<https://doi.org/10.1016/S1161-0301(02)00107-7>).
-  This package provides cross-platform functions to read and write input files, run DSSAT-CSM, and read output files.
-  `r pkg("Dasst")` also interfaces with DSSAT files.
+- `r pkg("DSSAT", priority = "core")` provides a comprehensive R interface to the Decision Support System for Agrotechnology Transfer Cropping Systems Model (DSSAT-CSM) documented by [Jones (2003)](<https://doi.org/10.1016/S1161-0301(02)00107-7>). This package provides cross-platform functions to read and write input files, run DSSAT-CSM, and read output files. r pkg("Dasst")` also interfaces with DSSAT files.
 
-- The modelling framework Simplace (Scientific Impact assessment and Modelling Platform for Advanced Crop and Ecosystem management) can be accessed using `r pkg("simplace")`.
-  Additionally, `r github("gk-crop/simplaceUtil")` provides additional utility functions that make the setup and handling of simulations more convenient.
+- `r pkg("growthPheno")` implements tools for estimating the growth of plants, including data from high throughput phenotyping. It uses a "Smoothing and Extraction of Traits" (SET) algorithm. 
+
+- The modelling framework Simplace (Scientific Impact assessment and Modelling Platform for Advanced Crop and Ecosystem management) can be accessed using `r pkg("simplace")`.Additionally, `r github("gk-crop/simplaceUtil")` provides additional utility functions that make the setup and handling of simulations more convenient.
 
 - `r pkg("fruclimadapt")` calculates several phenological variables important to grape vines and fruit trees in order to evaluate climate adaptation and to estimate the incidence of weather-related disorders in these species.
 
-- _Crop Water Usage_: `r pkg("cropDemand")` can be used to estimate crop water demand in Brazilian production regions using the [TerraClimate](https://www.climatologylab.org/terraclimate.html) data set.
-  `r pkg("Evapotranspiration")` can estimate potential and actual evapotranspiration using 21 different models.
+- _Crop Water Usage_: `r pkg("cropDemand")` can be used to estimate crop water demand in Brazilian production regions using the [TerraClimate](https://www.climatologylab.org/terraclimate.html) data set. `r pkg("Evapotranspiration")` can estimate potential and actual evapotranspiration using 21 different models.
 
 - `r pkg("metrica")` has many convenience functions for comparing model predictions with ground truth data.
 
@@ -313,8 +310,7 @@ The packages listed here have specific applications in breeding populations comm
 
 - `r pkg("Recocrop")` estimates environmental suitability for plants using a limiting factor approach for plant growth following [Hackett (1991)](https://doi.org/10.1007%2FBF00045728).
 
-- _Ecophysiology_: `r pkg("photosynthesis")` has an extensive number of tools for plant ecophysiology modelling and analysis.
-  `r pkg("tealeaves")` implements models for understanding leaf temperature using energy balance.
+- _Ecophysiology_: `r pkg("photosynthesis")` has an extensive number of tools for plant ecophysiology modelling and analysis. `r pkg("tealeaves")` implements models for understanding leaf temperature using energy balance.
   `r pkg("plantecophys")` supports the coupled leaf gas exchange model, A-Ci curve simulation and fitting, Ball-Berry stomatal conductance models, leaf energy balance using Penman-Monteith, Cowan-Farquhar optimization, and humidity unit conversions.
 
 - `r pkg("bigleaf")` calculates (e.g. aerodynamic conductance, surface temperature) and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements.
