@@ -3,7 +3,7 @@ name: Agriculture
 topic: Agricultural Science
 maintainer: Julia Piaskowski, Adam Sparks, Adrian Correndo
 email: julia.piask@gmail.com
-version: 2025-09-03
+version: 2025-10-20
 ---
 
 Agriculture encompasses a broad breadth of disciplines.
