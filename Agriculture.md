@@ -3,7 +3,7 @@ name: Agriculture
 topic: Agricultural Science
 maintainer: Julia Piaskowski, Adam Sparks, Adrian Correndo
 email: julia.piask@gmail.com
-version: 2025-09-03
+version: 2025-10-20
 ---
 
 Agriculture encompasses a broad breadth of disciplines.
@@ -155,7 +155,7 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 - `r pkg("PBIBD")` can construct partially balanced incomplete block designs and the Youden-m square (row-column) design and can calculate design efficiency.
 
-- `r pkg("biometryassist")` can be used for experimental design and analysis; it also includes several function to interface with [ASReml-R](https://vsni.co.uk/software/asreml-r) objects.
+- `r pkg("biometryassist")` can be used for experimental design and analysis; it also includes several functions to interface with [ASReml-R](https://vsni.co.uk/software/asreml-r) objects.
 
 - The package [DiGGer](https://www.nswdpibiom.org/austatgen/software/) was developed for rectangular field trials; its purpose is to help users determine the optimal experimental design based on the treatment structure and number of replicates.
 
@@ -180,9 +180,9 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 - _General analysis_: The package `r pkg("agricolae", priority = "core")` contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations.
   The proprietary software [Asreml-R](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model software for field trial analysis (note this is not open source and requires an annual license).
-  CRAN also contains an add-on package `r pkg("asremlPlus")` that provides several accessory functions to asreml.
+  CRAN also contains an add-on package `r pkg("asremlPlus")` that provides several accessory functions to ASReml-R.
   `r pkg("agriutilities")` contains utility functions for analyzing single and multi-location trials, and it also has functions for interfacing with AsReml-R.
-  `[INLA](https://www.r-inla.org/)` provides tools for Bayesian inference of latent Gaussian models, and it contains functions for modelling spatial variation, such as field experiments or farm locations.
+  [INLA](https://www.r-inla.org/) provides tools for Bayesian inference of latent Gaussian models, and it contains functions for modelling spatial variation, such as field experiments or farm locations.
   The `r pkg("gosset")` package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation.
   `r pkg("AgroR")` has general functions and a [Shiny app](https://agrorproject.shinyapps.io/agror_shiny/) for analysis of common designs in agriculture: CRD, RCBD and Latin square.
 
@@ -200,8 +200,9 @@ The `r view("Tracking")` task view has many resources for working with tracked a
 
 - The package `r pkg("usdampr")` provides access to the USDA's Livestock Mandatory Reporting API.
 
-- Many of the genetic packages described in the [breeding section](#breeding) of this task view can also be applied to animals.
-  `r github("luansheng/visPedigree")` can be used to visualise complex animal pedigrees.
+- Many of the genetic packages described in the [breeding section](#breeding) of this task view can also be applied to animals. `r github("luansheng/visPedigree")` can be used to visualise complex animal pedigrees.
+
+- `r github("juanmarcosmoreno-arch/cowfootR")` provides functions to estimate the carbon footprint of dairy farms.
 
 ### Biosecurity{#Biosecurity}
 
@@ -225,10 +226,7 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 - `r pkg("selection.index")` calculates a selection index using the method described by Smith ([1936](https://onlinelibrary.wiley.com/doi/10.1111/j.1469-1809.1936.tb02143.x)).
 
-- _Breeding simulations_: `r pkg("AlphaSimR")` provides functions for stochastic modelling of processes common to breeding programs such as selection and crossing, in plant or animals [Gaynor et al. 2020](https://doi.org/10.1093/g3journal/jkaa017).
-  `r pkg("SIMplyBee")` is an extension of AlphaSimR for honeybees [Obsteter et al. 2023](https://doi.org/10.1186/s12711-023-00798-y).
-  `r pkg("MoBPS")` also provides functions for stochastic modelling of breeding programs [Pook et al. 2020](https://doi.org/10.1534/g3.120.401193).
-  Using wrapper functions for the AlphaSimR, the `r pkg("FieldSimR")` simulates plot data in multi-environment field trials with one or more traits and allows to capture spatial error trends.
+- _Breeding simulations_: `r pkg("AlphaSimR")` provides functions for stochastic modelling of processes common to breeding programs such as selection and crossing, in plant or animals [Gaynor et al. 2020](https://doi.org/10.1093/g3journal/jkaa017). `r pkg("SIMplyBee")` is an extension of AlphaSimR for honeybees [Obsteter et al. 2023](https://doi.org/10.1186/s12711-023-00798-y). `r pkg("MoBPS")` also provides functions for stochastic modelling of breeding programs [Pook et al. 2020](https://doi.org/10.1534/g3.120.401193). Using wrapper functions for the AlphaSimR, the `r pkg("FieldSimR")` simulates plot data in multi-environment field trials with one or more traits and allows to capture spatial error trends.
 
 #### [Linkage mapping & QTL analysis]{#qtl}
 
@@ -271,7 +269,7 @@ The packages listed here have specific applications in breeding populations comm
 
   `r pkg("BWGS")`, "Breed Wheat Genomic Selection", provides a pipeline of functions for conducting genomic selection in hexaploid wheat.
 
-- _GBLUP_: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include `r pkg("sommer", priority = "core")`, `r pkg("rrBLUP")`, `r pkg("BGLR")`, `r github("variani/lme4qtl")`, `r pkg("pedigreemm")`, `r github("cheuerde/cpgen")`, `r pkg("QTLRel")`, and the licensed software [ASReml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices.
+- _GBLUP_: Packages supporting genetic prediction using mixed models augmented with pedigree or genetic marker data include `r pkg("sommer", priority = "core")`, `r pkg("rrBLUP")`, `r pkg("BGLR")`, `r github("variani/lme4qtl")`, `r pkg("pedigreemm")`, `r github("cheuerde/cpgen")`, `r pkg("QTLRel")`, `r pkg("lme4breeding")`, and the licensed software [ASReml](https://www.vsni.co.uk/software/asreml). Many of these packages have built-in functionality for data preparation steps including data imputation and calculation of the relationship matrices.
 
 - `r pkg("GSelection")` implements genomic selection integrating additive and non-additive models.
 
@@ -293,20 +291,17 @@ The packages listed here have specific applications in breeding populations comm
 
 ### [Crop growth models & crop modelling]{#CropModel}
 
-- The `r pkg("apsimx", priority = "core")` package has functions to read, inspect, edit and run files for APSIM "Next Generation" (`.json`, `.apsimx`) and APSIM "Classic" (`.xml`, `.apsim`) files.
-  `r pkg("rapsimng")` works with next generation APSIM files.
+- The `r pkg("apsimx", priority = "core")` package has functions to read, inspect, edit and run files for APSIM "Next Generation" (`.json`, `.apsimx`) and APSIM "Classic" (`.xml`, `.apsim`) files. `r pkg("rapsimng")` works with next generation APSIM files.
 
-- `r pkg("DSSAT", priority = "core")` provides a comprehensive R interface to the Decision Support System for Agrotechnology Transfer Cropping Systems Model (DSSAT-CSM) documented by [Jones (2003)](<https://doi.org/10.1016/S1161-0301(02)00107-7>).
-  This package provides cross-platform functions to read and write input files, run DSSAT-CSM, and read output files.
-  `r pkg("Dasst")` also interfaces with DSSAT files.
+- `r pkg("DSSAT", priority = "core")` provides a comprehensive R interface to the Decision Support System for Agrotechnology Transfer Cropping Systems Model (DSSAT-CSM) documented by [Jones (2003)](<https://doi.org/10.1016/S1161-0301(02)00107-7>). This package provides cross-platform functions to read and write input files, run DSSAT-CSM, and read output files. r pkg("Dasst")` also interfaces with DSSAT files.
 
-- The modelling framework Simplace (Scientific Impact assessment and Modelling Platform for Advanced Crop and Ecosystem management) can be accessed using `r pkg("simplace")`.
-  Additionally, `r github("gk-crop/simplaceUtil")` provides additional utility functions that make the setup and handling of simulations more convenient.
+- `r pkg("growthPheno")` implements tools for estimating the growth of plants, including data from high throughput phenotyping. It uses a "Smoothing and Extraction of Traits" (SET) algorithm.
+
+- The modelling framework Simplace (Scientific Impact assessment and Modelling Platform for Advanced Crop and Ecosystem management) can be accessed using `r pkg("simplace")`.Additionally, `r github("gk-crop/simplaceUtil")` provides additional utility functions that make the setup and handling of simulations more convenient.
 
 - `r pkg("fruclimadapt")` calculates several phenological variables important to grape vines and fruit trees in order to evaluate climate adaptation and to estimate the incidence of weather-related disorders in these species.
 
-- _Crop Water Usage_: `r pkg("cropDemand")` can be used to estimate crop water demand in Brazilian production regions using the [TerraClimate](https://www.climatologylab.org/terraclimate.html) data set.
-  `r pkg("Evapotranspiration")` can estimate potential and actual evapotranspiration using 21 different models.
+- _Crop Water Usage_: `r pkg("cropDemand")` can be used to estimate crop water demand in Brazilian production regions using the [TerraClimate](https://www.climatologylab.org/terraclimate.html) data set. `r pkg("Evapotranspiration")` can estimate potential and actual evapotranspiration using 21 different models.
 
 - `r pkg("metrica")` has many convenience functions for comparing model predictions with ground truth data.
 
@@ -315,8 +310,7 @@ The packages listed here have specific applications in breeding populations comm
 
 - `r pkg("Recocrop")` estimates environmental suitability for plants using a limiting factor approach for plant growth following [Hackett (1991)](https://doi.org/10.1007%2FBF00045728).
 
-- _Ecophysiology_: `r pkg("photosynthesis")` has an extensive number of tools for plant ecophysiology modelling and analysis.
-  `r pkg("tealeaves")` implements models for understanding leaf temperature using energy balance.
+- _Ecophysiology_: `r pkg("photosynthesis")` has an extensive number of tools for plant ecophysiology modelling and analysis. `r pkg("tealeaves")` implements models for understanding leaf temperature using energy balance.
   `r pkg("plantecophys")` supports the coupled leaf gas exchange model, A-Ci curve simulation and fitting, Ball-Berry stomatal conductance models, leaf energy balance using Penman-Monteith, Cowan-Farquhar optimization, and humidity unit conversions.
 
 - `r pkg("bigleaf")` calculates (e.g. aerodynamic conductance, surface temperature) and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements.
@@ -434,7 +428,7 @@ For ecological studies and analytical applications, the `r view("Environmetrics"
 - Instructional materials for classroom or self-instruction: [(Plant Disease) Ecology and Epidemiology in R](https://www.apsnet.org/edcenter/disimpactmngmnt/topc/EcologyAndEpidemiologyInR/Pages/default.aspx)
 - Website: [Mixed Models in Agriculture](https://schmidtpaul.github.io/MMFAIR/)
 - [INLA](https://www.r-inla.org/) is an R package that conducts "approximate Bayesian inference for latent Gaussian models" The most current version of the R package and extensive documentation can be found on their website.
-- [MrBeanApp](https://apariciojohan.github.io/MrBeanApp/) is a Shiny app utilizing ASReml to analyze plant breeding experiments with mixed linear models including integrating spatial covariates.
+- [MrBeanApp](https://apariciojohan.github.io/MrBeanApp/) is a Shiny app utilizing ASReml to analyse plant breeding experiments with mixed linear models including integrating spatial covariates.
 - Additional data sets: the Github repository [agroBioData](https://github.com/OnofriAndreaPG/agroBioData) houses a collection of data sets supporting agriculture and applied biology (note that this is a collection of CSV files and a `.rda` file, not a package)
 - [Additional web resources](http://ncss-tech.github.io/AQP/) for accessing and analyzing the National Cooperative Soil Survey
 - Book: [_Applied Statistics in Agricultural, Biological, and Environmental Sciences_](https://acsess.onlinelibrary.wiley.com/doi/book/10.2134/appliedstatistics) (2017) edited by B Glaz and KM Yeater
