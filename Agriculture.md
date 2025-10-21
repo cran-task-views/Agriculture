@@ -3,7 +3,7 @@ name: Agriculture
 topic: Agricultural Science
 maintainer: Julia Piaskowski, Adam Sparks, Adrian Correndo
 email: julia.piask@gmail.com
-version: 2025-10-20
+version: 2025-10-21
 ---
 
 Agriculture encompasses a broad breadth of disciplines.
@@ -178,17 +178,11 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 #### [Trial analysis]{#TrialAnalysis}
 
-- _General analysis_: The package `r pkg("agricolae", priority = "core")` contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations.
-  The proprietary software [Asreml-R](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model software for field trial analysis (note this is not open source and requires an annual license).
-  CRAN also contains an add-on package `r pkg("asremlPlus")` that provides several accessory functions to ASReml-R.
-  `r pkg("agriutilities")` contains utility functions for analyzing single and multi-location trials, and it also has functions for interfacing with AsReml-R.
-  [INLA](https://www.r-inla.org/) provides tools for Bayesian inference of latent Gaussian models, and it contains functions for modelling spatial variation, such as field experiments or farm locations.
-  The `r pkg("gosset")` package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation.
-  `r pkg("AgroR")` has general functions and a [Shiny app](https://agrorproject.shinyapps.io/agror_shiny/) for analysis of common designs in agriculture: CRD, RCBD and Latin square.
+- _General analysis_: The package `r pkg("agricolae", priority = "core")` contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. The proprietary software [Asreml-R](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model software for field trial analysis (note this is not open source and requires an annual license). CRAN also contains an add-on package `r pkg("asremlPlus")` that provides several accessory functions to ASReml-R. `r pkg("agriutilities")` contains utility functions for analyzing single and multi-location trials, and it also has functions for interfacing with AsReml-R. [INLA](https://www.r-inla.org/) provides tools for Bayesian inference of latent Gaussian models, and it contains functions for modelling spatial variation, such as field experiments or farm locations. The `r pkg("gosset")` package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation. `r pkg("AgroR")` has general functions and a [Shiny app](https://agrorproject.shinyapps.io/agror_shiny/) for analysis of common designs in agriculture: CRD, RCBD and Latin square.
 
-- _Spatial analysis_: the `r pkg("statgenSTA")` has functions for single trial analysis with and without spatial components.
-  `r pkg("SpATS")` can be used to adjust for field spatial variation using [p-splines](https://dx.doi.org/10.1002/bimj.202100212).
-  A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with `r pkg("mvngGrAd")`.
+- `r github("https://github.com/PPaccioretti/ofemeantest")` will conduct permutation tests for unreplicated on-farm experiments that have data at mulitple spatial points. 
+
+- _Spatial analysis_: the `r pkg("statgenSTA")` has functions for single trial analysis with and without spatial components. `r pkg("SpATS")` can be used to adjust for field spatial variation using [p-splines](https://dx.doi.org/10.1002/bimj.202100212). A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with `r pkg("mvngGrAd")`.
 
 - Trials utilizing an incomplete block design can be analysed used `r pkg("ispd")`.
 
@@ -396,7 +390,7 @@ See the task view for `r view("Psychometrics")` for general sociology packages.
 - The [suitability](https://www.fao.org/land-water/databases-and-software/crop-information/en/) of specific soils for crop production can be analyzed using `r pkg("soilassessment")`, including soil fertility classes, soil erosion models and soil salinity classification.
   Suitability requirements are for crops grouped into cereal crops, nuts, legumes, fruits, vegetables, industrial crops, and root crops.
 
-- `r pkg("pacu")` (Precision Agriculture Computational Utilities) streamlines common precision-ag workflows: it fetches and processes Sentinel-2 imagery or on-demand vegetation-index statistics, pulls and visualizes historical weather data, and cleans, smooths, and spatially evaluates combine yield-monitor datasets.
+- `r pkg("pacu")` (Precision Agriculture Computational Utilities) streamlines common precision-ag workflows: it fetches and processes Sentinel-2 imagery or on-demand vegetation-index statistics, pulls and visualizes historical weather data, and cleans, smooths, and spatially evaluates combine yield-monitor datasets. `r pkg("paar")` for zone delineation using precision agriculture data. 
 
 #### [Remote sensing]{#remotesensing}
 
