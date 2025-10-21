@@ -155,7 +155,7 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 - `r pkg("PBIBD")` can construct partially balanced incomplete block designs and the Youden-m square (row-column) design and can calculate design efficiency.
 
-- `r pkg("biometryassist")` can be used for experimental design and analysis; it also includes several function to interface with [ASReml-R](https://vsni.co.uk/software/asreml-r) objects.
+- `r pkg("biometryassist")` can be used for experimental design and analysis; it also includes several functions to interface with [ASReml-R](https://vsni.co.uk/software/asreml-r) objects.
 
 - The package [DiGGer](https://www.nswdpibiom.org/austatgen/software/) was developed for rectangular field trials; its purpose is to help users determine the optimal experimental design based on the treatment structure and number of replicates.
 
@@ -180,9 +180,9 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 - _General analysis_: The package `r pkg("agricolae", priority = "core")` contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations.
   The proprietary software [Asreml-R](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model software for field trial analysis (note this is not open source and requires an annual license).
-  CRAN also contains an add-on package `r pkg("asremlPlus")` that provides several accessory functions to asreml.
+  CRAN also contains an add-on package `r pkg("asremlPlus")` that provides several accessory functions to ASReml-R.
   `r pkg("agriutilities")` contains utility functions for analyzing single and multi-location trials, and it also has functions for interfacing with AsReml-R.
-  `[INLA](https://www.r-inla.org/)` provides tools for Bayesian inference of latent Gaussian models, and it contains functions for modelling spatial variation, such as field experiments or farm locations.
+  [INLA](https://www.r-inla.org/) provides tools for Bayesian inference of latent Gaussian models, and it contains functions for modelling spatial variation, such as field experiments or farm locations.
   The `r pkg("gosset")` package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation.
   `r pkg("AgroR")` has general functions and a [Shiny app](https://agrorproject.shinyapps.io/agror_shiny/) for analysis of common designs in agriculture: CRD, RCBD and Latin square.
 
@@ -202,7 +202,7 @@ The `r view("Tracking")` task view has many resources for working with tracked a
 
 - Many of the genetic packages described in the [breeding section](#breeding) of this task view can also be applied to animals. `r github("luansheng/visPedigree")` can be used to visualise complex animal pedigrees.
 
-- `r github("juanmarcosmoreno-arch/cowfootR")` provides functions to estimate the carbon footprint of dairy farms. 
+- `r github("juanmarcosmoreno-arch/cowfootR")` provides functions to estimate the carbon footprint of dairy farms.
 
 ### Biosecurity{#Biosecurity}
 
@@ -295,7 +295,7 @@ The packages listed here have specific applications in breeding populations comm
 
 - `r pkg("DSSAT", priority = "core")` provides a comprehensive R interface to the Decision Support System for Agrotechnology Transfer Cropping Systems Model (DSSAT-CSM) documented by [Jones (2003)](<https://doi.org/10.1016/S1161-0301(02)00107-7>). This package provides cross-platform functions to read and write input files, run DSSAT-CSM, and read output files. r pkg("Dasst")` also interfaces with DSSAT files.
 
-- `r pkg("growthPheno")` implements tools for estimating the growth of plants, including data from high throughput phenotyping. It uses a "Smoothing and Extraction of Traits" (SET) algorithm. 
+- `r pkg("growthPheno")` implements tools for estimating the growth of plants, including data from high throughput phenotyping. It uses a "Smoothing and Extraction of Traits" (SET) algorithm.
 
 - The modelling framework Simplace (Scientific Impact assessment and Modelling Platform for Advanced Crop and Ecosystem management) can be accessed using `r pkg("simplace")`.Additionally, `r github("gk-crop/simplaceUtil")` provides additional utility functions that make the setup and handling of simulations more convenient.
 
@@ -428,7 +428,7 @@ For ecological studies and analytical applications, the `r view("Environmetrics"
 - Instructional materials for classroom or self-instruction: [(Plant Disease) Ecology and Epidemiology in R](https://www.apsnet.org/edcenter/disimpactmngmnt/topc/EcologyAndEpidemiologyInR/Pages/default.aspx)
 - Website: [Mixed Models in Agriculture](https://schmidtpaul.github.io/MMFAIR/)
 - [INLA](https://www.r-inla.org/) is an R package that conducts "approximate Bayesian inference for latent Gaussian models" The most current version of the R package and extensive documentation can be found on their website.
-- [MrBeanApp](https://apariciojohan.github.io/MrBeanApp/) is a Shiny app utilizing ASReml to analyze plant breeding experiments with mixed linear models including integrating spatial covariates.
+- [MrBeanApp](https://apariciojohan.github.io/MrBeanApp/) is a Shiny app utilizing ASReml to analyse plant breeding experiments with mixed linear models including integrating spatial covariates.
 - Additional data sets: the Github repository [agroBioData](https://github.com/OnofriAndreaPG/agroBioData) houses a collection of data sets supporting agriculture and applied biology (note that this is a collection of CSV files and a `.rda` file, not a package)
 - [Additional web resources](http://ncss-tech.github.io/AQP/) for accessing and analyzing the National Cooperative Soil Survey
 - Book: [_Applied Statistics in Agricultural, Biological, and Environmental Sciences_](https://acsess.onlinelibrary.wiley.com/doi/book/10.2134/appliedstatistics) (2017) edited by B Glaz and KM Yeater
