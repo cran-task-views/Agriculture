@@ -94,6 +94,8 @@ Many of the agriculture-focused packages listed in this guide also include data 
 
 - `r pkg("ZeBook")` provides data sets and examples accompanying the book [Working with Dynamic Crop Models](https://www.elsevier.com/books/working-with-dynamic-crop-models/wallach/978-0-12-811756-9).
 
+- Australian agricultural data from federal government resources can be downloaded and read with `r pkg("read.abares")`.
+
 ### [General analytical packages supporting agricultural research]{#analysis}
 
 The `r view("MixedModels")` task view provides a comprehensive list of packages relevant to fitting general and generalized linear mixed models.
