@@ -4,6 +4,7 @@ topic: Agricultural Science
 maintainer: Julia Piaskowski, Adam Sparks, Adrian Correndo
 email: julia.piask@gmail.com
 version: 2025-10-21
+source: https://github.com/cran-task-views/Agriculture/
 ---
 
 Agriculture encompasses a broad breadth of disciplines.
