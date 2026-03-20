@@ -333,8 +333,6 @@ For packages supporting sensory studies, see the `r view("Psychometrics")` task 
 
 - `r github("allogamous/EnvRtype")` can be used for assembling climate data, data set preparation and environmental classification or envirotyping.
 
-- `r pkg("spFW")` conducts spatial Finlay-Wilkinson analysis for multi-environmental trials using a Bayesian hierarchical model.
-
 - A wide variety of stability analysis statistics can be calculated via `r pkg("agrostab")` including coefficient of homeostaticity, specific adaptive ability, weighted homeostaticity index, [superiority measure](https://doi.org/10.4141%2Fcjps88-018), [regression on environmental index](https://doi.org/10.2135%2Fcropsci1966.0011183X000600010011x), [Tai's stability parameters](https://doi.org/10.2135%2Fcropsci1971.0011183X001100020006x), [stability variance](https://doi.org/10.1038%2Fhdy.1972.87), ecovalence and other stability parameters.
   `r pkg("toolStability")` and `r pkg("stability")` also calculate stability analyses.
 
