@@ -232,7 +232,7 @@ There are several packages focused on [linkage disequilibrium on Bioconductor](h
   `r pkg("ASMap")` can conduct fast linkage mapping with the algorithm 'MSTmap'.
   `r github("jendelman/MapRtools")` is multipurpose linkage mapping package for teaching and research.
 
-- For polyploids, the packages `r pkg("mappoly")` and `r pkg("polymapR")` can be used for linkage mapping and the packages `r pkg("qtlpoly")` and `r pkg("polyqtlR")` can be used for QTL estimation.
+- For polyploids, the packages `r pkg("mappoly")` and `r pkg("polymapR")` can be used for linkage mapping and the package `r pkg("polyqtlR")` can be used for QTL estimation.
   `r github("jendelman/diaQTL")` is for QTL and haplotype analysis of diallel populations (diploid and autotetraploid).
 
 - `r pkg("statgenMPP")` can conduct QTL mapping in multi-parent populations.
