@@ -116,6 +116,8 @@ The `r view("MixedModels")` task view provides a comprehensive list of packages 
 
 - `r pkg("AgroTech")` provides functions for making chemical application calculations and example data sets.
 
+- `r pkg(AgriDiversiX)` provides functions to compute agricultural crop diversification indices for crop data across zones and years.
+
 ## [Discipline-specific packages]{#disciplines}
 
 ### [Agricultural economics]{#AgEcon}
