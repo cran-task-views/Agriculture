@@ -289,10 +289,9 @@ The packages listed here have specific applications in breeding populations comm
 ### [Crop growth models & crop modelling]{#CropModel}
 
 - The `r pkg("apsimx", priority = "core")` package has functions to read, inspect, edit and run files for APSIM "Next Generation" (`.json`, `.apsimx`) and APSIM "Classic" (`.xml`, `.apsim`) files. `r pkg("rapsimng")` works with next generation APSIM files.
-
-- `r pkg("DSSAT", priority = "core")` provides a comprehensive R interface to the Decision Support System for Agrotechnology Transfer Cropping Systems Model (DSSAT-CSM) documented by [Jones (2003)](<https://doi.org/10.1016/S1161-0301(02)00107-7>). This package provides cross-platform functions to read and write input files, run DSSAT-CSM, and read output files. r pkg("Dasst")` also interfaces with DSSAT files.
-
-- `r pkg("csmbuilder` is a collection of tools for designing, implementing, testing, documenting and visualizing dynamic simulation cropping system models.
+`r pkg("DSSAT", priority = "core")` provides a comprehensive R interface to the Decision Support System for Agrotechnology Transfer Cropping Systems Model (DSSAT-CSM) documented by [Jones (2003)](<https://doi.org/10.1016/S1161-0301(02)00107-7>), providing cross-platform functions to read and write input files, run DSSAT-CSM, and read output files
+`r pkg("Dasst")` also interfaces with DSSAT files.
+`r pkg("csmbuilder` is a collection of tools for designing, implementing, testing, documenting and visualizing dynamic simulation cropping system models.
 
 - `r pkg("growthPheno")` implements tools for estimating the growth of plants, including data from high throughput phenotyping. It uses a "Smoothing and Extraction of Traits" (SET) algorithm.
 
