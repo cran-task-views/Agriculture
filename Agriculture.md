@@ -3,7 +3,7 @@ name: Agriculture
 topic: Agricultural Science
 maintainer: Julia Piaskowski, Adam Sparks, Adrian Correndo
 email: julia.piask@gmail.com
-version: 2025-10-21
+version: 2026-04-07
 source: https://github.com/cran-task-views/Agriculture/
 ---
 
@@ -116,7 +116,7 @@ The `r view("MixedModels")` task view provides a comprehensive list of packages 
 
 - `r pkg("AgroTech")` provides functions for making chemical application calculations and example data sets.
 
-- `r pkg(AgriDiversiX)` provides functions to compute agricultural crop diversification indices for crop data across zones and years.
+- `r pkg("AgriDiversiX")` provides functions to compute agricultural crop diversification indices for crop data across zones and years.
 
 ## [Discipline-specific packages]{#disciplines}
 
@@ -299,7 +299,7 @@ The packages listed here have specific applications in breeding populations comm
 - The `r pkg("apsimx", priority = "core")` package has functions to read, inspect, edit and run files for APSIM "Next Generation" (`.json`, `.apsimx`) and APSIM "Classic" (`.xml`, `.apsim`) files. `r pkg("rapsimng")` works with next generation APSIM files.
 `r pkg("DSSAT", priority = "core")` provides a comprehensive R interface to the Decision Support System for Agrotechnology Transfer Cropping Systems Model (DSSAT-CSM) documented by [Jones (2003)](<https://doi.org/10.1016/S1161-0301(02)00107-7>), providing cross-platform functions to read and write input files, run DSSAT-CSM, and read output files
 `r pkg("Dasst")` also interfaces with DSSAT files.
-`r pkg("csmbuilder` is a collection of tools for designing, implementing, testing, documenting and visualizing dynamic simulation cropping system models.
+`r pkg("csmbuilder")` is a collection of tools for designing, implementing, testing, documenting and visualizing dynamic simulation cropping system models.
 
 - `r pkg("growthPheno")` implements tools for estimating the growth of plants, including data from high throughput phenotyping. It uses a "Smoothing and Extraction of Traits" (SET) algorithm.
 
