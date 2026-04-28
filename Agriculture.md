@@ -49,7 +49,7 @@ If you think that a package is missing from this list, please let us know throug
 
 ### [Agricultural & land use databases]{#databases}
 
-- _USDA databases_: Data from the United States Department of Agriculture's National Agricultural Statistical Service '[Quick Stats](https://www.nass.usda.gov/Quick_Stats/)' web API can be accessed with `r pkg("rnassqs")` or with `r pkg("tidyUSDA", priority = "core")`, which also offers some mapping capabilities.
+- _USDA databases_: Data from the United States Department of Agriculture's National Agricultural Statistical Service '[Quick Stats](https://www.nass.usda.gov/Quick_Stats/)' web API can be accessed with `r pkg("rnassqs")`.
   The USDA's [Cropland Data Layer](https://nassgeodata.gmu.edu/CropScape/) API can be accessed with `r pkg("CropScapeR")` and `r pkg("cdlTools", priority = "core")`, the latter providing utility functions for processing CDL data.
   The USDA's Agricultural Resource Management Survey ([ARMS](https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Ag_Resource_Management/)) data API can be accessed with `r pkg("rarms")`.
   The USDA's Livestock Mandatory Reporting data API can be accessed with `r pkg("usdampr")`.
@@ -257,8 +257,6 @@ The packages listed here have specific applications in breeding populations comm
 - `r github("jendelman/StageWise")` provides functions to conduct a 2-stage GWAS when the phenotypic data are from multiple field trials.
 
 - For polyploids, `r github("jendelman/polyBreedR")` provides convenience functions to facilitate the use of genome-wide markers for breeding autotetraploid species, and its functionality also extends to diploids.
-
-- `r pkg("pleiotest")` conducts multi-trait GWAS and tests for pleiotropic effects.
 
 #### [Genomic prediction]{#GenomicPrediction}
 
