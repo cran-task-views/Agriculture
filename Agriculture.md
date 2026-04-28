@@ -3,7 +3,7 @@ name: Agriculture
 topic: Agricultural Science
 maintainer: Julia Piaskowski, Adam Sparks, Adrian Correndo
 email: julia.piask@gmail.com
-version: 2025-10-21
+version: 2026-04-07
 source: https://github.com/cran-task-views/Agriculture/
 ---
 
@@ -116,6 +116,8 @@ The `r view("MixedModels")` task view provides a comprehensive list of packages 
 
 - `r pkg("AgroTech")` provides functions for making chemical application calculations and example data sets.
 
+- `r pkg("AgriDiversiX")` provides functions to compute agricultural crop diversification indices for crop data across zones and years.
+
 ## [Discipline-specific packages]{#disciplines}
 
 ### [Agricultural economics]{#AgEcon}
@@ -133,7 +135,7 @@ The task view for `r view("Hydrology")` has many resources for accessing and pro
   `r pkg("acdcR")` (AgroClimatic Data by County) provides functions to calculate United States county-level variables in agricultural production or agroclimatic and weather analyses.
 
 - _Data preparation_: `r pkg("meteor", priority = "core")` provides a set of functions for weather and climate data manipulation to support crop and crop disease modeling.
-  `r pkg("cropgrowdays")`, `r pkg("climatrends")` and `r pkg("degday")` can be used for calculating growing degree days, cumulative rainfall, number of stress day, mean radiation, crop sensitive indices, evapotranspiration and other variables. `r pkg       ("weaana")` has utility functions to compute agroclimatic indices useful to zoning areas based on climatic variables and to evaluate the importance of temperature and precipitation for individual crops or in general for agricultural lands.
+  `r pkg("cropgrowdays")`, `r pkg("climatrends")` and `r pkg("degday")` can be used for calculating growing degree days, cumulative rainfall, number of stress day, mean radiation, crop sensitive indices, evapotranspiration and other variables. `r pkg("weaana")` has utility functions to compute agroclimatic indices useful to zoning areas based on climatic variables and to evaluate the importance of temperature and precipitation for individual crops or in general for agricultural lands.
 
 - `r pkg("FAO56")` and `r pkg("MeTo")` provide functions for calculating agrometeorological indicators following the FAO Monograph 56, _Crop evapotranspiration: Guidelines for computing crop water requirements_ ([1998](https://www.fao.org/3/X0490E/x0490e00.htm)).
 
@@ -168,8 +170,6 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 - `r pkg("qrlabelr")` is an R package that provides customizable functions and a [shiny-app](https://awkena.shinyapps.io/easyplotlabelr/) for generating print-ready machine and human-readable labels affixed with QR codes.
 
-- `r github("PPaccioretti/ofemeantest")` permutation-based statistical method for spatial data in unreplicated on-farm experiments.
-
 #### [High throughput phenotyping (HTP)]{#htp}
 
 - `r pkg("statgenHTP")` is for analyzing data from HTP platform experiments, with some functions specifically designed to work with the proprietary software [ASReml-R](https://www.vsni.co.uk/software/asreml).
@@ -181,15 +181,23 @@ The task view for `r view("ExperimentalDesign")` provide additional information 
 
 #### [Trial analysis]{#TrialAnalysis}
 
-- _General analysis_: The package `r pkg("agricolae", priority = "core")` contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations. The proprietary software [Asreml-R](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model software for field trial analysis (note this is not open source and requires an annual license). CRAN also contains an add-on package `r pkg("asremlPlus")` that provides several accessory functions to ASReml-R. `r pkg("agriutilities")` contains utility functions for analyzing single and multi-location trials, and it also has functions for interfacing with AsReml-R. [INLA](https://www.r-inla.org/) provides tools for Bayesian inference of latent Gaussian models, and it contains functions for modelling spatial variation, such as field experiments or farm locations. The `r pkg("gosset")` package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation. `r pkg("AgroR")` has general functions and a [Shiny app](https://agrorproject.shinyapps.io/agror_shiny/) for analysis of common designs in agriculture: CRD, RCBD and Latin square.
+- _General analysis_: The package `r pkg("agricolae", priority = "core")` contains functions for analyzing many common designs in agriculture trials such as split plot, lattice, Latin square and some additional functions such AMMI and AUDPC calculations.
+The proprietary software [Asreml-R](https://www.vsni.co.uk/software/asreml) provides an R version of their mixed model software for field trial analysis (note this is not open source and requires an annual license).
+CRAN also contains an add-on package `r pkg("asremlPlus")` that provides several accessory functions to ASReml-R.
+`r pkg("agriutilities")` contains utility functions for analyzing single and multi-location trials, and it also has functions for interfacing with AsReml-R.
+[INLA](https://www.r-inla.org/) provides tools for Bayesian inference of latent Gaussian models and contains functions for modelling spatial variation such as field experiments or farm locations.
+The `r pkg("gosset")` package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation.
+`r pkg("AgroR")` has general functions and a [Shiny app](https://agrorproject.shinyapps.io/agror_shiny/) for analysis of common designs in agriculture: CRD, RCBD and Latin square.
 
-- `r github("PPaccioretti/ofemeantest")` will conduct permutation tests for unreplicated on-farm experiments that have data at mulitple spatial points. 
-
-- _Spatial analysis_: the `r pkg("statgenSTA")` has functions for single trial analysis with and without spatial components. `r pkg("SpATS")` can be used to adjust for field spatial variation using [p-splines](https://dx.doi.org/10.1002/bimj.202100212). A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with `r pkg("mvngGrAd")`.
+- _Spatial analysis_: the `r pkg("statgenSTA")` has functions for single trial analysis with and without spatial components. `r pkg("SpATS")` can be used to adjust for field spatial variation using [p-splines](https://dx.doi.org/10.1002/bimj.202100212).
+A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with `r pkg("mvngGrAd")`.
+`r github("PPaccioretti/ofemeantest")` offers a permutation-based statistical analysis method for spatial data in unreplicated on-farm experiments.
 
 - Trials utilizing an incomplete block design can be analysed used `r pkg("ispd")`.
 
 - `r pkg("ClimMobTools")` is the API Client for the [ClimMob](https://climmob.net/) citizen science platform in R for agronomic field trials.
+
+- `r pkg("paar")` provides useful tools for cleaning and processing spatial data in precision agriculture, often used with on farm experimentation (OFE) trials for cleaning yield before analysis.
 
 ### [Animal science]{#AnimalScience}
 
@@ -289,7 +297,7 @@ The packages listed here have specific applications in breeding populations comm
 - The `r pkg("apsimx", priority = "core")` package has functions to read, inspect, edit and run files for APSIM "Next Generation" (`.json`, `.apsimx`) and APSIM "Classic" (`.xml`, `.apsim`) files. `r pkg("rapsimng")` works with next generation APSIM files.
 `r pkg("DSSAT", priority = "core")` provides a comprehensive R interface to the Decision Support System for Agrotechnology Transfer Cropping Systems Model (DSSAT-CSM) documented by [Jones (2003)](<https://doi.org/10.1016/S1161-0301(02)00107-7>), providing cross-platform functions to read and write input files, run DSSAT-CSM, and read output files
 `r pkg("Dasst")` also interfaces with DSSAT files.
-`r pkg("csmbuilder` is a collection of tools for designing, implementing, testing, documenting and visualizing dynamic simulation cropping system models.
+`r pkg("csmbuilder")` is a collection of tools for designing, implementing, testing, documenting and visualizing dynamic simulation cropping system models.
 
 - `r pkg("growthPheno")` implements tools for estimating the growth of plants, including data from high throughput phenotyping. It uses a "Smoothing and Extraction of Traits" (SET) algorithm.
 
