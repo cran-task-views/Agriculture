@@ -93,8 +93,6 @@ Many of the agriculture-focused packages listed in this guide also include data 
 
 - `r pkg("geodata")` contain agriculturally-relevant spatial data sets from a wide variety of data sources spanning both terrestrial and marine data.
 
-- `r pkg("ZeBook")` provides data sets and examples accompanying the book [Working with Dynamic Crop Models](https://www.elsevier.com/books/working-with-dynamic-crop-models/wallach/978-0-12-811756-9).
-
 - Australian agricultural data from federal government resources can be downloaded and read with `r pkg("read.abares")`.
 
 ### [General analytical packages supporting agricultural research]{#analysis}
@@ -112,7 +110,6 @@ The `r view("MixedModels")` task view provides a comprehensive list of packages 
 - `r pkg("ALUES")` implements methodology developed by the FAO and the International Rice Research Institute for evaluating land suitability for different crop production.
 
 - `r pkg("AGPRIS")` (AGricultural PRoductivity in Space) provides functions for different spatial analyses in implemented in `r github("inbo/INLA")` and other spatial approaches.
-  The package `r pkg("KenSyn")` has example data sets and analytical code supporting the book [**De L'analyse des Réseaux Expérimentaux à la Méta-analyse**](https://www.quae.com/produit/1514/9782759228164/de-l-analyse-des-reseaux-experimentaux-a-la-meta-analyse) (French) or [**From Experimental Network to Meta-analysis**](https://link.springer.com/book/10.1007/978-94-024-1696-1) (English).
 
 - `r pkg("AgroTech")` provides functions for making chemical application calculations and example data sets.
 
@@ -229,7 +226,7 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 - `r pkg("heritability")` implements marker-based estimation of heritability when observations on genetically identical replicates are available.
 
-- `r pkg("selection.index")` calculates a selection index using the method described by Smith ([1936](https://onlinelibrary.wiley.com/doi/10.1111/j.1469-1809.1936.tb02143.x)).
+- `r pkg("selection.index")` provides tools for the simultaneous improvement of multiple traits in plant breeding. It calculates classical phenotypic (Smith 1936), genomic, marker-assisted, restricted/constrained, and eigen selection indices, and incorporates multi-stage selection evaluation and stochastic simulations.
 
 - _Breeding simulations_: `r pkg("AlphaSimR")` provides functions for stochastic modelling of processes common to breeding programs such as selection and crossing, in plant or animals [Gaynor et al. 2020](https://doi.org/10.1093/g3journal/jkaa017). `r pkg("SIMplyBee")` is an extension of AlphaSimR for honeybees [Obsteter et al. 2023](https://doi.org/10.1186/s12711-023-00798-y). `r pkg("MoBPS")` also provides functions for stochastic modelling of breeding programs [Pook et al. 2020](https://doi.org/10.1534/g3.120.401193). Using wrapper functions for the AlphaSimR, the `r pkg("FieldSimR")` simulates plot data in multi-environment field trials with one or more traits and allows to capture spatial error trends.
 
@@ -385,7 +382,7 @@ See the task view for `r view("Psychometrics")` for general sociology packages.
   `r pkg("pedometrics")` has many utility functions for common analyses of soil data.
 
 - _Soil water_: Soil water retention curves can be calculated by the `r pkg("soilwater")` packages using the [Van Genuchten (1980)](https://doi.org/10.2136/sssaj1980.03615995004400050002x) method for soil water retention and [Mualem (1976)](https://doi.org/10.1029/WR012i003p00513) method for hydraulic conductivity.
-- `r pkg("SoilR")` models soil organic matter decomposition in terrestrial ecosystems with linear and nonlinear models. The `r pkg("sorcering")` can be used to model soil organic carbon and soil organic nitrogen and to calculate N mineralisation rates.
+- `r pkg("SoilR")` models soil organic matter decomposition in terrestrial ecosystems with linear and nonlinear models. The `r pkg("sorcering")` can be used to model soil organic carbon and soil organic nitrogen and to calculate N mineralisation rates.`r pkg("soilFlux")` estimates soil water retention curves from soil properties using physics-informed neural networks. Includes tools for data preparation, model training, prediction, performance evaluation, texture classification, and visualization.
 
 - Soil texture triangles can be graphed using `r pkg("soiltexture")` and `r github("Saryace/ggsoiltexture")`; `r pkg("soiltexture")` can also classify and transform soil texture data.
 
@@ -396,6 +393,8 @@ See the task view for `r view("Psychometrics")` for general sociology packages.
 - `r pkg("OBIC")` calculate the [Open Bodem Index](https://www.openbodemindex.nl/), a method to evaluate the quality of soils of agricultural fields in The Netherlands and the sustainability of the current agricultural practices.
 
 - _Soil Fertility Testing_: `r pkg("soiltestcorr")` has functions for conducting correlation analysis between soil test values and crop yield data. `r pkg("SoilTesting")` provides functions for calculating soil mineral concentrations from analytical lab results.
+
+- _Manure_: `r pkg("manureshed")` brings tools for analyzing nitrogen and phosphorus balances across agricultural and municipal systems at multiple spatial scales. Includes functions to classify nutrient source/sink areas, integrate waste-water effluent loads, and visualize spatio-temporal nutrient flows.
 
 - The [suitability](https://www.fao.org/land-water/databases-and-software/crop-information/en/) of specific soils for crop production can be analyzed using `r pkg("soilassessment")`, including soil fertility classes, soil erosion models and soil salinity classification.
   Suitability requirements are for crops grouped into cereal crops, nuts, legumes, fruits, vegetables, industrial crops, and root crops.
