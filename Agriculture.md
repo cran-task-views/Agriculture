@@ -93,6 +93,8 @@ Many of the agriculture-focused packages listed in this guide also include data 
 
 - `r pkg("geodata")` contain agriculturally-relevant spatial data sets from a wide variety of data sources spanning both terrestrial and marine data.
 
+- `r pkg("ZeBook")` provides data sets and examples accompanying the book [Working with Dynamic Crop Models](https://www.elsevier.com/books/working-with-dynamic-crop-models/wallach/978-0-12-811756-9).
+
 - Australian agricultural data from federal government resources can be downloaded and read with `r pkg("read.abares")`.
 
 ### [General analytical packages supporting agricultural research]{#analysis}
@@ -185,6 +187,7 @@ CRAN also contains an add-on package `r pkg("asremlPlus")` that provides several
 [INLA](https://www.r-inla.org/) provides tools for Bayesian inference of latent Gaussian models and contains functions for modelling spatial variation such as field experiments or farm locations.
 The `r pkg("gosset")` package provides the toolkit for a workflow to analyse experimental agriculture data, from data synthesis to model selection and visualisation.
 `r pkg("AgroR")` has general functions and a [Shiny app](https://agrorproject.shinyapps.io/agror_shiny/) for analysis of common designs in agriculture: CRD, RCBD and Latin square.
+The `r pkg("aridagri")` provides statistical tools for agricultural experiments, including ANOVA for common field designs, multiple-comparison tests, assumption checks, and publication-ready summaries. It also includes crop stability analysis, thermal indices, crop growth metrics, yield gap, nutrient-use efficiency, PCA, path analysis, and SEM utilities.
 
 - _Spatial analysis_: the `r pkg("statgenSTA")` has functions for single trial analysis with and without spatial components. `r pkg("SpATS")` can be used to adjust for field spatial variation using [p-splines](https://dx.doi.org/10.1002/bimj.202100212).
 A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with `r pkg("mvngGrAd")`.
