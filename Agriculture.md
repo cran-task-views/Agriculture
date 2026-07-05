@@ -3,7 +3,7 @@ name: Agriculture
 topic: Agricultural Science
 maintainer: Julia Piaskowski, Adam Sparks, Adrian Correndo
 email: julia.piask@gmail.com
-version: 2026-04-07
+version: 2026-07-05
 source: https://github.com/cran-task-views/Agriculture/
 ---
 
