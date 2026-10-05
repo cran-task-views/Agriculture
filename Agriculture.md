@@ -3,7 +3,7 @@ name: Agriculture
 topic: Agricultural Science
 maintainer: Julia Piaskowski, Adam Sparks, Adrian Correndo
 email: julia.piask@gmail.com
-version: 2026-07-05
+version: 2026-10-05
 source: https://github.com/cran-task-views/Agriculture/
 ---
 
@@ -191,7 +191,9 @@ The `r pkg("aridagri")` provides statistical tools for agricultural experiments,
 
 - _Spatial analysis_: the `r pkg("statgenSTA")` has functions for single trial analysis with and without spatial components. `r pkg("SpATS")` can be used to adjust for field spatial variation using [p-splines](https://dx.doi.org/10.1002/bimj.202100212).
 A localised method of spatial adjustment for unreplicated trials, moving grid adjustment, is implemented with `r pkg("mvngGrAd")`.
-`r github("PPaccioretti/ofemeantest")` offers a permutation-based statistical analysis method for spatial data in unreplicated on-farm experiments.
+`r pkg("ofemeantest")` offers a permutation-based statistical analysis method for spatial data in unreplicated on-farm experiments.
+
+- `r pkg("pacu")` (Precision Agriculture Computational Utilities) streamlines common precision-ag workflows: it fetches and processes Sentinel-2 imagery or on-demand vegetation-index statistics, pulls and visualizes historical weather data, and cleans, smooths, and spatially evaluates combine yield-monitor datasets. `r pkg("paar")` for zone delineation using precision agriculture data. 
 
 - Trials utilizing an incomplete block design can be analysed used `r pkg("ispd")`.
 
@@ -233,6 +235,8 @@ See the R package repository [Bioconductor](https://www.bioconductor.org/) for b
 
 - _Breeding simulations_: `r pkg("AlphaSimR")` provides functions for stochastic modelling of processes common to breeding programs such as selection and crossing, in plant or animals [Gaynor et al. 2020](https://doi.org/10.1093/g3journal/jkaa017). `r pkg("SIMplyBee")` is an extension of AlphaSimR for honeybees [Obsteter et al. 2023](https://doi.org/10.1186/s12711-023-00798-y). `r pkg("MoBPS")` also provides functions for stochastic modelling of breeding programs [Pook et al. 2020](https://doi.org/10.1534/g3.120.401193). Using wrapper functions for the AlphaSimR, the `r pkg("FieldSimR")` simulates plot data in multi-environment field trials with one or more traits and allows to capture spatial error trends.
 
+- `r pkg("waves")` provides tools for processing and modeling Vis-NIR spectral data for plant phenotyping and breeding.
+
 #### [Linkage mapping & QTL analysis]{#qtl}
 
 There are several packages focused on [linkage disequilibrium on Bioconductor](https://bioconductor.org/packages/release/BiocViews.html#___LinkageDisequilibrium).
@@ -246,15 +250,13 @@ There are several packages focused on [linkage disequilibrium on Bioconductor](h
 
 - `r pkg("statgenMPP")` can conduct QTL mapping in multi-parent populations.
 
-- Linkage maps can be visualized with `r pkg("LinkageMapView")`.
 
 #### [GWAS (Genome Wide Association Studies)]{#gwas}
 
 There are many [GWAS packages on Bioconductor](https://bioconductor.org/packages/release/BiocViews.html#___GenomeWideAssociation) and a large number of other GWAS packages in CRAN not listed here.
 The packages listed here have specific applications in breeding populations common in agriculture.
 
-- GWAS can be conducted using a [stepwise mixed linear model](https://www.nature.com/articles/ng.2314) for multilocus data with `r pkg("mlmm.gwas")`.
-  The package `r pkg("statgenGWAS")` can fit GWAS models using the [EMMAX algorithm](https://www.nature.com/articles/ng.548).
+- GWAS can be conducted using the package `r pkg("statgenGWAS")` can fit GWAS models using the [EMMAX algorithm](https://www.nature.com/articles/ng.548).
   `r github("jiabowang/GAPIT3")` is [wrapper](https://doi.org/10.1016/j.gpb.2021.08.005) for several GWAS algorithms including the original [GAPIT](https://doi.org/10.1093/bioinformatics/bts444), [FarmCPU](https://doi.org/10.1002/pld3.53) and [BLINK](https://doi.org/10.1093/gigascience/giy154).
 
 - GWAS models for a very large number of SNPs and/or observations can be estimated with `r pkg("rMVP")`.
@@ -383,6 +385,9 @@ See the task view for `r view("Psychometrics")` for general sociology packages.
 - For soil pedology, `r pkg("aqp", priority = "core")` provides a general toolkit for soil scientists: specialized data structures, soil profile summary, visualisation, color conversion, and more.
   `r pkg("SoilTaxonomy")` provides functions for parsing soil taxonomic terms.
   `r pkg("pedometrics")` has many utility functions for common analyses of soil data.
+  `r pkg("soilKey")` provides tools for soil profile classification according to multiple soil classification systems.
+  
+- _Soil carbon_:`r pkg("rCTOOL")` simulates soil organic carbon dynamics using the C-TOOL soil carbon turnover model.
 
 - _Soil water_: Soil water retention curves can be calculated by the `r pkg("soilwater")` packages using the [Van Genuchten (1980)](https://doi.org/10.2136/sssaj1980.03615995004400050002x) method for soil water retention and [Mualem (1976)](https://doi.org/10.1029/WR012i003p00513) method for hydraulic conductivity.
 - `r pkg("SoilR")` models soil organic matter decomposition in terrestrial ecosystems with linear and nonlinear models. The `r pkg("sorcering")` can be used to model soil organic carbon and soil organic nitrogen and to calculate N mineralisation rates.`r pkg("soilFlux")` estimates soil water retention curves from soil properties using physics-informed neural networks. Includes tools for data preparation, model training, prediction, performance evaluation, texture classification, and visualization.
@@ -401,8 +406,6 @@ See the task view for `r view("Psychometrics")` for general sociology packages.
 
 - The [suitability](https://www.fao.org/land-water/databases-and-software/crop-information/en/) of specific soils for crop production can be analyzed using `r pkg("soilassessment")`, including soil fertility classes, soil erosion models and soil salinity classification.
   Suitability requirements are for crops grouped into cereal crops, nuts, legumes, fruits, vegetables, industrial crops, and root crops.
-
-- `r pkg("pacu")` (Precision Agriculture Computational Utilities) streamlines common precision-ag workflows: it fetches and processes Sentinel-2 imagery or on-demand vegetation-index statistics, pulls and visualizes historical weather data, and cleans, smooths, and spatially evaluates combine yield-monitor datasets. `r pkg("paar")` for zone delineation using precision agriculture data. 
 
 #### [Remote sensing]{#remotesensing}
 
